@@ -26,6 +26,9 @@ Running list of locked-in decisions for the final plan. Supersedes Plan_A and Pl
 | 12 | **No PokéPark KANTO** | Cut. Day 3 needs a replacement. |
 | 13 | **Day 10 is a chill day, no Osaka push** | Candice haircut, souvenir/last-minute shopping in Kyoto, coffee, relaxed Shinkansen+NEX travel to Narita. |
 | 14 | **Grandma SIN flight: 08:20 NRT, June 8** | Airline/flight#/conf still to capture after booking. 5:30am taxi plan still fits. |
+| 15 | **Hakone lodging: Rakuten STAY TERRACE Hakone Kowakudani** | 483-2 Kowakudani, Hakone, Kanagawa, 250-0406. Whole-unit apartment-style. Solves no-nude filter via Yunessun walkable (swimsuit onsen). One unit for all 5. No kaiseki included — plan one dinner-only kaiseki reservation separately. See [bookings/hakone_lodging.md](../bookings/hakone_lodging.md). |
+| 16 | **Tokyo lodging: Airbnb — (#3) Luxury Condo in Shinjuku** | 4-chōme-27-3 Yotsuya, Shinjuku-ku. Confirmation `HMYZXN9NPB`. Superhost (388 reviews @ 4.81). 1BR/4 beds — verify sleep arrangement on arrival. Yotsuya 4-chome = east of Shinjuku Gyoen, walkable to Shinjuku Station (Romancecar). See [bookings/tokyo_lodging.md](../bookings/tokyo_lodging.md). |
+| 17 | **Narita City lodging: Richmond Hotel Narita** | Trip ID `1016631380`. 2 rooms × 1 night (Jun 7–8): Twin+Sofa (conf `2445218331`, $125) + Deluxe Double (conf `2445218289`, $101). Walking distance to Omotesando/Kawatoyo unagi. Book grandma's 5:30 AM taxi at reception on arrival. See [bookings/narita_lodging.md](../bookings/narita_lodging.md). |
 
 ---
 
@@ -37,7 +40,7 @@ See [itinerary.md](itinerary.md) for the full day-by-day plan with activities, t
 
 ## 🤔 Open Questions
 
-- Hotel selections per city (4 hotels to book: Tokyo, Hakone, Kyoto, Narita)
+- Hotel selections: ~~Tokyo~~, ~~Hakone~~, ~~Narita~~ done. **Kyoto only** still open.
 - Grandma's NRT → SIN flight: airline, flight #, confirmation, terminal (time = 08:20 June 8)
 - **Day 3 replacement activity** (PokéPark is cut). Options below.
 - Whether 4 Tokyo nights is still right now that PokéPark is out, or drop to 3.
