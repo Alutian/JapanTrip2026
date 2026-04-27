@@ -59,11 +59,11 @@
 
 ---
 
-## Day 4 — Mon Jun 1 · teamLab + Shinjuku Night
+## Day 4 — Mon Jun 1 · teamLab Planets + Shinjuku Night
 
 🔒 **LOCKED**
-- **teamLab Borderless** (Azabudai Hills) — timed entry, book 4–6 weeks out
-- **Evening:** arrange takkyubin pickup for Hakone transfer (hotel concierge)
+- **teamLab Planets Tokyo** (Toyosu) — entry **14:00–14:30** (3 adults + 2 kids, ✅ booked). Expect ~1.5h inside. **Barefoot + shallow-water installations** — pants rollable above the knee; dresses/long skirts not ideal (rental shorts available on site). Lockers for shoes/bags. Transit: Yurakucho line → Shin-Toyosu Station (5-min walk) or Yurikamome → Shin-Toyosu.
+- **Evening:** arrange takkyubin for Hakone transfer (konbini relay — Yotsuya Airbnb is self-check-in)
 
 🎯 **FLEXIBLE**
 - Afternoon: slow — back to hotel or A4 Ginza window shopping

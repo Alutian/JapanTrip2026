@@ -1,7 +1,8 @@
-# 🏠 Hakone Lodging — Rakuten STAY TERRACE Hakone Kowakudani
+# 🏠 Hakone Lodging — ✅ BOOKED
 
-**Status:** Booking in progress
-**Booked:** _TBD — fill in after confirmation_
+**Booking Number:** `2442810403`
+**Booked by:** Candice Kao
+**Booked:** 2026-04-23
 
 ---
 
@@ -10,8 +11,11 @@
 - **Name:** Rakuten STAY TERRACE Hakone Kowakudani
 - **Address:** 483-2 Kowakudani, Hakone, Kanagawa, 250-0406, Japan
 - **Type:** Whole-unit vacation rental ("Stayable Showroom" concept — furniture-brand showroom units)
-- **Website:** https://stay.rakuten.co.jp/terrace/hakone-kowakudani/
-- **Booking channel:** _TBD (Expedia / Rakuten Travel / direct)_
+- **Room:** Stayable Showroom · No pets · Non-smoking
+- **Portal site:** https://stay.rakuten.co.jp/en/gp/terrace-hakone-kowakudani/
+- **Customer Support:** +81 50-1750-9719
+- **Inquiries (web form):** https://rakutenstay.zendesk.com/hc/ja/requests/new?tf_7382124680335=%E7%AE%B1%E6%A0%B9%E5%B0%8F%E6%B6%8C%E8%B0%B7
+- **FAQ:** https://rakutenstay.zendesk.com/hc/en
 
 ---
 
@@ -22,33 +26,26 @@
 - **Nights:** 2
 - **Guests:** 5 (2 adults + 2 kids ages 7 & 9 + 1 senior 75)
 - **Unit:** 1 whole unit
+- ⚠️ **Adults required** — Japanese law: minor-only reservations prohibited (we're fine — 3 adults in the party)
 
 ---
 
-## Booking Checklist
+## 🚨 Pre-Arrival Action Items
 
-- [ ] Confirm unit sleeps 5 with **5 actual beds** (not 3 beds + 2 futons for grandma)
-- [ ] Confirm Western beds throughout
-- [ ] Confirm in-unit soaking tub / bath (if available on chosen unit)
-- [ ] Confirm A/C + Wi-Fi
-- [ ] Self-check-in instructions (lockbox code / key pickup)
-- [ ] Free cancellation window noted
-- [ ] Takkyubin receiving — confirm property will accept forwarded luggage from Tokyo (Jun 1 send date)
-- [ ] Takkyubin sending — confirm arrangements to ship luggage from property to Kyoto hotel (Jun 4 morning)
+- [ ] **Reply to Rakuten STAY confirmation email with our email address** to receive the online check-in URL (the day before check-in). They request format `address(AT)mail(DOT)com` to avoid email-masking by booking sites.
+- [ ] **Online check-in URL** (sent Jun 1) — register guest info in advance for smooth self-check-in
+- [ ] Save the property portal + customer support number offline before travel
+- [ ] Download offline directions to 483-2 Kowakudani from Kowakudani Station
 
 ---
 
-## Booking Confirmation Details
+## On-Arrival Verification
 
-_To be filled in after booking:_
-
-- **Confirmation #:**
-- **Total price:**
-- **Currency:**
-- **Cancellation policy:**
-- **Host contact (if Rakuten STAY style, may be a property manager):**
-- **Check-in instructions:**
-- **Emergency contact number:**
+- [ ] Confirm unit sleeps 5 (bed configuration)
+- [ ] Confirm Western beds (likely all Western — modern showroom-concept furnishings)
+- [ ] In-unit soaking tub / bath
+- [ ] A/C + Wi-Fi working in all rooms
+- [ ] Trash/recycling instructions (Japanese rules are strict)
 
 ---
 
