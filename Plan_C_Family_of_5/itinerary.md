@@ -116,16 +116,14 @@
 ## Day 8 — Fri Jun 5 · Kyoto Day
 
 🔒 **LOCKED**
-- **Nintendo Museum** (Uji) — lottery timed entry, book 3 months out
+- Nothing
 
-🎯 **FLEXIBLE** — pick morning
-- **K1 Fushimi Inari Sunrise** (6:30am arrival for empty gates) — most-recommended
-- **K2 Arashiyama Bamboo + Monkey Park** — if you want variety over Fushimi
-- **K4 Imperial Palace + Nishiki** — calmer day option
+🎯 **FLEXIBLE** — fully open day, pick morning + afternoon + evening
+- **Morning:** **K1 Fushimi Inari Sunrise** (6:30am for empty gates — Keihan line direct from Stitch Hotel) is the strongest pick. Alternatives: **K2 Arashiyama Bamboo + Monkey Park** for variety, **K4 Imperial Palace + Nishiki** for a calmer day.
+- **Afternoon:** if Fushimi was the morning, swap in K2 or K4. Or rest at Stitch and use the kitchen/laundry.
+- **Evening:** **KE1 Gion at Dusk** if not done Day 7, or casual **KE3 Kyoto Ramen Koji**.
 
-Evening: **KE1 Gion at Dusk** if not done Day 7, or casual **KE3 Ramen Koji** night.
-
-> Day 8 aggressive if you do both Fushimi + Nintendo Museum. If you did KE1 Gion on Day 7, save energy for Nintendo afternoon.
+> Day 8 became a full flex day after Nintendo Museum was cut (decision #19). Use it to slow down or double up Kyoto blocks based on energy.
 
 ---
 
@@ -171,6 +169,8 @@ Evening: **KE1 Gion at Dusk** if not done Day 7, or casual **KE3 Ramen Koji** ni
 
 ## Transportation Summary
 
+> 📘 **Full end-to-end logistics** (bag strategy, takkyubin plan, transit-day step-by-step, reservations critical path, pre-departure prep, must-knows): see [transportation.md](transportation.md).
+
 | Leg | Mode | Duration | Est. cost (5 pax) | Notes |
 |-----|------|----------|-------------------|-------|
 | NRT → Tokyo hotel | N'EX | 60 min | ~¥16,250 | Reserved seats |
@@ -194,14 +194,16 @@ Evening: **KE1 Gion at Dusk** if not done Day 7, or casual **KE3 Ramen Koji** ni
 
 | Item | Book by | Status |
 |------|---------|--------|
-| Hotels × 4 (Tokyo, Hakone, Kyoto, Narita) | **ASAP** | ⬜ |
+| Hotels × 4 (Tokyo, Hakone, Kyoto, Narita) | done | ✅ |
+| teamLab Planets (Jun 1, 14:00) | done | ✅ |
 | Grandma NRT → SIN flight | **ASAP** | ⬜ |
-| Nintendo Museum Kyoto (lottery) | 3 months before | ⬜ |
 | MiPig Café | 60 days before | ⬜ |
-| teamLab Borderless | 4–6 weeks before | ⬜ |
-| Romancecar | 1 month before | ⬜ |
-| Shinkansen Odawara→Kyoto, Kyoto→Tokyo | 1 month before | ⬜ |
-| Shibuya Sky | 1–2 weeks before | ⬜ |
-| Kaiseki Kyoto dinner | 1–2 months before | ⬜ |
+| Romancecar (Shinjuku → Hakone-Yumoto, Jun 2) | 1 month before · window opens ~May 2 | ⬜ |
+| Shinkansen Odawara→Kyoto (Jun 4) | 1 month before · window opens ~May 4 | ⬜ |
+| Shinkansen Kyoto→Tokyo (Jun 7) | 1 month before · window opens ~May 7 | ⬜ |
+| Fujiya Hotel Main Dining Room (Hakone kaiseki, Jun 2 or 3) | ~1 month before | ⬜ |
+| Kaiseki Kyoto farewell dinner (Jun 6) | 1–2 months before | ⬜ |
+| Shibuya Sky (Jun 1 sunset) | 1–2 weeks before | ⬜ |
+| ~~Nintendo Museum Kyoto~~ | ~~cut — decision #19~~ | ❌ |
 | ~~PokéPark KANTO~~ | ~~cut~~ | ❌ |
 | ~~DisneySea~~ | ~~cut~~ | ❌ |

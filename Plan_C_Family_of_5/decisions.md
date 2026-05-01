@@ -30,6 +30,7 @@ Running list of locked-in decisions for the final plan. Supersedes Plan_A and Pl
 | 16 | **Tokyo lodging: Airbnb — (#3) Luxury Condo in Shinjuku** | 4-chōme-27-3 Yotsuya, Shinjuku-ku. Confirmation `HMYZXN9NPB`. Superhost (388 reviews @ 4.81). 1BR/4 beds — verify sleep arrangement on arrival. Yotsuya 4-chome = east of Shinjuku Gyoen, walkable to Shinjuku Station (Romancecar). See [bookings/tokyo_lodging.md](../bookings/tokyo_lodging.md). |
 | 17 | **Narita City lodging: Richmond Hotel Narita** | Trip ID `1016631380`. 2 rooms × 1 night (Jun 7–8): Twin+Sofa (conf `2445218331`, $125) + Deluxe Double (conf `2445218289`, $101). Walking distance to Omotesando/Kawatoyo unagi. Book grandma's 5:30 AM taxi at reception on arrival. See [bookings/narita_lodging.md](../bookings/narita_lodging.md). |
 | 18 | **Kyoto lodging: STITCH HOTEL Kyoto** | Confirmation `6410484352`, PIN `3605`. Apartment Suite 2nd floor, 624 sq ft, 2 full beds + 1 bunk = sleeps 5. Shimogyo-ku/Kawaramachi area — Hankyu Kawaramachi 2-min, Keihan Gion-Shijo 2-min (direct to Fushimi Inari). 3 nights ¥289,988 incl. tax. Free cancellation until May 27, 2026. Front desk handles takkyubin onward to Narita. See [bookings/kyoto_lodging.md](../bookings/kyoto_lodging.md). |
+| 19 | **Cut Nintendo Museum** | Family not interested. Day 8 (Fri Jun 5) becomes a fully flex Kyoto day — likely K1 Fushimi Inari Sunrise + K2 or K4 + KE1 Gion or KE3 Ramen Koji. |
 
 ---
 
