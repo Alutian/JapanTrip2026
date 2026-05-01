@@ -43,6 +43,7 @@ Single source of truth for what's left to do. Updated as items complete.
 - [ ] **Apple Wallet Suica × 5 iPhones** — add a few thousand yen to each
 - [ ] **Google Maps offline downloads** for Tokyo, Hakone, Kyoto, Narita
 - [ ] **eSIM × adults** (Airalo / Saily, ~$15/person 10 days)
+- [ ] **Screenshot all booking confirmation numbers offline** to phone Photos — flights, all 4 lodgings, teamLab, plus train reservations as they're booked. Backup against Wi-Fi/data issues abroad.
 
 ### Physical
 - [ ] **¥30,000 cash starter** — exchange before leaving or use 7-Eleven ATM on arrival
@@ -56,6 +57,7 @@ Single source of truth for what's left to do. Updated as items complete.
 ### Packing
 - [ ] **Bag size check** — confirm everyone's main suitcase is ≤25" / ≤63 cm tall (fits both ZIPAIR and Yamato 160 cm linear)
 - [ ] **Day-pack per person** with: passport, meds, 1 change of clothes, electronics, snacks, rain layer, kid amusement
+- [ ] **Grandma's medications stay in HER carry-on / day-pack at all times** — never in takkyubin, never in checked luggage. Critical: takkyubin bags can be delayed by 24h+, and grandma can't miss doses.
 - [ ] **For Jun 6 takkyubin send:** pack 2 days of essentials in day-pack (Jun 6 + Jun 7) since main bags arrive Narita Jun 7 evening
 
 ---
@@ -64,6 +66,7 @@ Single source of truth for what's left to do. Updated as items complete.
 
 - [ ] **NRT (May 29):** Get physical Pasmo for any non-iPhone family members, top up Suicas
 - [ ] **NRT (May 29):** Confirm/buy NEX tickets if not already reserved
+- [ ] **Tokyo (Jun 1 evening):** Drop takkyubin Leg 1 bags at Lawson/7-Eleven near Yotsuya 4-chome → Rakuten STAY Hakone (drop before noon next day = before 12:00 Jun 2 doesn't matter, but evening drop is fine since pickup is overnight)
 - [ ] **Hakone-Yumoto (Jun 2):** Buy **Hakone Free Pass × 5 (2-day)** at Odakyu Travel Service Center on platform
 - [ ] **Hakone (Jun 3 evening):** Drop takkyubin Leg 2 bags at Lawson Kowakudani
 - [ ] **Stitch Kyoto (Jun 4):** Confirm Leg 2 bags arrived; arrange Leg 3 send for Jun 6 morning; ask about kaiseki farewell dinner reservation
