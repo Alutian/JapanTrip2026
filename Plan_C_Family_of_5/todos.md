@@ -22,13 +22,14 @@ Single source of truth for what's left to do. Updated as items complete.
 
 These were originally bucketed for early May and slipped. Some routes risk selling out within the week.
 
+- [x] **Book Romancecar × 5** — Hakone 27 (GSE), Jun 2, dep Shinjuku 13:20 arr Hakone-Yumoto 14:56, Car 5 seats 15C/D + 16B/C/D. EMot/Smart-EX control # `E655`, ¥4,610 LE surcharge (base fare via Hakone Free Pass). See [`bookings/romancecar.md`](../bookings/romancecar.md).
 - [x] **Book Shinkansen Odawara → Kyoto × 5** — Hikari 637, Jun 4, dep 10:11 arr 12:12, Car 14 seats 3ABC/3D/2D, Smart-EX res `2001`, ¥47,580. See [`bookings/trains.md`](../bookings/trains.md).
 - [x] **Book Shinkansen Kyoto → Tokyo × 5** — Nozomi 16, Jun 7, dep 12:01 arr 14:15, Car 15 seats 13CDE + 14DE, Smart-EX res `2003`, ¥55,870. Earlier-than-original time leaves ~2h Tokyo Station shopping window before Narita. See [`bookings/trains.md`](../bookings/trains.md).
 - [ ] **Book NEX Tokyo Station → Narita × 5** — same day Jun 7. JR-East site or Klook.
 - [x] **NEX NRT → Shinjuku × 5** — **decided to buy on arrival**, not pre-book. Hedges ZIPAIR delay risk; same JR East counter as Welcome Suica = zero added steps. Ask about N'EX Tokyo Direct Ticket tourist discount at the counter.
 - [ ] **Book Shibuya Sky timed entry × 5** — for Sat May 30 sunset. Sunset slots go first.
-- [ ] **Reply to Rakuten STAY email** with email in `address(AT)mail(DOT)com` format so the Hakone online check-in URL gets delivered. Also ask explicitly: *do you accept forwarded takkyubin packages at this unmanned property, or must we use a konbini relay?*
-- [ ] **Message Stitch Hotel via Booking.com** to confirm in writing: (1) they accept incoming takkyubin from Hakone (Leg 2 receive) and (2) handle outbound shipping to Narita Richmond Hotel (Leg 3 send).
+- [ ] **Reply to Rakuten STAY email** with email in `address(AT)mail(DOT)com` format so the Hakone online check-in URL gets delivered. *(Takkyubin-to-STAY question is moot — main bags ship Tokyo→Kyoto direct, only day-packs travel to Hakone.)*
+- [ ] **Message Stitch Hotel via Booking.com** to confirm in writing: (1) Stitch front desk will receive the Jun 1 Tokyo→Kyoto direct takkyubin and hold both suitcases until our Jun 4 check-in, and (2) Stitch handles outbound shipping to Richmond Hotel Narita on Jun 6 morning.
 - [ ] **Verify ZIPAIR checked baggage allowance** — pull GE7DVP confirmation, confirm per-person checked-bag count + weight. Reconcile with 5×25" plan in `transportation.md`. Pre-pay online (airport counter has handling fee, no cash).
 
 ---
@@ -77,8 +78,7 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 
 - [ ] **NRT (May 29): Buy 5× Welcome Suica at JR East Travel Service Center** — on the NEX platform level. 3 adults (Ajay, Candice, grandma) + 2 child-fare (Zara, Kai). Bring all 5 passports for kid-fare verification. Top up ¥3,000 each adult / ¥2,000 each kid at the same counter — cash works, credit card sometimes too. Welcome Suica = no deposit, no refund needed at end of trip.
 - [ ] **NRT (May 29):** Confirm/buy NEX tickets if not already reserved
-- [ ] **Tokyo (Jun 1 evening):** Drop takkyubin Leg 1 bags at Lawson/7-Eleven near Yotsuya 4-chome → Rakuten STAY Hakone (drop before noon next day = before 12:00 Jun 2 doesn't matter, but evening drop is fine since pickup is overnight)
-- [ ] **Hakone-Yumoto (Jun 2):** Buy **Hakone Free Pass × 5 (2-day)** at Odakyu Travel Service Center on platform
+- [ ] **Shinjuku (Jun 2):** Buy **Hakone Free Pass × 5 (2-day)** at Odakyu Sightseeing Service Center *before* boarding Romancecar — covers base fare Shinjuku→Yumoto AND all Hakone Tozan/Ropeway/boats/buses
 - [ ] **Hakone (Jun 3 evening):** Drop takkyubin Leg 2 bags at Lawson Kowakudani
 - [ ] **Stitch Kyoto (Jun 4):** Confirm Leg 2 bags arrived; arrange Leg 3 send for Jun 6 morning; ask about kaiseki farewell dinner reservation
 - [ ] **Kyoto (Jun 6 morning):** Hand bags to Stitch front desk for takkyubin to Richmond Narita
@@ -110,7 +110,7 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 - [x] Candice's wishlist CSVs ingested into [wishlist/](wishlist/) — Tokyo, Kyoto, Hakone
 - [x] Decisions through #19 logged
 - [x] Transportation/logistics plan (`transportation.md`) written
-- [x] **Romancecar Shinjuku → Hakone-Yumoto × 5 reserved seats** booked (Tue Jun 2). Still need to buy Hakone Free Pass at Yumoto on arrival to ride the rest of the Hakone network — see on-arrival todos.
+- [x] **Romancecar Shinjuku → Hakone-Yumoto × 5 reserved seats** booked (Tue Jun 2) — Hakone 27 (GSE), 13:20→14:56, Car 5 seats 15C/D + 16B/C/D, control # `E655`. Still need to buy Hakone Free Pass at **Shinjuku** (not Yumoto) on Jun 2 before boarding to cover base fare + Hakone network.
 
 ## ❌ Won't Do
 

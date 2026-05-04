@@ -130,18 +130,18 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 |---|---|---|
 | ~12:30 | Leave Yotsuya Airbnb | Day-packs + shared overnight tote + grandma's carry-on |
 | ~12:30–13:00 | Yotsuya-sanchome → **Shinjuku Station** | Marunouchi line 1 stop, OR walk 10 min |
-| 13:00–13:20 | At Shinjuku Station, board **Romancecar** | Odakyu line, dedicated platform — follow "Romancecar" signs |
-| 13:20–14:45 | **Romancecar Shinjuku → Hakone-Yumoto** | ~85 min · reserved seats only · ¥2,470 × 5 = ¥12,350 (✅ already booked) |
-| 14:45–15:00 | Buy **Hakone Free Pass** at Yumoto Station | 2-day pass · ~¥6,100 adults / ~¥1,100 kids · covers Tozan + Ropeway + boats + buses |
+| ~13:00 | At Shinjuku Station, **buy Hakone Free Pass × 5** at Odakyu Sightseeing Service Center | Covers base fare Shinjuku→Yumoto + all Tozan/Ropeway/boats/buses for 2 days · ~¥6,100/adult + ~¥1,100/kid |
+| 13:10 | Board **Romancecar Hakone 27 (GSE)**, Car 5, seats 15C/D + 16B/C/D | Day-packs in overhead rack; grandma's 20" + overnight tote in Car 5 vestibule luggage rack |
+| 13:20–14:56 | **Romancecar Shinjuku → Hakone-Yumoto** | ~96 min · ✅ booked (Smart-EX via EMot, control # `E655`) · ¥4,610 LE surcharge total (base fare via Free Pass) |
 | 15:00–15:25 | **Tozan Railway Yumoto → Kowakudani** | ~3 stops, 25 min · use Hakone Free Pass · winding mountain switchback train |
 | 15:25–15:35 | Walk to Rakuten STAY | <10-min walk — confirm via property's online check-in URL (sent Jun 1) |
 | 15:35 | Self-check-in at Rakuten STAY | No luggage drop needed — main bags are already at Stitch Kyoto |
 
 **Bag logistics:** With main suitcases shipped ahead, this is easy. Romancecar overhead rack handles day-packs + overnight tote + grandma's 20" trivially. **Tozan train is tiny and crowded** — but with no big suitcases, you fit comfortably with day-packs on your laps and the tote at your feet. Grandma's small roller fits in the vestibule luggage spot.
 
-**Bookings:** ✅ **Romancecar reserved seats × 5** already booked.
+**Booked:** ✅ Romancecar Hakone 27 (GSE), 13:20 Shinjuku → 14:56 Hakone-Yumoto, Car 5 seats 15C/D + 16B/C/D. Control # `E655`. Details: [bookings/romancecar.md](../bookings/romancecar.md).
 
-**On arrival:** pick up the Hakone Free Pass at the green Odakyu Travel Service Center inside Hakone-Yumoto Station — first thing after stepping off Romancecar.
+**Hakone Free Pass — buy at Shinjuku, not Yumoto.** Pick it up at the **Odakyu Sightseeing Service Center at Shinjuku Station** *before* boarding the Romancecar. The Free Pass covers the Shinjuku→Yumoto base fare (the limited-express surcharge ticket alone won't get you through the gate) AND all Hakone Tozan/Ropeway/boats/buses for 2 days.
 
 ---
 
@@ -224,13 +224,13 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 
 | Item | Status | Action |
 |---|---|---|
-| **Romancecar × 5** Jun 2 (Shinjuku → Hakone-Yumoto) | ✅ Booked | Already done |
+| **Romancecar Hakone 27 (GSE) × 5** Jun 2 (Shinjuku 13:20 → Hakone-Yumoto 14:56) | ✅ Booked | EMot/Smart-EX control # `E655`, Car 5 · 15C/D + 16B/C/D · see [bookings/romancecar.md](../bookings/romancecar.md) |
 | **NEX × 5** May 29 (NRT → Shinjuku) | 🟡 Buy on arrival | At JR East counter alongside Welcome Suica purchase — hedge against ZIPAIR delay |
 | **Shinkansen Hikari 637 × 5** Jun 4 (Odawara 10:11 → Kyoto 12:12) | ✅ Booked | Smart-EX res `2001`, Car 14 · 3ABC/3D/2D |
 | **Shinkansen Nozomi 16 × 5** Jun 7 (Kyoto 12:01 → Tokyo 14:15) | ✅ Booked | Smart-EX res `2003`, Car 15 · 13CDE + 14DE |
 | ~~NEX Tokyo→Narita~~ Jun 7 | ❌ Not needed | Use JR Sobu/Narita Rapid (pay-as-you-go Suica) |
 | **Shibuya Sky × 5** May 30 sunset | 🔴 To book | Official site — sellout risk |
-| **Hakone Free Pass** | Buy on arrival | Odakyu Travel Service Center at Hakone-Yumoto |
+| **Hakone Free Pass × 5** | Buy at **Shinjuku** before boarding Romancecar | Odakyu Sightseeing Service Center · covers Shinjuku→Yumoto base fare + all Hakone Tozan/Ropeway/boats/buses |
 | **Takkyubin Leg 1** Tokyo → Kyoto direct | Drop Jun 1 evening | Walk to Lawson Yotsuya — bags arrive Stitch Jun 2 |
 | **Takkyubin Leg 2** Kyoto → Narita | Drop Jun 6 morning | Stitch front desk handles outbound |
 
@@ -307,7 +307,7 @@ These are the hard rules that, if violated, mess up the whole logistics chain:
 |---|---|
 | NEX NRT → Shinjuku × 5 | ¥16,250 |
 | Tokyo local Metro/JR (4 days) | ¥10,000 (Suica top-ups) |
-| Romancecar Shinjuku → Hakone × 5 | ¥12,350 (✅ booked) |
+| Romancecar Shinjuku → Hakone (LE surcharge total, base fare via Free Pass) | ¥4,610 (✅ booked) |
 | Hakone Free Pass × 5 | ~¥30,500 |
 | Shinkansen Hikari Odawara → Kyoto × 5 | ¥65,000 |
 | Kyoto local + Nara day trip | ¥15,000 (Suica) |
