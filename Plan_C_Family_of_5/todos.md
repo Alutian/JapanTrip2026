@@ -47,6 +47,8 @@ Single source of truth for what's left to do. Updated as items complete.
 
 ### Physical
 - [ ] **¥30,000 cash starter** — exchange before leaving or use 7-Eleven ATM on arrival
+  - **At the 7-Eleven ATM, always select "withdraw in JPY / decline conversion"** when prompted. Letting the ATM convert (DCC) uses a worse rate than your home bank's; choosing yen lets your bank handle the conversion at the interbank rate.
+  - 7-Eleven ATMs can also **top up Suica/Pasmo with cash** — useful if you're somewhere without a JR/metro gate (e.g., stuck in Hakone with a flat IC card balance).
 - [ ] **Travel adapters** (Type A — same as US, but voltage 100V; check chargers)
 - [ ] **Portable battery packs × 2** — long transit days
 - [ ] **Foldable umbrellas × family** (or buy ¥500 at konbini on arrival)

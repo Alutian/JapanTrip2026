@@ -43,6 +43,7 @@ Total bags moving as a family: **5 main suitcases + 5 day-packs**.
 - **Snacks + water bottle**
 - **Rain layer** (June = rainy season)
 - **Kid amusement** (tablets, books, cards) for train rides
+- **Packable foldable tote** (Sea-to-Summit Ultra-Sil or similar) — flat in the day-pack until you need it. Deploys for konbini hauls, daily souvenirs, wet umbrellas, kid layers shed mid-day. Saves you from carrying the full day-pack into every shop.
 
 ### What stays in the main suitcase
 - All other clothes, shoes, toiletries, souvenirs, etc.
@@ -222,6 +223,30 @@ Booking windows from earliest to latest:
 | **Takkyubin Leg 1** Tokyo → Hakone | Drop Jun 1 evening | Walk to konbini |
 | **Takkyubin Leg 2** Hakone → Kyoto | Drop Jun 3 evening | Konbini Kowakudani |
 | **Takkyubin Leg 3** Kyoto → Narita | Drop Jun 6 morning | Stitch front desk |
+
+---
+
+## 🧺 Laundry — Stitch Kyoto
+
+Stitch Kyoto has an in-room washer/dryer (one of the reasons we chose it for the 3-night Kyoto stay). Two things to know:
+
+- **Japanese hotel/apartment dryers are weak.** A full load — even after a complete cycle — usually comes out damp. Plan on **2–3 dry cycles** for anything thicker than a t-shirt.
+- **Run small loads.** A few shirts and underwear dries in one cycle. Stuffing the drum guarantees a re-run.
+- **Suggested cadence at Stitch:** one small load Thu Jun 4 evening + one Fri Jun 5 evening, instead of saving everything for one giant Sat Jun 6 load. Avoids the "we're checking out and the jeans are still wet" scenario.
+- Hang-dry overnight on the room's drying rack / shower bar for anything still damp after 2 cycles.
+
+---
+
+## 🛍️ Return-Trip Luggage — If Souvenirs Overflow
+
+Strategy in order of preference:
+
+1. **Pack outbound bags slightly under-stuffed** so existing 5×25" suitcases absorb souvenir volume on the return. This is the cheapest option and what we should aim for.
+2. **If we overflow anyway:** pick up a cheap soft-sided checked bag in-country for ~¥5,000–7,000 (~$35–50) — far cheaper than rationing souvenir purchases or paying ZIPAIR overweight on the way home. Good places:
+   - **Don Quijote** (any branch — Akihabara, Shibuya, Shinjuku) — cheap luggage section, open late
+   - **Asakusa side streets** (Kappabashi-dori area) — multiple luggage shops near Sensō-ji
+   - **Aeon Mall Narita** — last-resort option Jun 7/8 if we leave it to the wire
+3. **Constraint:** any new bag still has to clear ZIPAIR's checked allowance (size + weight) for the Jun 8 flight home — don't buy a giant 30" if it'll trigger overweight fees. A 26–27" soft-sided is the sweet spot.
 
 ---
 
