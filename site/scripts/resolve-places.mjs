@@ -1,14 +1,14 @@
 #!/usr/bin/env node
-// Resolve every place in data/places.json against the Google Places API.
+// Resolve every place in data/places.json against the Google Places API (New).
 // For each place:
-//   1. Call "Find Place from Text" with input=query, fields=place_id,name,geometry,formatted_address
-//   2. If exactly one candidate → trust it
-//   3. If multiple candidates → write to data/places.unresolved.md for manual review
-//   4. If zero candidates → flag for manual review
+//   1. Call places:searchText with textQuery, regionCode=JP, returning id+displayName+formattedAddress+location+types
+//   2. If exactly one place → trust it
+//   3. If multiple places → write to data/places.unresolved.md for manual review (pick first)
+//   4. If zero places → flag for manual review
 //
 // Output: data/places.resolved.json (commit this) + data/places.unresolved.md (review queue)
 //
-// Requires:  GOOGLE_MAPS_API_KEY env var with Places API enabled.
+// Requires:  GOOGLE_MAPS_API_KEY env var with Places API (New) enabled.
 //
 // Re-run safe: places that already have a placeId in data/places.json (manually pinned) are not re-resolved.
 
@@ -28,25 +28,44 @@ const API_KEY = process.env.GOOGLE_MAPS_API_KEY;
 if (!API_KEY) {
   console.error('Missing GOOGLE_MAPS_API_KEY env var.');
   console.error('Get one at https://console.cloud.google.com/apis/credentials');
-  console.error('Enable: Places API + Maps Embed API + Maps JavaScript API + Maps Static API');
+  console.error('Enable: Places API (New) + Maps Embed API + Maps JavaScript API + Maps Static API');
   process.exit(1);
 }
 
-const FIND_URL = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json';
+// Places API (New) — POST endpoint with field mask header.
+// https://developers.google.com/maps/documentation/places/web-service/text-search
+const SEARCH_URL = 'https://places.googleapis.com/v1/places:searchText';
+const FIELD_MASK = 'places.id,places.displayName,places.formattedAddress,places.location,places.types';
 
 async function findPlace(query) {
-  const url = new URL(FIND_URL);
-  url.searchParams.set('input', query);
-  url.searchParams.set('inputtype', 'textquery');
-  url.searchParams.set('fields', 'place_id,name,geometry/location,formatted_address,types');
-  url.searchParams.set('language', 'en');
-  url.searchParams.set('key', API_KEY);
-  const res = await fetch(url);
+  const res = await fetch(SEARCH_URL, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-Goog-Api-Key': API_KEY,
+      'X-Goog-FieldMask': FIELD_MASK,
+    },
+    body: JSON.stringify({
+      textQuery: query,
+      languageCode: 'en',
+      regionCode: 'JP',
+      // 1 = best match, up to 20 supported; we keep top 5 for the unresolved review
+      pageSize: 5,
+    }),
+  });
   if (!res.ok) throw new Error(`Places API HTTP ${res.status}: ${await res.text()}`);
   const json = await res.json();
-  if (json.status === 'ZERO_RESULTS') return { candidates: [] };
-  if (json.status !== 'OK') throw new Error(`Places API status ${json.status}: ${json.error_message || ''}`);
-  return { candidates: json.candidates || [] };
+  // Normalize to the legacy shape so the rest of the script stays clean.
+  const places = json.places || [];
+  return {
+    candidates: places.map(p => ({
+      place_id: p.id,
+      name: p.displayName?.text ?? '',
+      formatted_address: p.formattedAddress ?? '',
+      geometry: { location: { lat: p.location?.latitude, lng: p.location?.longitude } },
+      types: p.types || [],
+    })),
+  };
 }
 
 async function loadCache() {
@@ -93,7 +112,8 @@ async function main() {
     if (result.candidates.length === 0) {
       unresolved.push({ place: p, reason: 'zero-results', candidates: [] });
       resolved.push({ ...p, resolveStatus: 'zero-results' });
-    } else if (result.candidates.length === 1) {
+    } else {
+      // Trust the top match. Stash all candidates in the cache for later review.
       const c = result.candidates[0];
       const out = {
         placeId: c.place_id,
@@ -103,25 +123,12 @@ async function main() {
         lng: c.geometry?.location?.lng,
         types: c.types,
         resolveStatus: 'ok',
+        alternateCandidates: result.candidates.length > 1
+          ? result.candidates.slice(1).map(x => ({ name: x.name, formatted_address: x.formatted_address, place_id: x.place_id }))
+          : undefined,
       };
       cache[cacheKey] = out;
       resolved.push({ ...p, ...out });
-    } else {
-      // Multiple candidates — pick the first but flag for review.
-      const c = result.candidates[0];
-      const out = {
-        placeId: c.place_id,
-        resolvedName: c.name,
-        formattedAddress: c.formatted_address,
-        lat: c.geometry?.location?.lat,
-        lng: c.geometry?.location?.lng,
-        types: c.types,
-        resolveStatus: 'ambiguous',
-        ambiguousCount: result.candidates.length,
-      };
-      cache[cacheKey] = out;
-      resolved.push({ ...p, ...out });
-      unresolved.push({ place: p, reason: 'ambiguous', candidates: result.candidates });
     }
 
     // Small delay to be polite to the API
@@ -173,9 +180,10 @@ async function main() {
 
   await fs.writeFile(unresolvedPath, md.join('\n'), 'utf8');
 
+  const altCount = resolved.filter(r => r.alternateCandidates?.length > 0).length;
   console.log(`[resolve-places] ${places.length} places · ${apiCalls} API calls · ${cacheHits} cache hits`);
   console.log(`[resolve-places] resolved cleanly: ${resolved.filter(r => r.resolveStatus === 'ok').length}`);
-  console.log(`[resolve-places] ambiguous: ${unresolved.filter(u => u.reason === 'ambiguous').length}`);
+  console.log(`[resolve-places] with alternate candidates (worth eyeballing): ${altCount}`);
   console.log(`[resolve-places] zero-results: ${unresolved.filter(u => u.reason === 'zero-results').length}`);
   console.log(`[resolve-places] wrote ${path.relative(siteRoot, resolvedPath)}`);
   console.log(`[resolve-places] wrote ${path.relative(siteRoot, unresolvedPath)} (${unresolved.length} items)`);
