@@ -19,7 +19,7 @@ places.unresolved.md ← anything ambiguous or not found — review queue
 
 You need a Google Cloud API key with these APIs enabled:
 
-- **Places API** (for resolution)
+- **Places API (New)** (for resolution — uses the v1 endpoint, not the legacy one)
 - **Maps Embed API** (for the embedded iframe on lodging pages)
 - **Maps JavaScript API** (for the multi-marker /map page and day maps)
 - **Maps Static API** (optional, if we want static map images)
