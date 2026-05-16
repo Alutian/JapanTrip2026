@@ -1,0 +1,51 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { DAYS } from '../../data/trip.ts';
+
+export async function getStaticPaths() {
+  return DAYS.map(d => ({ params: { day: String(d.n) }, props: { day: d } }));
+}
+
+const { day } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const prev = DAYS.find(d => d.n === day.n - 1);
+const next = DAYS.find(d => d.n === day.n + 1);
+---
+
+<Layout title={`Day ${day.n} — ${day.title}`}>
+  <p class="hint" style="margin-bottom: 0.25rem;">Day {day.n} · {day.shortDate}</p>
+  <h1 style="margin-top: 0;">{day.title}</h1>
+  <p class="hint" style="margin-top: -0.25rem;">{day.cluster}</p>
+
+  {day.locked.length > 0 && (
+    <div class="card" style="border-color: var(--accent);">
+      <h2 style="margin-top: 0;">🔒 Locked</h2>
+      <ul>
+        {day.locked.map(item => <li>{item}</li>)}
+      </ul>
+    </div>
+  )}
+
+  <div class="card">
+    <h2 style="margin-top: 0;">🎯 Plan</h2>
+    <ul>
+      {day.plan.map(item => <li>{item}</li>)}
+    </ul>
+  </div>
+
+  {day.takkyubin && (
+    <div class="card" style="border-color: var(--warn);">
+      <h2 style="margin-top: 0;">📦 Takkyubin</h2>
+      <p>{day.takkyubin}</p>
+    </div>
+  )}
+
+  <div style="display: flex; justify-content: space-between; margin-top: 1.5rem;">
+    {prev ? <a href={`${base}/days/${prev.n}`}>← Day {prev.n}</a> : <span></span>}
+    {next ? <a href={`${base}/days/${next.n}`}>Day {next.n} →</a> : <span></span>}
+  </div>
+
+  <p style="margin-top: 1rem;">
+    <a href={`${base}/docs/itinerary`}>Full itinerary doc →</a>
+  </p>
+</Layout>

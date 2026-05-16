@@ -1,0 +1,50 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { EMERGENCY } from '../data/trip.ts';
+---
+
+<Layout title="Emergency">
+  <h1>🆘 Emergency</h1>
+
+  <h2>🇯🇵 Japan emergency numbers</h2>
+  <div class="card">
+    <ul>
+      {EMERGENCY.jpEmergency.map(e => (
+        <li>
+          <strong>{e.what}:</strong> <a href={`tel:${e.number.replace(/\s/g, '')}`} style="font-size: 1.1rem;">{e.number}</a>
+          {e.notes && <span class="hint"> — {e.notes}</span>}
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <h2>🏛️ Embassies</h2>
+  <div class="card">
+    <ul>
+      {EMERGENCY.embassies.map(e => (
+        <li>
+          <strong>{e.what}:</strong> <a href={`tel:${e.number.replace(/\s/g, '')}`}>{e.number}</a>
+          {e.notes && <div class="hint">{e.notes}</div>}
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <h2>🏨 Lodging contacts</h2>
+  <div class="card">
+    <ul>
+      {EMERGENCY.lodging.map(e => (
+        <li><strong>{e.what}:</strong> <a href={`tel:${e.number.replace(/\s/g, '')}`}>{e.number}</a></li>
+      ))}
+    </ul>
+  </div>
+
+  <h2>👵 For grandma</h2>
+  <div class="card">
+    <ul>
+      <li>Bilingual medication list (EN + JP) — keep printed copy in her bag</li>
+      <li>Her meds stay in her carry-on always, never in takkyubin or checked luggage</li>
+      <li>If lost: call her phone, then nearest koban (police box) — every neighborhood has one</li>
+    </ul>
+  </div>
+</Layout>

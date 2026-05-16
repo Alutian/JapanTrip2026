@@ -1,0 +1,15 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { DAYS } from '../../data/trip.ts';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Layout title="All days">
+  <h1>🗾 All days</h1>
+  {DAYS.map(d => (
+    <a href={`${base}/days/${d.n}`} class="card">
+      <strong>Day {d.n} · {d.shortDate} — {d.title}</strong>
+      <div class="hint">{d.cluster}</div>
+    </a>
+  ))}
+</Layout>

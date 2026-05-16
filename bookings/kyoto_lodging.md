@@ -12,6 +12,7 @@
 
 - **Name:** STITCH HOTEL Kyoto
 - **Address:** 600-8012, Kyoto, Shimogyo Ward, 118, Saito-cho, Shimogyo-ku, Japan
+- **住所 (for taxi):** 〒600-8012 京都府京都市下京区斎藤町118
 - **Phone:** +81 75-606-4860
 - **Type:** Apartment-style hotel with 24h front desk
 - **Reviews:** 9.7 / 250 reviews; 9.9 location score

@@ -10,6 +10,7 @@
 
 - **Name:** Rakuten STAY TERRACE Hakone Kowakudani
 - **Address:** 483-2 Kowakudani, Hakone, Kanagawa, 250-0406, Japan
+- **住所 (for taxi):** 〒250-0406 神奈川県足柄下郡箱根町小涌谷483-2
 - **Type:** Whole-unit vacation rental ("Stayable Showroom" concept — furniture-brand showroom units)
 - **Room:** Stayable Showroom · No pets · Non-smoking
 - **Portal site:** https://stay.rakuten.co.jp/en/gp/terrace-hakone-kowakudani/

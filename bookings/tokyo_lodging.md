@@ -12,6 +12,7 @@
 - **Type:** Home in Shinjuku-ku (Airbnb)
 - **Host:** Skew Lines (Superhost, 388+ reviews at 4.81 ⭐)
 - **Address:** 4-chōme-27-3 Yotsuya, 慶愛ビル 301, Shinjuku-ku, Tōkyō-to 160-0004, Japan
+- **住所 (for taxi):** 〒160-0004 東京都新宿区四谷4丁目27-3 慶愛ビル 301
 
 ---
 
