@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { DAYS, TRIP } from '../data/trip.ts';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Layout title="Today">
+  <h1>📅 Today</h1>
+  <p id="today-msg">Routing…</p>
+  <div id="today-fallback" class="hidden">
+    <p>Today isn't in the trip dates. Browse all days:</p>
+    <div class="grid-2">
+      {DAYS.map(d => (
+        <a href={`${base}/days/${d.n}`} class="card">
+          <strong>Day {d.n}</strong>
+          <div class="hint">{d.shortDate} — {d.title}</div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <script is:inline define:vars={{ base, DAYS_DATA: DAYS.map(d => ({ n: d.n, date: d.date })), tripStart: TRIP.start, tripEnd: TRIP.end }}>
+    (function () {
+      var today = new Date().toISOString().slice(0, 10);
+      var match = DAYS_DATA.find(function (d) { return d.date === today; });
+      if (match) {
+        window.location.replace(base + '/days/' + match.n);
+      } else {
+        document.getElementById('today-msg').textContent = today < tripStart
+          ? 'Trip starts ' + tripStart + '. Showing all days.'
+          : today > tripEnd
+            ? 'Trip ended ' + tripEnd + '. Showing all days.'
+            : 'No matching day in itinerary.';
+        document.getElementById('today-fallback').classList.remove('hidden');
+      }
+    })();
+  </script>
+</Layout>

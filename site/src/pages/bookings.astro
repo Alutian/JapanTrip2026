@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { BOOKINGS } from '../data/trip.ts';
+---
+
+<Layout title="Bookings">
+  <h1>📋 All bookings</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>What</th>
+        <th>When</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {BOOKINGS.map(b => (
+        <tr>
+          <td>
+            <strong>{b.what}</strong>
+            {b.conf && <div><code>{b.conf}</code></div>}
+            {b.notes && <div class="hint">{b.notes}</div>}
+          </td>
+          <td>{b.when}</td>
+          <td>
+            {b.status === 'booked' && <span class="pill ok">✓</span>}
+            {b.status === 'to-book' && <span class="pill warn">to-book</span>}
+            {b.status === 'on-arrival' && <span class="pill">on-arrival</span>}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</Layout>

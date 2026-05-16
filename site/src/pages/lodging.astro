@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { LODGING } from '../data/trip.ts';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Layout title="Hotels">
+  <h1>🏨 Hotels</h1>
+  <p class="hint">Tap the JP address to copy — show it to your taxi driver.</p>
+
+  {LODGING.map(l => (
+    <div class="card">
+      <h2 style="margin-top: 0;">{l.city} — {l.name}</h2>
+      <div><span class="pill">{l.nights} {l.nights === 1 ? 'night' : 'nights'}</span></div>
+      <ul style="margin-top: 0.75rem;">
+        <li><strong>Check-in:</strong> {l.checkIn}</li>
+        <li><strong>Check-out:</strong> {l.checkOut}</li>
+        <li><strong>Conf:</strong> <code>{l.conf}</code></li>
+        {l.pin && <li><strong>PIN:</strong> <code>{l.pin}</code></li>}
+        {l.phone && <li><strong>Phone:</strong> <a href={`tel:${l.phone.replace(/\s/g, '')}`}>{l.phone}</a></li>}
+      </ul>
+
+      <h3 style="font-size: 0.8rem; margin-top: 1rem;">Address — English</h3>
+      <div>{l.addressEn}</div>
+
+      {l.addressJa && (
+        <>
+          <h3 style="font-size: 0.8rem; margin-top: 0.75rem;">Address — 日本語 (show driver)</h3>
+          <div class="lang-ja" style="font-size: 1.05rem;">{l.addressJa}</div>
+          <button class="copy-btn" data-copy={l.addressJa} style="margin-top: 0.5rem; margin-left: 0;">Copy JP address</button>
+        </>
+      )}
+
+      {l.notes && <p class="hint" style="margin-top: 0.75rem;">{l.notes}</p>}
+
+      <div style="margin-top: 0.75rem;">
+        <a href={`${base}/docs/bookings/${l.key}_lodging`}>Full booking detail →</a>
+      </div>
+    </div>
+  ))}
+</Layout>

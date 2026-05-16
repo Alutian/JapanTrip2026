@@ -1,0 +1,29 @@
+---
+import Layout from './Layout.astro';
+const { frontmatter } = Astro.props;
+const title = frontmatter?.title ?? 'Docs';
+---
+
+<Layout title={title}>
+  <article class="prose">
+    <slot />
+  </article>
+  <style is:global>
+    article.prose { padding-bottom: 2rem; }
+    article.prose h1 { font-size: 1.5rem; margin-top: 0; }
+    article.prose h2 { color: var(--accent-2); margin-top: 1.5rem; }
+    article.prose h3 { color: var(--text); text-transform: none; letter-spacing: 0; font-size: 1rem; }
+    article.prose pre { background: var(--surface-2); padding: 0.75rem; border-radius: 8px; overflow-x: auto; font-size: 0.85rem; }
+    article.prose blockquote {
+      border-left: 3px solid var(--accent);
+      margin: 0.75rem 0;
+      padding: 0.25rem 0.75rem;
+      color: var(--muted);
+      background: var(--surface);
+      border-radius: 0 6px 6px 0;
+    }
+    article.prose table { font-size: 0.85rem; }
+    article.prose hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    article.prose img { max-width: 100%; }
+  </style>
+</Layout>

@@ -1,0 +1,97 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { DAYS, LODGING, TRIP } from '../data/trip.ts';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const tokyo = LODGING.find(l => l.key === 'tokyo')!;
+const today = new Date().toISOString().slice(0, 10);
+const todayDay = DAYS.find(d => d.date === today);
+const beforeTrip = today < TRIP.start;
+const afterTrip = today > TRIP.end;
+---
+
+<Layout title="Home">
+  <h1>🗾 Japan 2026</h1>
+  <p class="hint" style="color: var(--muted); margin-top: -0.5rem;">{TRIP.start} → {TRIP.end} · 5 travelers</p>
+
+  <section class="card" id="just-landed-banner" style="display: none; border-color: var(--accent);">
+    <h2 style="margin-top: 0;">🛬 We just landed</h2>
+    <ul>
+      <li><strong>NEX</strong> → Shinjuku, ~80 min, ~¥16,250 (reserved × 5)</li>
+      <li><strong>Airbnb:</strong> {tokyo.name}</li>
+      <li><strong>EN:</strong> {tokyo.addressEn}</li>
+      {tokyo.addressJa && (
+        <li>
+          <strong>JP:</strong> <span class="lang-ja">{tokyo.addressJa}</span>
+          <button class="copy-btn" data-copy={tokyo.addressJa}>Copy</button>
+        </li>
+      )}
+      <li><strong>Conf:</strong> <code>{tokyo.conf}</code> (Host: Skew Lines)</li>
+    </ul>
+  </section>
+
+  {todayDay && (
+    <a href={`${base}/days/${todayDay.n}`} class="card" style="border-color: var(--accent);">
+      <h2 style="margin-top: 0;">📅 Today · Day {todayDay.n} — {todayDay.title}</h2>
+      <div class="hint">{todayDay.shortDate} · {todayDay.cluster}</div>
+    </a>
+  )}
+
+  {beforeTrip && (
+    <a href={`${base}/days/1`} class="card">
+      <h2 style="margin-top: 0;">📅 Trip starts {TRIP.start}</h2>
+      <div class="hint">Open Day 1 plan →</div>
+    </a>
+  )}
+
+  {afterTrip && (
+    <div class="card">
+      <h2 style="margin-top: 0;">Trip complete 👋</h2>
+      <div class="hint">Welcome home.</div>
+    </div>
+  )}
+
+  <h3>Quick access</h3>
+  <div class="grid-2">
+    <a href={`${base}/lodging`} class="card">
+      <strong>🏨 Hotels</strong>
+      <div class="hint">Addresses (EN + JP) · conf #s · PINs</div>
+    </a>
+    <a href={`${base}/transit`} class="card">
+      <strong>🚆 Transit</strong>
+      <div class="hint">NEX · Romancecar · Shinkansen</div>
+    </a>
+    <a href={`${base}/bookings`} class="card">
+      <strong>📋 All bookings</strong>
+      <div class="hint">Status of every reservation</div>
+    </a>
+    <a href={`${base}/days`} class="card">
+      <strong>🗾 All days</strong>
+      <div class="hint">Day-by-day itinerary</div>
+    </a>
+    <a href={`${base}/emergency`} class="card">
+      <strong>🆘 Emergency</strong>
+      <div class="hint">110 · 119 · embassies · hotels</div>
+    </a>
+    <a href={`${base}/grandma`} class="card">
+      <strong>👵 Grandma view</strong>
+      <div class="hint">Her flights · taxi · hotel</div>
+    </a>
+  </div>
+
+  <h3>Menus &amp; wishlist</h3>
+  <div class="grid-2">
+    <a href={`${base}/docs/menus/tokyo`} class="card"><strong>Tokyo menu</strong></a>
+    <a href={`${base}/docs/menus/kyoto`} class="card"><strong>Kyoto menu</strong></a>
+    <a href={`${base}/docs/menus/hakone`} class="card"><strong>Hakone menu</strong></a>
+    <a href={`${base}/docs/menus/narita`} class="card"><strong>Narita menu</strong></a>
+    <a href={`${base}/docs/wishlist/tokyo`} class="card"><strong>Tokyo wishlist</strong></a>
+    <a href={`${base}/docs/wishlist/kyoto`} class="card"><strong>Kyoto wishlist</strong></a>
+  </div>
+
+  <script is:inline define:vars={{ start: TRIP.start, today }}>
+    // Show "We just landed" banner on arrival day only.
+    if (today === start) {
+      document.getElementById('just-landed-banner').style.display = 'block';
+    }
+  </script>
+</Layout>
