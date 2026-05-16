@@ -48,3 +48,12 @@ Open `http://localhost:4321/JapanTrip2026/?k=<token>`.
 1. GitHub repo Settings → Pages
 2. Source: **GitHub Actions** (not the legacy branch-based deploy)
 3. Push to `main` → first deploy runs in ~90 sec
+
+## Maps (Stage A — registry built, awaiting your API key)
+
+Place registry lives in [site/data/](site/data/). See [site/data/README.md](site/data/README.md) for the API-key setup (~5 min) and how to run the resolver. Once the resolved JSON is committed, the site gets:
+
+- 📍 "Open in Google Maps" links wherever a place is mentioned
+- A `/map` page with all P1–P6 pins, color-coded by priority
+- An embedded map on each day page showing that day's stops
+- A downloadable `japan-2026.kml` for one-click import into Google My Maps (syncs to mobile Google Maps app)
