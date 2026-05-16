@@ -9,17 +9,18 @@
 > - [transportation.md](transportation.md) — bag strategy, takkyubin plan, transit-day step-by-step, reservations critical path
 > - [todos.md](todos.md) — single source of truth for outstanding tasks
 > - [decisions.md](decisions.md) — locked decisions log
+> - [wishlist/](wishlist/) — Candice's ranked activity wishlists by city (P1–P6)
 > - [`../bookings/`](../bookings/) — confirmation numbers, addresses, contact info for every booking
 
 ---
 
 ## Trip Shape
 
-| # | City | Nights | Dates | Lodging | Conf # | Menu |
+| # | City | Nights | Dates | Lodging | Conf # | Menu + Wishlist |
 |---|------|--------|-------|---------|--------|------|
-| 1 | Tokyo | 4 | May 29 – Jun 2 | Airbnb Yotsuya 4-chome | `HMYZXN9NPB` | [menus/tokyo.md](menus/tokyo.md) |
-| 2 | Hakone | 2 | Jun 2 – Jun 4 | Rakuten STAY TERRACE Kowakudani | `2442810403` | [menus/hakone.md](menus/hakone.md) |
-| 3 | Kyoto (base) | 3 | Jun 4 – Jun 7 | STITCH HOTEL Kyoto | `6410484352` | [menus/kyoto.md](menus/kyoto.md) |
+| 1 | Tokyo | 4 | May 29 – Jun 2 | Airbnb Yotsuya 4-chome | `HMYZXN9NPB` | [menus/tokyo.md](menus/tokyo.md) · [wishlist/tokyo.md](wishlist/tokyo.md) |
+| 2 | Hakone | 2 | Jun 2 – Jun 4 | Rakuten STAY TERRACE Kowakudani | `2442810403` | [menus/hakone.md](menus/hakone.md) · [wishlist/hakone.md](wishlist/hakone.md) |
+| 3 | Kyoto (base) | 3 | Jun 4 – Jun 7 | STITCH HOTEL Kyoto | `6410484352` | [menus/kyoto.md](menus/kyoto.md) · [wishlist/kyoto.md](wishlist/kyoto.md) |
 | 4 | Narita City | 1 | Jun 7 – Jun 8 | Richmond Hotel Narita | `2445218331` + `2445218289` | [menus/narita.md](menus/narita.md) |
 | | | **10** | | | | |
 
@@ -40,31 +41,34 @@
 
 ---
 
-## Day 2 — Sat May 30 · Harajuku + Shibuya
+## Day 2 — Sat May 30 · Harajuku → Shibuya (one walking arc)
 
 🔒 **LOCKED**
 - **MiPig Café** (Harajuku) — 60-min private room, slot picked at booking · ⬜ *to book*
 - **Shibuya Sky** sunset timed entry · ⬜ *book 1–2 weeks ahead in mid-May*
 
-🎯 **FLEXIBLE**
-- Morning: pair MiPig with **M1 Harajuku Kawaii Morning** (Takeshita St + Omotesando + tonkatsu lunch at Maisen)
-- Afternoon: rest at Yotsuya OR **A2 Omotesando window-shop**
-- Evening: **E1 Shibuya Neon Night** — Pokémon Center Shibuya + Nintendo Tokyo + Shibuya Sky sunset + dinner
+🎯 **PROXIMITY PLAN** (Harajuku → Omotesando → Shibuya, all walkable / 1 stop)
+- **AM (M1 Harajuku Kawaii Morning):** MiPig Café (P1, locked slot) → **Takeshita Street** (P2, crepes + kawaii shops) → **Meiji Jingu Gaien Ginkgo Avenue** walk (P2) → Omotesando architecture stroll → lunch at **Maisen Aoyama** tonkatsu
+- **Afternoon:** Rest at Yotsuya OR low-key Omotesando window shop. Optional **A6 Character Café Stop** — **Cinnamoroll Café** near Shinjuku Gyoen (P1, on the way home) if not too tired.
+- **Sunset → Evening (E1 Shibuya Neon Night):** Pokémon Center Shibuya + Nintendo Tokyo (Parco) → **Shibuya Sky** sunset slot (target 18:00–18:30; sunset ≈ 18:55) → Shibuya Scramble from ground after dark → dinner at **Kaikaya by the Sea** (reserve) or **Gyopao Gyoza** (kid-friendly).
 
-> Shibuya Sky at sunset is the centerpiece — sunset ≈ 18:55 in late May. Aim for entry slot 18:00–18:30.
+> Shibuya Sky at sunset is the centerpiece. Walking arc is ~1 mile total over the day; one Yamanote hop from Harajuku to Shibuya.
 
 ---
 
-## Day 3 — Sun May 31 · Tokyo Flex Day
+## Day 3 — Sun May 31 · Asakusa → Skytree → Ikebukuro (East Tokyo arc)
 
 🔒 **LOCKED**
 - Nothing
 
-🎯 **FLEXIBLE** — pick one morning + one evening from [menus/tokyo.md](menus/tokyo.md)
-- **Morning options:** M3 Asakusa+Skytree · M4 Ghibli+Kichijoji · M6 Odaiba Science · M2 Tsukiji Food Crawl
-- **Evening options:** E3 Ikebukuro Pokémon Night (Pokémon Center MEGA TOKYO + Sunshine City) · E5 Asakusa River Sunset
+🎯 **PROXIMITY PLAN** (single east-Tokyo arc, all rail-connected, no backtracks)
+- **AM (M3 Asakusa Old-Tokyo Morning):** Kaminarimon + **Nakamise Street** (P1) + **Senso-ji** (P1) + **Hoppy Street** (P1) → 15-min walk to **Kappabashi Kitchen Town** (P4, chopsticks + sample-food shops) → walk/2-stop hop to **Skytree** (P6) + **Sumida Aquarium** (P6 combo ticket)
+- **Lunch:** **Asakusa Imahan** sukiyaki OR **Daikokuya Tempura** in Asakusa. **Funawa Nakamise** (P6) for imo-yokan dessert on Nakamise.
+- **Late afternoon:** Hop Yamanote/Marunouchi to Ikebukuro (~20 min from Asakusa)
+- **Evening (E3 Ikebukuro Pokémon Night):** **Pokémon Center MEGA TOKYO** + **Gashapon Ikebukuro Main Store** (P4, in Sunshine City) + Sunshine City Sky Circus → dinner **Mutekiya** tonkotsu ramen
+- **Back to Yotsuya:** Marunouchi line, ~15 min from Ikebukuro
 
-> Most-open day of the trip. PokéPark was cut and never replaced. Default suggestion: **M3 Asakusa+Skytree morning + E3 Ikebukuro Pokémon evening** if kids want more Pokémon energy after Day 2's Shibuya.
+> Most-open day pre-CSV is now anchored on Candice's P1 Asakusa + Senso-ji + Nakamise + Hoppy Street + Tokyo's biggest Pokémon center + biggest Gashapon dept store. One continuous arc east-then-northwest, all walkable + one rail hop.
 
 ---
 
@@ -78,10 +82,13 @@
   - Total on-site (queue + visit): ~2.5 hrs
 - **Evening:** drop **takkyubin Leg 1** (Tokyo → Hakone) at Lawson/7-Eleven near Yotsuya — bags arrive Hakone Jun 2 afternoon. See [transportation.md](transportation.md#leg-1).
 
-🎯 **FLEXIBLE**
-- Morning: slow / light. Coffee + pastry, easy stroll, light morning out.
-- Late afternoon (post-teamLab): A4 Ginza window shopping (Yurakucho line passes Ginza-itchome on the way back) OR straight back to Yotsuya for rest
-- Evening: **E2 Shinjuku Yakitori Night** at Omoide Yokocho — walk back to Yotsuya from Shinjuku after dinner
+🎯 **PROXIMITY PLAN** (Tsukiji → Toyosu → Shinjuku, south-then-home loop)
+- **AM (M2 Tsukiji Food Crawl):** **Tsukiji Outer Market** sashimi + tamagoyaki + uni bowls; **Turret Coffee Tsukiji** (P6) for coffee. Aim arrive 9am before stalls sell out, eat through 12:30.
+- **13:00:** Toei Oedo line Tsukijishijo → Shin-Toyosu (~15 min direct)
+- **13:45–17:00:** teamLab Planets (locked) — see above
+- **Late afternoon:** Optional Ginza window stop on the way back (Yurakucho line passes Ginza-itchome) — **Sembikiya Fruit Parlor** (P6) for fancy fruit parfait if energy
+- **Evening (E6 Shinjuku Home Base Night):** **E2 Omoide Yokocho** yakitori counter dinner (P1) → **Tokyo Metropolitan Building Night Show** projection mapping (P1, free, nightly, Tochomae) → walk back to Yotsuya
+- **Drop takkyubin Leg 1** at Lawson/7-Eleven near Yotsuya before bed. See [transportation.md](transportation.md#leg-1).
 
 ---
 
@@ -106,12 +113,14 @@
 - *(Optional — recommended)* **Fujiya Hotel Main Dining Room kaiseki dinner** — the trip's bolt-on Hakone kaiseki experience · ⬜ *book ~1 month out*
 - **Drop takkyubin Leg 2** (Hakone → Kyoto) at Lawson Kowakudani **this evening** — bags arrive Stitch Hotel front desk Jun 4. See [transportation.md](transportation.md#leg-2).
 
-🎯 **FLEXIBLE**
-- **H1 Classic Hakone Loop** (Tozan to Gora → Cable Car → Ropeway → Owakudani → Lake Ashi pirate ship → Moto-Hakone → bus back) — the consensus pick. ~5–6 hrs
-- Afternoon swap: **H2 Open Air Museum** (calmer, art-walk) **OR** **H3 Yunessun** (swimsuit onsen water park — 3-min walk from Rakuten STAY) — pick by energy
-- Evening: kaiseki dinner at Fujiya Main Dining Room *(if booked)* OR self-catered in the unit using kitchen + konbini, OR local izakaya in Gora
+🎯 **PROXIMITY PLAN** (full-day H1 loop + H2 in the afternoon if energy holds)
+- **AM–early PM (H1 Classic Hakone Loop):** Kowakudani → Gora → Cable Car → **Ropeway** (P1, Owakudani sulfur views, Mt. Fuji if clear) → **Owakudani Information Center** (P1) + kuro-tamago → Togendai → **Lake Ashi pirate ship** → Moto-Hakone → **Hakone Shrine** (P2 — 20-min walk-up for the in-water torii + cedar approach) → bus back
+- **Lunch:** **Hatsuhana Honten** soba near Hakone-Yumoto OR lakeside at Moto-Hakone
+- **PM (H2 Open Air Museum):** 2 stops from Gora — 70,000sqm sculpture park (P1), Picasso pavilion, **Symphonic Sculpture** giant climbable net for kids, foot spa. ~2h
+- **Evening:** **Fujiya Hotel Main Dining Room kaiseki** (smart casual, ⬜ booking still open) OR self-cater in the unit + Family Mart, OR Gora Brewery & Grill
+- **Drop takkyubin Leg 2** at Lawson Kowakudani before bed. See [transportation.md](transportation.md#leg-2).
 
-> No on-site onsen at lodging — Yunessun (swimsuit) is the onsen experience. Tenzan Tohji-kyo is a backup day-use option for a 2nd onsen if family wants one.
+> H3 Yunessun (swimsuit onsen water park, 3-min walk) is the backup if H2 doesn't fit. No on-site onsen at lodging.
 
 ---
 
@@ -125,26 +134,31 @@
 - **~13:00–15:00** Stitch front desk holds bags + day-bags; official check-in opens 3:00 PM — Leg 2 takkyubin bags should already be at the front desk
 - **15:00** Check in at Apartment Suite
 
-🎯 **FLEXIBLE** — pick by energy
-- **Ambitious:** **K1 Fushimi Inari at dusk** (Keihan Gion-Shijo → Fushimi Inari direct, ~15 min from Stitch) + dinner near Gion
-- **Middle:** **KE1 Gion at Dusk** stroll only — push Fushimi to Day 8 sunrise
-- **Low-energy:** rest at Stitch (use the kitchen + washer + a quiet evening); short walk to Kamo River; **KE3 Kyoto Ramen Koji** at Kyoto Station for dinner
+🎯 **PROXIMITY PLAN** (Stitch → Nijo Castle → Gion/Pontocho — all central Kyoto, walkable or 1 metro stop)
+- **~13:00–14:30:** Drop bags at Stitch front desk + lunch + relax. Stitch is in Shimogyo-ku, 5 min walk to Kawaramachi.
+- **14:30–16:30 (K6 Nijo Castle):** ⬜ confirm last entry (typically 16:00). 1 stop on Tozai line (Karasuma → Nijojo-mae) or ~15-min walk. **Nijo Castle** (P1, UNESCO, Ninomaru Palace nightingale floors).
+- **~17:00:** Back to Stitch for formal check-in (3:00 PM window opens), freshen up.
+- **Evening (KE1 Gion at Dusk):** Walk across Shijo Bridge into Gion → **Hanamikoji Street** (maiko spotting window 5:45–6:15pm) → **Shirakawa Canal** → cross back to **Pontocho Alley**
+- **Dinner:** **Pontocho alley** (P1) — ⬜ ask Stitch concierge to book on arrival. P3 alternatives: 料理屋 てら戸 (sushi, 8 seats), Men-ya Inoichi (ramen). After: optional **L'Escamoteur** cocktail bar (P3, closed Mondays — Thu is fine) for adults if grandma takes kids back.
 
-> Stitch Apartment Suite has a full kitchen and washing machine — Day 7 is also a natural laundry/grocery moment.
+> Stitch has a full kitchen + washing machine. Day 7 is also a natural laundry/grocery moment if Nijo gets dropped for arrival fatigue.
 
 ---
 
-## Day 8 — Fri Jun 5 · Kyoto Day
+## Day 8 — Fri Jun 5 · Fushimi Sunrise + Higashiyama + GEAR
 
 🔒 **LOCKED**
-- Nothing
+- **19:00–20:30** **GEAR non-verbal performance** — reservation `#8241`, ART Complex 1928 (Sanjo area, Nakagyo-ku). Non-verbal so kid/grandma-friendly. ⬜ *confirm exact venue address before going*
 
-🎯 **FLEXIBLE** — fully open day, pick morning + afternoon + evening
-- **Morning:** **K1 Fushimi Inari Sunrise** (6:30am for empty gates — Keihan line direct from Stitch is the strongest pick). Alternatives: **K2 Arashiyama Bamboo + Monkey Park** for variety, **K4 Imperial Palace + Nishiki** for a calmer day.
-- **Afternoon:** if Fushimi was the morning, swap in K2 or K4. Or rest at Stitch and use the kitchen/laundry/Kamo River walk.
-- **Evening:** **KE1 Gion at Dusk** if not done Day 7, or casual **KE3 Kyoto Ramen Koji**.
+🎯 **PROXIMITY PLAN** (South sunrise → Stitch rest → Eastern Kyoto afternoon walk → GEAR evening)
+- **06:00 wake → 06:30 (K1 Fushimi Inari Sunrise):** Keihan Gion-Shijo direct → Inari (~15 min, no transfers). Walk lower torii loop (grandma-friendly, 30–45 min flat). Family pushes to Yotsutsuji viewpoint (+45 min, 233m elevation) for city view. Breakfast: **Vermillion Café** or inari-sushi from stalls.
+- **~10:00:** Back to Stitch — rest, kitchen breakfast, light morning. Grandma can stay back from the afternoon if she wants.
+- **14:00–17:30 (K5 Higashiyama Stone-Streets Walk):** Keihan → **Kiyomizu-Gojo** → walk up Kiyomizu-zaka → **Kiyomizu-dera** (P1, wooden veranda view) → descend via **Sannenzaka + Ninenzaka** (P1, the iconic stone streets) → **Imo Pi-pi** purple potato ice cream (P3, near Yasaka Shrine) → **Yasaka Shrine** through south gate → into Gion
+- **~18:00 early dinner:** Pontocho/Kiyamachi (close to GEAR venue) — keep it light pre-show. **Men-ya Inoichi** ramen (P3) is a fast option; otherwise any Pontocho counter.
+- **19:00–20:30:** **GEAR show** (locked)
+- **Post-show:** quiet walk back to Stitch (~15 min) or dessert stop
 
-> Day 8 became a full flex day after Nintendo Museum was cut (decision #19). Use it to slow down or double up Kyoto blocks based on energy.
+> Day 8 has THREE major beats. Sunrise + afternoon walk + GEAR. If energy is low, the easiest cut is Fushimi sunrise — skip in favor of slow morning + Higashiyama + GEAR.
 
 ---
 
@@ -233,6 +247,7 @@
 | Flights (ZIPAIR family + grandma SJC→NRT) | ✅ Booked |
 | Grandma NRT → SIN flight | ✅ Booked (08:20 Jun 8) — details still to capture |
 | teamLab Planets (Jun 1, 14:00) | ✅ Booked |
+| **GEAR show Kyoto (Jun 5, 19:00, res `#8241`)** | ✅ Booked |
 | MiPig Café | ⬜ This week (60-day window open) |
 | Romancecar Shinjuku → Hakone-Yumoto | ⬜ Window opens **May 2** |
 | Shinkansen Odawara → Kyoto | ⬜ Window opens **May 4** |
@@ -240,6 +255,7 @@
 | NEX (NRT→Shinjuku Day 1, Tokyo→Narita Day 10) | ⬜ Book May 7+ |
 | Fujiya Hotel Main Dining Room (Hakone kaiseki) | ⬜ ~1 month out |
 | Kaiseki Kyoto farewell dinner (Day 9) | ⬜ Book ~1 month or via Stitch concierge |
+| Pontocho dinner Day 7 | ⬜ Ask Stitch concierge on arrival |
 | Shibuya Sky (Day 2 sunset) | ⬜ Mid-May |
 | ~~Nintendo Museum Kyoto~~ | ❌ Cut (decision #19) |
 | ~~PokéPark KANTO~~ | ❌ Cut |
