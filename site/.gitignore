@@ -4,3 +4,6 @@ dist/
 src/pages/docs/
 .DS_Store
 *.log
+.env
+.env.local
+data/.places-cache.json

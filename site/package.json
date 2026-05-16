@@ -6,6 +6,8 @@
   "scripts": {
     "presync": "node scripts/sync-content.mjs",
     "sync": "node scripts/sync-content.mjs",
+    "build-places": "node scripts/build-places.mjs",
+    "resolve-places": "node scripts/resolve-places.mjs",
     "dev": "npm run sync && astro dev",
     "build": "npm run sync && astro build",
     "preview": "astro preview"
