@@ -25,7 +25,7 @@ Running list of locked-in decisions for the final plan. Supersedes Plan_A and Pl
 | 11 | **teamLab Planets Tokyo** (Toyosu) | ~~Borderless~~ reversed. Booked Jun 1, 14:00–14:30 entry, 3 adults + 2 kids. Barefoot + ankle-to-knee water installations — kids love it; grandma can do the dry rooms or sit out. See [bookings/teamlab.md](../bookings/teamlab.md). |
 | 12 | **No PokéPark KANTO** | Cut. Day 3 needs a replacement. |
 | 13 | **Day 10 is a chill day, no Osaka push** | Candice haircut, souvenir/last-minute shopping in Kyoto, coffee, relaxed Shinkansen+NEX travel to Narita. |
-| 14 | **Grandma SIN flight: 08:20 NRT, June 8** | Airline/flight#/conf still to capture after booking. 5:30am taxi plan still fits. |
+| 14 | **Grandma SIN flight: Scoot TR 885, 08:20 NRT T1 → 14:35 SIN T1, June 8** | Confirmation `R643SL`, booked 2026-04-17. 5:30am taxi plan still fits (Terminal 1 drop-off). See [bookings/flights.md](../bookings/flights.md#departure--scoot-r643sl-). |
 | 15 | **Hakone lodging: Rakuten STAY TERRACE Hakone Kowakudani** | Booking `2442810403`. 483-2 Kowakudani. Whole-unit apartment, Stayable Showroom, non-smoking. Solves no-nude filter via Yunessun walkable. Online check-in URL sent day before; reply with email address to confirm. See [bookings/hakone_lodging.md](../bookings/hakone_lodging.md). |
 | 16 | **Tokyo lodging: Airbnb — (#3) Luxury Condo in Shinjuku** | 4-chōme-27-3 Yotsuya, Shinjuku-ku. Confirmation `HMYZXN9NPB`. Superhost (388 reviews @ 4.81). 1BR/4 beds — verify sleep arrangement on arrival. Yotsuya 4-chome = east of Shinjuku Gyoen, walkable to Shinjuku Station (Romancecar). See [bookings/tokyo_lodging.md](../bookings/tokyo_lodging.md). |
 | 17 | **Narita City lodging: Richmond Hotel Narita** | Trip ID `1016631380`. 2 rooms × 1 night (Jun 7–8): Twin+Sofa (conf `2445218331`, $125) + Deluxe Double (conf `2445218289`, $101). Walking distance to Omotesando/Kawatoyo unagi. Book grandma's 5:30 AM taxi at reception on arrival. See [bookings/narita_lodging.md](../bookings/narita_lodging.md). |
@@ -43,6 +43,5 @@ See [itinerary.md](itinerary.md) for the full day-by-day plan with activities, t
 ## 🤔 Open Questions
 
 - ~~Hotel selections: all 4 cities done~~ ✅
-- Grandma's NRT → SIN flight: airline, flight #, confirmation, terminal (time = 08:20 June 8)
 - **Day 3 replacement activity** (PokéPark is cut). Options below.
 - Whether 4 Tokyo nights is still right now that PokéPark is out, or drop to 3.

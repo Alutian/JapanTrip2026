@@ -27,7 +27,7 @@ Single source of truth for what's left to do. Updated as items complete.
 - [ ] **Book Pontocho dinner Day 7 (Thu Jun 4)** — Candice P1. Ask Stitch front desk via Booking.com message; arrival-evening dinner needs a 18:30–19:30 slot.
 - [ ] **Confirm GEAR venue address** — ART Complex 1928 (Sanjo-dori, Nakagyo-ku). Reservation `#8241`, Fri Jun 5 19:00–20:30. Walking distance from Pontocho for pre-show dinner.
 - [ ] **Confirm Nijo Castle last entry time** for Thu Jun 4 PM — typically 16:00; verify before locking the Day 7 arrival cluster.
-- [ ] **Capture grandma's NRT → SIN flight details** in `bookings/flights.md` — airline, flight #, terminal, confirmation #. We only have time (08:20 Jun 8) so far.
+- [x] **Capture grandma's NRT → SIN flight details** — Scoot TR 885, NRT T1 → SIN T1, 08:20→14:35 Jun 8, conf `R643SL`. Captured in [bookings/flights.md](../bookings/flights.md#departure--scoot-r643sl-).
 
 ---
 
@@ -94,7 +94,7 @@ Single source of truth for what's left to do. Updated as items complete.
 ## ✅ Done
 
 - [x] All flights booked (ZIPAIR GE7DVP family RT + F0F2P9 grandma SJC→NRT)
-- [x] Grandma NRT → SIN flight booked (08:20 Jun 8 — details to capture, see above)
+- [x] Grandma NRT → SIN flight booked — Scoot TR 885 (`R643SL`), 08:20→14:35 Jun 8, NRT T1 → SIN T1
 - [x] Tokyo lodging — Airbnb Yotsuya 4-chome (`HMYZXN9NPB`)
 - [x] Hakone lodging — Rakuten STAY TERRACE Kowakudani (`2442810403`)
 - [x] Kyoto lodging — STITCH HOTEL Kyoto (`6410484352`, PIN `3605`)
