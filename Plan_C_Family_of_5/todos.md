@@ -2,38 +2,44 @@
 
 Single source of truth for what's left to do. Updated as items complete.
 
-> **Today:** 2026-05-16 · **Trip starts:** 2026-05-29 (13 days) · **Trip ends:** 2026-06-08
+> **Today:** 2026-05-22 · **Trip starts:** 2026-05-29 (7 days) · **Trip ends:** 2026-06-08
+
+## 📱 Family Devices (matters for IC cards, eSIMs, Smart-EX)
+
+| Person | Phone |
+|---|---|
+| Ajay | Android |
+| Candice | Android |
+| Zara (7) | none |
+| Kai (9) | none |
+| Grandma (Seck Joo Lee) | **iPhone** |
+
+**Implication:** Only grandma can use Apple Wallet Suica. **Everyone else needs a physical Pasmo/Suica IC card on arrival at NRT** (or use Google Wallet Mobile Suica on Android, which now supports it — but physical is the simpler default). Kids use a child-fare Pasmo each.
 
 ---
 
-## 🔴 This Week (urgent)
+## 🔴 Do NOW (7 days out — booking-window emergencies)
 
+These were originally bucketed for early May and slipped. Some routes risk selling out within the week.
+
+- [ ] **Book Shinkansen Odawara → Kyoto × 5 reserved seats** — Hikari (not Nozomi), ~10:15 departure on Thu Jun 4. Smart-EX app.
+- [ ] **Book Shinkansen Kyoto → Tokyo × 5 reserved seats** — Nozomi OK, ~13:45 departure on Sun Jun 7. Smart-EX.
+- [ ] **Book NEX Tokyo Station → Narita × 5** — same day Jun 7. JR-East site or Klook.
+- [ ] **Book NEX NRT → Shinjuku × 5** — for arrival Fri May 29. Reserved seats (safer than counter on arrival with 5 pax).
+- [ ] **Book Shibuya Sky timed entry × 5** — for Sat May 30 sunset. Sunset slots go first.
 - [ ] **Reply to Rakuten STAY email** with email in `address(AT)mail(DOT)com` format so the Hakone online check-in URL gets delivered. Also ask explicitly: *do you accept forwarded takkyubin packages at this unmanned property, or must we use a konbini relay?*
-- [ ] **May 2 (Sat): Book Romancecar × 5 reserved seats** — Shinjuku → Hakone-Yumoto, ~13:00 departure on Tue Jun 2. Window opens at 10am JST. Use [odakyu.jp/english](https://www.odakyu.jp/english/).
-- [ ] **May 4 (Mon): Book Shinkansen Odawara → Kyoto × 5 reserved seats** — Hikari (not Nozomi), ~10:15 departure on Thu Jun 4. Use Smart-EX app.
-- [ ] **Verify ZIPAIR checked baggage allowance** — pull GE7DVP booking confirmation, confirm per-person checked-bag count + weight. Reconcile with the 5×25" suitcase plan in `transportation.md`.
-- [ ] **Message Stitch Hotel via Booking.com** to confirm: (1) they accept incoming takkyubin from Hakone (Leg 2 receive) and (2) handle outbound shipping to Narita Richmond Hotel (Leg 3 send). Get it in writing.
+- [ ] **Message Stitch Hotel via Booking.com** to confirm in writing: (1) they accept incoming takkyubin from Hakone (Leg 2 receive) and (2) handle outbound shipping to Narita Richmond Hotel (Leg 3 send).
+- [ ] **Verify ZIPAIR checked baggage allowance** — pull GE7DVP confirmation, confirm per-person checked-bag count + weight. Reconcile with 5×25" plan in `transportation.md`. Pre-pay online (airport counter has handling fee, no cash).
 
 ---
 
-## 🟡 Next 2–3 Weeks (important, not urgent)
+## 🟡 This Week (dining + activity bookings)
 
-- [ ] **May 7 (Thu): Book Shinkansen Kyoto → Tokyo × 5** — Nozomi OK, ~13:45 departure on Sun Jun 7. Smart-EX.
-- [ ] **May 7+: Book NEX Tokyo Station → Narita × 5** — same day Jun 7. JR-East site or Klook.
-- [ ] **Book NEX NRT → Shinjuku × 5** for arrival Fri May 29. Reserved seats. Can also buy at NRT counter on arrival but reserved-seat ahead is safer with 5 pax.
 - [ ] **Book MiPig Café** for Sat May 30 — 60-day window is open. Pre-book a 60-min private room slot.
-- [ ] **Book Fujiya Hotel Main Dining Room** dinner reservation — for Tue Jun 2 OR Wed Jun 3 (one of the Hakone nights, the kaiseki bolt-on). Email/call ~1 month out. Smart casual dress code.
-- [ ] **Pre-arrange Kaiseki Kyoto farewell dinner** for Sat Jun 6 — message Stitch Hotel concierge to book Kikunoi Roan / Kiyamachi Sakuragawa / Giro Giro Hitoshina (per menu KE2). Or wait and ask front desk on arrival, but earlier is safer.
-- [ ] **Book Pontocho dinner Day 7 (Thu Jun 4)** — Candice P1. Ask Stitch front desk via Booking.com message; arrival-evening dinner needs a 18:30–19:30 slot.
+- [ ] **Pre-arrange Kaiseki Kyoto farewell dinner** for Sat Jun 6 — message Stitch Hotel concierge to book Kikunoi Roan / Kiyamachi Sakuragawa / Giro Giro Hitoshina (per menu KE2). Earlier is safer than asking on arrival.
+- [ ] **Book Pontocho dinner Day 7 (Thu Jun 4)** — Candice P1. Ask Stitch front desk via Booking.com; needs 18:30–19:30 slot.
 - [ ] **Confirm GEAR venue address** — ART Complex 1928 (Sanjo-dori, Nakagyo-ku). Reservation `#8241`, Fri Jun 5 19:00–20:30. Walking distance from Pontocho for pre-show dinner.
 - [ ] **Confirm Nijo Castle last entry time** for Thu Jun 4 PM — typically 16:00; verify before locking the Day 7 arrival cluster.
-- [x] **Capture grandma's NRT → SIN flight details** — Scoot TR 885, NRT T1 → SIN T1, 08:20→14:35 Jun 8, conf `R643SL`. Captured in [bookings/flights.md](../bookings/flights.md#departure--scoot-r643sl-).
-
----
-
-## 🟢 Mid-May (1–2 weeks before trip)
-
-- [ ] **Book Shibuya Sky timed entry** — for Sat May 30 sunset. Window opens 1–2 weeks ahead. Sunset timing critical.
 
 ---
 
@@ -43,9 +49,10 @@ Single source of truth for what's left to do. Updated as items complete.
 - [ ] Install **Yamato Kuroneko app** (English) — for takkyubin labels
 - [ ] Set up **Smart-EX app** account (JR Central Shinkansen) — finicky, do early
 - [ ] Set up **Klook account** as backup channel
-- [ ] **Apple Wallet Suica × 5 iPhones** — add a few thousand yen to each
+- [ ] **Grandma: Apple Wallet Suica** on her iPhone before departure — top up ¥3,000–5,000. She's the only iPhone in the group.
+- [ ] **Ajay + Candice: optionally set up Google Wallet Mobile Suica** on Android (now supported in Japan) — or just plan to buy a physical Suica/Pasmo at NRT on arrival. Decide before departure.
 - [ ] **Google Maps offline downloads** for Tokyo, Hakone, Kyoto, Narita
-- [ ] **eSIM × adults** (Airalo / Saily, ~$15/person 10 days)
+- [ ] **eSIM × adults** (Airalo / Saily, ~$15/person 10 days) — confirm both Android phones support eSIM. Grandma's iPhone: separate eSIM or rely on her existing roaming plan.
 - [ ] **Screenshot all booking confirmation numbers offline** to phone Photos — flights, all 4 lodgings, teamLab, plus train reservations as they're booked. Backup against Wi-Fi/data issues abroad.
 
 ### Physical
@@ -69,7 +76,7 @@ Single source of truth for what's left to do. Updated as items complete.
 
 ## ⚪ On-Arrival / In-Country
 
-- [ ] **NRT (May 29):** Get physical Pasmo for any non-iPhone family members, top up Suicas
+- [ ] **NRT (May 29): Buy 4× physical Pasmo/Suica IC cards** — Ajay, Candice, Zara (child fare), Kai (child fare). Top up ¥3,000 each adult, ¥2,000 each kid. Grandma uses her Apple Wallet Suica. JR East Travel Service Center on the NEX platform or the ticket machines in arrivals can issue these.
 - [ ] **NRT (May 29):** Confirm/buy NEX tickets if not already reserved
 - [ ] **Tokyo (Jun 1 evening):** Drop takkyubin Leg 1 bags at Lawson/7-Eleven near Yotsuya 4-chome → Rakuten STAY Hakone (drop before noon next day = before 12:00 Jun 2 doesn't matter, but evening drop is fine since pickup is overnight)
 - [ ] **Hakone-Yumoto (Jun 2):** Buy **Hakone Free Pass × 5 (2-day)** at Odakyu Travel Service Center on platform
@@ -104,6 +111,11 @@ Single source of truth for what's left to do. Updated as items complete.
 - [x] Candice's wishlist CSVs ingested into [wishlist/](wishlist/) — Tokyo, Kyoto, Hakone
 - [x] Decisions through #19 logged
 - [x] Transportation/logistics plan (`transportation.md`) written
+- [x] **Romancecar Shinjuku → Hakone-Yumoto × 5 reserved seats** booked (Tue Jun 2). Still need to buy Hakone Free Pass at Yumoto on arrival to ride the rest of the Hakone network — see on-arrival todos.
+
+## ❌ Won't Do
+
+- **Fujiya Hotel Main Dining Room kaiseki bolt-on** — skipping. Ryokan dinners at Kowakien Tenyu cover both Hakone nights.
 
 ---
 
