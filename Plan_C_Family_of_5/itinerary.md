@@ -81,7 +81,7 @@
 🎯 **FLEXIBLE**
 - Morning: slow / light. Coffee + pastry, easy stroll, light morning out.
 - Late afternoon (post-teamLab): A4 Ginza window shopping (Yurakucho line passes Ginza-itchome on the way back) OR straight back to Yotsuya for rest
-- Evening: **E2 Shinjuku Yakitori Night** at Omoide Yokocho — walk back to Yotsuya from Shinjuku after dinner
+- Evening: **E2 Shinjuku Yakitori Night + TOKYO NIGHT & LIGHT** at Omoide Yokocho — the signature evening mapping show; walk back to Yotsuya from Shinjuku after dinner
 
 ---
 
@@ -127,7 +127,7 @@
 
 🎯 **FLEXIBLE** — pick by energy
 - **Ambitious:** **K1 Fushimi Inari at dusk** (Keihan Gion-Shijo → Fushimi Inari direct, ~15 min from Stitch) + dinner near Gion
-- **Middle:** **KE1 Gion at Dusk** stroll only — push Fushimi to Day 8 sunrise
+- **Middle:** **KE1 Gion at Dusk** or **K5 Kyoto City Zoo** (red pandas) stroll only — push Fushimi to Day 8 sunrise
 - **Low-energy:** rest at Stitch (use the kitchen + washer + a quiet evening); short walk to Kamo River; **KE3 Kyoto Ramen Koji** at Kyoto Station for dinner
 
 > Stitch Apartment Suite has a full kitchen and washing machine — Day 7 is also a natural laundry/grocery moment.
@@ -140,8 +140,8 @@
 - Nothing
 
 🎯 **FLEXIBLE** — fully open day, pick morning + afternoon + evening
-- **Morning:** **K1 Fushimi Inari Sunrise** (6:30am for empty gates — Keihan line direct from Stitch is the strongest pick). Alternatives: **K2 Arashiyama Bamboo + Monkey Park** for variety, **K4 Imperial Palace + Nishiki** for a calmer day.
-- **Afternoon:** if Fushimi was the morning, swap in K2 or K4. Or rest at Stitch and use the kitchen/laundry/Kamo River walk.
+- **Morning:** **K1 Fushimi Inari Sunrise** (6:30am for empty gates — Keihan line direct from Stitch is the strongest pick). Alternatives: **K2 Arashiyama Bamboo + Monkey Park** for variety, **K4 Imperial Palace + Nishiki** for a calmer day, or **K5 Kyoto City Zoo** to see the red pandas.
+- **Afternoon:** if Fushimi was the morning, swap in K2 or K4 or K5. Or rest at Stitch and use the kitchen/laundry/Kamo River walk.
 - **Evening:** **KE1 Gion at Dusk** if not done Day 7, or casual **KE3 Kyoto Ramen Koji**.
 
 > Day 8 became a full flex day after Nintendo Museum was cut (decision #19). Use it to slow down or double up Kyoto blocks based on energy.
@@ -187,7 +187,7 @@
 🔒 **LOCKED**
 - **05:30** Pre-booked taxi: Richmond Hotel → NRT (10 min, ~¥2,500) — grandma solo
 - **~06:20** Grandma at terminal for 08:20 departure
-- **08:20** Grandma NRT → Singapore (flight booked; details still to capture in [bookings/flights.md](../bookings/flights.md))
+- **08:20** Grandma NRT → Singapore (Scoot TR 885, Terminal 1, booked; see [bookings/flights.md](../bookings/flights.md))
 - **16:25** Family **ZG030** NRT → SJC
 - **09:40** Family lands SJC (same day, gain time crossing dateline)
 
@@ -231,7 +231,7 @@
 |------|--------|
 | Hotels × 4 | ✅ All booked |
 | Flights (ZIPAIR family + grandma SJC→NRT) | ✅ Booked |
-| Grandma NRT → SIN flight | ✅ Booked (08:20 Jun 8) — details still to capture |
+| Grandma NRT → SIN flight | ✅ Booked (Scoot TR 885, Terminal 1) |
 | teamLab Planets (Jun 1, 14:00) | ✅ Booked |
 | MiPig Café | ⬜ This week (60-day window open) |
 | Romancecar Shinjuku → Hakone-Yumoto | ⬜ Window opens **May 2** |

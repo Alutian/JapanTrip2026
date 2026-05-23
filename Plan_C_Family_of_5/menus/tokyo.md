@@ -78,11 +78,11 @@ These are low-energy filler for when the morning was big or jet-lag is lingering
 - **Food:** **Kaikaya by the Sea** — seafood izakaya, local institution, English menu but Japanese clientele, reservations needed. OR **Gyopao Gyoza** for kid-friendly.
 - **Vibe:** One of the essential Tokyo experiences. Pair with M1 on Day 2.
 
-### E2 · Shinjuku Yakitori Night
+### E2 · Shinjuku Yakitori Night + TOKYO NIGHT & LIGHT ⭐
 - **Area:** Shinjuku (west side)
-- **Activity:** **Omoide Yokocho** ("Memory Lane," nicknamed Piss Alley) — narrow post-war yakitori alley, smoky, atmospheric → **Golden Gai** adults-only peek (6 alleys of tiny 5-seat bars, no kids after 8pm)
+- **Activity:** **Omoide Yokocho** ("Memory Lane," nicknamed Piss Alley) — narrow post-war yakitori alley, smoky, atmospheric → walk over to the **Tokyo Metropolitan Government Building** for **TOKYO NIGHT & LIGHT** (spectacular evening projection mapping light show).
 - **Food:** Any yakitori counter in Omoide Yokocho — **Asadachi** for adventurous (raw liver, pig testicles) or **Uchu** for standard skewers. **Fuunji** 5-min walk for tsukemen dipping noodles post-yakitori.
-- **Vibe:** Day 4 evening. Kids will like the alley energy; adults will want to come back without them.
+- **Vibe:** Day 4 evening. Best way to experience the night lights in Shinjuku.
 
 ### E3 · Ikebukuro Pokémon Night
 - **Area:** Ikebukuro (Sunshine City complex)

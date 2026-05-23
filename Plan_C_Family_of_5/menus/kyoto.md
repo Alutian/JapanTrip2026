@@ -34,6 +34,13 @@
 - **Food:** Graze Nishiki: **Aritsugu** knife shop (watch masters sharpen), **Mochitsuki Ya** fresh mochi, **Kai** tamagoyaki (thick omelette on a stick), **Tako Tamago** octopus with quail egg, **Sawawa** warabi-mochi for dessert.
 - **Vibe:** Flexible afternoon / evening.
 
+### K5 · Kyoto City Zoo (Red Pandas) ⭐
+- **Area:** Higashiyama (Okazaki Park)
+- **Activity:** Visit the **Kyoto City Zoo** to see the red pandas. Located near Heian Shrine and Nanzen-ji Temple. Very family-friendly and walkable for grandma.
+- **Duration:** 2h
+- **Food:** Match with udon at **Okakita** (famous for fluffy egg dashi udon right next to the zoo) or grab matcha at **Blue Bottle Kyoto** (~5 min walk).
+- **Vibe:** Best flexible spot for Day 7 or Day 8.
+
 ---
 
 ## 🦌 Day Trip: Nara (locked for Day 9)

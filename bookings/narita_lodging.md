@@ -62,7 +62,7 @@ Total sleep capacity across 2 rooms = 5 (matches group size ✓)
    - Pickup 5:30 AM from hotel entrance
    - Destination: Narita International Airport (NRT), terminal per her airline
    - Solo passenger (grandma, Seck Joo Lee), 1 piece of luggage
-   - Flight: 08:20 NRT → SIN (confirm terminal — likely T2)
+   - Flight: 08:20 NRT → SIN (Scoot TR 885, Terminal 1)
 2. **Mention early departure** — grandma leaving before standard check-out. Just leaves the key in the room or at reception.
 3. **Confirm adjacent rooms** — if not already assigned, request rooms on the same floor.
 
@@ -105,4 +105,4 @@ Total sleep capacity across 2 rooms = 5 (matches group size ✓)
 ## Flag for Follow-Up
 
 - **Guest count on Room 1 shows "5 guests"** but sleep capacity is 3. Probably a booking artifact — verify with hotel 2–3 days before arrival that the rooms are correctly assigned and not flagged for overcrowding.
-- **Grandma's NRT → SIN flight details** still pending — need airline, flight #, terminal to confirm taxi drop-off terminal.
+- **Grandma's NRT → SIN flight details** are confirmed (Scoot TR 885, Terminal 1, departing 08:20 AM).

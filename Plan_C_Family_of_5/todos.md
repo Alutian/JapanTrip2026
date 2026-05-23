@@ -24,7 +24,7 @@ Single source of truth for what's left to do. Updated as items complete.
 - [ ] **Book MiPig Café** for Sat May 30 — 60-day window is open. Pre-book a 60-min private room slot.
 - [ ] **Book Fujiya Hotel Main Dining Room** dinner reservation — for Tue Jun 2 OR Wed Jun 3 (one of the Hakone nights, the kaiseki bolt-on). Email/call ~1 month out. Smart casual dress code.
 - [ ] **Pre-arrange Kaiseki Kyoto farewell dinner** for Sat Jun 6 — message Stitch Hotel concierge to book Kikunoi Roan / Kiyamachi Sakuragawa / Giro Giro Hitoshina (per menu KE2). Or wait and ask front desk on arrival, but earlier is safer.
-- [ ] **Capture grandma's NRT → SIN flight details** in `bookings/flights.md` — airline, flight #, terminal, confirmation #. We only have time (08:20 Jun 8) so far.
+- [x] **Capture grandma's NRT → SIN flight details** in `bookings/flights.md` — Scoot TR 885 (Terminal 1)
 
 ---
 
@@ -91,7 +91,7 @@ Single source of truth for what's left to do. Updated as items complete.
 ## ✅ Done
 
 - [x] All flights booked (ZIPAIR GE7DVP family RT + F0F2P9 grandma SJC→NRT)
-- [x] Grandma NRT → SIN flight booked (08:20 Jun 8 — details to capture, see above)
+- [x] Grandma NRT → SIN flight booked (08:20 Jun 8 — Scoot TR 885, Terminal 1 details captured)
 - [x] Tokyo lodging — Airbnb Yotsuya 4-chome (`HMYZXN9NPB`)
 - [x] Hakone lodging — Rakuten STAY TERRACE Kowakudani (`2442810403`)
 - [x] Kyoto lodging — STITCH HOTEL Kyoto (`6410484352`, PIN `3605`)

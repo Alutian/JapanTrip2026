@@ -1,0 +1,230 @@
+:root {
+  --bg-base: #080d19;
+  --bg-card: rgba(21, 32, 54, 0.85);
+  --font-primary: 'Outfit', 'Inter', system-ui, sans-serif;
+  --font-code: 'Space Grotesk', monospace;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --accent-brand: #4cc9f0;
+  --accent-locked: #f72585;
+  --accent-flex: #4cc9f0;
+  --border-glass: rgba(255, 255, 255, 0.06);
+  --glass-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #4cc9f0 0%, #4895ef 50%, #7209b7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -1px;
+}
+
+header .subtitle {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+}
+
+.timeline-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.sidebar {
+  flex: 0 0 220px;
+  position: sticky;
+  top: 2rem;
+  height: calc(100vh - 4rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.sticky-nav {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-glass);
+  padding: 1.5rem;
+  border-radius: 24px;
+  box-shadow: var(--glass-shadow);
+  overflow-y: auto;
+}
+
+.sticky-nav h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--accent-brand);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.sticky-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sticky-nav a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.sticky-nav a:hover {
+  background: rgba(76, 201, 240, 0.1);
+  color: var(--accent-brand);
+}
+
+.timeline-schedule {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.day-block {
+  scroll-margin-top: 2.5rem;
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-glass);
+  padding: 2rem;
+  border-radius: 24px;
+  box-shadow: var(--glass-shadow);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.day-block:hover {
+  transform: translateY(-4px);
+  border-color: rgba(76, 201, 240, 0.3);
+}
+
+.day-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-glass);
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.day-header h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.city-badge {
+  font-family: var(--font-code);
+  background: linear-gradient(135deg, rgba(76, 201, 240, 0.15), transparent);
+  border: 1px solid var(--accent-brand);
+  color: var(--accent-brand);
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.event-card {
+  background: rgba(255, 255, 255, 0.02);
+  border-left: 4px solid var(--accent-brand);
+  padding: 1.25rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: background 0.3s ease;
+}
+
+.event-card.locked {
+  border-left-color: var(--accent-locked);
+}
+
+.event-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.event-time {
+  font-family: var(--font-code);
+  font-weight: 700;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.event-content h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.event-content p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.action-link {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--accent-brand);
+  font-size: 0.85rem;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.action-link:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .timeline-container {
+    flex-direction: column;
+  }
+  .sidebar {
+    display: none;
+  }
+  body {
+    padding: 1rem;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+}

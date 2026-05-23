@@ -79,13 +79,19 @@ Same flight as the family (ZG029 out of SJC). An earlier booking (4SC657, SFO→
 
 > Earlier 4SC657 (SFO→NRT ZG025) is canceled — do not plan against it.
 
-### Departure — NRT → Singapore ❓ not yet booked
+### Departure — NRT → Singapore ✅ BOOKED
 
-Planned: **June 8, 08:20 departure** from Narita on a separate booking. Still to capture once booked:
-- Airline
-- Flight number
-- Confirmation number
-- Terminal (critical for 5:30am taxi drop-off)
+| Field | Value |
+|-------|-------|
+| Flight | **TR 885** (Scoot) |
+| Aircraft | Boeing 787-9 |
+| Route | Tokyo Narita (NRT) → Singapore (SIN) |
+| Depart | 2026-06-08 (Mon) 08:20 HRS (Terminal 1) |
+| Arrive | 2026-06-08 (Mon) 14:35 HRS (Terminal 1) |
+| Duration | 7h 15m |
+| Fare class | W |
+
+> Taxi drop-off must be at Narita Terminal 1 at ~05:30 AM for the 08:20 AM flight.
 
 ### June 7 / June 8 logistics (decided)
 
