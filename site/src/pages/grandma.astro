@@ -1,0 +1,118 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { GRANDMA, LODGING, EMERGENCY } from '../data/trip.ts';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const narita = LODGING.find(l => l.key === 'narita')!;
+const tokyo = LODGING.find(l => l.key === 'tokyo')!;
+---
+
+<Layout title="Grandma" hideNav={true} bodyClass="grandma">
+  <style is:global>
+    body.grandma { font-size: 1.15rem; }
+    body.grandma h1 { font-size: 2rem; }
+    body.grandma h2 { font-size: 1.4rem; color: var(--accent-2); }
+    body.grandma .card { padding: 1.25rem; }
+    body.grandma a.big-button {
+      display: block;
+      background: var(--accent);
+      color: white;
+      padding: 1.25rem 1rem;
+      border-radius: 14px;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      text-decoration: none;
+    }
+    body.grandma a.big-button:hover { background: var(--accent-2); text-decoration: none; }
+    body.grandma a.big-button.muted { background: var(--surface-2); color: var(--text); }
+    body.grandma ul { font-size: 1.1rem; }
+    body.grandma li { margin: 0.5rem 0; }
+  </style>
+
+  <h1>👵 Hello, {GRANDMA.name}</h1>
+
+  <a href="#flights" class="big-button">✈️ My Flights</a>
+  <a href="#hotel" class="big-button">🏨 My Hotels</a>
+  <a href="#taxi" class="big-button">🚕 5:30 AM Taxi (Jun 8)</a>
+  <a href="#emergency" class="big-button muted">📞 Emergency Contacts</a>
+
+  <h2 id="flights">✈️ My Flights</h2>
+  {GRANDMA.flights.map(f => (
+    <div class="card">
+      <strong>{f.leg}</strong>
+      <div>{f.date}</div>
+      {f.conf && f.conf !== '—' && <div>Confirmation: <code>{f.conf}</code></div>}
+      {f.notes && <div class="hint">{f.notes}</div>}
+    </div>
+  ))}
+
+  <h2 id="hotel">🏨 My Hotels</h2>
+  <div class="card">
+    <strong>{tokyo.city} (May 29 – Jun 2)</strong>
+    <div>{tokyo.name}</div>
+    <div class="hint" style="margin-top: 0.5rem;">{tokyo.addressEn}</div>
+    {tokyo.addressJa && <div class="lang-ja" style="margin-top: 0.25rem;">{tokyo.addressJa}</div>}
+  </div>
+  <div class="card">
+    <strong>Hakone (Jun 2 – Jun 4) — Rakuten STAY</strong>
+    <div class="hint">Tell taxi: Kowakudani Station</div>
+    <div class="lang-ja">〒250-0406 神奈川県足柄下郡箱根町小涌谷483-2</div>
+    <div>Support: {LODGING.find(l => l.key === 'hakone')!.phone}</div>
+  </div>
+  <div class="card">
+    <strong>Kyoto (Jun 4 – Jun 7) — Stitch Hotel</strong>
+    <div class="lang-ja">〒600-8012 京都府京都市下京区斎藤町118</div>
+    <div>Front desk: {LODGING.find(l => l.key === 'kyoto')!.phone}</div>
+  </div>
+  <div class="card" style="border-color: var(--accent);">
+    <strong>Narita (Jun 7 — last night) — Richmond Hotel Narita</strong>
+    <div class="hint">{narita.addressEn}</div>
+    <div>Conf: <code>{narita.conf.split('.')[0]}</code></div>
+    <div class="hint" style="margin-top: 0.5rem; color: var(--accent-2);">Book your 5:30 AM taxi at reception when you check in (Jun 7 evening).</div>
+  </div>
+
+  <h2 id="taxi">🚕 5:30 AM Taxi — Monday Jun 8</h2>
+  <div class="card" style="border-color: var(--accent);">
+    <strong>{GRANDMA.taxi.when}</strong>
+    <ul>
+      <li><strong>From:</strong> {GRANDMA.taxi.from}</li>
+      <li><strong>To:</strong> {GRANDMA.taxi.to}</li>
+      <li><strong>Cost:</strong> {GRANDMA.taxi.cost} (cash or IC card)</li>
+      <li><strong>Booked at:</strong> Richmond Hotel reception, the night before</li>
+    </ul>
+    <div class="hint" style="margin-top: 0.75rem;">{GRANDMA.taxi.booking}</div>
+  </div>
+  <div class="card">
+    <strong>What to do on Jun 8 morning:</strong>
+    <ul>
+      <li>Wake by 5:00 AM</li>
+      <li>Be in lobby by 5:25 AM with bag</li>
+      <li>Leave room key in room or at reception</li>
+      <li>At NRT by 5:40 AM → 2h 40m before 08:20 departure ✓</li>
+    </ul>
+  </div>
+
+  <h2>📝 Reminders</h2>
+  <div class="card">
+    <ul>
+      {GRANDMA.notes.map(n => <li>{n}</li>)}
+    </ul>
+  </div>
+
+  <h2 id="emergency">📞 Emergency</h2>
+  <div class="card">
+    <ul>
+      {EMERGENCY.jpEmergency.map(e => (
+        <li><strong>{e.what}:</strong> <a href={`tel:${e.number.replace(/\s/g, '')}`}>{e.number}</a></li>
+      ))}
+      {EMERGENCY.embassies.map(e => (
+        <li><strong>{e.what}:</strong> <a href={`tel:${e.number.replace(/\s/g, '')}`}>{e.number}</a></li>
+      ))}
+    </ul>
+  </div>
+
+  <p style="margin-top: 2rem; text-align: center;">
+    <a href={base + '/'}>← Back to family view</a>
+  </p>
+</Layout>

@@ -28,7 +28,7 @@
 | 2 | KAO, CANDICE | Adult / F | 51G | 24A | Salmon Shio Koji | Spicy Chicken Rice |
 | 3 | NAINANI KAO, ZARA | Child / F | 51C | 24C | Chicken Teriyaki | Vegetable Penne Pasta |
 | 4 | NAINANI KAO, KAI | Child / M | 51D | 24D | Chicken Teriyaki | Vegetable Penne Pasta |
-| 5 | LEE, SECK JOO (grandma) | Adult / F | 51H | — (NRT→SIN) | Chicken Teriyaki | — |
+| 5 | LEE, SECK JOO (grandma) | Adult / F | 51H | — (NRT→SIN on Scoot TR885) | Chicken Teriyaki | — |
 
 Row 51 seats the whole group of 5 together on the outbound.
 
@@ -79,19 +79,23 @@ Same flight as the family (ZG029 out of SJC). An earlier booking (4SC657, SFO→
 
 > Earlier 4SC657 (SFO→NRT ZG025) is canceled — do not plan against it.
 
-### Departure — NRT → Singapore ✅ BOOKED
+### Departure — Scoot R643SL ✅
 
 | Field | Value |
 |-------|-------|
-| Flight | **TR 885** (Scoot) |
-| Aircraft | Boeing 787-9 |
-| Route | Tokyo Narita (NRT) → Singapore (SIN) |
-| Depart | 2026-06-08 (Mon) 08:20 HRS (Terminal 1) |
-| Arrive | 2026-06-08 (Mon) 14:35 HRS (Terminal 1) |
-| Duration | 7h 15m |
-| Fare class | W |
+| Confirmation | `R643SL` |
+| Airline | **Scoot** ([flyscoot.com](https://www.flyscoot.com)) |
+| Flight | **TR 885** (Boeing 787-9) |
+| Route | Narita (NRT) **Terminal 1** → Singapore Changi (SIN) **Terminal 1** |
+| Depart | 2026-06-08 (Mon) 08:20 |
+| Arrive | 2026-06-08 (Mon) 14:35 (7h 15m) |
+| Fare class | W (Economy) |
+| Passenger | Seck Joo Lee (booked under SECKJOO.LEE@gmail.com) |
+| Booked | 2026-04-17 |
 
-> Taxi drop-off must be at Narita Terminal 1 at ~05:30 AM for the 08:20 AM flight.
+> **NRT taxi drop-off: Terminal 1.** Scoot check-in counters open 3h before departure (05:20) and close 60 min before (07:20). Recommended arrival: 06:20 (2h prior).
+>
+> Cabin baggage: 2 pieces, 10 kg total combined (54×38×22 cm per piece). Checked baggage is fee-based — confirm whether the booking includes a checked bag or if it needs to be added via Manage Booking before day-of.
 
 ### June 7 / June 8 logistics (decided)
 

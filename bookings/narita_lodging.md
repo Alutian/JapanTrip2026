@@ -60,9 +60,9 @@ Total sleep capacity across 2 rooms = 5 (matches group size ✓)
 
 1. **Book grandma's 5:30 AM taxi** to NRT at reception. Richmond Hotel does this routinely; tell them:
    - Pickup 5:30 AM from hotel entrance
-   - Destination: Narita International Airport (NRT), terminal per her airline
+   - Destination: Narita International Airport (NRT), **Terminal 1**
    - Solo passenger (grandma, Seck Joo Lee), 1 piece of luggage
-   - Flight: 08:20 NRT → SIN (Scoot TR 885, Terminal 1)
+   - Flight: **Scoot TR 885**, 08:20 NRT → SIN (Terminal 1), conf `R643SL`
 2. **Mention early departure** — grandma leaving before standard check-out. Just leaves the key in the room or at reception.
 3. **Confirm adjacent rooms** — if not already assigned, request rooms on the same floor.
 
@@ -80,9 +80,9 @@ Total sleep capacity across 2 rooms = 5 (matches group size ✓)
 ## Departure Morning (Jun 8)
 
 ### Grandma — 5:30 AM taxi
-- Hotel → NRT: 10 min, ~¥2,500
-- At terminal by ~5:40 AM for 08:20 departure → 2h40 pre-flight ✓
-- ZIPAIR/budget check-in closes 1h pre; full-service typically 45 min
+- Hotel → NRT **Terminal 1**: 10 min, ~¥2,500
+- At terminal by ~5:40 AM for 08:20 Scoot TR 885 → 2h40 pre-flight ✓
+- Scoot check-in opens 05:20 (3h prior), closes 07:20 (60 min prior)
 
 ### Family — Relaxed morning
 - **Breakfast** at hotel (verify if breakfast plan was included; otherwise in lobby or nearby)
@@ -105,4 +105,4 @@ Total sleep capacity across 2 rooms = 5 (matches group size ✓)
 ## Flag for Follow-Up
 
 - **Guest count on Room 1 shows "5 guests"** but sleep capacity is 3. Probably a booking artifact — verify with hotel 2–3 days before arrival that the rooms are correctly assigned and not flagged for overcrowding.
-- **Grandma's NRT → SIN flight details** are confirmed (Scoot TR 885, Terminal 1, departing 08:20 AM).
+- ~~Grandma's NRT → SIN flight details~~ ✅ Captured: Scoot TR 885, NRT T1 → SIN T1, 08:20→14:35, conf `R643SL`. See [bookings/flights.md](flights.md#departure--scoot-r643sl-).

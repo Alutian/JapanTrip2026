@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { TRANSIT } from '../data/trip.ts';
+---
+
+<Layout title="Transit">
+  <h1>🚆 Transit</h1>
+  <p class="hint">Inter-city legs. Local Tokyo/Kyoto travel = Suica.</p>
+
+  {TRANSIT.map(t => (
+    <div class="card">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem;">
+        <strong>{t.leg}</strong>
+        {t.status === 'booked'
+          ? <span class="pill ok">Booked</span>
+          : <span class="pill warn">To book</span>}
+      </div>
+      <ul style="margin-top: 0.5rem;">
+        <li><strong>Mode:</strong> {t.mode}</li>
+        <li><strong>When:</strong> {t.date}</li>
+        <li><strong>Duration:</strong> {t.duration} · <strong>Pax:</strong> {t.pax} · <strong>~Cost:</strong> {t.cost}</li>
+        {t.conf && <li><strong>Conf:</strong> <code>{t.conf}</code></li>}
+      </ul>
+      {t.notes && <p class="hint">{t.notes}</p>}
+    </div>
+  ))}
+</Layout>

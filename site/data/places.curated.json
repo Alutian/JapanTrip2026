@@ -1,0 +1,361 @@
+[
+  {
+    "id": "lodging-tokyo-airbnb",
+    "name": "Airbnb — Yotsuya 4-chome",
+    "query": "4-chōme-27-3 Yotsuya, Shinjuku-ku, Tokyo 160-0004",
+    "city": "tokyo",
+    "priority": 1,
+    "category": "lodging",
+    "source": "lodging",
+    "booked": true,
+    "days": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": "lodging-hakone-rakuten-stay",
+    "name": "Rakuten STAY TERRACE Hakone Kowakudani",
+    "query": "Rakuten STAY TERRACE Hakone Kowakudani 483-2 Kowakudani Hakone",
+    "city": "hakone",
+    "priority": 1,
+    "category": "lodging",
+    "source": "lodging",
+    "booked": true,
+    "days": [5, 6, 7]
+  },
+  {
+    "id": "lodging-kyoto-stitch",
+    "name": "STITCH HOTEL Kyoto",
+    "query": "STITCH HOTEL Kyoto 118 Saito-cho Shimogyo-ku",
+    "city": "kyoto",
+    "priority": 1,
+    "category": "lodging",
+    "source": "lodging",
+    "booked": true,
+    "days": [7, 8, 9, 10]
+  },
+  {
+    "id": "lodging-narita-richmond",
+    "name": "Richmond Hotel Narita",
+    "query": "Richmond Hotel Narita",
+    "city": "narita",
+    "priority": 1,
+    "category": "lodging",
+    "source": "lodging",
+    "booked": true,
+    "days": [10, 11]
+  },
+  {
+    "id": "transit-nrt-airport",
+    "name": "Narita International Airport (NRT)",
+    "query": "Narita International Airport NRT",
+    "city": "narita",
+    "category": "transit",
+    "source": "transit"
+  },
+  {
+    "id": "transit-shinjuku-station",
+    "name": "Shinjuku Station",
+    "query": "Shinjuku Station Tokyo",
+    "city": "tokyo",
+    "category": "transit",
+    "source": "transit"
+  },
+  {
+    "id": "transit-tokyo-station",
+    "name": "Tokyo Station",
+    "query": "Tokyo Station",
+    "city": "tokyo",
+    "category": "transit",
+    "source": "transit"
+  },
+  {
+    "id": "transit-kyoto-station",
+    "name": "Kyoto Station",
+    "query": "Kyoto Station",
+    "city": "kyoto",
+    "category": "transit",
+    "source": "transit"
+  },
+  {
+    "id": "transit-odawara-station",
+    "name": "Odawara Station",
+    "query": "Odawara Station",
+    "city": "hakone",
+    "category": "transit",
+    "source": "transit"
+  },
+  {
+    "id": "transit-hakone-yumoto",
+    "name": "Hakone-Yumoto Station",
+    "query": "Hakone-Yumoto Station",
+    "city": "hakone",
+    "category": "transit",
+    "source": "transit"
+  },
+  {
+    "id": "transit-kowakudani-station",
+    "name": "Kowakudani Station",
+    "query": "Kowakudani Station Hakone",
+    "city": "hakone",
+    "category": "transit",
+    "source": "transit"
+  },
+  {
+    "id": "transit-keihan-gion-shijo",
+    "name": "Keihan Gion-Shijo Station",
+    "query": "Gion-Shijo Station Keihan Kyoto",
+    "city": "kyoto",
+    "category": "transit",
+    "source": "transit"
+  },
+  {
+    "id": "transit-fushimi-inari-station",
+    "name": "Fushimi-Inari Station",
+    "query": "Fushimi-Inari Station Keihan Kyoto",
+    "city": "kyoto",
+    "category": "transit",
+    "source": "transit"
+  },
+  {
+    "id": "transit-nara-station",
+    "name": "JR Nara Station",
+    "query": "JR Nara Station",
+    "city": "nara",
+    "category": "transit",
+    "source": "transit"
+  },
+  {
+    "id": "booking-gear-art-complex-1928",
+    "name": "GEAR — ART Complex 1928",
+    "query": "ART Complex 1928 Sanjo Nakagyo Kyoto GEAR",
+    "city": "kyoto",
+    "priority": 1,
+    "category": "show",
+    "source": "booking",
+    "booked": true,
+    "days": [8],
+    "notes": "GEAR non-verbal performance — res #8241, Fri Jun 5 19:00–20:30"
+  },
+  {
+    "id": "booking-fujiya-hotel",
+    "name": "Fujiya Hotel — Main Dining Room",
+    "query": "Fujiya Hotel Hakone",
+    "city": "hakone",
+    "category": "restaurant",
+    "source": "booking",
+    "notes": "Kaiseki dinner — to book ~1 month out"
+  },
+  {
+    "id": "tokyo-maisen-aoyama",
+    "name": "Maisen Aoyama",
+    "query": "Maisen Aoyama Tonkatsu",
+    "city": "tokyo",
+    "category": "restaurant",
+    "source": "day-plan",
+    "days": [2],
+    "notes": "Tonkatsu lunch after MiPig"
+  },
+  {
+    "id": "tokyo-pokemon-center-shibuya",
+    "name": "Pokémon Center Shibuya",
+    "query": "Pokémon Center Shibuya",
+    "city": "tokyo",
+    "category": "shopping",
+    "source": "day-plan",
+    "days": [2]
+  },
+  {
+    "id": "tokyo-nintendo-tokyo",
+    "name": "Nintendo Tokyo",
+    "query": "Nintendo Tokyo Parco Shibuya",
+    "city": "tokyo",
+    "category": "shopping",
+    "source": "day-plan",
+    "days": [2]
+  },
+  {
+    "id": "tokyo-mutekiya",
+    "name": "Mutekiya Ramen",
+    "query": "Mutekiya Ramen Ikebukuro",
+    "city": "tokyo",
+    "category": "restaurant",
+    "source": "day-plan",
+    "days": [3]
+  },
+  {
+    "id": "tokyo-pokemon-center-mega",
+    "name": "Pokémon Center MEGA TOKYO",
+    "query": "Pokémon Center MEGA TOKYO Sunshine City Ikebukuro",
+    "city": "tokyo",
+    "category": "shopping",
+    "source": "day-plan",
+    "days": [3]
+  },
+  {
+    "id": "tokyo-sunshine-city",
+    "name": "Sunshine City — Sky Circus",
+    "query": "Sunshine City Sky Circus Ikebukuro",
+    "city": "tokyo",
+    "category": "activity",
+    "source": "day-plan",
+    "days": [3]
+  },
+  {
+    "id": "tokyo-asakusa-imahan",
+    "name": "Asakusa Imahan",
+    "query": "Asakusa Imahan Sukiyaki",
+    "city": "tokyo",
+    "category": "restaurant",
+    "source": "day-plan",
+    "days": [3]
+  },
+  {
+    "id": "tokyo-metropolitan-govt-bldg",
+    "name": "Tokyo Metropolitan Government Building",
+    "query": "Tokyo Metropolitan Government Building Tochomae",
+    "city": "tokyo",
+    "category": "activity",
+    "source": "day-plan",
+    "days": [4],
+    "notes": "Night projection-mapping show — free, nightly"
+  },
+  {
+    "id": "hakone-hatsuhana-honten",
+    "name": "Hatsuhana Honten (soba)",
+    "query": "Hatsuhana Honten Hakone-Yumoto soba",
+    "city": "hakone",
+    "category": "restaurant",
+    "source": "day-plan",
+    "days": [6]
+  },
+  {
+    "id": "hakone-owakudani",
+    "name": "Owakudani Valley",
+    "query": "Owakudani Hakone",
+    "city": "hakone",
+    "priority": 1,
+    "category": "activity",
+    "source": "day-plan",
+    "days": [6]
+  },
+  {
+    "id": "hakone-ropeway-togendai",
+    "name": "Togendai Station (Hakone Ropeway)",
+    "query": "Togendai Station Hakone",
+    "city": "hakone",
+    "category": "transit",
+    "source": "day-plan",
+    "days": [6]
+  },
+  {
+    "id": "hakone-moto-hakone",
+    "name": "Moto-Hakone (Lake Ashi pier)",
+    "query": "Moto-Hakone Lake Ashi",
+    "city": "hakone",
+    "category": "transit",
+    "source": "day-plan",
+    "days": [6]
+  },
+  {
+    "id": "hakone-shrine",
+    "name": "Hakone Shrine",
+    "query": "Hakone Shrine torii Lake Ashi",
+    "city": "hakone",
+    "priority": 2,
+    "category": "activity",
+    "source": "day-plan",
+    "days": [6]
+  },
+  {
+    "id": "kyoto-vermillion-cafe",
+    "name": "Vermillion Café (Fushimi)",
+    "query": "Vermillion Cafe Fushimi Inari",
+    "city": "kyoto",
+    "category": "cafe",
+    "source": "day-plan",
+    "days": [8]
+  },
+  {
+    "id": "kyoto-yasaka-shrine",
+    "name": "Yasaka Shrine",
+    "query": "Yasaka Shrine Gion Kyoto",
+    "city": "kyoto",
+    "category": "activity",
+    "source": "day-plan",
+    "days": [8]
+  },
+  {
+    "id": "kyoto-hanamikoji",
+    "name": "Hanamikoji Street",
+    "query": "Hanamikoji Street Gion Kyoto",
+    "city": "kyoto",
+    "category": "neighborhood",
+    "source": "day-plan",
+    "days": [7, 8]
+  },
+  {
+    "id": "kyoto-shirakawa-canal",
+    "name": "Shirakawa Canal (Gion)",
+    "query": "Shirakawa Canal Gion Kyoto",
+    "city": "kyoto",
+    "category": "neighborhood",
+    "source": "day-plan",
+    "days": [7]
+  },
+  {
+    "id": "nara-park",
+    "name": "Nara Park",
+    "query": "Nara Park",
+    "city": "nara",
+    "priority": 1,
+    "category": "activity",
+    "source": "day-plan",
+    "days": [9]
+  },
+  {
+    "id": "nara-todai-ji",
+    "name": "Todai-ji",
+    "query": "Todai-ji Daibutsuden Nara",
+    "city": "nara",
+    "priority": 1,
+    "category": "activity",
+    "source": "day-plan",
+    "days": [9]
+  },
+  {
+    "id": "narita-kawatoyo-honten",
+    "name": "Kawatoyo Honten (unagi)",
+    "query": "Kawatoyo Honten unagi Narita Omotesando",
+    "city": "narita",
+    "category": "restaurant",
+    "source": "day-plan",
+    "days": [10]
+  },
+  {
+    "id": "narita-omotesando",
+    "name": "Naritasan Omotesando",
+    "query": "Naritasan Omotesando Narita",
+    "city": "narita",
+    "category": "neighborhood",
+    "source": "day-plan",
+    "days": [10, 11]
+  },
+  {
+    "id": "narita-naritasan-park",
+    "name": "Naritasan Park",
+    "query": "Naritasan Park Narita",
+    "city": "narita",
+    "category": "park",
+    "source": "day-plan",
+    "days": [11]
+  },
+  {
+    "id": "tokyo-wishlist-shibuya-sky",
+    "name": "Shibuya Sky",
+    "query": "Shibuya Sky observation deck",
+    "city": "tokyo",
+    "priority": 2,
+    "category": "activity",
+    "source": "wishlist:tokyo",
+    "days": [2]
+  }
+]

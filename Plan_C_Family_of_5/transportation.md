@@ -191,9 +191,9 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 
 | Time | Person | Step |
 |---|---|---|
-| 05:30 | Grandma | **Pre-booked taxi** Richmond Hotel → NRT (10 min, ¥2,500) |
-| 06:20 | Grandma | At Terminal 1 for 08:20 NRT → SIN (Scoot TR 885) |
-| 08:20 | Grandma | Wheels up |
+| 05:30 | Grandma | **Pre-booked taxi** Richmond Hotel → NRT **Terminal 1** (10 min, ¥2,500) |
+| 06:20 | Grandma | At NRT T1 for 08:20 Scoot TR 885 → SIN (conf `R643SL`) |
+| 08:20 | Grandma | Wheels up (arrives SIN T1 14:35) |
 | ~09:00 | Family | Hotel breakfast |
 | 09:30–10:00 | Family | Optional 30-min walk to Naritasan Park |
 | 11:00 | Family | Check out Richmond Hotel |

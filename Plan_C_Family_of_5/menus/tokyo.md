@@ -1,6 +1,6 @@
 # Tokyo Menu — Flexible Blocks
 
-Mix and match across 4 Tokyo days. **Locked blocks** (teamLab Borderless, MiPig Café, Romancecar out) are in [../itinerary.md](../itinerary.md); this file is for the flexible slots.
+Mix and match across 4 Tokyo days. **Locked blocks** (teamLab Planets, MiPig Café, Shibuya Sky, Romancecar out) are in [../itinerary.md](../itinerary.md); this file is for the flexible slots. Priority tags (P1–P6) reflect Candice's rankings in [../wishlist/tokyo.md](../wishlist/tokyo.md).
 
 ---
 
@@ -8,24 +8,24 @@ Mix and match across 4 Tokyo days. **Locked blocks** (teamLab Borderless, MiPig 
 
 ### M1 · Harajuku Kawaii Morning
 - **Area:** Harajuku / Omotesando
-- **Activity:** Takeshita Street (crepes, kawaii shops, capsule toys) → MiPig Café (60-min pre-booked private room) → Omotesando architecture walk (~10 min stroll to lunch)
-- **Duration:** ~3h
+- **Activity:** Takeshita Street (P2 — crepes, kawaii shops, capsule toys) → MiPig Café (P1, 60-min pre-booked private room) → **Meiji Jingu Gaien Ginkgo Avenue** (P2 — peak is autumn, but a pleasant tree-lined walk in June; ~10 min) → Omotesando architecture walk
+- **Duration:** ~3.5h
 - **Food:** **Maisen Aoyama** — tonkatsu institution since 1965, housed in an old bathhouse, Japanese-staff mostly, pork is the star. Skip the Gonpachi "Kill Bill" restaurant 2 blocks over (pure tourist trap).
-- **Vibe:** Good Day 2 opener. Note: MiPig is locked to a booked slot.
+- **Vibe:** Good Day 2 opener. MiPig is locked to a booked slot.
 
 ### M2 · Tsukiji Outer Market Food Crawl
 - **Area:** Tsukiji (the inner fish market moved to Toyosu; outer market is still great)
-- **Activity:** Graze sashimi, tamagoyaki, uni bowls, fresh seafood skewers, matcha sweets across 50+ stalls. Optional walk to **Hamarikyu Gardens** (tea house on an island — skippable if garden-fatigued).
+- **Activity:** Graze sashimi, tamagoyaki, uni bowls, fresh seafood skewers, matcha sweets across 50+ stalls. **Turret Coffee Tsukiji** (P6, Matt Kaplan's pick) for the coffee stop. Optional walk to **Hamarikyu Gardens** (tea house on an island — skippable if garden-fatigued).
 - **Duration:** ~2.5h
 - **Food:** **Sushi-dai** (if you want the splurge queue — 1h+ wait, worth it) OR **Uogashi Nihon-ichi** standing sushi inside the market (cheap, fast, amazing, locals only). Budget ¥1,500–3,000/person at stalls vs ¥6,000 at Sushi-dai.
-- **Vibe:** Best on a day you want food *to be* the activity. Get there by 9am before stalls sell out.
+- **Vibe:** Day 4 morning pre-teamLab — Tsukiji is 10 min by Toei Oedo line to Toyosu (teamLab Planets). Get there by 9am before stalls sell out.
 
-### M3 · Asakusa Old-Tokyo Morning
-- **Area:** Asakusa
-- **Activity:** Kaminarimon gate + **Nakamise Street** (300m of traditional craft shops, grilled senbei, ningyo-yaki) → Sensoji briefly (5-min glance, the street is the draw) → **Tokyo Skytree** observation deck (350m, tallest tower in Japan; Sumida Aquarium below if time)
-- **Duration:** ~3–4h
-- **Food:** **Asakusa Imahan** — sukiyaki institution since 1895, old-school private tatami rooms, premium wagyu. OR **Daikokuya Tempura** (since 1887, still cooking in sesame oil, massive ebi-ten on rice).
-- **Vibe:** Strong Day 3 option. Nakamise is shopping-heavy not temple-heavy, so it dodges your "boring shrine" concern.
+### M3 · Asakusa Old-Tokyo Morning ⭐
+- **Area:** Asakusa → Kappabashi → Oshiage (Skytree)
+- **Activity:** Kaminarimon gate + **Nakamise Street** (P1, 300m of traditional craft shops, grilled senbei, ningyo-yaki) → **Senso-ji** (P1 — 5-min glance, the street is the draw) → **Hoppy Street** (P1, post-war drinking alley a block west) → **Kappabashi Kitchen Town** (P4 — sample-food displays, chopstick shops, knife stores; ~15-min walk west) → **Tokyo Skytree** (P6, 350m observation deck) + **Sumida Aquarium** (P6, combo ticket available)
+- **Duration:** ~5h (full Day 3 morning + afternoon)
+- **Food:** **Asakusa Imahan** sukiyaki (since 1895, tatami rooms, premium wagyu) OR **Daikokuya Tempura** (since 1887, sesame oil, ebi-ten on rice). Dessert: **Funawa Nakamise** (P6) for imo-yokan sweet potato cake on Nakamise.
+- **Vibe:** Strong Day 3 spine. Nakamise is shopping-heavy not temple-heavy, dodges the "boring shrine" concern. Kappabashi fold is a Candice P4 pickup — natural walk-through.
 
 ### M4 · Ghibli Museum + Kichijoji
 - **Area:** Mitaka (30 min from Shinjuku)
@@ -67,6 +67,19 @@ These are low-energy filler for when the morning was big or jet-lag is lingering
 
 ### A4 · Ginza Window Shopping
 - Chuo-dori pedestrian-only on weekends (Hokōsha Tengoku). Itoya stationery (9 floors), Uniqlo flagship, Muji flagship. Saves kid energy for evening.
+- **Sembikiya Fruit Parlor** (P6) — Nihonbashi, ¥3,000 fancy fruit parfaits in a temple-of-fruit setting.
+
+### A5 · Nakameguro Slow Afternoon
+- **Area:** Nakameguro / Daikanyama (10 min from Shibuya on Hibiya line)
+- **Activity:** Riverside walk along Meguro River, **Tsutaya Books** (the photogenic bookstore), low-key shopping in Daikanyama lanes
+- **Food cluster (all Candice P6):** **Laekker** (Danish-style bakery) → **Perch by Woodberry Coffee** (Daikanyama; flagship coffee) → **Seirinkan** for pizza/pasta → **Ivy Place** for brunch/cocktails. Pick one or two; this is a graze-not-tour afternoon.
+- **Vibe:** Low-energy Day 3 or Day 4 rest-day filler. Grandma-friendly, flat walking.
+
+### A6 · Character Café Stop
+- **Cinnamoroll Café** (P1) — near Shinjuku Gyoen, themed but legit; reservation-friendly. Perfect for Zara/Kai.
+- **Sanrio Café** (P3) — alternative if Cinnamoroll is full.
+- **Shiro Hige Cream Puff Factory** (P2, Totoro-shaped cream puffs) — Setagaya outlier, ~25 min from Shinjuku. Only worth the trip if you're already in Shibuya/Daikanyama area; otherwise skip.
+- **Vibe:** Pair with M1 Day 2 morning or as a mid-afternoon kid reward.
 
 ---
 
@@ -86,9 +99,15 @@ These are low-energy filler for when the morning was big or jet-lag is lingering
 
 ### E3 · Ikebukuro Pokémon Night
 - **Area:** Ikebukuro (Sunshine City complex)
-- **Activity:** **Pokémon Center MEGA TOKYO** (largest in Japan, 2,500+ items, Pikachu Sweets Café) → **Sunshine City Sky Circus** observation deck (VR/AR enhanced, weirder than Shibuya Sky) → Sunshine Aquarium if time
+- **Activity:** **Pokémon Center MEGA TOKYO** (largest in Japan, 2,500+ items, Pikachu Sweets Café) → **Gashapon Ikebukuro Main Store** (P4 — largest gashapon dept store, hundreds of machines, right in Sunshine City) → **Sunshine City Sky Circus** observation deck (VR/AR enhanced, weirder than Shibuya Sky) → Sunshine Aquarium if time
 - **Food:** **Mutekiya** — legendary Ikebukuro ramen, rich tonkotsu, always a queue but moves fast. Iconic spot, locals + tourists both.
-- **Vibe:** This replaces the need for PokéPark. Day 3 evening after whichever morning block you pick.
+- **Vibe:** Day 3 evening — closes the Asakusa→Skytree→Ikebukuro east-Tokyo arc (one Yamanote/Marunouchi hop). Replaces the need for PokéPark.
+
+### E6 · Shinjuku Home Base Night
+- **Area:** Shinjuku (walking distance from Yotsuya Airbnb)
+- **Activity:** **Tokyo Metropolitan Government Building Night Show** (P1 — free projection mapping on the Tocho twin towers, nightly performances, ~15 min each, near Tochomae station) → walk through Omoide Yokocho for atmosphere
+- **Food:** Yakitori counter in **Omoide Yokocho** (P1, walk-ins fine, Asadachi for adventurous / Uchu for standard skewers) OR walk-in attempt at **Udon Shin** (P6 in wishlist — we don't have a reservation, expect 45–90 min queue, only worth it if not tired). Konbini snack to close out walking home.
+- **Vibe:** Day 4 evening post-teamLab. Low-energy, walking back to Yotsuya, hits a P1 wishlist item and closes the day in the home neighborhood. Pairs with takkyubin Leg 1 drop earlier in the evening.
 
 ### E4 · Ginza Depachika + Sushi
 - **Area:** Ginza
@@ -124,7 +143,7 @@ These are low-energy filler for when the morning was big or jet-lag is lingering
 ## 🚫 Tourist Traps to Skip
 
 - **Robot Restaurant** — closed, don't believe outdated blogs
-- **Gonpachi "Kill Bill" restaurant** in Nishi-Azabu — mid food, pure tourist fame
-- **Character cafés on main Harajuku strip** (except MiPig which is legit)
+- **Gonpachi "Kill Bill" restaurant** in Nishi-Azabu — mid food, pure tourist fame *(Candice has it on wishlist; family decide)*
+- **Character cafés on main Harajuku strip** (except MiPig and Cinnamoroll Café which are legit)
 - **Ichiran at Shibuya Scramble Square** — long queue for mediocre ramen; branches elsewhere have same food no queue
-- **Themed izakayas in Kabukicho** aimed at tourists (ninja, prison, Alice in Wonderland) — novelty > food
+- **Themed izakayas in Kabukicho** aimed at tourists (prison, Alice in Wonderland) — novelty > food. **Ninja Tokyo** is the same genre — Candice flagged P2 so family-decide; expect themed-show-with-mid-food.

@@ -2,7 +2,7 @@
 
 Single source of truth for what's left to do. Updated as items complete.
 
-> **Today:** 2026-04-30 · **Trip starts:** 2026-05-28 (28 days) · **Trip ends:** 2026-06-08
+> **Today:** 2026-05-16 · **Trip starts:** 2026-05-29 (13 days) · **Trip ends:** 2026-06-08
 
 ---
 
@@ -24,7 +24,10 @@ Single source of truth for what's left to do. Updated as items complete.
 - [ ] **Book MiPig Café** for Sat May 30 — 60-day window is open. Pre-book a 60-min private room slot.
 - [ ] **Book Fujiya Hotel Main Dining Room** dinner reservation — for Tue Jun 2 OR Wed Jun 3 (one of the Hakone nights, the kaiseki bolt-on). Email/call ~1 month out. Smart casual dress code.
 - [ ] **Pre-arrange Kaiseki Kyoto farewell dinner** for Sat Jun 6 — message Stitch Hotel concierge to book Kikunoi Roan / Kiyamachi Sakuragawa / Giro Giro Hitoshina (per menu KE2). Or wait and ask front desk on arrival, but earlier is safer.
-- [x] **Capture grandma's NRT → SIN flight details** in `bookings/flights.md` — Scoot TR 885 (Terminal 1)
+- [ ] **Book Pontocho dinner Day 7 (Thu Jun 4)** — Candice P1. Ask Stitch front desk via Booking.com message; arrival-evening dinner needs a 18:30–19:30 slot.
+- [ ] **Confirm GEAR venue address** — ART Complex 1928 (Sanjo-dori, Nakagyo-ku). Reservation `#8241`, Fri Jun 5 19:00–20:30. Walking distance from Pontocho for pre-show dinner.
+- [ ] **Confirm Nijo Castle last entry time** for Thu Jun 4 PM — typically 16:00; verify before locking the Day 7 arrival cluster.
+- [x] **Capture grandma's NRT → SIN flight details** — Scoot TR 885, NRT T1 → SIN T1, 08:20→14:35 Jun 8, conf `R643SL`. Captured in [bookings/flights.md](../bookings/flights.md#departure--scoot-r643sl-).
 
 ---
 
@@ -83,20 +86,22 @@ Single source of truth for what's left to do. Updated as items complete.
 
 ## 🎯 Day-Of Activity Decisions (no booking, just intent)
 
-- [ ] **Day 3 (Sun May 31) Tokyo flex** — pick a default morning + evening from `menus/tokyo.md`. PokéPark was cut and never replaced. Suggested defaults: M3 Asakusa+Skytree morning + E3 Ikebukuro Pokémon evening, OR M2 Tsukiji + E5 Asakusa River Sunset.
-- [ ] **Day 8 (Fri Jun 5) Kyoto flex** — Nintendo cut, so day is fully open. Suggested: K1 Fushimi Inari Sunrise → K2 or K4 afternoon → KE1 Gion at Dusk OR KE3 Ramen Koji.
+- [x] **Day 3 (Sun May 31) Tokyo flex** — locked to M3 Asakusa+Skytree+Kappabashi morning → E3 Ikebukuro Pokémon evening (proximity arc, Candice's P1 cluster).
+- [x] **Day 8 (Fri Jun 5) Kyoto** — anchored by GEAR show 19:00. K1 Fushimi sunrise → K5 Higashiyama (Kiyomizu + Ninenzaka/Sannenzaka) afternoon → early Pontocho dinner → GEAR.
 
 ---
 
 ## ✅ Done
 
 - [x] All flights booked (ZIPAIR GE7DVP family RT + F0F2P9 grandma SJC→NRT)
-- [x] Grandma NRT → SIN flight booked (08:20 Jun 8 — Scoot TR 885, Terminal 1 details captured)
+- [x] Grandma NRT → SIN flight booked — Scoot TR 885 (`R643SL`), 08:20→14:35 Jun 8, NRT T1 → SIN T1
 - [x] Tokyo lodging — Airbnb Yotsuya 4-chome (`HMYZXN9NPB`)
 - [x] Hakone lodging — Rakuten STAY TERRACE Kowakudani (`2442810403`)
 - [x] Kyoto lodging — STITCH HOTEL Kyoto (`6410484352`, PIN `3605`)
 - [x] Narita lodging — Richmond Hotel (`2445218331` + `2445218289`)
 - [x] teamLab Planets Tokyo booked (Jun 1, 14:00–14:30, inquiry `61d3669eb033ddea8a`)
+- [x] GEAR Kyoto booked (Fri Jun 5, 19:00–20:30, reservation `#8241`)
+- [x] Candice's wishlist CSVs ingested into [wishlist/](wishlist/) — Tokyo, Kyoto, Hakone
 - [x] Decisions through #19 logged
 - [x] Transportation/logistics plan (`transportation.md`) written
 
