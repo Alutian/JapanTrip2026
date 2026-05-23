@@ -1,37 +1,41 @@
 # 🧳 Transportation & Bags — End-to-End Logistics
 
 > The single source of truth for how 5 people + their luggage move between Tokyo · Hakone · Kyoto · Narita.
-> The whole plan is built around one principle: **carry day-bags between cities, ship the heavy bags via takkyubin.**
+> The whole plan is built around one principle: **3 suitcases total, shipped ahead via takkyubin so we only carry day-packs (+ a small Hakone tote) on train days.**
 
 ---
 
 ## 🎒 Bag Strategy
 
-### Principle: 2-tier system
-Each person carries:
-1. **One main suitcase** → ships via takkyubin between cities. You don't see it during transit days — it shows up at your next hotel.
-2. **One carry-on / day-pack** → stays with you on transit days. Holds 24h essentials in case takkyubin is delayed.
+### Principle: minimize bag count, ship ahead
+We deliberately consolidated to **3 suitcases total** (down from a 5-suitcase draft) for these reasons:
+- **Fewer things to lose** in airports/stations.
+- **Cheaper takkyubin** — 3 bags × 1 long leg ≈ ¥7,500 vs. 5 bags × 2 legs ≈ ¥25,000.
+- **Easier on the kids** — they only manage their own small backpacks (snacks, tablets, comfort items), not a suitcase.
+- **Lower ZIPAIR checked-bag fees** — fewer pieces.
 
-Total bags moving as a family: **5 main suitcases + 5 day-packs**.
+Total bags moving as a family: **3 suitcases + 5 day-packs + 1 small shared overnight tote (deployed Jun 1)**.
 
-### Main suitcase sizing — important
-**Target ≤25" / ≤63 cm tall.** This keeps you well under takkyubin's 160 cm linear limit (L+W+H) AND under ZIPAIR's standard checked-bag spec.
+### Suitcase allocation
 
-| Bag | Linear (LxWxH) | Takkyubin OK? | ZIPAIR OK? |
+| Bag | Owner | Size | Contents |
 |---|---|---|---|
-| 22" carry-on | ~110 cm | ✅ trivially | ✅ |
-| 25" medium | ~125 cm | ✅ | ✅ |
-| 28" large | ~145 cm | ✅ (close) | ⚠️ check ZIPAIR overweight |
-| 30"+ giant | 155+ cm | ⚠️ risky | ⚠️ overweight risk |
+| **Suitcase 1** | Ajay | 25" / ≤63 cm | Ajay's clothes + Kai's clothes |
+| **Suitcase 2** | Candice | 25" / ≤63 cm | Candice's clothes + Zara's clothes |
+| **Suitcase 3** | Grandma | 20" roller carry-on | Grandma's stuff (stays with her — separate Jun 8 itinerary to Singapore) |
 
-**Family allocation suggestion:**
-| Person | Main bag | Day bag |
-|---|---|---|
-| Ajay | 25" suitcase | Backpack/laptop bag |
-| Candice | 25" suitcase | Tote / crossbody |
-| Zara (7) | 22" kid suitcase | Small backpack |
-| Kai (9) | 22" kid suitcase | Small backpack |
-| Grandma | 25" suitcase | Crossbody/handbag |
+Both 25" suitcases stay under takkyubin's 160 cm linear limit AND under ZIPAIR's standard checked-bag spec.
+
+### Day-pack allocation
+| Person | Day bag |
+|---|---|
+| Ajay | Backpack/laptop bag |
+| Candice | Tote / crossbody |
+| Zara (7) | Small backpack |
+| Kai (9) | Small backpack |
+| Grandma | Crossbody/handbag |
+
+Plus **one shared family overnight tote** (e.g., 30 L duffel — packs flat inside Ajay's suitcase on the flight in, deploys Jun 1) — holds 2 days of clothes/toiletries for Ajay+Candice+Zara+Kai for the Hakone stay (Jun 2–4).
 
 ### What lives in the day-pack on transit days
 - **Passports + travel docs** (every transit day)
@@ -51,49 +55,47 @@ Total bags moving as a family: **5 main suitcases + 5 day-packs**.
 
 ---
 
-## 📦 Takkyubin (Yamato/Kuroneko) — 3 Inter-City Legs
+## 📦 Takkyubin (Yamato/Kuroneko) — 2 Legs
 
-> Yamato is Japan's UPS. ~¥2,500/bag for standard size. Bags arrive next day if sent before ~12:00 noon.
-> 5 bags × 3 legs ≈ **¥35,000–45,000 total** across the trip.
+> Yamato is Japan's UPS. ~¥2,500/bag for standard size between Tokyo/Kyoto/Narita. Bags arrive next day if sent before ~12:00 noon. Hotels hold incoming bags for arriving guests routinely.
+> 2 family suitcases × 2 legs ≈ **¥10,000–12,000 total**.
 
-### Leg 1 — Tokyo → Hakone (send Jun 1, arrive Jun 2)
+**Bag strategy at a glance:**
+- 🚆 Tokyo → Hakone (Jun 2): **with us** (small overnight tote on Romancecar/Tozan; main bags already shipped to Kyoto)
+- 📦 Tokyo → Kyoto **direct** (drop Jun 1, arrive Jun 2): Ajay's + Candice's 25" suitcases skip Hakone entirely, sit at Stitch for 2 days awaiting our Jun 4 check-in
+- 📦 Kyoto → Narita (drop Jun 6 morning, arrive Jun 7 evening): standard pre-departure shipment
+
+Grandma's roller carry-on **never goes via takkyubin** — it stays with her on every leg.
+
+### Leg 1 — Tokyo → Kyoto direct (drop Jun 1 evening, arrive Jun 2 afternoon, held until Jun 4 check-in)
 
 - **Send from:** the **Lawson** (or 7-Eleven / FamilyMart) nearest Yotsuya 4-chome Airbnb
-  - Why konbini? The Yotsuya Airbnb is self-check-in — no front desk to receive a Yamato pickup.
-  - Walk 3-min to konbini with bags. Counter staff fills out the form (or you fill via Yamato app).
-- **Address to:** Rakuten STAY TERRACE Hakone Kowakudani · 483-2 Kowakudani, Hakone, Kanagawa, 250-0406 · phone +81 50-1750-9719 (Rakuten STAY support, not the property itself)
-  - ⚠️ **Confirm with Rakuten STAY first** that they accept forwarded packages at an unmanned property. If not, address to a **konbini near Kowakudani Station** (Lawson Kowakudani is the typical pickup point).
-- **When:** drop **Jun 1 evening** at Yotsuya konbini → arrives Hakone konbini/property **Jun 2 afternoon**
-- **Bag count:** ideally 4 of 5 main suitcases (carry the 5th if the property doesn't take packages)
-- **Cost:** ~¥10,000–12,500 for 5 bags
-
-### Leg 2 — Hakone → Kyoto (send Jun 3, arrive Jun 4)
-
-- **Send from:** **Lawson Kowakudani** (or Yamato pickup if scheduled)
-  - Drop bags **Jun 3 evening** after the Classic Loop / dinner
+  - Walk 5 min with the 2 suitcases. Counter staff fills out the form (or use the Yamato app for the QR label).
 - **Address to:** **STITCH HOTEL Kyoto** · 118 Saito-cho, Shimogyo-ku, Kyoto 600-8012 · phone +81 75-606-4860
-  - ✅ **Stitch front desk explicitly handles takkyubin** (per guest reviews) — no konbini needed on the receive side
-- **When:** drop **Jun 3 evening** → arrives Stitch front desk **Jun 4 afternoon/evening**
-- **Bag count:** all 5 main suitcases
-- **Cost:** ~¥12,500 for 5 bags
+  - ✅ **Stitch front desk handles incoming takkyubin** for guests (per their guest reviews).
+  - ⚠️ **2-day-early arrival needs explicit confirmation** — bags arrive Jun 2 but check-in isn't until Jun 4. Pre-confirm with Stitch via Booking.com message that they'll hold both bags under reservation `6410484352` for 2 nights. This is a routine request but is the one thing that can go wrong.
+- **When:** drop **Jun 1 evening** → arrives Stitch **Jun 2 afternoon/evening** → held until Jun 4 check-in
+- **Bag count:** 2 (Ajay's + Candice's 25" suitcases). Grandma keeps her carry-on with her in Hakone.
+- **Cost:** ~¥5,000 for 2 bags
+- **Fallback if Stitch declines 2-day-early storage:** address to **Lawson Shijo-Karasuma** (~3 min walk from Stitch) instead. Lawson holds packages 7–10 days for pickup-in-person, free. We'll grab the bags on the way from Kyoto Station to Stitch on Jun 4.
 
-### Leg 3 — Kyoto → Narita (send Jun 6, arrive Jun 7)
+### Leg 2 — Kyoto → Narita (drop Jun 6 morning, arrive Jun 7 evening)
 
-- **Send from:** **Stitch Hotel Kyoto front desk** (they do this for guests)
-  - Drop bags **Jun 6 morning** before leaving for Nara day trip
-  - Pack a **small overnight bag per person** for the Sat Jun 6 + Sun Jun 7 morning window
+- **Send from:** **Stitch Hotel Kyoto front desk** (they handle outbound takkyubin for guests)
+  - Drop both suitcases Jun 6 morning before leaving for the Nara day trip
 - **Address to:** **Richmond Hotel Narita** · check phone + address from `bookings/narita_lodging.md`
-  - Note both reservation names (Ajay's room + Candice's room) on the takkyubin tag so the bell desk knows where to put bags
+  - Note both reservation names (Ajay's room + Candice's room) on the takkyubin tags so the bell desk knows where to put bags
 - **When:** drop **Jun 6 morning** → arrives Richmond Narita **Jun 7 afternoon/evening** (in time for evening check-in)
-- **Bag count:** all 5 main suitcases
-- **Cost:** ~¥12,500 for 5 bags
+- **Bag count:** 2 family suitcases (grandma still keeps her carry-on with her)
+- **Cost:** ~¥5,000 for 2 bags
 
-### What you need on Jun 6–7 in your overnight day-bag
+### What you need in your day-pack/overnight tote on Jun 6–7
 Because main bags are gone Jun 6 morning until Jun 7 evening:
 - Pack **2 days of clothes** (Jun 6 day + Jun 7 day) per person in day-pack
 - Toiletries, medications, sleepwear
 - All passports + travel docs
 - The kids' tablets
+- The shared overnight tote (last used Hakone Jun 2–4) can be redeployed here as the family's "Nara/Kyoto/Narita 2-day overflow"
 
 ---
 
@@ -103,7 +105,7 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 
 ### Day 1 · Fri May 29 — NRT → Tokyo Yotsuya Airbnb
 
-**🚨 You all arrive together with full luggage.** No takkyubin yet — you walk it from NRT to Yotsuya.
+**🚨 You all arrive together with full luggage.** No takkyubin yet — bags travel with you from NRT to Yotsuya.
 
 | Time | Step | Notes |
 |---|---|---|
@@ -114,76 +116,84 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 | 17:20–17:45 | **Shinjuku Station → Yotsuya Airbnb** | ~5–10-min walk OR 1 stop on Marunouchi Metro to Yotsuya-sanchome (¥180/person) |
 | 17:45 | Check in at Yotsuya 4-chome Airbnb | Self-check-in via host's keybox instructions |
 
-**Bag logistics:** All 5 main bags + 5 day-bags carried by hand. NEX has overhead racks + larger luggage racks at car ends — fits 5 large bags without issue. Walking from Shinjuku Station to Yotsuya with full bags is the friction — consider taking the Metro instead (1 stop) to avoid the 10-min haul.
+**Bag logistics:** 3 suitcases (2 family 25" + grandma 20" carry-on) + 5 day-packs hand-carried. NEX has overhead racks + larger luggage racks at car ends — easy for 3 suitcases. **Take the Metro 1 stop** Shinjuku → Yotsuya-sanchome to avoid hauling bags on the 10-min walk.
 
-**Bookings needed:** **NEX reserved seats × 5** — book via JR-East website or at NRT counter on arrival.
+**Bookings needed:** **NEX reserved seats × 5** — book via JR-East website or Klook ~1 month out.
 
 ---
 
 ### Day 5 · Tue Jun 2 — Tokyo → Hakone
 
-**Bags shipped Jun 1 evening — you only carry day-bags today.**
+**Main suitcases shipped Tokyo → Kyoto on Jun 1 evening — today you each carry a day-pack + share one overnight tote.** Grandma keeps her 20" carry-on with her.
 
 | Time | Step | Notes |
 |---|---|---|
-| ~12:30 | Leave Yotsuya Airbnb | Day-bags only |
+| ~12:30 | Leave Yotsuya Airbnb | Day-packs + shared overnight tote + grandma's carry-on |
 | ~12:30–13:00 | Yotsuya-sanchome → **Shinjuku Station** | Marunouchi line 1 stop, OR walk 10 min |
 | 13:00–13:20 | At Shinjuku Station, board **Romancecar** | Odakyu line, dedicated platform — follow "Romancecar" signs |
-| 13:20–14:45 | **Romancecar Shinjuku → Hakone-Yumoto** | ~85 min · reserved seats only · ~¥2,470 × 5 = ¥12,350 |
+| 13:20–14:45 | **Romancecar Shinjuku → Hakone-Yumoto** | ~85 min · reserved seats only · ¥2,470 × 5 = ¥12,350 (✅ already booked) |
 | 14:45–15:00 | Buy **Hakone Free Pass** at Yumoto Station | 2-day pass · ~¥6,100 adults / ~¥1,100 kids · covers Tozan + Ropeway + boats + buses |
 | 15:00–15:25 | **Tozan Railway Yumoto → Kowakudani** | ~3 stops, 25 min · use Hakone Free Pass · winding mountain switchback train |
 | 15:25–15:35 | Walk to Rakuten STAY | <10-min walk — confirm via property's online check-in URL (sent Jun 1) |
-| 15:35 | Self-check-in at Rakuten STAY | Bags should already be there or at nearby konbini |
+| 15:35 | Self-check-in at Rakuten STAY | No luggage drop needed — main bags are already at Stitch Kyoto |
 
-**Bag logistics:** Day-bags only — easy. Romancecar luggage rack is small but fine for 5 day-bags. Tozan train is tiny and crowded; day-bags slide on your lap fine.
+**Bag logistics:** With main suitcases shipped ahead, this is easy. Romancecar overhead rack handles day-packs + overnight tote + grandma's 20" trivially. **Tozan train is tiny and crowded** — but with no big suitcases, you fit comfortably with day-packs on your laps and the tote at your feet. Grandma's small roller fits in the vestibule luggage spot.
 
-**Bookings needed:** **Romancecar reserved seats × 5** — Odakyu English site (`odakyu.jp/english`) opens **1 month before** = **May 2**. Aim for ~13:00 Shinjuku departure.
+**Bookings:** ✅ **Romancecar reserved seats × 5** already booked.
 
-**Pickup the Hakone Free Pass** at the green Odakyu Travel Service Center inside Hakone-Yumoto Station — first thing after stepping off Romancecar.
+**On arrival:** pick up the Hakone Free Pass at the green Odakyu Travel Service Center inside Hakone-Yumoto Station — first thing after stepping off Romancecar.
 
 ---
 
 ### Day 7 · Thu Jun 4 — Hakone → Kyoto
 
-**Bags shipped Jun 3 evening — you only carry day-bags today.** This is the longest transit day.
+**Day-packs + overnight tote + grandma's carry-on only.** Main suitcases have been at Stitch Kyoto since Jun 2.
 
 | Time | Step | Notes |
 |---|---|---|
 | ~09:00 | Check out of Rakuten STAY | Self-check-out (just lock up & go) |
 | 09:00–09:25 | **Tozan Railway Kowakudani → Hakone-Yumoto** | Use Hakone Free Pass |
 | 09:25–09:45 | **Tozan Railway Yumoto → Odawara** | Use Hakone Free Pass · ~15 min |
-| 09:45–10:15 | At Odawara: pick up Shinkansen tickets, find platform | Shinkansen ticket gate is at Odawara — separate from Tozan exit |
-| 10:15–12:35 | **Shinkansen Hikari/Nozomi Odawara → Kyoto** | ~2h 20min · reserved seats × 5 · ~¥13,000 × 5 = ¥65,000 |
-| 12:35–13:00 | Kyoto Station → Stitch Hotel | 5-min subway (Karasuma line to Shijo) + 5-min walk · OR taxi (~¥1,500) · OR Hankyu line via Kyoto-Kawaramachi |
-| 13:00 onwards | Stitch Hotel — early check-in not guaranteed (3 PM official) | Front desk holds bags + day-bags if early arrival |
+| 09:45–10:30 | At Odawara: scan e-tickets, find platform, optional ekiben | Shinkansen ticket gate at Odawara is separate from Tozan exit. Famous "kamameshi" ekiben stand worth trying. |
+| 10:30–12:55 | **Shinkansen Hikari Odawara → Kyoto** | ~2h 20min · reserved seats × 5 · ~¥13,000 × 5 = ¥65,000 |
+| 12:55–13:20 | Kyoto Station → Stitch Hotel | 5-min subway (Karasuma line to Shijo) + 5-min walk · OR taxi (~¥1,500) · OR Hankyu line via Kyoto-Kawaramachi |
+| 13:20 onwards | Arrive Stitch — bags already there from Jun 2 | Official check-in 3 PM; front desk holds day-packs if early. Reunite with main suitcases. |
 
-**Bag logistics:** Day-bags only — easy. Note: **Shinkansen now requires advance reservation for "oversize baggage"** (over 160 cm linear) since 2020 — this is one big reason we ship via takkyubin instead of dragging suitcases on the Shinkansen.
+**Bag logistics:** Travelling with day-packs + 1 shared tote + grandma's 20" carry-on. Romancecar/Shinkansen handles all of this trivially. Note: Shinkansen "oversize baggage" reservation rule (>160 cm linear, since 2020) doesn't apply to us — we're not carrying any oversize bags this leg.
 
-**Bookings needed:** **Shinkansen reserved seats × 5** Odawara → Kyoto — book via **Smart-EX app** or **Klook** when window opens **~May 4**. Pick a Hikari (not Nozomi — Nozomi doesn't stop at Odawara). Aim for ~10:15 departure to give buffer for the Tozan transfer.
+**Bookings needed:** **Shinkansen Hikari × 5** Odawara → Kyoto — book via **Klook** (simplest) or **Smart-EX app**. Must be **Hikari** (Nozomi doesn't stop at Odawara). Aim for ~10:30 departure to give buffer for the Tozan transfer.
 
 ---
 
 ### Day 10 · Sun Jun 7 — Kyoto → Narita City
 
-**Bags shipped Jun 6 morning — you only carry overnight day-bags today.**
+**Bags shipped Jun 6 morning — today: day-packs + overnight tote + grandma's carry-on.**
+
+⚠️ **Important routing fix:** Earlier draft of this plan called for NEX (Narita Express) from Tokyo to Narita. **NEX does NOT stop at Narita Station in town — it goes only to Narita Airport (NRT) terminals 1, 2, 3.** To reach Richmond Hotel Narita (in Narita town, ~10 min walk from Narita Station), use the **JR Sobu Line / Narita Line Rapid** from Tokyo Station — no reservation required, ~80 min, ¥1,340/adult.
 
 | Time | Step | Notes |
 |---|---|---|
 | ~13:00 | Check out of Stitch Hotel | Front desk |
 | 13:00–13:15 | Stitch → **Kyoto Station** | Walk 10 min OR Hankyu+subway 5 min |
-| 13:15–13:45 | At Kyoto Station: pick up Shinkansen tickets, lunch / ekiben | Buy **ekiben** (train bento boxes) — eat on the Shinkansen, classic Japan move |
+| 13:15–13:45 | At Kyoto Station: scan e-tickets, lunch / ekiben | Buy **ekiben** (train bento boxes) — eat on the Shinkansen, classic Japan move |
 | 13:45–16:05 | **Shinkansen Nozomi Kyoto → Tokyo Station** | ~2h 20min · reserved seats × 5 · ~¥13,500 × 5 = ¥67,500 |
-| 16:05–16:25 | **Tokyo Station transfer to NEX** | This is the friction point — Tokyo Station is huge. Allow 20 min minimum. Follow Yokosuka/NEX signs to underground platforms (Yokosuka line platforms are deepest in the station). |
-| 16:25–17:30 | **NEX Tokyo Station → Narita Station** | ~60 min · reserved seats × 5 · ~¥3,000 × 5 = ¥15,000 |
-| 17:30–17:50 | Walk Narita Station → Richmond Hotel Narita | ~10-min walk |
-| 17:50 | Richmond Hotel check-in | Bell desk should have your takkyubin bags |
+| 16:05–16:30 | **Tokyo Station transfer to JR Sobu/Narita Line platforms** | Tokyo Station is huge. Allow 25 min. Follow signs for **JR Sobu Line (underground)** — platforms are deep (B4/B5). Use elevators for grandma + kids. |
+| 16:30–17:55 | **JR Sobu/Narita Line Rapid → Narita Station** | ~80 min · no reservation needed · ¥1,340/adult · just tap Suica/Pasmo through the gates · grab any 2 facing pairs of seats for 5 of us |
+| 17:55–18:10 | Walk Narita Station → Richmond Hotel Narita | ~10-min walk |
+| 18:10 | Richmond Hotel check-in | Bell desk should have your takkyubin bags (arrived Jun 7 afternoon) |
 | 18:30 | Walk to **Kawatoyo Honten** for unagi dinner | Beat the queue — arrive by 18:30 |
 
-**Bag logistics:** Day-bags only. The **Tokyo Station transfer** is the one moment where 5 people moving together with day-bags can get strung out. Group up before walking, point at the NEX/Yokosuka line signs, take the elevators (not escalators) for grandma + kids.
+**Bag logistics:** Light. The **Tokyo Station transfer** is the one moment where 5 people moving together can get strung out — group up before walking, point at the JR Sobu Line (NOT Yokosuka, NOT NEX) signs, take the elevators.
+
+**Why JR Sobu Rapid instead of NEX:**
+- Reaches Narita town directly (NEX bypasses town for airport)
+- No reservation required — flexibility if Shinkansen runs late
+- Cheaper (¥1,340 vs ¥3,000+ NEX)
+- ~20 min slower than NEX, but NEX would dump us at the airport requiring a second train/taxi back to town
 
 **Bookings needed:**
-- **Shinkansen Kyoto → Tokyo × 5** — Smart-EX, window opens **~May 7**
-- **NEX Tokyo → Narita × 5** — JR-East site or Klook, ~1 month out
+- **Shinkansen Kyoto → Tokyo × 5** — Klook or Smart-EX
+- ~~NEX Tokyo → Narita~~ **NOT NEEDED** — JR Sobu Rapid is pay-as-you-go via Suica/Pasmo
 
 ---
 
@@ -210,19 +220,17 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 
 ## 🎫 Reservations Critical Path
 
-Booking windows from earliest to latest:
-
-| Item | Window opens | Action |
+| Item | Status | Action |
 |---|---|---|
-| **NEX × 5** Day 1 (May 29) | Now (1 month out) | Book via JR-East online or at NRT counter on arrival; reserved seats |
-| **Romancecar × 5** Day 5 (Jun 2) | **~May 2** (1 mo before) | `odakyu.jp/english` — pick a ~13:00 departure |
-| **Shinkansen Odawara→Kyoto × 5** Day 7 (Jun 4) | **~May 4** | Smart-EX app — Hikari (not Nozomi), ~10:15 departure |
-| **Shinkansen Kyoto→Tokyo × 5** Day 10 (Jun 7) | **~May 7** | Smart-EX — Nozomi OK, ~13:45 departure |
-| **NEX Tokyo→Narita × 5** Day 10 (Jun 7) | ~May 7 | JR-East or Klook |
-| **Hakone Free Pass** | Buy on arrival | 2-day at Hakone-Yumoto Station Odakyu Travel Service Center |
-| **Takkyubin Leg 1** Tokyo → Hakone | Drop Jun 1 evening | Walk to konbini |
-| **Takkyubin Leg 2** Hakone → Kyoto | Drop Jun 3 evening | Konbini Kowakudani |
-| **Takkyubin Leg 3** Kyoto → Narita | Drop Jun 6 morning | Stitch front desk |
+| **Romancecar × 5** Jun 2 (Shinjuku → Hakone-Yumoto) | ✅ Booked | Already done |
+| **NEX × 5** May 29 (NRT → Shinjuku) | 🔴 To book | Klook or JR-East site |
+| **Shinkansen Hikari × 5** Jun 4 (Odawara → Kyoto, ~10:30) | 🔴 To book | Klook (recommended) — Hikari only, Nozomi skips Odawara |
+| **Shinkansen Nozomi × 5** Jun 7 (Kyoto → Tokyo, ~13:45) | 🔴 To book | Klook |
+| ~~NEX Tokyo→Narita~~ Jun 7 | ❌ Not needed | Use JR Sobu/Narita Rapid (pay-as-you-go Suica) |
+| **Shibuya Sky × 5** May 30 sunset | 🔴 To book | Official site — sellout risk |
+| **Hakone Free Pass** | Buy on arrival | Odakyu Travel Service Center at Hakone-Yumoto |
+| **Takkyubin Leg 1** Tokyo → Kyoto direct | Drop Jun 1 evening | Walk to Lawson Yotsuya — bags arrive Stitch Jun 2 |
+| **Takkyubin Leg 2** Kyoto → Narita | Drop Jun 6 morning | Stitch front desk handles outbound |
 
 ---
 
@@ -279,13 +287,13 @@ Strategy in order of preference:
 These are the hard rules that, if violated, mess up the whole logistics chain:
 
 1. **Reply to Rakuten STAY email with `(AT)/(DOT)` format** so the Hakone online check-in URL gets delivered. Without it, self-check-in won't work.
-2. **Book Romancecar on May 2** the moment the window opens. Limited reserved seats — selling out 4 weeks ahead is normal in June.
-3. **Book Shinkansen on May 4 / May 7** when windows open. Reserved seats × 5 in the same row needs early booking.
+2. **Confirm with Stitch Hotel** they'll hold 2 takkyubin packages for ~2 days before our Jun 4 check-in (under reservation `6410484352`). If they decline, fallback to Lawson Shijo-Karasuma pickup.
+3. **Book remaining 3 Shinkansen/NEX tickets ASAP** — Jun 4 Shinkansen, Jun 7 Shinkansen, May 29 NEX. Reserved seats × 5 together gets harder by the day.
 4. **Drop takkyubin bags before noon** for next-day arrival. Sending after ~12:00 may push to a 2-day delivery.
 5. **Pack 2 days of overnight stuff** for Jun 6 morning takkyubin drop (bags arrive Narita Jun 7 evening — you need ~36h of clothes/toiletries in your day-pack).
-6. **Grandma's medications never go in takkyubin or checked luggage.** Always in her carry-on.
+6. **Grandma's medications never go in takkyubin or checked luggage.** Always in her carry-on (it stays with her anyway, never gets shipped).
 7. **Book grandma's 5:30am taxi** at Richmond Hotel reception at check-in Jun 7 evening — not the morning of.
-8. **Tokyo Station transfer (Shinkansen → NEX)** = allow 20 min minimum. Use elevators for grandma, not escalators.
+8. **Tokyo Station transfer Jun 7** = allow 25 min minimum. Follow JR Sobu Line signs (NOT NEX, NOT Yokosuka — those are different destinations). Use elevators for grandma, not escalators.
 9. **Keep all booking confirmation numbers offline** (screenshots in phone Photos, plus this `bookings/` folder pulled to local).
 10. **Passports** + a paper backup of flight info in a different bag than the originals.
 
@@ -295,17 +303,19 @@ These are the hard rules that, if violated, mess up the whole logistics chain:
 
 | Item | Cost |
 |---|---|
-| NEX NRT → Shinjuku | ¥16,250 |
+| NEX NRT → Shinjuku × 5 | ¥16,250 |
 | Tokyo local Metro/JR (4 days) | ¥10,000 (Suica top-ups) |
-| Romancecar → Hakone | ¥12,350 |
+| Romancecar Shinjuku → Hakone × 5 | ¥12,350 (✅ booked) |
 | Hakone Free Pass × 5 | ~¥30,500 |
-| Shinkansen Odawara → Kyoto | ¥65,000 |
+| Shinkansen Hikari Odawara → Kyoto × 5 | ¥65,000 |
 | Kyoto local + Nara day trip | ¥15,000 (Suica) |
-| Shinkansen Kyoto → Tokyo | ¥67,500 |
-| NEX Tokyo → Narita | ¥15,000 |
-| Narita ↔ NRT (taxi family + Keisei grandma + departure taxi) | ¥7,500 |
-| **Takkyubin × 3 legs × 5 bags** | ¥35,000–45,000 |
-| **Total** | **~¥275,000–285,000 (~$1,830–1,900)** |
+| Shinkansen Nozomi Kyoto → Tokyo × 5 | ¥67,500 |
+| JR Sobu Rapid Tokyo → Narita × 5 (Suica) | ¥6,700 |
+| Narita ↔ NRT (family taxi + grandma's pre-booked taxi) | ¥5,000 |
+| **Takkyubin × 2 legs × 2 family suitcases** | ¥10,000–12,000 |
+| **Total** | **~¥238,000–242,000 (~$1,600)** |
+
+> Savings vs. 5-bag draft: ~¥35,000 (~$235) — mostly from fewer takkyubin pieces and dropping the unnecessary NEX-to-Narita.
 
 ---
 
