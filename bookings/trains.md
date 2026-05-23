@@ -85,14 +85,24 @@ Single source of truth for all inter-city train bookings. See [`../Plan_C_Family
 
 ---
 
-## 🔴 NEX (Narita Express) — NRT → Shinjuku (to book)
+## 🟡 NEX (Narita Express) — NRT → Shinjuku (buy on arrival)
 
-**Target:** Fri May 29, 2026, ~16:00 departure
-**Channel:** Klook or JR-East online (JR East — not Smart-EX, which is JR Central only)
+**Target:** Fri May 29, 2026, ~16:00–16:30 departure (whichever NEX is next when we clear customs)
+**Channel:** **JR East Travel Service Center at NRT** — same counter as Welcome Suica
 **Passengers:** 3 adults + 2 children
-**Status:** Not yet booked
+**Status:** Buying on arrival (decided not to pre-book)
 
-This is the **only train leg where we carry full luggage** — fresh off the ZIPAIR landing at 14:50, allow 60 min for immigration/customs.
+**Why on-arrival:**
+- ZIPAIR delay risk would void pre-booked NEX seats (refund fee ~¥440/ticket × 5 = ¥2,200 wasted)
+- Already going to the JR East counter for 5× Welcome Suica → zero added steps
+- May 29 post-Golden-Week is off-peak; 5 seats together on next NEX highly likely
+- Real-time read of customs queue → no guessing the right departure time
+
+**Ask at the counter about the "N'EX Tokyo Direct Ticket"** — JR East's discounted tourist fare for foreign passport holders. ¥5,000 round-trip if applicable; even one-way may have a discount.
+
+**Backup if 5 seats sold out:** wait 30 min for next NEX, or split across 2 NEX departures (less ideal — keep group together).
+
+**This is the only train leg with full luggage** — fresh off the ZIPAIR landing at 14:50. Allow 60 min for immigration/customs/Welcome Suica/NEX tickets before boarding.
 
 ---
 

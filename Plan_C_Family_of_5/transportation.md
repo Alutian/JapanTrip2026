@@ -111,14 +111,14 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 |---|---|---|
 | 14:50 | Land NRT (Terminal 1, ZIPAIR) | Row 51, all 5 together |
 | 14:50–15:45 | Immigration + baggage claim + customs | Allow 60 min; immigration is the chokepoint |
-| 15:45–16:00 | Walk to NEX platform | NEX = Narita Express, JR's airport train |
-| 16:00–17:20 | **NEX → Shinjuku Station** | ~80 min · reserved seats (must book) · ~¥3,250 × 5 = ¥16,250 |
+| 15:45–16:00 | **JR East Travel Service Center** (NEX platform level) | Buy 5× Welcome Suica + 5× NEX tickets in one go — ask about N'EX Tokyo Direct Ticket discount for foreign passport holders |
+| 16:00–17:20 | **NEX → Shinjuku Station** (next available) | ~80 min · NEX runs every 30 min · ¥3,250/adult · ¥1,630/child |
 | 17:20–17:45 | **Shinjuku Station → Yotsuya Airbnb** | ~5–10-min walk OR 1 stop on Marunouchi Metro to Yotsuya-sanchome (¥180/person) |
 | 17:45 | Check in at Yotsuya 4-chome Airbnb | Self-check-in via host's keybox instructions |
 
 **Bag logistics:** 3 suitcases (2 family 25" + grandma 20" carry-on) + 5 day-packs hand-carried. NEX has overhead racks + larger luggage racks at car ends — easy for 3 suitcases. **Take the Metro 1 stop** Shinjuku → Yotsuya-sanchome to avoid hauling bags on the 10-min walk.
 
-**Bookings needed:** **NEX reserved seats × 5** — book via JR-East website or Klook ~1 month out.
+**NEX strategy:** Buy at the JR East counter on arrival, not pre-booked. Reasons: ZIPAIR delay risk would void pre-booked seats; same counter as Welcome Suica = zero added steps; off-peak post-Golden-Week timing makes 5 seats together likely. If fully sold out, wait 30 min for next NEX.
 
 ---
 
@@ -225,7 +225,7 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 | Item | Status | Action |
 |---|---|---|
 | **Romancecar × 5** Jun 2 (Shinjuku → Hakone-Yumoto) | ✅ Booked | Already done |
-| **NEX × 5** May 29 (NRT → Shinjuku) | 🔴 To book | Klook or JR-East site |
+| **NEX × 5** May 29 (NRT → Shinjuku) | 🟡 Buy on arrival | At JR East counter alongside Welcome Suica purchase — hedge against ZIPAIR delay |
 | **Shinkansen Hikari 637 × 5** Jun 4 (Odawara 10:11 → Kyoto 12:12) | ✅ Booked | Smart-EX res `2001`, Car 14 · 3ABC/3D/2D |
 | **Shinkansen Nozomi 16 × 5** Jun 7 (Kyoto 12:01 → Tokyo 14:15) | ✅ Booked | Smart-EX res `2003`, Car 15 · 13CDE + 14DE |
 | ~~NEX Tokyo→Narita~~ Jun 7 | ❌ Not needed | Use JR Sobu/Narita Rapid (pay-as-you-go Suica) |

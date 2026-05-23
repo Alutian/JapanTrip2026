@@ -25,7 +25,7 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 - [x] **Book Shinkansen Odawara → Kyoto × 5** — Hikari 637, Jun 4, dep 10:11 arr 12:12, Car 14 seats 3ABC/3D/2D, Smart-EX res `2001`, ¥47,580. See [`bookings/trains.md`](../bookings/trains.md).
 - [x] **Book Shinkansen Kyoto → Tokyo × 5** — Nozomi 16, Jun 7, dep 12:01 arr 14:15, Car 15 seats 13CDE + 14DE, Smart-EX res `2003`, ¥55,870. Earlier-than-original time leaves ~2h Tokyo Station shopping window before Narita. See [`bookings/trains.md`](../bookings/trains.md).
 - [ ] **Book NEX Tokyo Station → Narita × 5** — same day Jun 7. JR-East site or Klook.
-- [ ] **Book NEX NRT → Shinjuku × 5** — for arrival Fri May 29. Reserved seats (safer than counter on arrival with 5 pax).
+- [x] **NEX NRT → Shinjuku × 5** — **decided to buy on arrival**, not pre-book. Hedges ZIPAIR delay risk; same JR East counter as Welcome Suica = zero added steps. Ask about N'EX Tokyo Direct Ticket tourist discount at the counter.
 - [ ] **Book Shibuya Sky timed entry × 5** — for Sat May 30 sunset. Sunset slots go first.
 - [ ] **Reply to Rakuten STAY email** with email in `address(AT)mail(DOT)com` format so the Hakone online check-in URL gets delivered. Also ask explicitly: *do you accept forwarded takkyubin packages at this unmanned property, or must we use a konbini relay?*
 - [ ] **Message Stitch Hotel via Booking.com** to confirm in writing: (1) they accept incoming takkyubin from Hakone (Leg 2 receive) and (2) handle outbound shipping to Narita Richmond Hotel (Leg 3 send).
