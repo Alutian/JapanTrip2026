@@ -267,7 +267,7 @@ Strategy in order of preference:
 
 ## 📱 Pre-Departure Prep (do before leaving SJC)
 
-- [ ] **Suica or Pasmo IC card × 5** — most flexible: download **Apple Wallet Suica** and add to each iPhone. For Android or non-iPhone users, buy physical card at NRT on arrival.
+- [ ] **Welcome Suica × 5** — buy at NRT JR East Travel Service Center on arrival (May 29). Tourist-only card: no ¥500 deposit, 28-day validity (irrelevant for 10-day trip), no end-of-trip refund hassle. 3 adult + 2 child fare; bring all passports for kid-fare verification.
 - [ ] **Yamato (Kuroneko) app** — install, set language to English. Lets you generate takkyubin labels via QR code at konbini.
 - [ ] **Smart-EX app** — JR Central's Shinkansen booking app. Account setup is finicky; do it before leaving.
 - [ ] **Klook account** (backup booking channel for trains and tickets)

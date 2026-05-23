@@ -14,7 +14,7 @@ Single source of truth for what's left to do. Updated as items complete.
 | Kai (9) | none |
 | Grandma (Seck Joo Lee) | **iPhone** |
 
-**Implication:** Only grandma can use Apple Wallet Suica. **Everyone else needs a physical Pasmo/Suica IC card on arrival at NRT** (or use Google Wallet Mobile Suica on Android, which now supports it — but physical is the simpler default). Kids use a child-fare Pasmo each.
+**Implication:** Going with 5× physical **Welcome Suica** cards at NRT on arrival. Welcome Suica is a tourist-only card (sold at NRT/HND only): no ¥500 deposit, 28-day expiration (irrelevant for 10-day trip), no refund hassle on the way home. Same system for the whole family = simpler to manage. Kids get child-fare Welcome Suica (passport required for age verification at the JR East counter).
 
 ---
 
@@ -49,8 +49,7 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 - [ ] Install **Yamato Kuroneko app** (English) — for takkyubin labels
 - [x] Set up **Smart-EX account** — done (membership `6732116044`, Ajay)
 - [ ] Set up **Klook account** as backup channel
-- [ ] **Grandma: Apple Wallet Suica** on her iPhone before departure — top up ¥3,000–5,000. She's the only iPhone in the group.
-- [ ] **Ajay + Candice: optionally set up Google Wallet Mobile Suica** on Android (now supported in Japan) — or just plan to buy a physical Suica/Pasmo at NRT on arrival. Decide before departure.
+- [x] **IC card strategy decided**: 5× physical Welcome Suica at NRT on arrival (May 29). No pre-departure phone setup needed.
 - [ ] **Google Maps offline downloads** for Tokyo, Hakone, Kyoto, Narita
 - [ ] **eSIM × adults** (Airalo / Saily, ~$15/person 10 days) — confirm both Android phones support eSIM. Grandma's iPhone: separate eSIM or rely on her existing roaming plan.
 - [ ] **Screenshot all booking confirmation numbers offline** to phone Photos — flights, all 4 lodgings, teamLab, plus train reservations as they're booked. Backup against Wi-Fi/data issues abroad.
@@ -76,7 +75,7 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 
 ## ⚪ On-Arrival / In-Country
 
-- [ ] **NRT (May 29): Buy 4× physical Pasmo/Suica IC cards** — Ajay, Candice, Zara (child fare), Kai (child fare). Top up ¥3,000 each adult, ¥2,000 each kid. Grandma uses her Apple Wallet Suica. JR East Travel Service Center on the NEX platform or the ticket machines in arrivals can issue these.
+- [ ] **NRT (May 29): Buy 5× Welcome Suica at JR East Travel Service Center** — on the NEX platform level. 3 adults (Ajay, Candice, grandma) + 2 child-fare (Zara, Kai). Bring all 5 passports for kid-fare verification. Top up ¥3,000 each adult / ¥2,000 each kid at the same counter — cash works, credit card sometimes too. Welcome Suica = no deposit, no refund needed at end of trip.
 - [ ] **NRT (May 29):** Confirm/buy NEX tickets if not already reserved
 - [ ] **Tokyo (Jun 1 evening):** Drop takkyubin Leg 1 bags at Lawson/7-Eleven near Yotsuya 4-chome → Rakuten STAY Hakone (drop before noon next day = before 12:00 Jun 2 doesn't matter, but evening drop is fine since pickup is overnight)
 - [ ] **Hakone-Yumoto (Jun 2):** Buy **Hakone Free Pass × 5 (2-day)** at Odakyu Travel Service Center on platform
