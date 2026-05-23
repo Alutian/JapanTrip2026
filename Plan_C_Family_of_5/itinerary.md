@@ -201,7 +201,7 @@
 🔒 **LOCKED**
 - **05:30** Pre-booked taxi: Richmond Hotel → NRT (10 min, ~¥2,500) — grandma solo
 - **~06:20** Grandma at terminal for 08:20 departure
-- **08:20** Grandma NRT → Singapore (flight booked; details still to capture in [bookings/flights.md](../bookings/flights.md))
+- **08:20** Grandma NRT → Singapore (Scoot TR 885, Terminal 1, booked; see [bookings/flights.md](../bookings/flights.md))
 - **16:25** Family **ZG030** NRT → SJC
 - **09:40** Family lands SJC (same day, gain time crossing dateline)
 
@@ -245,7 +245,7 @@
 |------|--------|
 | Hotels × 4 | ✅ All booked |
 | Flights (ZIPAIR family + grandma SJC→NRT) | ✅ Booked |
-| Grandma NRT → SIN flight | ✅ Booked (08:20 Jun 8) — details still to capture |
+| Grandma NRT → SIN flight | ✅ Booked (Scoot TR 885, Terminal 1, conf `R643SL`) |
 | teamLab Planets (Jun 1, 14:00) | ✅ Booked |
 | **GEAR show Kyoto (Jun 5, 19:00, res `#8241`)** | ✅ Booked |
 | MiPig Café | ⬜ This week (60-day window open) |
