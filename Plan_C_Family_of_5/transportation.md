@@ -173,12 +173,14 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 
 | Time | Step | Notes |
 |---|---|---|
-| ~13:00 | Check out of Stitch Hotel | Front desk |
-| 13:00–13:15 | Stitch → **Kyoto Station** | Walk 10 min OR Hankyu+subway 5 min |
-| 13:15–13:45 | At Kyoto Station: scan e-tickets, lunch / ekiben | Buy **ekiben** (train bento boxes) — eat on the Shinkansen, classic Japan move |
-| 13:45–16:05 | **Shinkansen Nozomi Kyoto → Tokyo Station** | ~2h 20min · reserved seats × 5 · ~¥13,500 × 5 = ¥67,500 |
-| 16:05–16:30 | **Tokyo Station transfer to JR Sobu/Narita Line platforms** | Tokyo Station is huge. Allow 25 min. Follow signs for **JR Sobu Line (underground)** — platforms are deep (B4/B5). Use elevators for grandma + kids. |
-| 16:30–17:55 | **JR Sobu/Narita Line Rapid → Narita Station** | ~80 min · no reservation needed · ¥1,340/adult · just tap Suica/Pasmo through the gates · grab any 2 facing pairs of seats for 5 of us |
+| 09:00–11:00 | Easy Stitch morning | Pack day-packs, coffee, optional Nishiki Market (5 min from Stitch) |
+| 11:00 | Check out of Stitch Hotel | Front desk |
+| 11:00–11:30 | Stitch → **Kyoto Station** | Walk 10 min OR Hankyu+subway 5 min |
+| 11:30–12:01 | At Kyoto Station: scan QR ticket, grab ekiben | Buy **ekiben** for Shinkansen lunch |
+| 12:01–14:15 | **Nozomi 16 Kyoto → Tokyo** ✅ | Car 15, seats 13C/D/E + 14D/E · Smart-EX res `2003` · ¥55,870 |
+| 14:15–16:15 | **Tokyo Station shopping window** | Drop day-packs at coin lockers (~¥700 each, Yaesu side). Priority: Character Street (45m) + Tokyo Gift Palette (30m) + Daimaru depachika (30m). Skip KITTE/Ginza/Don Quijote unless ahead of schedule. |
+| 16:15–16:30 | Walk to JR Sobu/Narita Line platforms | Underground B4/B5 on Marunouchi side. Allow full 15 min. Follow signs for **JR Sobu Line** (NOT NEX, NOT Yokosuka). |
+| 16:30–17:55 | **JR Sobu/Narita Line Rapid → Narita Station** | ~80 min · no reservation · ¥1,340/adult · tap Welcome Suica · grab 2 facing pairs of seats |
 | 17:55–18:10 | Walk Narita Station → Richmond Hotel Narita | ~10-min walk |
 | 18:10 | Richmond Hotel check-in | Bell desk should have your takkyubin bags (arrived Jun 7 afternoon) |
 | 18:30 | Walk to **Kawatoyo Honten** for unagi dinner | Beat the queue — arrive by 18:30 |
@@ -225,7 +227,7 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 | **Romancecar × 5** Jun 2 (Shinjuku → Hakone-Yumoto) | ✅ Booked | Already done |
 | **NEX × 5** May 29 (NRT → Shinjuku) | 🔴 To book | Klook or JR-East site |
 | **Shinkansen Hikari 637 × 5** Jun 4 (Odawara 10:11 → Kyoto 12:12) | ✅ Booked | Smart-EX res `2001`, Car 14 · 3ABC/3D/2D |
-| **Shinkansen Nozomi × 5** Jun 7 (Kyoto → Tokyo, ~13:45) | 🔴 To book | Klook |
+| **Shinkansen Nozomi 16 × 5** Jun 7 (Kyoto 12:01 → Tokyo 14:15) | ✅ Booked | Smart-EX res `2003`, Car 15 · 13CDE + 14DE |
 | ~~NEX Tokyo→Narita~~ Jun 7 | ❌ Not needed | Use JR Sobu/Narita Rapid (pay-as-you-go Suica) |
 | **Shibuya Sky × 5** May 30 sunset | 🔴 To book | Official site — sellout risk |
 | **Hakone Free Pass** | Buy on arrival | Odakyu Travel Service Center at Hakone-Yumoto |

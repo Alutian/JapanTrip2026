@@ -50,18 +50,38 @@ Single source of truth for all inter-city train bookings. See [`../Plan_C_Family
 
 ---
 
-## 🔴 Shinkansen Nozomi — Kyoto → Tokyo (to book)
+## ✅ Shinkansen Nozomi 16 — Kyoto → Tokyo
 
-**Target:** Sun Jun 7, 2026, ~13:45 departure
-**Channel:** Smart-EX (membership `6732116044`)
-**Passengers:** 3 adults + 2 children
-**Status:** Not yet booked
+**Smart-EX Reservation:** `2003`
 
-Candidate trains:
-- **Nozomi 26** — typical ~13:48 dep → 16:00 Tokyo
-- **Nozomi 226** — typical ~13:58 dep → 16:09 Tokyo
+| Field | Value |
+|-------|-------|
+| Date | Sun Jun 7, 2026 |
+| Train | **Nozomi 16** (N700 series, 16 cars) |
+| Depart | Kyoto **12:01** |
+| Arrive | Tokyo **14:15** (2h 14min) |
+| Class | Ordinary (reserved) |
+| Passengers | 3 adults + 2 children |
+| Seats | Car **15** · 13C, 13D, 13E, 14D, 14E |
+| Total | ¥55,870 |
+| Booked | 2026-05-22 |
 
-Pick 5 reserved seats together in Cars 5–7 (ordinary).
+**Seat plan:**
+- 13D + 13E — window pair, row 13 (DE side)
+- 14D + 14E — window pair, row 14 (directly behind)
+- 13C — lone aisle seat, ABC side of row 13 (across aisle from 13D/E pair)
+- Suggested: Candice + Zara in 13D/E, grandma + Kai in 14D/E, Ajay in 13C
+
+**Boarding:**
+- Same as Hikari 637 — log into Smart-EX, "Display QR-Ticket", save 5 QRs to phone Photos
+- Tap QR at JR Central gates at Kyoto Station
+- Then again on exit at Tokyo Station
+
+**Jun 7 onward connections:**
+- Arrive Tokyo 14:15 → 2-hour Tokyo Station shopping window (Character Street + Tokyo Gift Palette + Daimaru depachika)
+- 16:30 JR Sobu/Narita Rapid → Narita Station (~80 min, pay-as-you-go Suica, ¥1,340/adult)
+- 18:10 Richmond Hotel Narita check-in
+- 18:30 Kawatoyo Honten unagi dinner
 
 ---
 

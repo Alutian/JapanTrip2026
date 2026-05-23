@@ -23,7 +23,7 @@ Single source of truth for what's left to do. Updated as items complete.
 These were originally bucketed for early May and slipped. Some routes risk selling out within the week.
 
 - [x] **Book Shinkansen Odawara → Kyoto × 5** — Hikari 637, Jun 4, dep 10:11 arr 12:12, Car 14 seats 3ABC/3D/2D, Smart-EX res `2001`, ¥47,580. See [`bookings/trains.md`](../bookings/trains.md).
-- [ ] **Book Shinkansen Kyoto → Tokyo × 5 reserved seats** — Nozomi OK, ~13:45 departure on Sun Jun 7. Smart-EX.
+- [x] **Book Shinkansen Kyoto → Tokyo × 5** — Nozomi 16, Jun 7, dep 12:01 arr 14:15, Car 15 seats 13CDE + 14DE, Smart-EX res `2003`, ¥55,870. Earlier-than-original time leaves ~2h Tokyo Station shopping window before Narita. See [`bookings/trains.md`](../bookings/trains.md).
 - [ ] **Book NEX Tokyo Station → Narita × 5** — same day Jun 7. JR-East site or Klook.
 - [ ] **Book NEX NRT → Shinjuku × 5** — for arrival Fri May 29. Reserved seats (safer than counter on arrival with 5 pax).
 - [ ] **Book Shibuya Sky timed entry × 5** — for Sat May 30 sunset. Sunset slots go first.
