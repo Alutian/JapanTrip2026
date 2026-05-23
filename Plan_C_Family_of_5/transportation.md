@@ -154,14 +154,14 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 | ~09:00 | Check out of Rakuten STAY | Self-check-out (just lock up & go) |
 | 09:00–09:25 | **Tozan Railway Kowakudani → Hakone-Yumoto** | Use Hakone Free Pass |
 | 09:25–09:45 | **Tozan Railway Yumoto → Odawara** | Use Hakone Free Pass · ~15 min |
-| 09:45–10:30 | At Odawara: scan e-tickets, find platform, optional ekiben | Shinkansen ticket gate at Odawara is separate from Tozan exit. Famous "kamameshi" ekiben stand worth trying. |
-| 10:30–12:55 | **Shinkansen Hikari Odawara → Kyoto** | ~2h 20min · reserved seats × 5 · ~¥13,000 × 5 = ¥65,000 |
-| 12:55–13:20 | Kyoto Station → Stitch Hotel | 5-min subway (Karasuma line to Shijo) + 5-min walk · OR taxi (~¥1,500) · OR Hankyu line via Kyoto-Kawaramachi |
-| 13:20 onwards | Arrive Stitch — bags already there from Jun 2 | Official check-in 3 PM; front desk holds day-packs if early. Reunite with main suitcases. |
+| 09:05–10:11 | At Odawara: scan QR e-ticket, grab ekiben (kamameshi!), find platform | Shinkansen ticket gate at Odawara is separate from Tozan exit. 66-min buffer = comfortable. |
+| 10:11–12:12 | **Hikari 637 Odawara → Kyoto** | ~2h 01min · Car 14 · Seats 3A/B/C/D + 2D · ¥47,580 total · Smart-EX res `2001` ✅ |
+| 12:12–12:35 | Kyoto Station → Stitch Hotel | 5-min subway (Karasuma line to Shijo) + 5-min walk · OR taxi (~¥1,500) · OR Hankyu line via Kyoto-Kawaramachi |
+| 12:35 onwards | Arrive Stitch — bags already there from Jun 2 | Official check-in 3 PM; front desk holds day-packs if early. Reunite with main suitcases. |
 
 **Bag logistics:** Travelling with day-packs + 1 shared tote + grandma's 20" carry-on. Romancecar/Shinkansen handles all of this trivially. Note: Shinkansen "oversize baggage" reservation rule (>160 cm linear, since 2020) doesn't apply to us — we're not carrying any oversize bags this leg.
 
-**Bookings needed:** **Shinkansen Hikari × 5** Odawara → Kyoto — book via **Klook** (simplest) or **Smart-EX app**. Must be **Hikari** (Nozomi doesn't stop at Odawara). Aim for ~10:30 departure to give buffer for the Tozan transfer.
+**Bookings:** ✅ **Hikari 637 booked** via Smart-EX — see [`../bookings/trains.md`](../bookings/trains.md).
 
 ---
 
@@ -224,7 +224,7 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 |---|---|---|
 | **Romancecar × 5** Jun 2 (Shinjuku → Hakone-Yumoto) | ✅ Booked | Already done |
 | **NEX × 5** May 29 (NRT → Shinjuku) | 🔴 To book | Klook or JR-East site |
-| **Shinkansen Hikari × 5** Jun 4 (Odawara → Kyoto, ~10:30) | 🔴 To book | Klook (recommended) — Hikari only, Nozomi skips Odawara |
+| **Shinkansen Hikari 637 × 5** Jun 4 (Odawara 10:11 → Kyoto 12:12) | ✅ Booked | Smart-EX res `2001`, Car 14 · 3ABC/3D/2D |
 | **Shinkansen Nozomi × 5** Jun 7 (Kyoto → Tokyo, ~13:45) | 🔴 To book | Klook |
 | ~~NEX Tokyo→Narita~~ Jun 7 | ❌ Not needed | Use JR Sobu/Narita Rapid (pay-as-you-go Suica) |
 | **Shibuya Sky × 5** May 30 sunset | 🔴 To book | Official site — sellout risk |

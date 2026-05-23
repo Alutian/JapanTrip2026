@@ -22,7 +22,7 @@ Single source of truth for what's left to do. Updated as items complete.
 
 These were originally bucketed for early May and slipped. Some routes risk selling out within the week.
 
-- [ ] **Book Shinkansen Odawara → Kyoto × 5 reserved seats** — Hikari (not Nozomi), ~10:15 departure on Thu Jun 4. Smart-EX app.
+- [x] **Book Shinkansen Odawara → Kyoto × 5** — Hikari 637, Jun 4, dep 10:11 arr 12:12, Car 14 seats 3ABC/3D/2D, Smart-EX res `2001`, ¥47,580. See [`bookings/trains.md`](../bookings/trains.md).
 - [ ] **Book Shinkansen Kyoto → Tokyo × 5 reserved seats** — Nozomi OK, ~13:45 departure on Sun Jun 7. Smart-EX.
 - [ ] **Book NEX Tokyo Station → Narita × 5** — same day Jun 7. JR-East site or Klook.
 - [ ] **Book NEX NRT → Shinjuku × 5** — for arrival Fri May 29. Reserved seats (safer than counter on arrival with 5 pax).
@@ -47,7 +47,7 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 
 ### Apps & Accounts
 - [ ] Install **Yamato Kuroneko app** (English) — for takkyubin labels
-- [ ] Set up **Smart-EX app** account (JR Central Shinkansen) — finicky, do early
+- [x] Set up **Smart-EX account** — done (membership `6732116044`, Ajay)
 - [ ] Set up **Klook account** as backup channel
 - [ ] **Grandma: Apple Wallet Suica** on her iPhone before departure — top up ¥3,000–5,000. She's the only iPhone in the group.
 - [ ] **Ajay + Candice: optionally set up Google Wallet Mobile Suica** on Android (now supported in Japan) — or just plan to buy a physical Suica/Pasmo at NRT on arrival. Decide before departure.
