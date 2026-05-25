@@ -473,7 +473,8 @@ export type Lodging = {
   doorCodeNote?: string;    // e.g. "Sent via Airbnb message 1 day before check-in"
   checkInFlow?: string[];   // ordered steps to get from street → in the room
   walkingDirections?: { from: string; steps: { text: string; imageUrl?: string }[] };
-  appliances?: { name: string; note: string }[];
+  appliances?: { name: string; note: string; imageUrl?: string }[];
+  heroImageUrl?: string;
   houseRules?: string[];
   trash?: string[];
   luggageStorage?: string;
@@ -500,8 +501,9 @@ export const LODGING: Lodging[] = [
     nearestStation: { name: 'Shinjuku-gyoenmae', line: 'Marunouchi', exit: 'Exit 2', walkMin: 6 },
     wifi: { ssid: 'elecom2g01-0fee9a', password: '6000776026708' },
     doorCodeNote: 'Sent via Airbnb message ~1 day before check-in (May 28 evening). Add to this entry once received.',
+    heroImageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg37UEQ0lzW8quw1aBRypWPvlMHZJpBa8dw_UdG0PQNcKsLzjgNpQqYmjigPnAk1zzRP_4IBJCL5YymGuRQFxjlTUm11uRXmxbPtoZW7Yr82eHrAkdlxJ_aKMqIM6MgIlVSuW45QbNg8mxkq=s2048',
     checkInFlow: [
-      'Building entrance is unlocked — walk in.',
+      'Building entrance is unlocked — walk in. (Photo: see hero shot — "NOT LOCKED" red callout marks the door.)',
       'Elevator to 3rd floor. Room is directly across when you step off.',
       'Small step exiting elevator — watch your footing (especially with bags).',
       'Enter passcode on LOCKSTATE smart lock; door unlocks.',
@@ -522,21 +524,31 @@ export const LODGING: Lodging[] = [
         { text: 'Turn left at this corner.' },
         { text: 'Go straight.' },
         { text: 'Turn right here.' },
-        { text: 'You will find the building on your right.' },
-        { text: 'Welcome! 🎉' },
+        { text: 'You will find the building on your right.', imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg3mTpbWHgQv9rBLf9GDW6gt4ZSyLA7x8XHkxPmdhbmhd55ijelJRCGoYbDesUowW6mGgc2THqKugKemA8qMUmK7b0yhr3mycPV2YuH_yMSgm-AF1_yiA_lSO5gzcJJY3t1twB52iklOwbkq6E233Fdhyhh3F675GKpysw=s2048' },
+        { text: 'Welcome! 🎉', imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg2jmvH4N14iBY-ux_PlTXktncUSl_ckXGrQ2pr6N4UnmFHxLv3g9UhtipfO0tWrh-EJL5FjY2WBRw4waH-xeyb3Ab2aSqzO8mK5mgnETEdbGZsKWSS5lAfKANVbvOgbulOD5CcBcZMztGwlLsI=s2048' },
       ],
     },
     appliances: [
       { name: 'WiFi', note: 'Network + password above. 5G band is in the SSID.' },
-      { name: 'Hot water heater', note: 'Keep the boiler ON even when out. DO NOT press お湯はり (auto-fill) — breaks shower hot water.' },
-      { name: 'Washer-dryer combo', note: 'Wash→dry cycle takes ~5h and cannot be opened mid-cycle. Don\'t overload. For big loads use Laundry Brisk (1 min walk).' },
-      { name: 'Electric burner', note: 'Hold 電源入/切 (ON/OFF) for 2 sec to power on. Press 加熱入/切 (HEAT) for the desired plate. Use 揚げ物 for frying.' },
-      { name: 'Microwave', note: 'NO metal, foil, paper bags, or plastic bags. They will explode.' },
-      { name: 'Rice cooker', note: 'Add rice + water. Press メニュー until 白米 (white rice). Press 炊飯 (cook). Press 保温/切 to turn off — does NOT auto-off.' },
+      { name: 'Hot water heater', note: 'Keep the boiler ON even when out. DO NOT press お湯はり (auto-fill) — breaks shower hot water.',
+        imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg0Nmbzw5zgLbNj_oPsO27nGpvwZlCzr3knZ2Wqc-sZuZdB163D1li3d6yI27ZbBllB9Q058WsEQaqwQfr926rdLDY2DWHSkUTujmcuEg50GozAqsft4gXGvcZP60txFTRtl5sSgG6Dx9UL8_O0=s2048' },
+      { name: 'Washlet (toilet)', note: 'Standard Japanese washlet remote — buttons for spray, dryer, lid.',
+        imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg0ljujoLHIXd18YpLTcFbpOLUffO32q43oD0hDSgxFQZKm1dbMpqUR389SZiTroaA57XNqEWU20MObnpZWIZO8vvuq_uVm6fBr_wqJnPew2Ej8pvWyaxea8TnuwKvLPvrTp78O505ZemucnTNE=s2048' },
+      { name: 'Washer-dryer combo', note: 'Wash→dry cycle takes ~5h and cannot be opened mid-cycle. Don\'t overload. For big loads use Laundry Brisk (1 min walk).',
+        imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg2AAfzX6MS3d7VpJSMc8PRdyiBNi8nWhNPKmdGvi9PkKN09SvECZOUJO8cf8_4gDLYRVA9Q9QZUrAS_8CvL6826OKngdExLl1NQzO6PIntkpyc7az2GH-9Sw1Y48ljK9U9XHb99yhAoDVuAq2E=s2048' },
+      { name: 'Electric burner', note: 'Hold 電源入/切 (ON/OFF) for 2 sec to power on. Press 加熱入/切 (HEAT) for the desired plate. Use 揚げ物 for frying.',
+        imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg2UgcivKXGiV_59ZGiobpGEvTj1BUe0wzV1hZ8usmQNVPf4laTLe1qN1z6bVoi99xzA1Trg3fPMTcGrnPf1zZk_8o26VCiKdw1nUJbvDNopKVR5YfmHZtmkDKb9Tfq5teoA0XP6BJr8Y8XW=s2048' },
+      { name: 'Microwave', note: 'NO metal, foil, paper bags, or plastic bags. They will explode.',
+        imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg2N5nX21YRx5j-piHma1YvFeZYegzqhkrevMJ2Buvx-AtV2eckIy06FOW0t4uwyw0lbkCKoD3Yj2gbGIOdvErDrksQ42w2dljWxSRIAoFsYRDmwWx3ya-u4zxc2h5q7Mg5wN55uehzSHvstVD8=s2048' },
+      { name: 'Rice cooker', note: 'Add rice + water. Press メニュー until 白米 (white rice). Press 炊飯 (cook). Press 保温/切 to turn off — does NOT auto-off.',
+        imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg2aM-wCWc9E1g2xVQcptAlsPbV7WQzZsbXcK-BP85zpkrku5ZkYP4pH4duHsaRh_e2t8hGsETRiMPBhed_Sqd_saeChZcCeIKfTNKP7B3QVPrUfHOYIfx_96rRHHXqIo9gsiXsn4qljM1YWUXY=s2048' },
       { name: 'Air conditioner', note: 'Standard remote. Set bedroom + living separately.' },
-      { name: 'Smart TV', note: 'Netflix is pre-logged-in — do NOT log out. Broadcast + BS/CS channels also available.' },
-      { name: 'Intercom', note: '⚠ Do not touch.' },
-      { name: 'Breaker', note: 'If it trips (too many appliances), call host — breaker is in kitchen inspection port (host needs to access).' },
+      { name: 'Smart TV', note: 'Netflix is pre-logged-in — do NOT log out. Broadcast + BS/CS channels also available.',
+        imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg0JGr2uR7pJrezXkT2PLwNzA4Ry_bPkF6NhB4Q8eTfrdyQ4wDEGNwm6E9ScNtjq6p9GjgA1F3XcO_uP7bbkAbNNzMzH3eAPwRQjDzTf79tIp35P7hDfpYB1cmjHSRwWfUziJaSzxVUWoDNg=s2048' },
+      { name: 'Intercom', note: '⚠ Do not touch.',
+        imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg0Z4JWDkQ1FNBWarwHNnaqg76Ecz2-V0Vq3t-WeHJPFH9NwvRsbG0AP__ISc0BPbpzDo1JLOnLANjj-FOUKLoYew97mgM4SvNEJeu1un5DbBa0jHU9kMEFVYmLERkx4c2ZqJChsRbOfbqeTeO4=s2048' },
+      { name: 'Breaker', note: 'If it trips (too many appliances), call host — breaker is in kitchen inspection port (host needs to access).',
+        imageUrl: 'https://docs.google.com/docs-images-rt/ABaEjg2WZm7kOG-oQX3Ui7y_vW_F0mQg0WaVYjib6YIGwrjbMinTCRhhoGasxIoXM74yYzQghRSPIYsQrrRjc5D61fwSp8hQNM9pq7LxovaAgjIjHGqHqJGBI4NKwB_Ah7LiKlwB87FLilVhnXKyiFg=s2048' },
     ],
     trash: [
       'Keep trash INSIDE the room — NEVER set it outside the building.',

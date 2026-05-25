@@ -15,5 +15,7 @@
 # Playwright + screenshot artifacts (session-local)
 .playwright-mcp/
 day*-*.png
+img-*.png
+doc-*.png
 *-fullpage.png
 *-current.png

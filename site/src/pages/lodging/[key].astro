@@ -23,6 +23,10 @@ function mapsUrl(query: string) {
     {l.guideUrl && <> · <a href={l.guideUrl} target="_blank" rel="noopener">📄 Full host guide ↗</a></>}
   </p>
 
+  {l.heroImageUrl && (
+    <img src={l.heroImageUrl} alt={`${l.name} — building entrance`} loading="lazy" style="width: 100%; border-radius: 12px; margin-bottom: 1rem;" />
+  )}
+
   {/* Address + Map */}
   <div class="card">
     <h2 style="margin-top: 0;">📍 Address</h2>
@@ -126,9 +130,14 @@ function mapsUrl(query: string) {
       <summary style="cursor: pointer; font-weight: 600; font-size: 1.1rem; color: var(--accent-2);">
         🔌 Appliances & how to use them ({l.appliances.length})
       </summary>
-      <ul style="margin-top: 0.75rem;">
+      <ul style="margin-top: 0.75rem; list-style: none; padding-left: 0;">
         {l.appliances.map(a => (
-          <li><strong>{a.name}:</strong> {a.note}</li>
+          <li style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border);">
+            <div><strong>{a.name}:</strong> {a.note}</div>
+            {a.imageUrl && (
+              <img src={a.imageUrl} alt={a.name} loading="lazy" style="margin-top: 0.5rem; max-width: 100%; border-radius: 8px;" />
+            )}
+          </li>
         ))}
       </ul>
     </details>
