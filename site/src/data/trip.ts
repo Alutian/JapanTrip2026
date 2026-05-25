@@ -3,9 +3,9 @@
 // Update this file when bookings change.
 
 export const TRIP = {
-  start: '2026-05-29',
+  start: '2026-05-28',
   end: '2026-06-08',
-  travelers: ['Ajay', 'Candice', 'Zara (7)', 'Kai (9)', 'Grandma (Seck Joo Lee, 75)'],
+  travelers: ['Ajay', 'Candice', 'Zara (9)', 'Kai (7)', 'Grandma (Seck Joo Lee, 75)'],
 };
 
 export type Day = {
@@ -20,6 +20,23 @@ export type Day = {
 };
 
 export const DAYS: Day[] = [
+  {
+    n: 0,
+    date: '2026-05-28',
+    shortDate: 'Thu May 28',
+    title: 'Departure SJC',
+    cluster: 'San Jose → Narita',
+    locked: [
+      '11:40 — ZIPAIR ZG029 SJC → NRT (11h 10m nonstop). Conf GE7DVP.',
+      'Check-in closes 10:40 (1h pre-flight). Target SJC ~09:30.',
+    ],
+    plan: [
+      'Morning: final packing, weigh suitcases (ZIPAIR overweight = fee).',
+      '~08:30 — leave home for SJC. Allow buffer.',
+      'ZIPAIR is no-frills — confirm bag fees pre-paid, bring snacks for the kids.',
+      'Sleep on the plane. Day 1 arrival is also a jet-lag day.',
+    ],
+  },
   {
     n: 1,
     date: '2026-05-29',
