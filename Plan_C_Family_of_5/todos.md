@@ -27,7 +27,7 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 - [x] **Book Shinkansen Kyoto → Tokyo × 5** — Nozomi 16, Jun 7, dep 12:01 arr 14:15, Car 15 seats 13CDE + 14DE, Smart-EX res `2003`, ¥55,870. Earlier-than-original time leaves ~2h Tokyo Station shopping window before Narita. See [`bookings/trains.md`](../bookings/trains.md).
 - [ ] **Book NEX Tokyo Station → Narita × 5** — same day Jun 7. JR-East site or Klook.
 - [x] **NEX NRT → Shinjuku × 5** — **decided to buy on arrival**, not pre-book. Hedges ZIPAIR delay risk; same JR East counter as Welcome Suica = zero added steps. Ask about N'EX Tokyo Direct Ticket tourist discount at the counter.
-- [ ] **Book Shibuya Sky timed entry × 5** — for Sat May 30 sunset. Sunset slots go first.
+- [ ] **Book Shibuya Sky timed entry × 5** — for Sat May 30 sunset. Sunset slots go first. **Window opens 00:00 JST 2 weeks before** (May 16) and sunset slots can sell out within minutes. Book via [shibuya-sky.com](https://www.shibuya-scramble-square.com/sky/) (official), [Klook](https://www.klook.com/en-US/activity/70672-shibuya-sky-tokyo/), or [KKday](https://www.kkday.com/en-us/product/133300-shibuya-sky-observatory-e-ticket-tokyo). Target slot: 18:00–18:20 (sunset ~18:55). Need 5 tickets (grandma in).
 - [ ] **Reply to Rakuten STAY email** with email in `address(AT)mail(DOT)com` format so the Hakone online check-in URL gets delivered. *(Takkyubin-to-STAY question is moot — main bags ship Tokyo→Kyoto direct, only day-packs travel to Hakone.)*
 - [ ] **Message Stitch Hotel via Booking.com** to confirm in writing: (1) Stitch front desk will receive the Jun 1 Tokyo→Kyoto direct takkyubin and hold both suitcases until our Jun 4 check-in, and (2) Stitch handles outbound shipping to Richmond Hotel Narita on Jun 6 morning.
 - [ ] **Verify ZIPAIR checked baggage allowance** — pull GE7DVP confirmation, confirm per-person checked-bag count + weight. Reconcile with 5×25" plan in `transportation.md`. Pre-pay online (airport counter has handling fee, no cash).
@@ -36,7 +36,7 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 
 ## 🟡 This Week (dining + activity bookings)
 
-- [ ] **Book MiPig Café** for Sat May 30 — 60-day window is open. Pre-book a 60-min private room slot.
+- [x] **Book MiPig Café** — ✅ Booked for Sat May 30, **10:00** (60-min private room, Harajuku Takeshita branch). Address: Bsquare Takeshita Street 1F, Jingumae 1-6-10, Shibuya-ku.
 - [ ] **Pre-arrange Kaiseki Kyoto farewell dinner** for Sat Jun 6 — message Stitch Hotel concierge to book Kikunoi Roan / Kiyamachi Sakuragawa / Giro Giro Hitoshina (per menu KE2). Earlier is safer than asking on arrival.
 - [ ] **Book Pontocho dinner Day 7 (Thu Jun 4)** — Candice P1. Ask Stitch front desk via Booking.com; needs 18:30–19:30 slot.
 - [ ] **Confirm GEAR venue address** — ART Complex 1928 (Sanjo-dori, Nakagyo-ku). Reservation `#8241`, Fri Jun 5 19:00–20:30. Walking distance from Pontocho for pre-show dinner.
