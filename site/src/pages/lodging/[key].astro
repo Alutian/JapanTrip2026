@@ -24,7 +24,7 @@ function mapsUrl(query: string) {
   </p>
 
   {l.heroImageUrl && (
-    <img src={l.heroImageUrl} alt={`${l.name} — building entrance`} loading="lazy" style="width: 100%; border-radius: 12px; margin-bottom: 1rem;" />
+    <img src={l.heroImageUrl.startsWith('/') ? `${base}${l.heroImageUrl}` : l.heroImageUrl} alt={`${l.name} — building entrance`} loading="lazy" style="width: 100%; border-radius: 12px; margin-bottom: 1rem;" />
   )}
 
   {/* Address + Map */}
@@ -100,7 +100,7 @@ function mapsUrl(query: string) {
             {s.text}
             {s.imageUrl && (
               <div style="margin: 0.5rem 0;">
-                <img src={s.imageUrl} alt={s.text} loading="lazy" style="max-width: 100%; border-radius: 8px;" />
+                <img src={s.imageUrl.startsWith('/') ? `${base}${s.imageUrl}` : s.imageUrl} alt={s.text} loading="lazy" style="max-width: 100%; border-radius: 8px;" />
               </div>
             )}
           </li>
@@ -135,7 +135,7 @@ function mapsUrl(query: string) {
           <li style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border);">
             <div><strong>{a.name}:</strong> {a.note}</div>
             {a.imageUrl && (
-              <img src={a.imageUrl} alt={a.name} loading="lazy" style="margin-top: 0.5rem; max-width: 100%; border-radius: 8px;" />
+              <img src={a.imageUrl.startsWith('/') ? `${base}${a.imageUrl}` : a.imageUrl} alt={a.name} loading="lazy" style="margin-top: 0.5rem; max-width: 100%; border-radius: 8px;" />
             )}
           </li>
         ))}
