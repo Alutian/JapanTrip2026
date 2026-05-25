@@ -7,6 +7,10 @@ const today = new Date().toISOString().slice(0, 10);
 const todayDay = DAYS.find(d => d.date === today);
 const beforeTrip = today < TRIP.start;
 const afterTrip = today > TRIP.end;
+// First "real arrival" day is Day 1 (NRT landing), not Day 0 (SJC departure).
+const arrivalDate = DAYS.find(d => d.n === 1)?.date;
+// Pre-trip landing target: Day 0 (departure prep), the actual first page travelers need.
+const entryDay = DAYS.find(d => d.n === 0) ?? DAYS[0];
 ---
 
 <Layout title="Home">
@@ -37,9 +41,9 @@ const afterTrip = today > TRIP.end;
   )}
 
   {beforeTrip && (
-    <a href={`${base}/days/1`} class="card">
+    <a href={`${base}/days/${entryDay.n}`} class="card" style="border-color: var(--accent);">
       <h2 style="margin-top: 0;">📅 Trip starts {TRIP.start}</h2>
-      <div class="hint">Open Day 1 plan →</div>
+      <div class="hint">Open Day {entryDay.n} — {entryDay.title} →</div>
     </a>
   )}
 
@@ -88,9 +92,9 @@ const afterTrip = today > TRIP.end;
     <a href={`${base}/docs/wishlist/kyoto`} class="card"><strong>Kyoto wishlist</strong></a>
   </div>
 
-  <script is:inline define:vars={{ start: TRIP.start, today }}>
-    // Show "We just landed" banner on arrival day only.
-    if (today === start) {
+  <script is:inline define:vars={{ arrivalDate, today }}>
+    // Show "We just landed" banner on the actual NRT arrival day (Day 1 = 2026-05-29).
+    if (arrivalDate && today === arrivalDate) {
       document.getElementById('just-landed-banner').style.display = 'block';
     }
   </script>
