@@ -102,6 +102,19 @@ Score each dimension as **OK / Weak / Broken** with one-line evidence. Don't pad
 - Emergency contact for the day
 - What time the *next day* starts and what to pre-load tonight
 
+**J. Temporal feasibility & day-scoping** (the silent failure mode — a checklist item that *cannot actually be done on this day* makes the whole page lie to you)
+- Walk every prep / checklist item and ask: *given this day's constraints (location, time pressure, available wifi, what's still packed vs. used), can a tired traveler actually complete this here?*
+- **Pre-trip prep days (Day -N)** exist for items that need wifi, time, or shopping: offline map downloads, app installs + signin, eSIM provisioning, cash exchange, paper backups, screenshot dumps, bilingual translation, ordering anything that ships.
+- **Day 0 / departure-day** should hold only **last-mile, morning-of items**: final bag weigh, leave-house, verify bags-pre-paid, get to airport, online check-in if not already done.
+- **In-country execution days** should hold only items doable at the moment — not "download X" or "install Y" which presume connectivity + time.
+- **Things to flag as mis-scoped:**
+  - Offline downloads on a day where you'll be in transit / without solid wifi.
+  - "Install X app" on day-of when the install requires sign-in + 2FA + onboarding flow.
+  - "Buy travel adapter / battery pack / umbrella" on the day you're already leaving home.
+  - "Exchange cash" on a day with no banking window.
+  - "Email vendor X to confirm" on a day they won't reply before you need the answer.
+- **Counter-test:** for each prep item, name the *day before which* it would have to be done to be useful. If that day is earlier than today, the item is on the wrong page.
+
 **I. Moment-level UX & geographic affordances** (the reason this is a site, not a markdown doc — if these aren't there, we shipped a worse markdown doc)
 - **Decomposed into moments, not timestamps.** Travelers think *"we just landed, what next"* not *"16:00."* Each transition is its own section with its own tips, decisions, links, fallbacks. Typical Day 1 moments: *Customs & immigration → JR East counter (Suica + NEX) → NEX ride → Marunouchi transfer → Airbnb arrival → Dinner → Sleep.* Flag a flat list of times as broken.
 - **Maps + directions everywhere there's a "go to."** Every named location → "Open in Google Maps" link (`https://www.google.com/maps/search/?api=1&query=<address>` or `place_id` form). Walking/transit segments → directions deeplink (`https://www.google.com/maps/dir/?api=1&origin=…&destination=…&travelmode=transit`), not just text. Lodging pages → embedded mini-map or static thumbnail. Zero map links on a page that includes 3+ locations is a Broken finding.
@@ -118,7 +131,7 @@ Write 300-500 words organized as:
 ```
 TL;DR (one sentence — would I trust this page to carry us through Day N? Why/why not.)
 
-WRONG / BROKEN (factual problems, ranked by blast radius)
+WRONG / BROKEN (factual problems + temporal-feasibility violations from checklist J, ranked by blast radius. Anything that "can't actually be done today" goes here, not Missing.)
 
 STRUCTURE / UX (layout, sectioning, maps, affordances, progressive disclosure — findings from checklist I. Don't bury this under content findings; it's at least as important.)
 

@@ -7,10 +7,10 @@ const today = new Date().toISOString().slice(0, 10);
 const todayDay = DAYS.find(d => d.date === today);
 const beforeTrip = today < TRIP.start;
 const afterTrip = today > TRIP.end;
-// First "real arrival" day is Day 1 (NRT landing), not Day 0 (SJC departure).
+// First "real arrival" day is Day 1 (NRT landing), not Day 0/-1.
 const arrivalDate = DAYS.find(d => d.n === 1)?.date;
-// Pre-trip landing target: Day 0 (departure prep), the actual first page travelers need.
-const entryDay = DAYS.find(d => d.n === 0) ?? DAYS[0];
+// Pre-trip landing target: the lowest-numbered day (Day -1 if present, else Day 0).
+const entryDay = [...DAYS].sort((a, b) => a.n - b.n)[0];
 ---
 
 <Layout title="Home">
@@ -40,7 +40,7 @@ const entryDay = DAYS.find(d => d.n === 0) ?? DAYS[0];
     </a>
   )}
 
-  {beforeTrip && (
+  {beforeTrip && !todayDay && (
     <a href={`${base}/days/${entryDay.n}`} class="card" style="border-color: var(--accent);">
       <h2 style="margin-top: 0;">📅 Trip starts {TRIP.start}</h2>
       <div class="hint">Open Day {entryDay.n} — {entryDay.title} →</div>
@@ -56,6 +56,10 @@ const entryDay = DAYS.find(d => d.n === 0) ?? DAYS[0];
 
   <h3>Quick access</h3>
   <div class="grid-2">
+    <a href={`${base}/packing`} class="card">
+      <strong>🎒 Packing</strong>
+      <div class="hint">Master list · pre-trip + day-of</div>
+    </a>
     <a href={`${base}/lodging`} class="card">
       <strong>🏨 Hotels</strong>
       <div class="hint">Addresses (EN + JP) · conf #s · PINs</div>

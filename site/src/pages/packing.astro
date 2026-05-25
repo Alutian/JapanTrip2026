@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { PACKING } from '../data/trip.ts';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Layout title="Packing">
+  <h1>🎒 Packing list</h1>
+  <p class="hint" style="margin-top: -0.5rem;">
+    Master list. Day -1 references this for the final pack-pass; Day 0 references this to verify nothing was left behind.
+  </p>
+
+  <p style="margin: 0.5rem 0 1.25rem;">
+    <a href={`${base}/days/-1`}>← Day -1 (pack night)</a> ·{' '}
+    <a href={`${base}/days/0`}>Day 0 (departure) →</a>
+  </p>
+
+  {PACKING.map(section => (
+    <details class="card" open>
+      <summary style="cursor: pointer; font-weight: 600; font-size: 1.1rem; color: var(--accent-2);">
+        {section.title}
+      </summary>
+      {section.note && <p class="hint" style="margin-top: 0.5rem;">{section.note}</p>}
+      <ul style="margin-top: 0.75rem;">
+        {section.items.map(item => <li>{item}</li>)}
+      </ul>
+    </details>
+  ))}
+
+  <p class="hint" style="margin-top: 1.5rem; font-style: italic;">
+    Source: <code>site/src/data/trip.ts</code> (PACKING const). Edit there.
+  </p>
+</Layout>

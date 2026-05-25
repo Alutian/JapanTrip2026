@@ -33,6 +33,49 @@ export type Day = {
 
 export const DAYS: Day[] = [
   {
+    n: -1,
+    date: '2026-05-27',
+    shortDate: 'Wed May 27',
+    title: 'Pack + Prep',
+    cluster: 'Last day at home — get-it-done-now items',
+    crossLinks: [
+      { href: '/packing', label: '🎒 Packing list' },
+      { href: '/bookings', label: '✈ Bookings' },
+    ],
+    locked: [
+      'ZIPAIR online check-in opens 11:40 (24h before ZG029). Do it the moment it opens.',
+      'These items CANNOT be done morning-of — they need wifi, time, or stores. Today is the deadline.',
+    ],
+    prep: {
+      title: 'Do-tonight prep (wifi + time required — not feasible morning of)',
+      items: [
+        '📱 ZIPAIR online check-in (opens 11:40 PT) → zipair.net Manage Booking, conf GE7DVP',
+        '🗺 Google Maps offline downloads: Tokyo, Hakone, Kyoto, Narita (each ~200MB; do on home wifi)',
+        '📲 Install + sign in: Yamato Kuroneko (EN), Smart-EX, Klook',
+        '📸 Screenshot ALL booking confirmations to phone Photos (flights, lodging, teamLab, trains) — Wi-Fi-independent backup',
+        '💊 Grandma: print bilingual medication list (EN + JP via Google Translate). Paper, in her carry-on.',
+        '🚖 Schedule Uber XL pickup for 08:30 Thu May 28 → SJC Terminal B departures',
+        '💴 Order ¥30,000 cash from bank (pickup today) OR commit to 7-Eleven ATM at NRT on arrival',
+        '📞 Confirm house-sitter: keys, alarm code, dates, plant instructions',
+        '📑 Paper backup of flight info + lodging confirmations in a separate bag from originals',
+      ],
+    },
+    bags: {
+      title: 'Pack tonight (final pass — use the full list)',
+      items: [
+        '🎒 See /packing for the master list (clothes, toiletries, electronics, kid stuff, Japan-specific)',
+        '🔌 Travel adapters × 2 (Type A — same as US, but check 100V tolerance on chargers)',
+        '🔋 Portable battery packs × 2, fully charged',
+        '☔ Foldable umbrella per adult (June rainy season)',
+        '👞 Comfortable walking shoes broken in (15–20k steps/day)',
+        '🧥 Layers — June Tokyo highs ~26°C, but Hakone evenings cool',
+        '💊 ALL prescription meds in carry-ons (never checked, never takkyubin)',
+      ],
+    },
+    plan: [],
+    nextDayTeaser: 'Tomorrow → Day 0: Wheels up 11:40 SJC. Morning is just bags + Uber.',
+  },
+  {
     n: 0,
     date: '2026-05-28',
     shortDate: 'Thu May 28',
@@ -41,6 +84,7 @@ export const DAYS: Day[] = [
     confirmation: { code: 'GE7DVP', label: 'ZIPAIR family conf' },
     crossLinks: [
       { href: '/bookings', label: '✈ Bookings' },
+      { href: '/packing', label: '🎒 Packing list' },
       { href: '/emergency', label: '🆘 Emergency' },
     ],
     countdown: {
@@ -55,20 +99,15 @@ export const DAYS: Day[] = [
       'Grandma: separate conf F0F2P9, same flight, seat 51H.',
     ],
     prep: {
-      title: 'Pre-departure checklist (do tonight + morning of)',
+      title: 'Morning-of checklist (only last-mile items — wifi/install/shopping was Day -1)',
       items: [
-        '✅ Bags pre-paid — Value package includes 1 checked bag/pax/direction (4 out + 4 back). No counter action needed.',
-        '📱 Online check-in opens 24h before — do Wed May 27 11:40 via zipair.net Manage Booking (conf GE7DVP)',
-        '🛂 Passports × 5 in day-packs, not checked',
-        '💊 Grandma\'s meds in HER carry-on (never checked, never takkyubin)',
-        '📶 Google Fi covers Japan — no setup; just power on after landing. (Grandma\'s carrier roaming/eSIM is a separate check.)',
-        '🗺 Google Maps offline downloads: Tokyo, Hakone, Kyoto, Narita',
-        '💴 ¥30,000 cash starter (or plan 7-Eleven ATM at NRT — JPY/decline-conversion)',
-        '📸 Screenshot all booking confirmations to phone Photos (Wi-Fi-independent backup)',
-        '🔌 Travel adapters (Type A; check chargers for 100V)',
-        '🔋 Portable battery packs × 2',
-        '☔ Foldable umbrella per adult (June rainy season)',
-        '📲 Apps installed + signed in: Yamato Kuroneko (EN), Smart-EX, Klook',
+        '✅ Bags pre-paid — 1 checked bag/pax/direction included in Value package. No counter scramble.',
+        '✅ Online check-in done last night — if not, do it NOW (need it before counter close)',
+        '🛂 Passports × 5 in day-packs (not checked)',
+        '💊 Grandma\'s meds in HER carry-on',
+        '📶 Google Fi covers Japan — just power on after landing. Grandma\'s carrier handles her own roaming.',
+        '💴 Cash + cards in wallet (¥ from bank yesterday, or plan NRT 7-Eleven ATM — JPY/decline-conversion)',
+        '🎒 Full packing list confirmed (see /packing). Day -1 items should already be ✅.',
       ],
     },
     bags: {
@@ -289,6 +328,119 @@ export const DAYS: Day[] = [
       'Check out by 11:00',
       '~13:00 — Taxi or Keisei to NRT',
       '~13:30 — At NRT for 16:25 ZG030 (ZIPAIR check-in closes 15:25)',
+    ],
+  },
+];
+
+// ---------- Packing list ----------
+// Master list — referenced from Day -1 and Day 0 pages.
+// Edit here when items get added/removed; the page auto-renders.
+
+export type PackingSection = {
+  key: string;
+  title: string;
+  items: string[];
+  note?: string;
+};
+
+export const PACKING: PackingSection[] = [
+  {
+    key: 'docs',
+    title: '🛂 Documents (carry-on only — never checked)',
+    items: [
+      'Passports × 5 (all valid 6+ months past Jun 8)',
+      'ZIPAIR confs: GE7DVP (family) + F0F2P9 (grandma) — printed + on phone',
+      'All 4 lodging conf #s printed (Yotsuya, Rakuten STAY, Stitch Kyoto, Richmond Narita)',
+      'teamLab Planets booking screenshot',
+      'GEAR Kyoto reservation #8241',
+      'Scoot TR 885 confirmation R643SL (grandma\'s SIN onward)',
+      'Bilingual medication list for grandma (EN + JP)',
+      'Travel insurance card / policy # if applicable',
+      'Cash + cards in primary wallet; backup card in separate bag',
+    ],
+  },
+  {
+    key: 'electronics',
+    title: '🔌 Electronics',
+    items: [
+      'Travel adapters × 2 (Type A — same as US; voltage 100V, check chargers)',
+      'Portable battery packs × 2 (fully charged)',
+      'Charging cables (USB-C × 2, Lightning × 1 for grandma\'s iPhone)',
+      'Wall chargers (multi-port preferred)',
+      'Phone for each adult; kids share or have own',
+      'Tablets for the kids (downloaded shows + games for the flight)',
+      'Headphones / earbuds per person (incl. kids)',
+      'Camera if bringing (charger + spare battery + SD card)',
+    ],
+  },
+  {
+    key: 'clothes',
+    title: '👕 Clothes per person',
+    note: 'June Tokyo highs ~26°C, lows ~18°C; Hakone evenings cooler; expect rain. Pack for layering.',
+    items: [
+      'Comfortable walking shoes (broken in — 15–20k steps/day)',
+      'Sandals or slip-ons (onsen, lodging, easy on-off at temples)',
+      'Light layers: t-shirts + 1–2 long sleeves per person',
+      '1 light rain jacket per adult',
+      'Underwear + socks for ~5 days (laundry at Stitch Kyoto handles the rest)',
+      '1 nicer outfit per person for kaiseki / Fujiya dining',
+      'PJs / sleepwear',
+      'Swimsuits (Yunessun water park option in Hakone)',
+      'Sun hat for the kids',
+    ],
+  },
+  {
+    key: 'toiletries',
+    title: '🧴 Toiletries (carry-on liquids ≤100ml, the rest checked)',
+    items: [
+      'Toothbrushes + travel toothpaste',
+      'Deodorant',
+      'Sunscreen (SPF 30+, reef-safe if visiting beaches)',
+      'Insect repellent (kid-safe formulation)',
+      'Hand sanitizer + travel tissue (some Japanese bathrooms lack paper)',
+      'Prescription meds — ALL in carry-on, never checked, never takkyubin',
+      'Pain reliever (ibuprofen / Tylenol) + kid-dose equivalent',
+      'Band-aids + small first-aid kit',
+      'Contacts + glasses + saline if applicable',
+    ],
+  },
+  {
+    key: 'daypack',
+    title: '🎒 Day-pack essentials (every transit day)',
+    items: [
+      'Passport + travel docs',
+      'Wallet + cash + IC card (Welcome Suica, bought at NRT Day 1)',
+      'Phone + charger + portable battery',
+      'Medications (especially grandma\'s)',
+      'One full change of clothes per person (in case takkyubin bag is delayed)',
+      'Toothbrush + small toiletries',
+      'Snacks + refillable water bottle',
+      'Rain layer',
+      'Kid amusement (tablet, book, cards)',
+      'Packable foldable tote (Sea-to-Summit Ultra-Sil) — for konbini hauls + souvenirs',
+    ],
+  },
+  {
+    key: 'kids',
+    title: '👧 Kids (Zara 9, Kai 7)',
+    items: [
+      'Tablets + headphones + downloaded content for 11h flight',
+      'Sticker books, small toys, card games',
+      'Snacks they actually like (ZIPAIR sells nothing free)',
+      'Spare clothes in the day-pack (spills happen)',
+      'Wet-wipes',
+      'Comfort item for sleep (small stuffy / blanket)',
+    ],
+  },
+  {
+    key: 'japan',
+    title: '🗾 Japan-specific extras',
+    items: [
+      'Foldable umbrella per adult (or buy ¥500 at konbini on arrival)',
+      'Slip-on shoes (constant temple/onsen shoe removal)',
+      'Cash-friendly mindset — many small places still cash only',
+      'Small bag for trash (Japan has very few public bins)',
+      'Empty space in suitcase for souvenirs (or plan Don Quijote extra bag)',
     ],
   },
 ];
