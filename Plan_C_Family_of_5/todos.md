@@ -77,8 +77,8 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 **Flight:** ZG029 11:40 SJC→NRT. Check-in counter at **SJC Terminal B**, closes **10:40**. Departure gate **Terminal A** (walk B→A after check-in). Target arrival at SJC **09:00**. **Ride:** Uber XL — schedule night of May 27.
 
 **Bags + boarding (do tonight May 27 + morning of):**
-- [ ] **ZIPAIR checked-bag pre-pay** via Manage Booking (avoid counter handling fee). Do **night of May 27**. Source: [bookings/flights.md](../bookings/flights.md#baggage).
-- [ ] Final suitcase weigh-in — each ≤30 kg / 3-side sum ≤203 cm
+- [x] **ZIPAIR Value package includes 1 checked bag/pax/direction** — no pre-pay needed. 4 bags out + 4 bags back already covered for the family (and grandma's F0F2P9 also Value). Source: [bookings/flights.md](../bookings/flights.md#baggage).
+- [ ] Final suitcase weigh-in — each ≤30 kg / 3-side sum ≤203 cm. Carry-on tier is 7 kg/pax (not upgraded), so don't overpack the day-packs.
 - [ ] Online check-in opens 24h before — do Wed May 27 11:40
 
 **Leave the house:**

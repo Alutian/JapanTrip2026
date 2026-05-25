@@ -20,15 +20,15 @@
 
 ---
 
-## Passengers (4)
+## Passengers (4 on GE7DVP + 1 on F0F2P9)
 
-| # | Name | Type | ZG029 seat (outbound) | ZG030 seat (return) | Outbound meal | Return meal |
+| # | Name | DOB | ZG029 seat (out) | ZG030 seat (return) | Outbound meal | Return meal |
 |---|------|------|------|------|---------------|-------------|
-| 1 | NAINANI, AJAY | Adult / M | 51A | 24G | Korean BBQ Beef | Spicy Chicken Rice |
-| 2 | KAO, CANDICE | Adult / F | 51G | 24A | Salmon Shio Koji | Spicy Chicken Rice |
-| 3 | NAINANI KAO, ZARA | Child / F | 51C | 24C | Chicken Teriyaki | Vegetable Penne Pasta |
-| 4 | NAINANI KAO, KAI | Child / M | 51D | 24D | Chicken Teriyaki | Vegetable Penne Pasta |
-| 5 | LEE, SECK JOO (grandma) | Adult / F | 51H | — (NRT→SIN on Scoot TR885) | Chicken Teriyaki | — |
+| 1 | NAINANI, AJAY | 1981-11-06 | 51A | 24G | Korean BBQ Beef | Spicy Chicken Rice |
+| 2 | KAO, CANDICE | 1981-07-05 | 51G | 24A | Salmon Shio Koji | Spicy Chicken Rice |
+| 3 | NAINANI KAO, ZARA | 2017-03-24 | 51C | 24C | Chicken Teriyaki | Vegetable Penne Pasta |
+| 4 | NAINANI KAO, KAI | 2019-05-23 | 51D | 24D | Chicken Teriyaki | Vegetable Penne Pasta |
+| 5 | LEE, SECK JOO (grandma, F0F2P9) | — | 51H | NRT→SIN on Scoot TR885 | Chicken Teriyaki | — |
 
 Row 51 seats the whole group of 5 together on the outbound.
 
@@ -36,11 +36,17 @@ Row 51 seats the whole group of 5 together on the outbound.
 
 ## Baggage
 
-- **Checked:** 30 kg max per piece, up to 5 pieces per passenger, sum of 3 sides ≤ 203 cm. **Fee-based** — not included in base fare.
-- **Carry-on:** 2 pieces per passenger (1st: 40×25×55 cm; 2nd: 35×25×45 cm). 7 kg free; up to 15 kg total via paid upgrade (must buy ≥24h before departure, not available at airport).
-- **NRT → SJC checked bag fee:** $85/piece. **SJC → NRT:** ¥11,000/piece.
+### Family GE7DVP — Value package, bags ✅ INCLUDED
+- **Checked:** **1 piece per passenger per direction included** (Value package). 30 kg max, sum of 3 sides ≤ 203 cm. Total: 4 bags out + 4 bags back, all pre-included.
+- **Carry-on:** 7 kg per passenger (not upgraded). Two pieces (40×25×55 cm + 35×25×45 cm); 15 kg upgrade is available but we did not buy it.
+- **Sport equipment / oversize / 2nd bag:** would be add-on (not currently selected).
 
-Decide bag count and pre-pay online before day-of (airport counter has extra handling fee, no cash).
+### Grandma F0F2P9 — Value package
+- 1 piece checked, 30 kg, included. 7 kg carry-on.
+
+### Reference rates (in case you need to add bags later — must do ≥24h pre-flight, not at counter)
+- **SJC → NRT extra bag:** ¥11,000/piece. **NRT → SJC extra bag:** $85/piece.
+- Airport counter pre-pay has extra handling fee, no cash. Don't show up needing to add bags day-of.
 
 ---
 

@@ -57,7 +57,7 @@ export const DAYS: Day[] = [
     prep: {
       title: 'Pre-departure checklist (do tonight + morning of)',
       items: [
-        '🧳 Pre-pay ZIPAIR checked-bag fees via Manage Booking (tonight — counter pre-pay has handling fee)',
+        '✅ Bags pre-paid — Value package includes 1 checked bag/pax/direction (4 out + 4 back). No counter action needed.',
         '📱 Online check-in opens 24h before — do Wed May 27 11:40',
         '🛂 Passports × 5 in day-packs, not checked',
         '💊 Grandma\'s meds in HER carry-on (never checked, never takkyubin)',
@@ -74,10 +74,10 @@ export const DAYS: Day[] = [
     bags: {
       title: 'Bag weigh-in (final check before leaving)',
       items: [
-        'ZIPAIR limits: 30 kg max / piece checked; sum of 3 sides ≤ 203 cm',
-        'Carry-on: 2 pieces / pax (40×25×55 + 35×25×45 cm); 7 kg free, paid upgrade to 15 kg total',
-        'Bag-fee surcharge at counter — pre-pay online beats it',
-        'Final weigh of all 3 suitcases this morning; redistribute if any > 30 kg',
+        '✅ 1 checked bag/pax/direction is included in Value package — no add-bag scramble at counter',
+        'Checked bag limits: 30 kg max / piece, sum of 3 sides ≤ 203 cm. Final weigh-in this morning — redistribute if any > 30 kg.',
+        'Carry-on: 7 kg/pax (not upgraded). Two pieces allowed (40×25×55 + 35×25×45 cm) but total weight ≤ 7 kg.',
+        'Don\'t overpack day-packs — 7 kg cap means the kids\' tablets + your laptop + snacks need to balance.',
       ],
     },
     leaveHouse: {
