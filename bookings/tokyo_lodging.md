@@ -8,11 +8,24 @@
 
 ## Property
 
-- **Listing:** (#3) Luxury Condo in Shinjuku - 5 min to station!
+- **Listing name (host's brand):** M/W HOTEL 3F by skew lines
+- **Listing (Airbnb):** (#3) Luxury Condo in Shinjuku - 5 min to station!
 - **Type:** Home in Shinjuku-ku (Airbnb)
-- **Host:** Skew Lines (Superhost, 388+ reviews at 4.81 ⭐)
-- **Address:** 4-chōme-27-3 Yotsuya, 慶愛ビル 301, Shinjuku-ku, Tōkyō-to 160-0004, Japan
-- **住所 (for taxi):** 〒160-0004 東京都新宿区四谷4丁目27-3 慶愛ビル 301
+- **Host:** Skew Lines (Superhost, 388+ reviews at 4.81 ⭐) — **+81 50-1721-4123**
+- **Address:** 4 Chome-27-3 Yotsuya, Shinjuku-ku, Tokyo 160-0004 · M/W Hotel 3F (慶愛ビル / Keiai Building)
+- **住所 (for taxi):** 〒160-0004 東京都新宿区四谷4丁目27-3 慶愛ビル M/W Hotel 3階
+- **Full host guide (with photos for every step):** [Google Doc](https://docs.google.com/document/d/e/2PACX-1vQ7r8Vj51BJkTiIhf6qZQxZtf9z088kF3Mfeu17U8yNB7ofq02o-iGBZkUf8kFAjmTfIvh0sUhF6jPk/pub)
+
+### Connectivity + entry
+
+- **WiFi SSID:** `elecom2g01-0fee9a`
+- **WiFi password:** `6000776026708`
+- **Door code:** sent via Airbnb message ~1 day before check-in (May 28 evening). Add here when received.
+- **Entry flow:** building unlocked → elevator to 3F → room directly across (watch small step exiting elevator) → enter code on LOCKSTATE smart lock → from inside, turn knob to unlock; from outside, press LOCKSTATE button to lock.
+
+### Emergency address (give to 119/110)
+
+`4-27-3 Yotsuya, Shinjuku-ku, Tokyo 160-0004 · 慶愛ビル (Keiai Building), M/W Hotel 3F`
 
 ---
 

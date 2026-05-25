@@ -160,6 +160,11 @@ export const DAYS: Day[] = [
     shortDate: 'Fri May 29',
     title: 'Arrival → Yotsuya',
     cluster: 'Yotsuya / Shinjuku local',
+    crossLinks: [
+      { href: '/lodging/tokyo', label: '🏠 Yotsuya — wifi, door, directions' },
+      { href: '/bookings', label: '✈ Bookings' },
+      { href: '/emergency', label: '🆘 Emergency' },
+    ],
     locked: [
       '14:50 — Land NRT T1 (ZG029, row 51)',
       '~16:00–17:20 — NEX → Shinjuku (~80 min, ¥16,250 × 5)',
@@ -458,20 +463,102 @@ export type Lodging = {
   conf: string;
   pin?: string;
   notes?: string;
+
+  // Rich detail (populated as host guides become available)
+  hostName?: string;
+  hostPhone?: string;
+  nearestStation?: { name: string; line: string; exit: string; walkMin: number };
+  wifi?: { ssid: string; password: string };
+  doorCode?: string;        // actual code, when known
+  doorCodeNote?: string;    // e.g. "Sent via Airbnb message 1 day before check-in"
+  checkInFlow?: string[];   // ordered steps to get from street → in the room
+  walkingDirections?: { from: string; steps: { text: string; imageUrl?: string }[] };
+  appliances?: { name: string; note: string }[];
+  houseRules?: string[];
+  trash?: string[];
+  luggageStorage?: string;
+  laundromat?: { name: string; addressEn: string; addressJa?: string; walkMin: number; mapsQuery?: string };
+  emergencyAddress?: string;  // what to tell 119/110 (local format)
+  nearby?: { label: string; note: string; mapsQuery?: string }[];
+  guideUrl?: string;          // link back to host's full guest guide
+  imageUrls?: string[];       // hero / gallery
 };
 
 export const LODGING: Lodging[] = [
   {
     key: 'tokyo',
     city: 'Tokyo',
-    name: 'Airbnb — Luxury Condo in Shinjuku (Yotsuya 4-chome)',
+    name: 'M/W HOTEL 3F by skew lines (Yotsuya 4-chome)',
     nights: 4,
     checkIn: 'Fri May 29, 2026 · 3:00 PM',
     checkOut: 'Tue Jun 2, 2026 · 10:00 AM',
-    addressEn: '4-chōme-27-3 Yotsuya, 慶愛ビル 301, Shinjuku-ku, Tōkyō-to 160-0004, Japan',
-    addressJa: '〒160-0004 東京都新宿区四谷4丁目27-3 慶愛ビル 301',
+    addressEn: '4 Chome-27-3 Yotsuya, Shinjuku-ku, Tokyo 160-0004 · M/W Hotel 3F (慶愛ビル / Keiai Building)',
+    addressJa: '〒160-0004 東京都新宿区四谷4丁目27-3 慶愛ビル M/W Hotel 3階',
     conf: 'HMYZXN9NPB',
-    notes: 'Host: Skew Lines (Airbnb). 5–10 min walk to Shinjuku Gyoenmae or Yotsuya-sanchome (Marunouchi line).',
+    hostName: 'Skew Lines',
+    hostPhone: '+81 50-1721-4123',
+    nearestStation: { name: 'Shinjuku-gyoenmae', line: 'Marunouchi', exit: 'Exit 2', walkMin: 6 },
+    wifi: { ssid: 'elecom2g01-0fee9a', password: '6000776026708' },
+    doorCodeNote: 'Sent via Airbnb message ~1 day before check-in (May 28 evening). Add to this entry once received.',
+    checkInFlow: [
+      'Building entrance is unlocked — walk in.',
+      'Elevator to 3rd floor. Room is directly across when you step off.',
+      'Small step exiting elevator — watch your footing (especially with bags).',
+      'Enter passcode on LOCKSTATE smart lock; door unlocks.',
+      'To lock from outside: press the LOCKSTATE button. From inside: turn the knob.',
+    ],
+    walkingDirections: {
+      from: 'Shinjuku-gyoenmae Station, Exit 2 (Marunouchi line)',
+      steps: [
+        { text: 'Take Exit 2 and turn left.' },
+        { text: 'Turn left at the first intersection.' },
+        { text: 'Walk along the road.' },
+        { text: 'Turn right.' },
+        { text: 'Go straight.' },
+        { text: 'Keep going straight.' },
+        { text: 'Go along the road.' },
+        { text: 'Keep on going along the road.' },
+        { text: 'Go straight and cross the crosswalk.' },
+        { text: 'Turn left at this corner.' },
+        { text: 'Go straight.' },
+        { text: 'Turn right here.' },
+        { text: 'You will find the building on your right.' },
+        { text: 'Welcome! 🎉' },
+      ],
+    },
+    appliances: [
+      { name: 'WiFi', note: 'Network + password above. 5G band is in the SSID.' },
+      { name: 'Hot water heater', note: 'Keep the boiler ON even when out. DO NOT press お湯はり (auto-fill) — breaks shower hot water.' },
+      { name: 'Washer-dryer combo', note: 'Wash→dry cycle takes ~5h and cannot be opened mid-cycle. Don\'t overload. For big loads use Laundry Brisk (1 min walk).' },
+      { name: 'Electric burner', note: 'Hold 電源入/切 (ON/OFF) for 2 sec to power on. Press 加熱入/切 (HEAT) for the desired plate. Use 揚げ物 for frying.' },
+      { name: 'Microwave', note: 'NO metal, foil, paper bags, or plastic bags. They will explode.' },
+      { name: 'Rice cooker', note: 'Add rice + water. Press メニュー until 白米 (white rice). Press 炊飯 (cook). Press 保温/切 to turn off — does NOT auto-off.' },
+      { name: 'Air conditioner', note: 'Standard remote. Set bedroom + living separately.' },
+      { name: 'Smart TV', note: 'Netflix is pre-logged-in — do NOT log out. Broadcast + BS/CS channels also available.' },
+      { name: 'Intercom', note: '⚠ Do not touch.' },
+      { name: 'Breaker', note: 'If it trips (too many appliances), call host — breaker is in kitchen inspection port (host needs to access).' },
+    ],
+    trash: [
+      'Keep trash INSIDE the room — NEVER set it outside the building.',
+      'Separate burnable / non-burnable.',
+      'Vacation-rental trash is industrial waste; contractor collects after checkout.',
+      'For long stays or overflow, message host via reservation site to arrange pickup.',
+    ],
+    luggageStorage: 'Can leave bags inside the room\'s entrance after 12:00 PM on check-in day. NO post-checkout storage — use Bounce (promo code SKEWLINES = 10% off).',
+    laundromat: {
+      name: 'Laundry Brisk',
+      addressEn: '4-27-2 Yotsuya, Shinjuku-ku, Tokyo 160-0004',
+      addressJa: '〒160-0004 東京都新宿区四谷4-27-2',
+      walkMin: 1,
+      mapsQuery: 'Laundry Brisk 4-27-2 Yotsuya Shinjuku Tokyo',
+    },
+    emergencyAddress: 'Address to give 119 / 110: 4-27-3 Yotsuya, Shinjuku-ku, Tokyo 160-0004 · Building: 慶愛ビル (Keiai Building), M/W Hotel 3F.',
+    nearby: [
+      { label: 'Shinjuku-gyoenmae Station Exit 2', note: 'Marunouchi line, 6 min walk', mapsQuery: 'Shinjuku-gyoenmae Station Exit 2' },
+      { label: 'Laundry Brisk', note: 'Coin laundry, 1 min walk', mapsQuery: 'Laundry Brisk 4-27-2 Yotsuya' },
+    ],
+    guideUrl: 'https://docs.google.com/document/d/e/2PACX-1vQ7r8Vj51BJkTiIhf6qZQxZtf9z088kF3Mfeu17U8yNB7ofq02o-iGBZkUf8kFAjmTfIvh0sUhF6jPk/pub',
+    notes: 'Self check-in via smart lock. Building unlocked, elevator to 3F. Marunouchi line is the closest (Shinjuku-gyoenmae 6 min); Shinjuku Station 10 min walk for JR.',
   },
   {
     key: 'hakone',

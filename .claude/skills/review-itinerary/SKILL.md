@@ -88,6 +88,7 @@ Score each dimension as **OK / Weak / Broken** with one-line evidence. Don't pad
 - Are links useful (Day 2 →, Full itinerary doc →) or dead-ends?
 - Does anything on the page belong in /lodging, /bookings, /emergency instead — or vice versa?
 - **Entry-point routing — load `/` and `/today` and confirm each lands at the right day given the current date.** This includes: the home-page hero card pointing at the right `n`, the "We just landed" / arrival-day banner triggering on the right date, the today-route auto-redirect resolving to the day under review. Routing changes when Day N is added/removed/renumbered, so re-verify here every time. Off-by-one bugs (e.g. home still hardcoded to `/days/1` after Day 0 was added) hide in these spots and the day page itself can pass while the entry-point is broken.
+- **Cross-page collaboration — if the day touches a lodging, transit, or booking that has a dedicated detail page (`/lodging/<key>`, `/packing`, `/bookings`), the day page must cross-link to it and NOT duplicate the detail.** Conversely, if rich detail exists only on the day page that other pages would want (door codes, walking directions, host phone), it should live on the dedicated page and be referenced from the day. Audit both directions.
 
 **G. Drift risk**
 - Anything on the page referencing a state that no longer matches main (cancelled steps, old prices, replaced restaurants)?
