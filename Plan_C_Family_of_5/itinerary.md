@@ -29,10 +29,12 @@
 ## Day 1 — Fri May 29 · Arrival → Yotsuya
 
 🔒 **LOCKED**
-- **14:50** Land NRT (Terminal 1) on **ZG029** — all 5 in row 51
+- **14:50** Land NRT (Terminal 1) on **ZG029** — all 5 in row 51 (51A/C/D/G/H)
 - **~15:45** Through immigration + customs (~60 min)
-- **~16:00–17:20** **NEX → Shinjuku Station** (~80 min, reserved seats × 5, ~¥16,250) — *NEX seats need to be reserved; can buy at NRT counter on arrival or pre-book*
-- **~17:30** Walk or 1-stop Marunouchi line to Yotsuya 4-chome → **Airbnb self-check-in** (3:00 PM check-in window opens; we'll be later)
+- **~15:45–16:00** **JR East Travel Service Center** (NEX platform level B1): 5× Welcome Suica + 5× NEX tickets in one stop. Passports out for kid fare. Ask about N'EX Tokyo Direct Ticket discount.
+- **~16:00–17:20** **NEX → Shinjuku Station** (~80 min, ~¥16,250 *total* — 3 adult ¥3,250 + 2 child ¥1,630). **Buy on arrival at JR East counter — not pre-booked** (decision per `todos.md`).
+- **~17:25** **Marunouchi line Shinjuku → Yotsuya-sanchome** (1 stop, ¥180 pp). Easier than 10-min walk with 3 suitcases.
+- **~17:30–18:30** **Airbnb self-check-in** (M/W Hotel 3F, Yotsuya 4-chome). Door code arrives via Airbnb message evening of May 28 — confirm before leaving airport.
 
 🎯 **FLEXIBLE**
 - Dinner near hotel — keep it easy. Ramen, konbini haul, or izakaya in Yotsuya/Shinjuku-gyoenmae area.

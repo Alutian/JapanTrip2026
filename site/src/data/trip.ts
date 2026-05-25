@@ -27,8 +27,23 @@ export type Day = {
   leaveHouse?: { title?: string; items: string[] }; // leave-the-house checklist
   getThere?: { title?: string; lines: string[]; mapQuery?: string; mapLabel?: string };
   atGate?: { title?: string; lines: string[]; tel?: { number: string; label: string } };
+  // Generic moment cards — for days that need multiple sequenced transitions.
+  // Renders below Locked, above Plan. Each card is self-contained.
+  momentCards?: MomentCard[];
   timezoneNote?: string;
   nextDayTeaser?: string;
+};
+
+export type MomentCard = {
+  emoji?: string;
+  title: string;
+  time?: string;                                            // "~14:50", "16:00–17:20"
+  lines?: string[];                                         // bullet body
+  mapQuery?: string;                                        // → google maps deeplink
+  mapLabel?: string;
+  tel?: { number: string; label: string };                  // tappable phone
+  link?: { href: string; label: string };                   // internal cross-link
+  accent?: 'default' | 'warn' | 'accent';                   // border color
 };
 
 export const DAYS: Day[] = [
@@ -161,16 +176,101 @@ export const DAYS: Day[] = [
     title: 'Arrival → Yotsuya',
     cluster: 'Yotsuya / Shinjuku local',
     crossLinks: [
-      { href: '/lodging/tokyo', label: '🏠 Yotsuya — wifi, door, directions' },
+      { href: '/lodging/tokyo', label: '🔑 Yotsuya — door, wifi, directions' },
       { href: '/bookings', label: '✈ Bookings' },
       { href: '/emergency', label: '🆘 Emergency' },
     ],
     locked: [
-      '14:50 — Land NRT T1 (ZG029, row 51)',
-      '~16:00–17:20 — NEX → Shinjuku (~80 min, ¥16,250 × 5)',
-      '~17:30 — Airbnb self check-in (Yotsuya 4-chome)',
+      '14:50 — Land NRT T1 (ZG029, row 51 — seats 51A/C/D/G/H)',
+      '~17:30–18:30 — Airbnb self check-in window (M/W Hotel 3F, Yotsuya 4-chome)',
+      'Jet lag day. Goal: shower, eat, sleep.',
     ],
-    plan: ['Light dinner near hotel — ramen, konbini, or Yotsuya izakaya', 'Sleep. Jet lag day, do nothing more.'],
+    prep: {
+      title: 'Before stepping off the plane (check on the jetway)',
+      items: [
+        '🔑 Confirm Airbnb door code arrived in Airbnb messages (host sends evening May 28)',
+        '🛂 Passports out of carry-on into outer pocket — Welcome Suica kid-fare verification needs them',
+        '📱 Phones on — Google Fi auto-connects in Japan; no setup',
+        '💴 Wallet ready — credit card + a little cash for the JR East counter (cash works there)',
+      ],
+    },
+    momentCards: [
+      {
+        emoji: '🛂',
+        title: 'Immigration + customs',
+        time: '14:50–~15:45',
+        lines: [
+          'All 5 walk together. Allow ~60 min — immigration is the chokepoint.',
+          'After customs: follow signs to JR / NEX (lower level B1).',
+        ],
+        accent: 'warn',
+      },
+      {
+        emoji: '🎫',
+        title: 'JR East Travel Service Center — Welcome Suica + NEX',
+        time: '~15:45–16:00',
+        lines: [
+          '**One counter, two purchases.** Welcome Suica × 5 (3 adult, 2 child — bring all 5 passports for kid-fare verification) + NEX tickets × 5 same time.',
+          'Welcome Suica = no deposit, 28-day validity, no end-of-trip refund hassle.',
+          'Top-up at counter: ~¥3,000/adult, ~¥2,000/kid (cash works; credit sometimes too).',
+          'Ask staff about the **N\'EX Tokyo Direct Ticket** tourist discount.',
+          'If NEX is sold out: next train in ~30 min. Wait it out, don\'t panic-taxi.',
+        ],
+        mapQuery: 'JR East Travel Service Center Narita Airport Terminal 1',
+        mapLabel: 'Find JR East counter at NRT T1',
+        accent: 'accent',
+      },
+      {
+        emoji: '🚆',
+        title: 'NEX → Shinjuku',
+        time: '~16:00–17:20',
+        lines: [
+          '~80 min, ~¥16,250 **total** (3 adult × ¥3,250 + 2 child × ¥1,630).',
+          '3 suitcases: end-of-car luggage racks; day-packs overhead.',
+          'Doze. Don\'t fully sleep — Shinjuku is the get-off stop.',
+        ],
+      },
+      {
+        emoji: '🚇',
+        title: 'Shinjuku → Yotsuya-sanchome (1 stop Marunouchi)',
+        time: '~17:25',
+        lines: [
+          'Tap Welcome Suica at gate. 1 stop east on Marunouchi line, ~¥180 pp.',
+          'Easier than the 10-min walk with 3 suitcases.',
+          'Exit at Yotsuya-sanchome → ~3 min walk to M/W Hotel.',
+        ],
+        mapQuery: 'Yotsuya-sanchome Station',
+        mapLabel: 'Yotsuya-sanchome on Maps',
+      },
+      {
+        emoji: '🚪',
+        title: 'M/W Hotel 3F — self check-in',
+        time: '~17:45–18:30',
+        lines: [
+          'Building unlocked. Elevator to 3F. Watch the small step exiting.',
+          'Enter door code on LOCKSTATE smart lock.',
+          'WiFi auto-connects from /lodging/tokyo — copy SSID + password from there.',
+        ],
+        link: { href: '/lodging/tokyo', label: 'Full Yotsuya guide — door, wifi, walking photos →' },
+        accent: 'accent',
+      },
+      {
+        emoji: '🍜',
+        title: 'Dinner (3 jet-lag-friendly options, all 5 min walk)',
+        time: '~19:00',
+        lines: [
+          '**Ramen Ouka** — 5 min walk from Shinjuku-gyoenmae Exit 2. Halal / no-pork ramen. Halal R set ¥1,500, Vegan R set ¥1,100. Family-friendly, English-friendly.',
+          '**Halal Wagyu Ramen Shinjuku Tei (Yotsuya)** — backup, slightly further. A5 wagyu, no pork or alcohol.',
+          '**Lawson / 7-Eleven** — 3 min walk. The kid-meltdown route: onigiri, oden, sushi rolls. Always open.',
+        ],
+        mapQuery: 'Ramen Ouka Shinjuku-gyoenmae',
+        mapLabel: 'Ramen Ouka in Maps',
+      },
+    ],
+    plan: [
+      '😴 Sleep. Push to 21:00 JST minimum. Set Day 2 alarm before passing out.',
+    ],
+    nextDayTeaser: 'Tomorrow → Day 2: MiPig Café (Harajuku, ~10:00) + Shibuya Sky sunset. Set 07:30 alarm.',
   },
   {
     n: 2,

@@ -121,6 +121,36 @@ function mapsUrl(query: string) {
     </div>
   )}
 
+  {day.momentCards && day.momentCards.map(card => {
+    const borderColor = card.accent === 'warn' ? 'var(--warn)' : card.accent === 'accent' ? 'var(--accent)' : 'var(--border)';
+    return (
+      <div class="card" style={`border-color: ${borderColor};`}>
+        <h2 style="margin-top: 0;">{card.emoji} {card.title}</h2>
+        {card.time && <p class="hint" style="margin-top: -0.25rem;">{card.time}</p>}
+        {card.lines && (
+          <ul>
+            {card.lines.map(line => <li set:html={line.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')} />)}
+          </ul>
+        )}
+        {card.mapQuery && (
+          <p style="margin-top: 0.5rem;">
+            <a href={mapsUrl(card.mapQuery)} target="_blank" rel="noopener">📍 {card.mapLabel || 'Open in Maps'} →</a>
+          </p>
+        )}
+        {card.tel && (
+          <p style="margin-top: 0.5rem;">
+            <a href={`tel:${card.tel.number}`}>📞 {card.tel.label}</a>
+          </p>
+        )}
+        {card.link && (
+          <p style="margin-top: 0.5rem;">
+            <a href={`${base}${card.link.href}`}>{card.link.label}</a>
+          </p>
+        )}
+      </div>
+    );
+  })}
+
   {day.plan.length > 0 && (
     <div class="card">
       <h2 style="margin-top: 0;">🎯 Plan</h2>

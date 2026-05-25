@@ -70,6 +70,14 @@
 
 ---
 
+## Food within 5 min walk (jet-lag dinner options, Candice + Ajay no-pork)
+
+- **Ramen Ouka** — 5 min walk from Shinjuku-gyoenmae Exit 2. Halal-certified, **no-pork ramen**. Halal R set ¥1,500, Vegan R set ¥1,100. Kid-friendly, English-friendly. The Day-1 default if everyone's hangry.
+- **Halal Wagyu Ramen Shinjuku Tei (Yotsuya store)** — A5 wagyu ramen, halal, no pork or alcohol. Slightly further (Yotsuya station direction). Backup if Ouka is closed/busy.
+- **Lawson / 7-Eleven** — 3 min walk for the kid-meltdown / "just give us food" route. Onigiri, oden, sandwiches, sushi rolls. Always open.
+
+---
+
 ## Takkyubin Plan (Tokyo → Hakone, Jun 1)
 
 - Send luggage from this Airbnb on **Jun 1** evening → arrives Hakone Rakuten STAY TERRACE **Jun 2** afternoon
