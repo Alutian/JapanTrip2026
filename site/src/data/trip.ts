@@ -206,9 +206,25 @@ export const DAYS: Day[] = [
         accent: 'warn',
       },
       {
+        emoji: '🧳',
+        title: 'Drop grandma\'s bag at JAL ABC (T1 South Wing 1F)',
+        time: '~15:45–16:00',
+        lines: [
+          'One of grandma\'s bags stays at the airport for the 10 days — she picks it up Jun 8 before her Scoot flight (same T1).',
+          'Counter: **JAL ABC, T1 South Wing 1F** (signs from arrivals lobby).',
+          'Provide: name (LEE, SECK JOO), phone, pickup date **Jun 8**.',
+          'Cost: ~¥700/day medium · 10 days = **~¥7,000 total**. **Pay at pickup**, not now.',
+          'Card or cash (JCB/VISA/MC/Amex/Diners/UP). Keep the receipt — it\'s the only way to retrieve.',
+          'Hours: 06:30 → ~1h after last arrival. Grandma\'s 8:20 Scoot Jun 8 → she arrives NRT ~05:50 + brief wait to 06:30 open.',
+        ],
+        mapQuery: 'JAL ABC Counter Narita Airport Terminal 1 South Wing',
+        mapLabel: 'JAL ABC T1 in Maps',
+        accent: 'warn',
+      },
+      {
         emoji: '🎫',
         title: 'JR East Travel Service Center — Welcome Suica + NEX',
-        time: '~15:45–16:00',
+        time: '~16:00–16:15',
         lines: [
           '**One counter, two purchases.** Welcome Suica × 5 (3 adult, 2 child — bring all 5 passports for kid-fare verification) + NEX tickets × 5 same time.',
           'Welcome Suica = no deposit, 28-day validity, no end-of-trip refund hassle.',
@@ -223,7 +239,7 @@ export const DAYS: Day[] = [
       {
         emoji: '🚆',
         title: 'NEX → Shinjuku',
-        time: '~16:00–17:20',
+        time: '~16:15–17:35',
         lines: [
           '~80 min, ~¥13,010 **total** (3 adult × ¥3,250 + 2 child × ¥1,630).',
           '3 suitcases: end-of-car luggage racks; day-packs overhead.',
@@ -233,7 +249,7 @@ export const DAYS: Day[] = [
       {
         emoji: '🚇',
         title: 'Shinjuku → Yotsuya-sanchome (1 stop Marunouchi)',
-        time: '~17:25',
+        time: '~17:40',
         lines: [
           'Tap Welcome Suica at gate. 1 stop east on Marunouchi line, ~¥180 pp.',
           'Easier than the 10-min walk with 3 suitcases.',
@@ -245,7 +261,7 @@ export const DAYS: Day[] = [
       {
         emoji: '🚪',
         title: 'M/W Hotel 3F — self check-in',
-        time: '~17:45–18:30',
+        time: '~17:55–18:30',
         lines: [
           'Building unlocked. Elevator to 3F. Watch the small step exiting.',
           'Enter door code on LOCKSTATE smart lock.',

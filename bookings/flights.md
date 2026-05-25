@@ -115,6 +115,30 @@ Same flight as the family (ZG029 out of SJC). An earlier booking (4SC657, SFO→
 >
 > Cabin baggage: 2 pieces, 10 kg total combined (54×38×22 cm per piece). Checked baggage is fee-based — confirm whether the booking includes a checked bag or if it needs to be added via Manage Booking before day-of.
 
+### NRT bag storage (Day 1 May 29 → Day 11 Jun 8) — grandma's onward-to-SIN bag
+
+One of grandma's bags doesn't need to come on the Japan portion of the trip. Store at NRT, retrieve on departure day before her Scoot flight.
+
+| Field | Value |
+|-------|-------|
+| Operator | **JAL ABC** ([jalabc.com](https://www.jalabc.com/en/hands-freetravel/baggage-storage.html)) |
+| Counter | **NRT Terminal 1, South Wing 1F** (signs from arrivals lobby) |
+| Drop-off | Day 1 (May 29) after customs, before JR East counter |
+| Pickup | Day 11 (Jun 8) — same counter, must present receipt |
+| Rate | Small ¥500 / Medium ¥700 / Large ¥1,050 per day |
+| Estimate | Medium × 10 days = **~¥7,000** total |
+| Max storage | 30 days (we're at 10) |
+| Hours | 06:30 – ~1h after last arrival |
+| Payment | At pickup. Cash JPY or credit (JCB/VISA/MC/Amex/Diners/UnionPay) |
+| Booking | None required — walk-up |
+| Identifier given at drop | Name (LEE, SECK JOO), phone, pickup date (Jun 8) |
+
+⚠ **Same-counter pickup constraint:** must retrieve at T1, not T2. Grandma's Scoot TR 885 also departs T1, so geography is fine.
+
+⏰ **Jun 8 timing:** 5:30 AM taxi from Richmond → NRT ~5:50 AM. JAL ABC opens 6:30. ~40 min wait, then bag retrieval, then Scoot check-in (counter open 5:20–7:20). Plenty of buffer.
+
+---
+
 ### June 7 / June 8 logistics (decided)
 
 - **Night of June 7:** all 5 stay together in **Narita City** (not airport-terminal hotel). Last dinner = unagi on Omotesando.
