@@ -1,0 +1,29 @@
+name: Sync to albee.ai
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.md'
+      - '**.mdx'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    if: ${{ secrets.ALBEE_API_KEY != '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Albee CLI
+        run: pip install https://albee.ai/cli/albee-cli-latest.tar.gz
+
+      - name: Sync changed markdown
+        env:
+          ALBEE_API_KEY: ${{ secrets.ALBEE_API_KEY }}
+        run: albee artifact sync-commit $(git diff --name-only HEAD~1 HEAD -- '*.md')

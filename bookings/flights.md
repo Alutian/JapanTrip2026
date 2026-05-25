@@ -46,10 +46,22 @@ Decide bag count and pre-pay online before day-of (airport counter has extra han
 
 ## Airport Logistics
 
-- **Outbound terminal:** SJC — confirm ZIPAIR terminal at [zipair.net/en/about](https://www.zipair.net/en/about) closer to date (ZIPAIR check-in/arrivals often differ from mainline carriers).
-- **Arrival airport:** Narita (NRT) — **not Haneda**. Budget ~90 min Narita Express or limousine bus into central Tokyo.
-- **Check-in:** counter closes 1h before departure; bags too.
-- **No transfer service** — if connecting, must clear immigration + re-check bags.
+### SJC (departure)
+- **Check-in counter: Terminal B.** Confirmed via [flysanjose.com/airlines/zipair](https://www.flysanjose.com/airlines/zipair).
+- **Departure gate: Terminal A.** *You check in at B, then walk to A.* Plan a 10-min interterminal walk.
+- **Counter hours (May 5 – Jul 15 season): 08:40 – 10:40 daily except Fri.** ZG029 Thu May 28 departs 11:40 → counter closes 10:40 sharp (60 min pre-flight).
+- **Parking:** Lot 3 (departures), Lot 2 (arrivals). Pre-reserve online via SJC site.
+- **No on-airport ZIPAIR ticket office outside counter hours** — issues before/after must go through phone/email.
+- **ZIPAIR US support:** **(888) 820-6002** (Mon–Fri 09:00–18:00 PT). Email: `contact.en@zipair.net`.
+
+### NRT (arrival + return)
+- **Arrival airport:** Narita (NRT) — **not Haneda**. Budget ~80 min Narita Express into central Tokyo.
+- **Return check-in:** counter closes 1h before departure; bags too. No transfer service.
+
+### Flight status (use these in-flight or pre-flight)
+- **FlightAware (preferred):** [flightaware.com/live/flight/TZP29](https://www.flightaware.com/live/flight/TZP29) (outbound) / [TZP30](https://www.flightaware.com/live/flight/TZP30) (return).
+- **Flightradar24:** [fr24.com/data/flights/zg29](https://www.flightradar24.com/data/flights/zg29)
+- **ZIPAIR official:** [zipair.net/en/flight_status](https://www.zipair.net/en/flight_status)
 
 ---
 

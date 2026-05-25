@@ -1,0 +1,66 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "🗾 Japan 2026" [ref=e4] [cursor=pointer]:
+      - /url: /JapanTrip2026/
+    - navigation [ref=e5]:
+      - link "Today" [ref=e6] [cursor=pointer]:
+        - /url: /JapanTrip2026/today
+      - link "Hotels" [ref=e7] [cursor=pointer]:
+        - /url: /JapanTrip2026/lodging
+      - link "Bookings" [ref=e8] [cursor=pointer]:
+        - /url: /JapanTrip2026/bookings
+      - link "SOS" [ref=e9] [cursor=pointer]:
+        - /url: /JapanTrip2026/emergency
+  - main [ref=e10]:
+    - heading "🗾 Japan 2026" [level=1] [ref=e11]
+    - paragraph [ref=e12]: 2026-05-29 → 2026-06-08 · 5 travelers
+    - link "📅 Trip starts 2026-05-29 Open Day 1 plan →" [ref=e13] [cursor=pointer]:
+      - /url: /JapanTrip2026/days/1
+      - heading "📅 Trip starts 2026-05-29" [level=2] [ref=e14]
+      - generic [ref=e15]: Open Day 1 plan →
+    - heading "Quick access" [level=3] [ref=e16]
+    - generic [ref=e17]:
+      - 'link "🏨 Hotels Addresses (EN + JP) · conf #s · PINs" [ref=e18] [cursor=pointer]':
+        - /url: /JapanTrip2026/lodging
+        - strong [ref=e19]: 🏨 Hotels
+        - generic [ref=e20]: "Addresses (EN + JP) · conf #s · PINs"
+      - link "🚆 Transit NEX · Romancecar · Shinkansen" [ref=e21] [cursor=pointer]:
+        - /url: /JapanTrip2026/transit
+        - strong [ref=e22]: 🚆 Transit
+        - generic [ref=e23]: NEX · Romancecar · Shinkansen
+      - link "📋 All bookings Status of every reservation" [ref=e24] [cursor=pointer]:
+        - /url: /JapanTrip2026/bookings
+        - strong [ref=e25]: 📋 All bookings
+        - generic [ref=e26]: Status of every reservation
+      - link "🗾 All days Day-by-day itinerary" [ref=e27] [cursor=pointer]:
+        - /url: /JapanTrip2026/days
+        - strong [ref=e28]: 🗾 All days
+        - generic [ref=e29]: Day-by-day itinerary
+      - link "🆘 Emergency 110 · 119 · embassies · hotels" [ref=e30] [cursor=pointer]:
+        - /url: /JapanTrip2026/emergency
+        - strong [ref=e31]: 🆘 Emergency
+        - generic [ref=e32]: 110 · 119 · embassies · hotels
+      - link "👵 Grandma view Her flights · taxi · hotel" [ref=e33] [cursor=pointer]:
+        - /url: /JapanTrip2026/grandma
+        - strong [ref=e34]: 👵 Grandma view
+        - generic [ref=e35]: Her flights · taxi · hotel
+    - heading "Menus & wishlist" [level=3] [ref=e36]
+    - generic [ref=e37]:
+      - link "Tokyo menu" [ref=e38] [cursor=pointer]:
+        - /url: /JapanTrip2026/docs/menus/tokyo
+        - strong [ref=e39]: Tokyo menu
+      - link "Kyoto menu" [ref=e40] [cursor=pointer]:
+        - /url: /JapanTrip2026/docs/menus/kyoto
+        - strong [ref=e41]: Kyoto menu
+      - link "Hakone menu" [ref=e42] [cursor=pointer]:
+        - /url: /JapanTrip2026/docs/menus/hakone
+        - strong [ref=e43]: Hakone menu
+      - link "Narita menu" [ref=e44] [cursor=pointer]:
+        - /url: /JapanTrip2026/docs/menus/narita
+        - strong [ref=e45]: Narita menu
+      - link "Tokyo wishlist" [ref=e46] [cursor=pointer]:
+        - /url: /JapanTrip2026/docs/wishlist/tokyo
+        - strong [ref=e47]: Tokyo wishlist
+      - link "Kyoto wishlist" [ref=e48] [cursor=pointer]:
+        - /url: /JapanTrip2026/docs/wishlist/kyoto
+        - strong [ref=e49]: Kyoto wishlist

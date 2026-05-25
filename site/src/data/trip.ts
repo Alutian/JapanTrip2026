@@ -17,6 +17,18 @@ export type Day = {
   locked: string[];
   plan: string[];
   takkyubin?: string;
+
+  // Optional richer fields (used on Day 0 first; will roll forward to other days)
+  confirmation?: { code: string; label: string };  // e.g. { code: 'GE7DVP', label: 'ZIPAIR conf' }
+  crossLinks?: { href: string; label: string }[];  // top-of-page jumps to /lodging, /bookings, /emergency
+  countdown?: { flightIso: string; leaveIso: string; flightLabel?: string };
+  prep?: { title?: string; items: string[] };       // pre-departure checklist
+  bags?: { title?: string; items: string[] };       // bag weigh-in / boarding
+  leaveHouse?: { title?: string; items: string[] }; // leave-the-house checklist
+  getThere?: { title?: string; lines: string[]; mapQuery?: string; mapLabel?: string };
+  atGate?: { title?: string; lines: string[]; tel?: { number: string; label: string } };
+  timezoneNote?: string;
+  nextDayTeaser?: string;
 };
 
 export const DAYS: Day[] = [
@@ -26,16 +38,82 @@ export const DAYS: Day[] = [
     shortDate: 'Thu May 28',
     title: 'Departure SJC',
     cluster: 'San Jose → Narita',
+    confirmation: { code: 'GE7DVP', label: 'ZIPAIR family conf' },
+    crossLinks: [
+      { href: '/bookings#flights', label: '✈ Flight details' },
+      { href: '/emergency', label: '🆘 Emergency' },
+    ],
+    countdown: {
+      flightIso: '2026-05-28T11:40:00-07:00',
+      leaveIso: '2026-05-28T08:30:00-07:00',
+      flightLabel: 'wheels up (ZG029)',
+    },
     locked: [
-      '11:40 — ZIPAIR ZG029 SJC → NRT (11h 10m nonstop). Conf GE7DVP.',
-      'Check-in closes 10:40 (1h pre-flight). Target SJC ~09:30.',
+      '11:40 — ZIPAIR ZG029 SJC → NRT (11h 10m, nonstop). All 5 in row 51.',
+      'Check-in counter: SJC Terminal B. Closes 10:40 sharp (60 min pre-flight).',
+      'Depart from gate: Terminal A. Walk B → A after check-in (~10 min).',
+      'Grandma: separate conf F0F2P9, same flight, seat 51H.',
     ],
-    plan: [
-      'Morning: final packing, weigh suitcases (ZIPAIR overweight = fee).',
-      '~08:30 — leave home for SJC. Allow buffer.',
-      'ZIPAIR is no-frills — confirm bag fees pre-paid, bring snacks for the kids.',
-      'Sleep on the plane. Day 1 arrival is also a jet-lag day.',
-    ],
+    prep: {
+      title: 'Pre-departure checklist (do tonight + morning of)',
+      items: [
+        '🧳 Pre-pay ZIPAIR checked-bag fees via Manage Booking (tonight — counter pre-pay has handling fee)',
+        '📱 Online check-in opens 24h before — do Wed May 27 11:40',
+        '🛂 Passports × 5 in day-packs, not checked',
+        '💊 Grandma\'s meds in HER carry-on (never checked, never takkyubin)',
+        '📶 eSIMs installed + tested (Airalo/Saily for adults; grandma roaming)',
+        '🗺 Google Maps offline downloads: Tokyo, Hakone, Kyoto, Narita',
+        '💴 ¥30,000 cash starter (or plan 7-Eleven ATM at NRT — JPY/decline-conversion)',
+        '📸 Screenshot all booking confirmations to phone Photos (Wi-Fi-independent backup)',
+        '🔌 Travel adapters (Type A; check chargers for 100V)',
+        '🔋 Portable battery packs × 2',
+        '☔ Foldable umbrella per adult (June rainy season)',
+        '📲 Apps installed + signed in: Yamato Kuroneko (EN), Smart-EX, Klook',
+      ],
+    },
+    bags: {
+      title: 'Bag weigh-in (final check before leaving)',
+      items: [
+        'ZIPAIR limits: 30 kg max / piece checked; sum of 3 sides ≤ 203 cm',
+        'Carry-on: 2 pieces / pax (40×25×55 + 35×25×45 cm); 7 kg free, paid upgrade to 15 kg total',
+        'Bag-fee surcharge at counter — pre-pay online beats it',
+        'Final weigh of all 3 suitcases this morning; redistribute if any > 30 kg',
+      ],
+    },
+    leaveHouse: {
+      title: 'Leave the house',
+      items: [
+        'Set up Nest cameras',
+        'Lock all doors',
+        'Park cars in garage / driveway',
+        'Take out trash + compost',
+        'Ping house-sitter (keys, alarm code, dates)',
+      ],
+    },
+    getThere: {
+      title: 'Get to SJC',
+      lines: [
+        '🚗 Uber XL — schedule night of May 27 for 08:30 pickup',
+        '🎯 Target SJC arrival 09:00 (gives 1h 40m before counter close)',
+        '🅿 If driving: Lot 3 (departures); pre-reserve via flysanjose.com',
+        '🏷 Curbside drop at Terminal B departures (NOT Terminal A — counter is in B)',
+      ],
+      mapQuery: 'San Jose Mineta International Airport Terminal B',
+      mapLabel: 'Open SJC Terminal B in Maps',
+    },
+    atGate: {
+      title: 'At the gate / in the air',
+      lines: [
+        'After check-in: walk Terminal B → Terminal A (~10 min) for departure',
+        'ZIPAIR sells nothing free — buy snacks landside if kids need extras',
+        'Westbound: eat the meal on board, then sleep ~7h. Land local afternoon — push through to 21:00 JST',
+        'Flight status (in case of delay): FlightAware TZP29 / FR24 zg29 / zipair.net/en/flight_status',
+      ],
+      tel: { number: '+18888206002', label: 'ZIPAIR US — (888) 820-6002 (Mon–Fri 09:00–18:00 PT)' },
+    },
+    timezoneNote: '11:40 PT depart → land tomorrow 14:50 JST (set watches +16h, then -1 calendar day on return).',
+    nextDayTeaser: 'Tomorrow → Day 1: Land NRT 14:50, NEX to Yotsuya. Welcome Suica + NEX bought at JR East counter on arrival.',
+    plan: [],
   },
   {
     n: 1,

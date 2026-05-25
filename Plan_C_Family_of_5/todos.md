@@ -72,6 +72,22 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 - [ ] **Grandma's medications stay in HER carry-on / day-pack at all times** — never in takkyubin, never in checked luggage. Critical: takkyubin bags can be delayed by 24h+, and grandma can't miss doses.
 - [ ] **For Jun 6 takkyubin send:** pack 2 days of essentials in day-pack (Jun 6 + Jun 7) since main bags arrive Narita Jun 7 evening
 
+### Day-of (May 28 morning, before SJC)
+
+**Flight:** ZG029 11:40 SJC→NRT. Check-in counter at **SJC Terminal B**, closes **10:40**. Departure gate **Terminal A** (walk B→A after check-in). Target arrival at SJC **09:00**. **Ride:** Uber XL — schedule night of May 27.
+
+**Bags + boarding (do tonight May 27 + morning of):**
+- [ ] **ZIPAIR checked-bag pre-pay** via Manage Booking (avoid counter handling fee). Do **night of May 27**. Source: [bookings/flights.md](../bookings/flights.md#baggage).
+- [ ] Final suitcase weigh-in — each ≤30 kg / 3-side sum ≤203 cm
+- [ ] Online check-in opens 24h before — do Wed May 27 11:40
+
+**Leave the house:**
+- [ ] Set up Nest cameras
+- [ ] Lock all doors
+- [ ] Park cars in garage / driveway
+- [ ] Take out trash + compost
+- [ ] Ping house-sitter (keys, alarm code, dates)
+
 ---
 
 ## ⚪ On-Arrival / In-Country

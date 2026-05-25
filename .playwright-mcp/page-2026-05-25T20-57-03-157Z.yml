@@ -1,0 +1,34 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "🗾 Japan 2026" [ref=e4] [cursor=pointer]:
+      - /url: /JapanTrip2026/
+    - navigation [ref=e5]:
+      - link "Today" [ref=e6] [cursor=pointer]:
+        - /url: /JapanTrip2026/today
+      - link "Hotels" [ref=e7] [cursor=pointer]:
+        - /url: /JapanTrip2026/lodging
+      - link "Bookings" [ref=e8] [cursor=pointer]:
+        - /url: /JapanTrip2026/bookings
+      - link "SOS" [ref=e9] [cursor=pointer]:
+        - /url: /JapanTrip2026/emergency
+  - main [ref=e10]:
+    - paragraph [ref=e11]: Day 0 · Thu May 28
+    - heading "Departure SJC" [level=1] [ref=e12]
+    - paragraph [ref=e13]: San Jose → Narita
+    - generic [ref=e14]:
+      - heading "🔒 Locked" [level=2] [ref=e15]
+      - list [ref=e16]:
+        - listitem [ref=e17]: 11:40 — ZIPAIR ZG029 SJC → NRT (11h 10m nonstop). Conf GE7DVP.
+        - listitem [ref=e18]: Check-in closes 10:40 (1h pre-flight). Target SJC ~09:30.
+    - generic [ref=e19]:
+      - heading "🎯 Plan" [level=2] [ref=e20]
+      - list [ref=e21]:
+        - listitem [ref=e22]: "Morning: final packing, weigh suitcases (ZIPAIR overweight = fee)."
+        - listitem [ref=e23]: ~08:30 — leave home for SJC. Allow buffer.
+        - listitem [ref=e24]: ZIPAIR is no-frills — confirm bag fees pre-paid, bring snacks for the kids.
+        - listitem [ref=e25]: Sleep on the plane. Day 1 arrival is also a jet-lag day.
+    - link "Day 1 →" [ref=e27] [cursor=pointer]:
+      - /url: /JapanTrip2026/days/1
+    - paragraph [ref=e28]:
+      - link "Full itinerary doc →" [ref=e29] [cursor=pointer]:
+        - /url: /JapanTrip2026/docs/itinerary

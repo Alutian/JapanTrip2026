@@ -1,0 +1,33 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "🗾 Japan 2026" [ref=e4] [cursor=pointer]:
+      - /url: /JapanTrip2026/
+    - navigation [ref=e5]:
+      - link "Today" [ref=e6] [cursor=pointer]:
+        - /url: /JapanTrip2026/today
+      - link "Hotels" [ref=e7] [cursor=pointer]:
+        - /url: /JapanTrip2026/lodging
+      - link "Bookings" [ref=e8] [cursor=pointer]:
+        - /url: /JapanTrip2026/bookings
+      - link "SOS" [ref=e9] [cursor=pointer]:
+        - /url: /JapanTrip2026/emergency
+  - main [ref=e10]:
+    - paragraph [ref=e11]: Day 1 · Fri May 29
+    - heading "Arrival → Yotsuya" [level=1] [ref=e12]
+    - paragraph [ref=e13]: Yotsuya / Shinjuku local
+    - generic [ref=e14]:
+      - heading "🔒 Locked" [level=2] [ref=e15]
+      - list [ref=e16]:
+        - listitem [ref=e17]: 14:50 — Land NRT T1 (ZG029, row 51)
+        - listitem [ref=e18]: ~16:00–17:20 — NEX → Shinjuku (~80 min, ¥16,250 × 5)
+        - listitem [ref=e19]: ~17:30 — Airbnb self check-in (Yotsuya 4-chome)
+    - generic [ref=e20]:
+      - heading "🎯 Plan" [level=2] [ref=e21]
+      - list [ref=e22]:
+        - listitem [ref=e23]: Light dinner near hotel — ramen, konbini, or Yotsuya izakaya
+        - listitem [ref=e24]: Sleep. Jet lag day, do nothing more.
+    - link "Day 2 →" [ref=e26] [cursor=pointer]:
+      - /url: /JapanTrip2026/days/2
+    - paragraph [ref=e27]:
+      - link "Full itinerary doc →" [ref=e28] [cursor=pointer]:
+        - /url: /JapanTrip2026/docs/itinerary
