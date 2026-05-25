@@ -52,7 +52,7 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 - [ ] Set up **Klook account** as backup channel
 - [x] **IC card strategy decided**: 5× physical Welcome Suica at NRT on arrival (May 29). No pre-departure phone setup needed.
 - [ ] **Google Maps offline downloads** for Tokyo, Hakone, Kyoto, Narita
-- [ ] **eSIM × adults** (Airalo / Saily, ~$15/person 10 days) — confirm both Android phones support eSIM. Grandma's iPhone: separate eSIM or rely on her existing roaming plan.
+- [x] **Connectivity:** Ajay + Candice are on Google Fi — includes data in Japan, no setup. Just power phones on after landing. Grandma's iPhone is on a separate carrier — she should confirm her own roaming/eSIM plan before flying.
 - [ ] **Screenshot all booking confirmation numbers offline** to phone Photos — flights, all 4 lodgings, teamLab, plus train reservations as they're booked. Backup against Wi-Fi/data issues abroad.
 
 ### Physical

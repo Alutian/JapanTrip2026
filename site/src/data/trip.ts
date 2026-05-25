@@ -61,7 +61,7 @@ export const DAYS: Day[] = [
         '📱 Online check-in opens 24h before — do Wed May 27 11:40 via zipair.net Manage Booking (conf GE7DVP)',
         '🛂 Passports × 5 in day-packs, not checked',
         '💊 Grandma\'s meds in HER carry-on (never checked, never takkyubin)',
-        '📶 eSIMs installed + tested (Airalo/Saily for adults; grandma roaming)',
+        '📶 Google Fi covers Japan — no setup; just power on after landing. (Grandma\'s carrier roaming/eSIM is a separate check.)',
         '🗺 Google Maps offline downloads: Tokyo, Hakone, Kyoto, Narita',
         '💴 ¥30,000 cash starter (or plan 7-Eleven ATM at NRT — JPY/decline-conversion)',
         '📸 Screenshot all booking confirmations to phone Photos (Wi-Fi-independent backup)',
