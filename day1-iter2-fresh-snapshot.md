@@ -1,0 +1,121 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "🗾 Japan 2026" [ref=e4] [cursor=pointer]:
+      - /url: /JapanTrip2026/
+    - navigation [ref=e5]:
+      - link "Today" [ref=e6] [cursor=pointer]:
+        - /url: /JapanTrip2026/today
+      - link "Hotels" [ref=e7] [cursor=pointer]:
+        - /url: /JapanTrip2026/lodging
+      - link "Bookings" [ref=e8] [cursor=pointer]:
+        - /url: /JapanTrip2026/bookings
+      - link "SOS" [ref=e9] [cursor=pointer]:
+        - /url: /JapanTrip2026/emergency
+  - main [ref=e10]:
+    - paragraph [ref=e11]: Day 1 · Fri May 29
+    - heading "Arrival → Yotsuya" [level=1] [ref=e12]
+    - paragraph [ref=e13]: Yotsuya / Shinjuku local
+    - paragraph [ref=e14]:
+      - link "🔑 Yotsuya — door, wifi, directions" [ref=e15] [cursor=pointer]:
+        - /url: /JapanTrip2026/lodging/tokyo
+      - text: ·
+      - link "✈ Bookings" [ref=e16] [cursor=pointer]:
+        - /url: /JapanTrip2026/bookings
+      - text: ·
+      - link "🆘 Emergency" [ref=e17] [cursor=pointer]:
+        - /url: /JapanTrip2026/emergency
+    - generic [ref=e18]:
+      - heading "🔒 Locked" [level=2] [ref=e19]
+      - list [ref=e20]:
+        - listitem [ref=e21]: 14:50 — Land NRT T1 (ZG029, row 51 — seats 51A/C/D/G/H)
+        - listitem [ref=e22]: ~17:30–18:30 — Airbnb self check-in window (M/W Hotel 3F, Yotsuya 4-chome)
+        - listitem [ref=e23]: "Jet lag day. Goal: shower, eat, sleep."
+    - group [ref=e24]:
+      - generic "✅ Before stepping off the plane (check on the jetway)" [ref=e25] [cursor=pointer]
+      - list [ref=e26]:
+        - listitem [ref=e27]: 🔑 Confirm Airbnb door code arrived in Airbnb messages (host sends evening May 28)
+        - listitem [ref=e28]: 🛂 Passports out of carry-on into outer pocket — Welcome Suica kid-fare verification needs them
+        - listitem [ref=e29]: 📱 Phones on — Google Fi auto-connects in Japan; no setup
+        - listitem [ref=e30]: 💴 Wallet ready — credit card + a little cash for the JR East counter (cash works there)
+    - generic [ref=e31]:
+      - heading "🛂 Immigration + customs" [level=2] [ref=e32]
+      - paragraph [ref=e33]: 14:50–~15:45
+      - list [ref=e34]:
+        - listitem [ref=e35]: All 5 walk together. Allow ~60 min — immigration is the chokepoint.
+        - listitem [ref=e36]: "After customs: follow signs to JR / NEX (lower level B1)."
+    - generic [ref=e37]:
+      - heading "🎫 JR East Travel Service Center — Welcome Suica + NEX" [level=2] [ref=e38]
+      - paragraph [ref=e39]: ~15:45–16:00
+      - list [ref=e40]:
+        - listitem [ref=e41]:
+          - strong [ref=e42]: One counter, two purchases.
+          - text: Welcome Suica × 5 (3 adult, 2 child — bring all 5 passports for kid-fare verification) + NEX tickets × 5 same time.
+        - listitem [ref=e43]: Welcome Suica = no deposit, 28-day validity, no end-of-trip refund hassle.
+        - listitem [ref=e44]: "Top-up at counter: ~¥3,000/adult, ~¥2,000/kid (cash works; credit sometimes too)."
+        - listitem [ref=e45]:
+          - text: Ask staff about the
+          - strong [ref=e46]: N'EX Tokyo Direct Ticket
+          - text: tourist discount.
+        - listitem [ref=e47]: "If NEX is sold out: next train in ~30 min. Wait it out, don't panic-taxi."
+      - paragraph [ref=e48]:
+        - link "📍 Find JR East counter at NRT T1 →" [ref=e49] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=JR%20East%20Travel%20Service%20Center%20Narita%20Airport%20Terminal%201
+    - generic [ref=e50]:
+      - heading "🚆 NEX → Shinjuku" [level=2] [ref=e51]
+      - paragraph [ref=e52]: ~16:00–17:20
+      - list [ref=e53]:
+        - listitem [ref=e54]:
+          - text: ~80 min, ~¥16,250
+          - strong [ref=e55]: total
+          - text: (3 adult × ¥3,250 + 2 child × ¥1,630).
+        - listitem [ref=e56]: "3 suitcases: end-of-car luggage racks; day-packs overhead."
+        - listitem [ref=e57]: Doze. Don't fully sleep — Shinjuku is the get-off stop.
+    - generic [ref=e58]:
+      - heading "🚇 Shinjuku → Yotsuya-sanchome (1 stop Marunouchi)" [level=2] [ref=e59]
+      - paragraph [ref=e60]: ~17:25
+      - list [ref=e61]:
+        - listitem [ref=e62]: Tap Welcome Suica at gate. 1 stop east on Marunouchi line, ~¥180 pp.
+        - listitem [ref=e63]: Easier than the 10-min walk with 3 suitcases.
+        - listitem [ref=e64]: Exit at Yotsuya-sanchome → ~3 min walk to M/W Hotel.
+      - paragraph [ref=e65]:
+        - link "📍 Yotsuya-sanchome on Maps →" [ref=e66] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=Yotsuya-sanchome%20Station
+    - generic [ref=e67]:
+      - heading "🚪 M/W Hotel 3F — self check-in" [level=2] [ref=e68]
+      - paragraph [ref=e69]: ~17:45–18:30
+      - list [ref=e70]:
+        - listitem [ref=e71]: Building unlocked. Elevator to 3F. Watch the small step exiting.
+        - listitem [ref=e72]: Enter door code on LOCKSTATE smart lock.
+        - listitem [ref=e73]: WiFi auto-connects from /lodging/tokyo — copy SSID + password from there.
+      - paragraph [ref=e74]:
+        - link "Full Yotsuya guide — door, wifi, walking photos →" [ref=e75] [cursor=pointer]:
+          - /url: /JapanTrip2026/lodging/tokyo
+    - generic [ref=e76]:
+      - heading "🍜 Dinner (3 jet-lag-friendly options, all 5 min walk)" [level=2] [ref=e77]
+      - paragraph [ref=e78]: ~19:00
+      - list [ref=e79]:
+        - listitem [ref=e80]:
+          - strong [ref=e81]: Ramen Ouka
+          - text: — 5 min walk from Shinjuku-gyoenmae Exit 2. Halal / no-pork ramen. Halal R set ¥1,500, Vegan R set ¥1,100. Family-friendly, English-friendly.
+        - listitem [ref=e82]:
+          - strong [ref=e83]: Halal Wagyu Ramen Shinjuku Tei (Yotsuya)
+          - text: — backup, slightly further. A5 wagyu, no pork or alcohol.
+        - listitem [ref=e84]:
+          - strong [ref=e85]: Lawson / 7-Eleven
+          - text: "— 3 min walk. The kid-meltdown route: onigiri, oden, sushi rolls. Always open."
+      - paragraph [ref=e86]:
+        - link "📍 Ramen Ouka in Maps →" [ref=e87] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=Ramen%20Ouka%20Shinjuku-gyoenmae
+    - generic [ref=e88]:
+      - heading "🎯 Plan" [level=2] [ref=e89]
+      - list [ref=e90]:
+        - listitem [ref=e91]: 😴 Sleep. Push to 21:00 JST minimum. Set Day 2 alarm before passing out.
+    - 'link "Day 2 · Sat May 30 — Harajuku → Shibuya Tomorrow → Day 2: MiPig Café (Harajuku, ~10:00) + Shibuya Sky sunset. Set 07:30 alarm." [ref=e92] [cursor=pointer]':
+      - /url: /JapanTrip2026/days/2
+      - strong [ref=e93]: Day 2 · Sat May 30 — Harajuku → Shibuya
+      - generic [ref=e94]: "Tomorrow → Day 2: MiPig Café (Harajuku, ~10:00) + Shibuya Sky sunset. Set 07:30 alarm."
+    - link "← Day 0" [ref=e96] [cursor=pointer]:
+      - /url: /JapanTrip2026/days/0
+    - paragraph [ref=e97]:
+      - link "Full itinerary doc →" [ref=e98] [cursor=pointer]:
+        - /url: /JapanTrip2026/docs/itinerary

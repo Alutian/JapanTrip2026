@@ -191,7 +191,7 @@ export const DAYS: Day[] = [
         '🔑 Confirm Airbnb door code arrived in Airbnb messages (host sends evening May 28)',
         '🛂 Passports out of carry-on into outer pocket — Welcome Suica kid-fare verification needs them',
         '📱 Phones on — Google Fi auto-connects in Japan; no setup',
-        '💴 Wallet ready — credit card + a little cash for the JR East counter (cash works there)',
+        '💴 Cash plan: either ¥30,000 starter from bank (Day -1) OR use 7-Eleven ATM in NRT arrivals after customs. **Decline DCC** — choose JPY so your bank handles conversion.',
       ],
     },
     momentCards: [
@@ -225,7 +225,7 @@ export const DAYS: Day[] = [
         title: 'NEX → Shinjuku',
         time: '~16:00–17:20',
         lines: [
-          '~80 min, ~¥16,250 **total** (3 adult × ¥3,250 + 2 child × ¥1,630).',
+          '~80 min, ~¥13,010 **total** (3 adult × ¥3,250 + 2 child × ¥1,630).',
           '3 suitcases: end-of-car luggage racks; day-packs overhead.',
           'Doze. Don\'t fully sleep — Shinjuku is the get-off stop.',
         ],
@@ -251,6 +251,9 @@ export const DAYS: Day[] = [
           'Enter door code on LOCKSTATE smart lock.',
           'WiFi auto-connects from /lodging/tokyo — copy SSID + password from there.',
         ],
+        mapQuery: 'M/W Hotel 4-27-3 Yotsuya Shinjuku Tokyo',
+        mapLabel: 'M/W Hotel on Maps',
+        tel: { number: '+815017214123', label: 'Skew Lines host: +81 50-1721-4123' },
         link: { href: '/lodging/tokyo', label: 'Full Yotsuya guide — door, wifi, walking photos →' },
         accent: 'accent',
       },
@@ -726,7 +729,7 @@ export type Transit = {
 };
 
 export const TRANSIT: Transit[] = [
-  { leg: 'NRT → Shinjuku', mode: 'NEX', date: 'Fri May 29', duration: '~80 min', pax: 5, cost: '~¥16,250', status: 'to-book', notes: 'Reserved seats × 5. Buy at NRT counter on arrival or pre-book.' },
+  { leg: 'NRT → Shinjuku', mode: 'NEX', date: 'Fri May 29', duration: '~80 min', pax: 5, cost: '~¥13,010', status: 'on-arrival', notes: 'Buy at JR East counter on arrival (combined with Welcome Suica). 3 adult × ¥3,250 + 2 child × ¥1,630.' },
   { leg: 'Shinjuku → Hakone-Yumoto', mode: 'Romancecar', date: 'Tue Jun 2 ~13:00', duration: '~85 min', pax: 5, cost: '~¥12,350', status: 'to-book', notes: 'Window opened May 2. Book at odakyu.jp/english.' },
   { leg: 'Hakone (2 days)', mode: 'Hakone Free Pass 2-day', date: 'Jun 2–4', duration: '—', pax: 5, cost: '~¥30,500', status: 'to-book', notes: 'Buy on arrival at Yumoto Odakyu Travel Service Center.' },
   { leg: 'Odawara → Kyoto', mode: 'Shinkansen Hikari', date: 'Thu Jun 4 ~10:15', duration: '~2h 20m', pax: 5, cost: '~¥65,000', status: 'to-book', notes: 'Hikari only — Nozomi does not stop at Odawara. Smart-EX app.' },

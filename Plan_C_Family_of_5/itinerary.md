@@ -32,7 +32,7 @@
 - **14:50** Land NRT (Terminal 1) on **ZG029** — all 5 in row 51 (51A/C/D/G/H)
 - **~15:45** Through immigration + customs (~60 min)
 - **~15:45–16:00** **JR East Travel Service Center** (NEX platform level B1): 5× Welcome Suica + 5× NEX tickets in one stop. Passports out for kid fare. Ask about N'EX Tokyo Direct Ticket discount.
-- **~16:00–17:20** **NEX → Shinjuku Station** (~80 min, ~¥16,250 *total* — 3 adult ¥3,250 + 2 child ¥1,630). **Buy on arrival at JR East counter — not pre-booked** (decision per `todos.md`).
+- **~16:00–17:20** **NEX → Shinjuku Station** (~80 min, **~¥13,010 total** — 3 adult ¥3,250 + 2 child ¥1,630). **Buy on arrival at JR East counter — not pre-booked** (decision per `todos.md`).
 - **~17:25** **Marunouchi line Shinjuku → Yotsuya-sanchome** (1 stop, ¥180 pp). Easier than 10-min walk with 3 suitcases.
 - **~17:30–18:30** **Airbnb self-check-in** (M/W Hotel 3F, Yotsuya 4-chome). Door code arrives via Airbnb message evening of May 28 — confirm before leaving airport.
 
@@ -223,7 +223,7 @@
 
 | Leg | Mode | Duration | Est. cost (5 pax) | Notes |
 |-----|------|----------|-------------------|-------|
-| NRT → Shinjuku | NEX | ~80 min | ~¥16,250 | Reserved seats × 5 |
+| NRT → Shinjuku | NEX | ~80 min | ~¥13,010 (3 adult + 2 child) | Buy at JR East counter on arrival (combined with Welcome Suica) |
 | Tokyo local (Days 1–5) | Metro + JR | — | Suica top-ups | |
 | Shinjuku → Hakone-Yumoto | Romancecar Hakone 27 (GSE) | ~96 min | ¥4,610 (LE surcharge; base fare via Free Pass) | ✅ Booked May 4 · Car 5 seats 15C/D + 16B/C/D |
 | Hakone local (Days 5–7) | Tozan + Ropeway + Boat + Bus | — | Hakone Free Pass ~¥30,500 | 2-day pass for 5 pax |

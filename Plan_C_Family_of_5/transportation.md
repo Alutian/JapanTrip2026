@@ -305,7 +305,7 @@ These are the hard rules that, if violated, mess up the whole logistics chain:
 
 | Item | Cost |
 |---|---|
-| NEX NRT → Shinjuku × 5 | ¥16,250 |
+| NEX NRT → Shinjuku (3 adult + 2 child) | ¥13,010 |
 | Tokyo local Metro/JR (4 days) | ¥10,000 (Suica top-ups) |
 | Romancecar Shinjuku → Hakone (LE surcharge total, base fare via Free Pass) | ¥4,610 (✅ booked) |
 | Hakone Free Pass × 5 | ~¥30,500 |
