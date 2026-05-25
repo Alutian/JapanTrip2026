@@ -76,6 +76,11 @@
 - **Halal Wagyu Ramen Shinjuku Tei (Yotsuya store)** — A5 wagyu ramen, halal, no pork or alcohol. Slightly further (Yotsuya station direction). Backup if Ouka is closed/busy.
 - **Lawson / 7-Eleven** — 3 min walk for the kid-meltdown / "just give us food" route. Onigiri, oden, sandwiches, sushi rolls. Always open.
 
+## Groceries (stock the Airbnb)
+
+- **Lawson Store 100 Shinjuku Ni Chome Ten** ⭐ best Day-1 stop on the walk back from dinner. Hybrid konbini + ¥100 store — milk, eggs, fruit, bread, cereal, household basics. Welcome Suica works.
+- **Ito-Yokado Shinjuku Tomihisa** — full 2-floor supermarket, 5 min walk from Shinjuku-gyoenmae station. Use for bigger trips Day 2+, not jet-lag Day 1.
+
 ---
 
 ## Takkyubin Plan (Tokyo → Hakone, Jun 1)

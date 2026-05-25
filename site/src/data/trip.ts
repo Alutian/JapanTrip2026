@@ -285,6 +285,19 @@ export const DAYS: Day[] = [
         mapQuery: 'Ramen Ouka Shinjuku-gyoenmae',
         mapLabel: 'Ramen Ouka in Maps',
       },
+      {
+        emoji: '🛒',
+        title: 'Groceries on the way back (milk, snacks, breakfast for kids)',
+        time: '~20:00',
+        lines: [
+          '**Lawson Store 100 Shinjuku Ni Chome Ten** ⭐ — on the route from Yotsuya-sanchome back to the Airbnb. **Lawson Store 100** is the hybrid konbini + ¥100 grocery — more grocery selection than a regular Lawson: milk, eggs, fresh fruit, bread, breakfast cereal, household stuff. Best single stop for our "stock the Airbnb" run.',
+          '**Any 7-Eleven / FamilyMart / Lawson** — 3 min walk per host\'s guide. Lighter selection (onigiri, drinks, snacks, fresh sandwiches) but always open.',
+          '**Ito-Yokado Shinjuku Tomihisa** — 5 min walk from Shinjuku-gyoenmae, **full supermarket** (2 floors: kitchen/personal care + fruits/veggies/meat/fish/bakery/bento). Save this for a dedicated trip Day 2+; tonight is too tired.',
+          '**Cash tip:** Lawson Store 100 takes IC cards (Welcome Suica) for most items — no need to break ¥10,000 bills here.',
+        ],
+        mapQuery: 'Lawson Store 100 Shinjuku 2-chome',
+        mapLabel: 'Lawson Store 100 in Maps',
+      },
     ],
     plan: [
       '😴 Sleep. Push to 21:00 JST minimum. Set Day 2 alarm before passing out.',
