@@ -19,3 +19,6 @@ img-*.png
 doc-*.png
 *-fullpage.png
 *-current.png
+*-snapshot.md
+day*-iter*-fresh-*.md
+day*-iter*-audit-*.md
