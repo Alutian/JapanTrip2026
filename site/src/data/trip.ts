@@ -40,7 +40,7 @@ export const DAYS: Day[] = [
     cluster: 'San Jose → Narita',
     confirmation: { code: 'GE7DVP', label: 'ZIPAIR family conf' },
     crossLinks: [
-      { href: '/bookings#flights', label: '✈ Flight details' },
+      { href: '/bookings', label: '✈ Bookings' },
       { href: '/emergency', label: '🆘 Emergency' },
     ],
     countdown: {
@@ -58,7 +58,7 @@ export const DAYS: Day[] = [
       title: 'Pre-departure checklist (do tonight + morning of)',
       items: [
         '✅ Bags pre-paid — Value package includes 1 checked bag/pax/direction (4 out + 4 back). No counter action needed.',
-        '📱 Online check-in opens 24h before — do Wed May 27 11:40',
+        '📱 Online check-in opens 24h before — do Wed May 27 11:40 via zipair.net Manage Booking (conf GE7DVP)',
         '🛂 Passports × 5 in day-packs, not checked',
         '💊 Grandma\'s meds in HER carry-on (never checked, never takkyubin)',
         '📶 eSIMs installed + tested (Airalo/Saily for adults; grandma roaming)',
