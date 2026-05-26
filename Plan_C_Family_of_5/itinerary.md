@@ -72,7 +72,7 @@
 
 ---
 
-## Day 4 — Mon Jun 1 · teamLab Planets + Shinjuku Yakitori Night
+## Day 4 — Mon Jun 1 · Odaiba Science (Miraikan) + teamLab Planets + Shinjuku Yakitori Night
 
 🔒 **LOCKED**
 - **teamLab Planets Tokyo** (Toyosu) — entry **14:00–14:30** · 3 adults + 2 kids · inquiry # `61d3669eb033ddea8a` ✅ booked
@@ -82,9 +82,10 @@
   - Total on-site (queue + visit): ~2.5 hrs
 - **Evening:** drop **takkyubin Leg 1** (Tokyo → Hakone) at Lawson/7-Eleven near Yotsuya — bags arrive Hakone Jun 2 afternoon. See [transportation.md](transportation.md#leg-1).
 
-🎯 **PROXIMITY PLAN** (Tsukiji → Toyosu → Shinjuku, south-then-home loop)
-- **AM (M2 Tsukiji Food Crawl):** **Tsukiji Outer Market** sashimi + tamagoyaki + uni bowls; **Turret Coffee Tsukiji** (P6) for coffee. Aim arrive 9am before stalls sell out, eat through 12:30.
-- **13:00:** Toei Oedo line Tsukijishijo → Shin-Toyosu (~15 min direct)
+🎯 **PROXIMITY PLAN** (Odaiba Science → Toyosu Art → Shinjuku, waterfront-then-home loop)
+- **AM (M6 Odaiba Science):** **Miraikan (National Museum of Emerging Science & Innovation)** (P6) — hands-on robotics, ASIMO/robotics demos, space simulators. Perfect for Zara & Kai. Arrive for 10:00 AM opening.
+- **Lunch:** DiverCity Tokyo Plaza food court (near the life-sized moving **Unicorn Gundam statue**) or Miraikan Café.
+- **13:15:** Yurikamome Line Telecom Center → Shin-Toyosu (~16 min direct, ¥330)
 - **13:45–17:00:** teamLab Planets (locked) — see above
 - **Late afternoon:** Optional Ginza window stop on the way back (Yurakucho line passes Ginza-itchome) — **Sembikiya Fruit Parlor** (P6) for fancy fruit parfait if energy
 - **Evening (E6 Shinjuku Home Base Night):** **E2 Omoide Yokocho** yakitori counter dinner (P1) → **Tokyo Metropolitan Building Night Show** projection mapping (P1, free, nightly, Tochomae) → walk back to Yotsuya
