@@ -29,10 +29,12 @@
 ## Day 1 — Fri May 29 · Arrival → Yotsuya
 
 🔒 **LOCKED**
-- **14:50** Land NRT (Terminal 1) on **ZG029** — all 5 in row 51
+- **14:50** Land NRT (Terminal 1) on **ZG029** — all 5 in row 51 (51A/C/D/G/H)
 - **~15:45** Through immigration + customs (~60 min)
-- **~16:00–17:20** **NEX → Shinjuku Station** (~80 min, reserved seats × 5, ~¥16,250) — *NEX seats need to be reserved; can buy at NRT counter on arrival or pre-book*
-- **~17:30** Walk or 1-stop Marunouchi line to Yotsuya 4-chome → **Airbnb self-check-in** (3:00 PM check-in window opens; we'll be later)
+- **~15:45–16:00** **JR East Travel Service Center** (NEX platform level B1): 5× Welcome Suica + 5× NEX tickets in one stop. Passports out for kid fare. Ask about N'EX Tokyo Direct Ticket discount.
+- **~16:00–17:20** **NEX → Shinjuku Station** (~80 min, **~¥13,010 total** — 3 adult ¥3,250 + 2 child ¥1,630). **Buy on arrival at JR East counter — not pre-booked** (decision per `todos.md`).
+- **~17:25** **Marunouchi line Shinjuku → Yotsuya-sanchome** (1 stop, ¥180 pp). Easier than 10-min walk with 3 suitcases.
+- **~17:30–18:30** **Airbnb self-check-in** (M/W Hotel 3F, Yotsuya 4-chome). Door code arrives via Airbnb message evening of May 28 — confirm before leaving airport.
 
 🎯 **FLEXIBLE**
 - Dinner near hotel — keep it easy. Ramen, konbini haul, or izakaya in Yotsuya/Shinjuku-gyoenmae area.
@@ -80,7 +82,7 @@
   - **Barefoot + shallow water installations** — wear pants rollable above the knee; rental shorts available if dressed in skirts
   - Plan to arrive Shin-Toyosu by **~13:45**
   - Total on-site (queue + visit): ~2.5 hrs
-- **Evening:** drop **takkyubin Leg 1** (Tokyo → Hakone) at Lawson/7-Eleven near Yotsuya — bags arrive Hakone Jun 2 afternoon. See [transportation.md](transportation.md#leg-1).
+- **Evening:** pack — bags travel with you on the Romancecar tomorrow (Leg 1 takkyubin cancelled; Rakuten STAY doesn't accept packages).
 
 🎯 **PROXIMITY PLAN** (Odaiba Science → Toyosu Art → Shinjuku, waterfront-then-home loop)
 - **AM (M6 Odaiba Science):** **Miraikan (National Museum of Emerging Science & Innovation)** (P6) — hands-on robotics, ASIMO/robotics demos, space simulators. Perfect for Zara & Kai. Arrive for 10:00 AM opening.
@@ -96,9 +98,11 @@
 ## Day 5 — Tue Jun 2 · Tokyo → Hakone
 
 🔒 **LOCKED**
-- **Romancecar Shinjuku → Hakone-Yumoto** — target ~13:00 departure, ~85 min (~¥12,350) · ⬜ *book May 2 when window opens*
-- Buy **Hakone Free Pass × 5** (2-day, ~¥30,500) at Yumoto Station Odakyu Travel Service Center on arrival
-- **Tozan Railway Yumoto → Kowakudani** (~25 min, 3 stops, Free Pass)
+- **~12:30** Leave Yotsuya Airbnb (Marunouchi line Yotsuya-sanchome → Shinjuku, 3 stops) — **day-packs + shared overnight tote + grandma's 20" carry-on only** (main suitcases were shipped Tokyo→Kyoto direct on Jun 1 evening)
+- **~12:50–13:05** **Buy Hakone Free Pass × 5 — paper cards — at Odakyu Sightseeing Service Center, Shinjuku Station** (west side, near Romancecar platforms) · 2-day, ~¥6,100/adult + ~¥1,100/kid ≈ ¥21,500 · pay credit card or cash · *do not buy via EMot app — it's per-device, kids would each need a phone* · this Free Pass also covers the Shinjuku→Yumoto base fare for the Romancecar (the LE surcharge ticket alone won't get you through the gate)
+- **13:10** Board Romancecar; grandma's roller + overnight tote in Car 5 vestibule luggage rack, day-packs overhead
+- **Romancecar Shinjuku → Hakone-Yumoto** — ✅ booked: Hakone 27 (GSE), **13:20 → 14:56**, Car 5 seats 15C/D + 16B/C/D, ¥4,610 LE surcharge. See [bookings/romancecar.md](../bookings/romancecar.md).
+- **Tozan Railway Yumoto → Kowakudani** (~25 min, 3 stops, tap Free Pass at gate) — first activation of the 2-day window starts here
 - **Self-check-in at Rakuten STAY TERRACE Kowakudani** via online check-in URL (sent by Rakuten Jun 1 — must reply to their email with `(AT)/(DOT)` format first)
 
 🎯 **FLEXIBLE**
@@ -115,7 +119,7 @@
 - **Drop takkyubin Leg 2** (Hakone → Kyoto) at Lawson Kowakudani **this evening** — bags arrive Stitch Hotel front desk Jun 4. See [transportation.md](transportation.md#leg-2).
 
 🎯 **PROXIMITY PLAN** (full-day H1 loop + H2 in the afternoon if energy holds)
-- **AM–early PM (H1 Classic Hakone Loop):** Kowakudani → Gora → Cable Car → **Ropeway** (P1, Owakudani sulfur views, Mt. Fuji if clear) → **Owakudani Information Center** (P1) + kuro-tamago → Togendai → **Lake Ashi pirate ship** → Moto-Hakone → **Hakone Shrine** (P2 — 20-min walk-up for the in-water torii + cedar approach) → bus back
+- **AM–early PM (H1 Classic Hakone Loop):** Kowakudani → Gora → Cable Car → **Ropeway** (P1, Owakudani sulfur views, Mt. Fuji if clear) → **Owakudani Information Center** (P1) + kuro-tamago → Togendai → **Lake Ashi pirate ship** → Moto-Hakone → **Hakone Shrine** (P2 — 20-min walk-up for the in-water torii + cedar approach) → bus back · *every leg covered by the Hakone Free Pass — show paper card at each gate / boat boarding*
 - **Lunch:** **Hatsuhana Honten** soba near Hakone-Yumoto OR lakeside at Moto-Hakone
 - **PM (H2 Open Air Museum):** 2 stops from Gora — 70,000sqm sculpture park (P1), Picasso pavilion, **Symphonic Sculpture** giant climbable net for kids, foot spa. ~2h
 - **Evening:** **Fujiya Hotel Main Dining Room kaiseki** (smart casual, ⬜ booking still open) OR self-cater in the unit + Family Mart, OR Gora Brewery & Grill
@@ -129,7 +133,7 @@
 
 🔒 **LOCKED**
 - **~09:00** Self-check-out of Rakuten STAY (lock up, leave)
-- **~09:00–09:45** Tozan Railway Kowakudani → Yumoto → Odawara (Free Pass)
+- **~09:00–09:45** Tozan Railway Kowakudani → Yumoto → Odawara (Free Pass — last use, then card expires; keep as souvenir or dispose)
 - **~10:15** **Shinkansen Hikari Odawara → Kyoto** — reserved seats × 5, ~2h 20min (~¥65,000) · ⬜ *book May 4 when window opens* · ⚠️ *Hikari only; Nozomi doesn't stop at Odawara*
 - **~12:35** Arrive Kyoto Station → subway/walk to Stitch Hotel (10 min)
 - **~13:00–15:00** Stitch front desk holds bags + day-bags; official check-in opens 3:00 PM — Leg 2 takkyubin bags should already be at the front desk
@@ -220,9 +224,9 @@
 
 | Leg | Mode | Duration | Est. cost (5 pax) | Notes |
 |-----|------|----------|-------------------|-------|
-| NRT → Shinjuku | NEX | ~80 min | ~¥16,250 | Reserved seats × 5 |
+| NRT → Shinjuku | NEX | ~80 min | ~¥13,010 (3 adult + 2 child) | Buy at JR East counter on arrival (combined with Welcome Suica) |
 | Tokyo local (Days 1–5) | Metro + JR | — | Suica top-ups | |
-| Shinjuku → Hakone-Yumoto | Romancecar | 85 min | ~¥12,350 | Reserved seats × 5 · book May 2 |
+| Shinjuku → Hakone-Yumoto | Romancecar Hakone 27 (GSE) | ~96 min | ¥4,610 (LE surcharge; base fare via Free Pass) | ✅ Booked May 4 · Car 5 seats 15C/D + 16B/C/D |
 | Hakone local (Days 5–7) | Tozan + Ropeway + Boat + Bus | — | Hakone Free Pass ~¥30,500 | 2-day pass for 5 pax |
 | Odawara → Kyoto | Shinkansen Hikari | ~2h 20min | ~¥65,000 | Reserved × 5 · book May 4 · Hikari only |
 | Kyoto local (Days 7–10) | Subway + Hankyu + Keihan + JR | — | Suica + cash | Stitch is well-connected |
@@ -250,7 +254,7 @@
 | teamLab Planets (Jun 1, 14:00) | ✅ Booked |
 | **GEAR show Kyoto (Jun 5, 19:00, res `#8241`)** | ✅ Booked |
 | MiPig Café | ⬜ This week (60-day window open) |
-| Romancecar Shinjuku → Hakone-Yumoto | ⬜ Window opens **May 2** |
+| Romancecar Shinjuku → Hakone-Yumoto | ✅ Booked May 4 (Hakone 27 GSE, Car 5) |
 | Shinkansen Odawara → Kyoto | ⬜ Window opens **May 4** |
 | Shinkansen Kyoto → Tokyo | ⬜ Window opens **May 7** |
 | NEX (NRT→Shinjuku Day 1, Tokyo→Narita Day 10) | ⬜ Book May 7+ |

@@ -1,2 +1,24 @@
 .DS_Store
-.claude/
+
+# Local Claude config — gitignore everything by default,
+# then un-ignore the shareable artifacts below.
+.claude/*
+!.claude/agents/
+!.claude/skills/
+!.claude/commands/
+
+# Per-machine Claude state (always local)
+.claude/agents/*.local.md
+.claude/skills/**/state.json
+.claude/skills/**/reviews/
+
+# Playwright + screenshot artifacts (session-local)
+.playwright-mcp/
+day*-*.png
+img-*.png
+doc-*.png
+*-fullpage.png
+*-current.png
+*-snapshot.md
+day*-iter*-fresh-*.md
+day*-iter*-audit-*.md

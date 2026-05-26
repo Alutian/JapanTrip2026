@@ -20,15 +20,15 @@
 
 ---
 
-## Passengers (4)
+## Passengers (4 on GE7DVP + 1 on F0F2P9)
 
-| # | Name | Type | ZG029 seat (outbound) | ZG030 seat (return) | Outbound meal | Return meal |
+| # | Name | DOB | ZG029 seat (out) | ZG030 seat (return) | Outbound meal | Return meal |
 |---|------|------|------|------|---------------|-------------|
-| 1 | NAINANI, AJAY | Adult / M | 51A | 24G | Korean BBQ Beef | Spicy Chicken Rice |
-| 2 | KAO, CANDICE | Adult / F | 51G | 24A | Salmon Shio Koji | Spicy Chicken Rice |
-| 3 | NAINANI KAO, ZARA | Child / F | 51C | 24C | Chicken Teriyaki | Vegetable Penne Pasta |
-| 4 | NAINANI KAO, KAI | Child / M | 51D | 24D | Chicken Teriyaki | Vegetable Penne Pasta |
-| 5 | LEE, SECK JOO (grandma) | Adult / F | 51H | — (NRT→SIN on Scoot TR885) | Chicken Teriyaki | — |
+| 1 | NAINANI, AJAY | 1981-11-06 | 51A | 24G | Korean BBQ Beef | Spicy Chicken Rice |
+| 2 | KAO, CANDICE | 1981-07-05 | 51G | 24A | Salmon Shio Koji | Spicy Chicken Rice |
+| 3 | NAINANI KAO, ZARA | 2017-03-24 | 51C | 24C | Chicken Teriyaki | Vegetable Penne Pasta |
+| 4 | NAINANI KAO, KAI | 2019-05-23 | 51D | 24D | Chicken Teriyaki | Vegetable Penne Pasta |
+| 5 | LEE, SECK JOO (grandma, F0F2P9) | — | 51H | NRT→SIN on Scoot TR885 | Chicken Teriyaki | — |
 
 Row 51 seats the whole group of 5 together on the outbound.
 
@@ -36,20 +36,38 @@ Row 51 seats the whole group of 5 together on the outbound.
 
 ## Baggage
 
-- **Checked:** 30 kg max per piece, up to 5 pieces per passenger, sum of 3 sides ≤ 203 cm. **Fee-based** — not included in base fare.
-- **Carry-on:** 2 pieces per passenger (1st: 40×25×55 cm; 2nd: 35×25×45 cm). 7 kg free; up to 15 kg total via paid upgrade (must buy ≥24h before departure, not available at airport).
-- **NRT → SJC checked bag fee:** $85/piece. **SJC → NRT:** ¥11,000/piece.
+### Family GE7DVP — Value package, bags ✅ INCLUDED
+- **Checked:** **1 piece per passenger per direction included** (Value package). 30 kg max, sum of 3 sides ≤ 203 cm. Total: 4 bags out + 4 bags back, all pre-included.
+- **Carry-on:** 7 kg per passenger (not upgraded). Two pieces (40×25×55 cm + 35×25×45 cm); 15 kg upgrade is available but we did not buy it.
+- **Sport equipment / oversize / 2nd bag:** would be add-on (not currently selected).
 
-Decide bag count and pre-pay online before day-of (airport counter has extra handling fee, no cash).
+### Grandma F0F2P9 — Value package
+- 1 piece checked, 30 kg, included. 7 kg carry-on.
+
+### Reference rates (in case you need to add bags later — must do ≥24h pre-flight, not at counter)
+- **SJC → NRT extra bag:** ¥11,000/piece. **NRT → SJC extra bag:** $85/piece.
+- Airport counter pre-pay has extra handling fee, no cash. Don't show up needing to add bags day-of.
 
 ---
 
 ## Airport Logistics
 
-- **Outbound terminal:** SJC — confirm ZIPAIR terminal at [zipair.net/en/about](https://www.zipair.net/en/about) closer to date (ZIPAIR check-in/arrivals often differ from mainline carriers).
-- **Arrival airport:** Narita (NRT) — **not Haneda**. Budget ~90 min Narita Express or limousine bus into central Tokyo.
-- **Check-in:** counter closes 1h before departure; bags too.
-- **No transfer service** — if connecting, must clear immigration + re-check bags.
+### SJC (departure)
+- **Check-in counter: Terminal B.** Confirmed via [flysanjose.com/airlines/zipair](https://www.flysanjose.com/airlines/zipair).
+- **Departure gate: Terminal A.** *You check in at B, then walk to A.* Plan a 10-min interterminal walk.
+- **Counter hours (May 5 – Jul 15 season): 08:40 – 10:40 daily except Fri.** ZG029 Thu May 28 departs 11:40 → counter closes 10:40 sharp (60 min pre-flight).
+- **Parking:** Lot 3 (departures), Lot 2 (arrivals). Pre-reserve online via SJC site.
+- **No on-airport ZIPAIR ticket office outside counter hours** — issues before/after must go through phone/email.
+- **ZIPAIR US support:** **(888) 820-6002** (Mon–Fri 09:00–18:00 PT). Email: `contact.en@zipair.net`.
+
+### NRT (arrival + return)
+- **Arrival airport:** Narita (NRT) — **not Haneda**. Budget ~80 min Narita Express into central Tokyo.
+- **Return check-in:** counter closes 1h before departure; bags too. No transfer service.
+
+### Flight status (use these in-flight or pre-flight)
+- **FlightAware (preferred):** [flightaware.com/live/flight/TZP29](https://www.flightaware.com/live/flight/TZP29) (outbound) / [TZP30](https://www.flightaware.com/live/flight/TZP30) (return).
+- **Flightradar24:** [fr24.com/data/flights/zg29](https://www.flightradar24.com/data/flights/zg29)
+- **ZIPAIR official:** [zipair.net/en/flight_status](https://www.zipair.net/en/flight_status)
 
 ---
 
@@ -96,6 +114,30 @@ Same flight as the family (ZG029 out of SJC). An earlier booking (4SC657, SFO→
 > **NRT taxi drop-off: Terminal 1.** Scoot check-in counters open 3h before departure (05:20) and close 60 min before (07:20). Recommended arrival: 06:20 (2h prior).
 >
 > Cabin baggage: 2 pieces, 10 kg total combined (54×38×22 cm per piece). Checked baggage is fee-based — confirm whether the booking includes a checked bag or if it needs to be added via Manage Booking before day-of.
+
+### NRT bag storage (Day 1 May 29 → Day 11 Jun 8) — grandma's onward-to-SIN bag
+
+One of grandma's bags doesn't need to come on the Japan portion of the trip. Store at NRT, retrieve on departure day before her Scoot flight.
+
+| Field | Value |
+|-------|-------|
+| Operator | **JAL ABC** ([jalabc.com](https://www.jalabc.com/en/hands-freetravel/baggage-storage.html)) |
+| Counter | **NRT Terminal 1, South Wing 1F** (signs from arrivals lobby) |
+| Drop-off | Day 1 (May 29) after customs, before JR East counter |
+| Pickup | Day 11 (Jun 8) — same counter, must present receipt |
+| Rate | Small ¥500 / Medium ¥700 / Large ¥1,050 per day |
+| Estimate | Medium × 10 days = **~¥7,000** total |
+| Max storage | 30 days (we're at 10) |
+| Hours | 06:30 – ~1h after last arrival |
+| Payment | At pickup. Cash JPY or credit (JCB/VISA/MC/Amex/Diners/UnionPay) |
+| Booking | None required — walk-up |
+| Identifier given at drop | Name (LEE, SECK JOO), phone, pickup date (Jun 8) |
+
+⚠ **Same-counter pickup constraint:** must retrieve at T1, not T2. Grandma's Scoot TR 885 also departs T1, so geography is fine.
+
+⏰ **Jun 8 timing:** 5:30 AM taxi from Richmond → NRT ~5:50 AM. JAL ABC opens 6:30. ~40 min wait, then bag retrieval, then Scoot check-in (counter open 5:20–7:20). Plenty of buffer.
+
+---
 
 ### June 7 / June 8 logistics (decided)
 

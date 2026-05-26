@@ -1,0 +1,218 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { LODGING } from '../../data/trip.ts';
+
+export async function getStaticPaths() {
+  return LODGING.map(l => ({ params: { key: l.key }, props: { l } }));
+}
+
+const { l } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+function mapsUrl(query: string) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+---
+
+<Layout title={`${l.city} — ${l.name}`}>
+  <p class="hint" style="margin-bottom: 0.25rem;">{l.city} · {l.nights} {l.nights === 1 ? 'night' : 'nights'}</p>
+  <h1 style="margin-top: 0;">{l.name}</h1>
+
+  <p style="margin: 0.5rem 0 1rem;">
+    <a href={`${base}/lodging`}>← All hotels</a>
+    {l.guideUrl && <> · <a href={l.guideUrl} target="_blank" rel="noopener">📄 Full host guide ↗</a></>}
+  </p>
+
+  {l.heroImageUrl && (
+    <img src={l.heroImageUrl.startsWith('/') ? `${base}${l.heroImageUrl}` : l.heroImageUrl} alt={`${l.name} — building entrance`} loading="lazy" style="width: 100%; border-radius: 12px; margin-bottom: 1rem;" />
+  )}
+
+  {/* Address + Map */}
+  <div class="card">
+    <h2 style="margin-top: 0;">📍 Address</h2>
+    <p style="margin: 0;">{l.addressEn}</p>
+    {l.addressJa && (
+      <>
+        <p class="lang-ja" style="font-size: 1.05rem; margin: 0.5rem 0 0;">{l.addressJa}</p>
+        <button class="copy-btn" data-copy={l.addressJa} style="margin-top: 0.5rem; margin-left: 0;">Copy JP address</button>
+      </>
+    )}
+    <p style="margin: 0.75rem 0 0;">
+      <a href={mapsUrl(l.addressEn)} target="_blank" rel="noopener">📍 Open in Google Maps →</a>
+    </p>
+  </div>
+
+  {/* Booking + Host */}
+  <div class="card">
+    <h2 style="margin-top: 0;">🗓 Booking</h2>
+    <ul>
+      <li><strong>Check-in:</strong> {l.checkIn}</li>
+      <li><strong>Check-out:</strong> {l.checkOut}</li>
+      <li><strong>Conf:</strong> <code>{l.conf}</code> <button class="copy-btn" data-copy={l.conf}>Copy</button></li>
+      {l.pin && <li><strong>PIN:</strong> <code>{l.pin}</code> <button class="copy-btn" data-copy={l.pin}>Copy</button></li>}
+      {l.hostName && <li><strong>Host:</strong> {l.hostName}</li>}
+      {l.hostPhone && <li><strong>Host phone:</strong> <a href={`tel:${l.hostPhone.replace(/\s/g, '')}`}>{l.hostPhone}</a></li>}
+      {l.phone && <li><strong>Property phone:</strong> <a href={`tel:${l.phone.replace(/\s/g, '')}`}>{l.phone}</a></li>}
+    </ul>
+  </div>
+
+  {/* WiFi + Door code */}
+  {(l.wifi || l.doorCode || l.doorCodeNote) && (
+    <div class="card" style="border-color: var(--accent);">
+      <h2 style="margin-top: 0;">🔑 WiFi + Entry</h2>
+      {l.wifi && (
+        <ul>
+          <li><strong>SSID:</strong> <code>{l.wifi.ssid}</code> <button class="copy-btn" data-copy={l.wifi.ssid}>Copy</button></li>
+          <li><strong>Password:</strong> <code>{l.wifi.password}</code> <button class="copy-btn" data-copy={l.wifi.password}>Copy</button></li>
+        </ul>
+      )}
+      {l.doorCode && (
+        <p><strong>Door code:</strong> <code>{l.doorCode}</code> <button class="copy-btn" data-copy={l.doorCode}>Copy</button></p>
+      )}
+      {!l.doorCode && l.doorCodeNote && (
+        <p class="hint">⚠ Door code: {l.doorCodeNote}</p>
+      )}
+    </div>
+  )}
+
+  {/* Nearest station */}
+  {l.nearestStation && (
+    <div class="card">
+      <h2 style="margin-top: 0;">🚇 Nearest station</h2>
+      <p>
+        <strong>{l.nearestStation.name}</strong> ({l.nearestStation.line} line), {l.nearestStation.exit} — {l.nearestStation.walkMin} min walk
+      </p>
+      <p>
+        <a href={mapsUrl(`${l.nearestStation.name} Station ${l.nearestStation.exit}`)} target="_blank" rel="noopener">📍 Open station in Maps →</a>
+      </p>
+    </div>
+  )}
+
+  {/* Walking directions */}
+  {l.walkingDirections && (
+    <details class="card" open>
+      <summary style="cursor: pointer; font-weight: 600; font-size: 1.1rem; color: var(--accent-2);">
+        🚶 Walking from {l.walkingDirections.from}
+      </summary>
+      <ol style="margin-top: 0.75rem;">
+        {l.walkingDirections.steps.map(s => (
+          <li>
+            {s.text}
+            {s.imageUrl && (
+              <div style="margin: 0.5rem 0;">
+                <img src={s.imageUrl.startsWith('/') ? `${base}${s.imageUrl}` : s.imageUrl} alt={s.text} loading="lazy" style="max-width: 100%; border-radius: 8px;" />
+              </div>
+            )}
+          </li>
+        ))}
+      </ol>
+      {l.guideUrl && (
+        <p class="hint" style="margin-top: 0.75rem;">
+          Step-by-step photos for each turn live in the <a href={l.guideUrl} target="_blank" rel="noopener">host's full guide ↗</a>.
+        </p>
+      )}
+    </details>
+  )}
+
+  {/* Check-in flow */}
+  {l.checkInFlow && (
+    <div class="card">
+      <h2 style="margin-top: 0;">🚪 Getting into the room</h2>
+      <ol>
+        {l.checkInFlow.map(step => <li>{step}</li>)}
+      </ol>
+    </div>
+  )}
+
+  {/* Appliances */}
+  {l.appliances && l.appliances.length > 0 && (
+    <details class="card">
+      <summary style="cursor: pointer; font-weight: 600; font-size: 1.1rem; color: var(--accent-2);">
+        🔌 Appliances & how to use them ({l.appliances.length})
+      </summary>
+      <ul style="margin-top: 0.75rem; list-style: none; padding-left: 0;">
+        {l.appliances.map(a => (
+          <li style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border);">
+            <div><strong>{a.name}:</strong> {a.note}</div>
+            {a.imageUrl && (
+              <img src={a.imageUrl.startsWith('/') ? `${base}${a.imageUrl}` : a.imageUrl} alt={a.name} loading="lazy" style="margin-top: 0.5rem; max-width: 100%; border-radius: 8px;" />
+            )}
+          </li>
+        ))}
+      </ul>
+    </details>
+  )}
+
+  {/* Trash */}
+  {l.trash && l.trash.length > 0 && (
+    <div class="card" style="border-color: var(--warn);">
+      <h2 style="margin-top: 0;">🗑 Trash</h2>
+      <ul>
+        {l.trash.map(t => <li>{t}</li>)}
+      </ul>
+    </div>
+  )}
+
+  {/* Luggage storage */}
+  {l.luggageStorage && (
+    <div class="card">
+      <h2 style="margin-top: 0;">🧳 Luggage storage</h2>
+      <p>{l.luggageStorage}</p>
+    </div>
+  )}
+
+  {/* Laundromat */}
+  {l.laundromat && (
+    <div class="card">
+      <h2 style="margin-top: 0;">🧺 Coin laundry</h2>
+      <p>
+        <strong>{l.laundromat.name}</strong> — {l.laundromat.walkMin} min walk
+      </p>
+      <p style="margin: 0;">{l.laundromat.addressEn}</p>
+      {l.laundromat.addressJa && (
+        <p class="lang-ja" style="margin: 0.25rem 0 0;">{l.laundromat.addressJa}</p>
+      )}
+      {l.laundromat.mapsQuery && (
+        <p style="margin-top: 0.5rem;">
+          <a href={mapsUrl(l.laundromat.mapsQuery)} target="_blank" rel="noopener">📍 Open in Maps →</a>
+        </p>
+      )}
+    </div>
+  )}
+
+  {/* Nearby */}
+  {l.nearby && l.nearby.length > 0 && (
+    <div class="card">
+      <h2 style="margin-top: 0;">📍 Nearby</h2>
+      <ul>
+        {l.nearby.map(n => (
+          <li>
+            <strong>{n.label}</strong>{n.note ? ` — ${n.note}` : ''}
+            {n.mapsQuery && <> · <a href={mapsUrl(n.mapsQuery)} target="_blank" rel="noopener">Maps →</a></>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+
+  {/* House rules */}
+  {l.houseRules && l.houseRules.length > 0 && (
+    <details class="card">
+      <summary style="cursor: pointer; font-weight: 600;">📜 House rules</summary>
+      <ul style="margin-top: 0.75rem;">
+        {l.houseRules.map(r => <li>{r}</li>)}
+      </ul>
+    </details>
+  )}
+
+  {/* Emergency */}
+  {l.emergencyAddress && (
+    <div class="card" style="border-color: var(--accent);">
+      <h2 style="margin-top: 0;">🆘 Emergency address</h2>
+      <p>{l.emergencyAddress}</p>
+      <p class="hint">119 = fire/ambulance · 110 = police · #7119 = ambulance advice</p>
+    </div>
+  )}
+
+  {l.notes && <p class="hint" style="margin-top: 1rem;">{l.notes}</p>}
+</Layout>

@@ -34,7 +34,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       {l.notes && <p class="hint" style="margin-top: 0.75rem;">{l.notes}</p>}
 
       <div style="margin-top: 0.75rem;">
-        <a href={`${base}/docs/bookings/${l.key}_lodging`}>Full booking detail →</a>
+        <a href={`${base}/lodging/${l.key}`}>Full property page (wifi, codes, directions, appliances) →</a>
       </div>
     </div>
   ))}

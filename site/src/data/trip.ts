@@ -3,9 +3,9 @@
 // Update this file when bookings change.
 
 export const TRIP = {
-  start: '2026-05-29',
+  start: '2026-05-28',
   end: '2026-06-08',
-  travelers: ['Ajay', 'Candice', 'Zara (7)', 'Kai (9)', 'Grandma (Seck Joo Lee, 75)'],
+  travelers: ['Ajay', 'Candice', 'Zara (9)', 'Kai (7)', 'Grandma (Seck Joo Lee, 75)'],
 };
 
 export type Day = {
@@ -17,21 +17,292 @@ export type Day = {
   locked: string[];
   plan: string[];
   takkyubin?: string;
+
+  // Optional richer fields (used on Day 0 first; will roll forward to other days)
+  confirmation?: { code: string; label: string };  // e.g. { code: 'GE7DVP', label: 'ZIPAIR conf' }
+  crossLinks?: { href: string; label: string }[];  // top-of-page jumps to /lodging, /bookings, /emergency
+  countdown?: { flightIso: string; leaveIso: string; flightLabel?: string };
+  prep?: { title?: string; items: string[] };       // pre-departure checklist
+  bags?: { title?: string; items: string[] };       // bag weigh-in / boarding
+  leaveHouse?: { title?: string; items: string[] }; // leave-the-house checklist
+  getThere?: { title?: string; lines: string[]; mapQuery?: string; mapLabel?: string };
+  atGate?: { title?: string; lines: string[]; tel?: { number: string; label: string } };
+  // Generic moment cards — for days that need multiple sequenced transitions.
+  // Renders below Locked, above Plan. Each card is self-contained.
+  momentCards?: MomentCard[];
+  timezoneNote?: string;
+  nextDayTeaser?: string;
+};
+
+export type MomentCard = {
+  emoji?: string;
+  title: string;
+  time?: string;                                            // "~14:50", "16:00–17:20"
+  lines?: string[];                                         // bullet body
+  mapQuery?: string;                                        // → google maps deeplink
+  mapLabel?: string;
+  tel?: { number: string; label: string };                  // tappable phone
+  link?: { href: string; label: string };                   // internal cross-link
+  accent?: 'default' | 'warn' | 'accent';                   // border color
 };
 
 export const DAYS: Day[] = [
+  {
+    n: -1,
+    date: '2026-05-27',
+    shortDate: 'Wed May 27',
+    title: 'Pack + Prep',
+    cluster: 'Last day at home — get-it-done-now items',
+    crossLinks: [
+      { href: '/packing', label: '🎒 Packing list' },
+      { href: '/bookings', label: '✈ Bookings' },
+    ],
+    locked: [
+      'ZIPAIR online check-in opens 11:40 (24h before ZG029). Do it the moment it opens.',
+      'These items CANNOT be done morning-of — they need wifi, time, or stores. Today is the deadline.',
+    ],
+    prep: {
+      title: 'Do-tonight prep (wifi + time required — not feasible morning of)',
+      items: [
+        '📱 ZIPAIR online check-in (opens 11:40 PT) → zipair.net Manage Booking, conf GE7DVP',
+        '🗺 Google Maps offline downloads: Tokyo, Hakone, Kyoto, Narita (each ~200MB; do on home wifi)',
+        '📲 Install + sign in: Yamato Kuroneko (EN), Smart-EX, Klook',
+        '📸 Screenshot ALL booking confirmations to phone Photos (flights, lodging, teamLab, trains) — Wi-Fi-independent backup',
+        '💊 Grandma: print bilingual medication list (EN + JP via Google Translate). Paper, in her carry-on.',
+        '🚖 Schedule Uber XL pickup for 08:30 Thu May 28 → SJC Terminal B departures',
+        '💴 Order ¥30,000 cash from bank (pickup today) OR commit to 7-Eleven ATM at NRT on arrival',
+        '📞 Confirm house-sitter: keys, alarm code, dates, plant instructions',
+        '📑 Paper backup of flight info + lodging confirmations in a separate bag from originals',
+      ],
+    },
+    bags: {
+      title: 'Pack tonight (final pass — use the full list)',
+      items: [
+        '🎒 See /packing for the master list (clothes, toiletries, electronics, kid stuff, Japan-specific)',
+        '🔌 Travel adapters × 2 (Type A — same as US, but check 100V tolerance on chargers)',
+        '🔋 Portable battery packs × 2, fully charged',
+        '☔ Foldable umbrella per adult (June rainy season)',
+        '👞 Comfortable walking shoes broken in (15–20k steps/day)',
+        '🧥 Layers — June Tokyo highs ~26°C, but Hakone evenings cool',
+        '💊 ALL prescription meds in carry-ons (never checked, never takkyubin)',
+      ],
+    },
+    plan: [],
+    nextDayTeaser: 'Tomorrow → Day 0: Wheels up 11:40 SJC. Morning is just bags + Uber.',
+  },
+  {
+    n: 0,
+    date: '2026-05-28',
+    shortDate: 'Thu May 28',
+    title: 'Departure SJC',
+    cluster: 'San Jose → Narita',
+    confirmation: { code: 'GE7DVP', label: 'ZIPAIR family conf' },
+    crossLinks: [
+      { href: '/bookings', label: '✈ Bookings' },
+      { href: '/packing', label: '🎒 Packing list' },
+      { href: '/emergency', label: '🆘 Emergency' },
+    ],
+    countdown: {
+      flightIso: '2026-05-28T11:40:00-07:00',
+      leaveIso: '2026-05-28T08:30:00-07:00',
+      flightLabel: 'wheels up (ZG029)',
+    },
+    locked: [
+      '11:40 — ZIPAIR ZG029 SJC → NRT (11h 10m, nonstop). All 5 in row 51.',
+      'Check-in counter: SJC Terminal B. Closes 10:40 sharp (60 min pre-flight).',
+      'Depart from gate: Terminal A. Walk B → A after check-in (~10 min).',
+      'Grandma: separate conf F0F2P9, same flight, seat 51H.',
+    ],
+    prep: {
+      title: 'Morning-of checklist (only last-mile items — wifi/install/shopping was Day -1)',
+      items: [
+        '✅ Bags pre-paid — 1 checked bag/pax/direction included in Value package. No counter scramble.',
+        '✅ Online check-in done last night — if not, do it NOW (need it before counter close)',
+        '🛂 Passports × 5 in day-packs (not checked)',
+        '💊 Grandma\'s meds in HER carry-on',
+        '📶 Google Fi covers Japan — just power on after landing. Grandma\'s carrier handles her own roaming.',
+        '💴 Cash + cards in wallet (¥ from bank yesterday, or plan NRT 7-Eleven ATM — JPY/decline-conversion)',
+        '🎒 Full packing list confirmed (see /packing). Day -1 items should already be ✅.',
+      ],
+    },
+    bags: {
+      title: 'Bag weigh-in (final check before leaving)',
+      items: [
+        '✅ 1 checked bag/pax/direction is included in Value package — no add-bag scramble at counter',
+        'Checked bag limits: 30 kg max / piece, sum of 3 sides ≤ 203 cm. Final weigh-in this morning — redistribute if any > 30 kg.',
+        'Carry-on: 7 kg/pax (not upgraded). Two pieces allowed (40×25×55 + 35×25×45 cm) but total weight ≤ 7 kg.',
+        'Don\'t overpack day-packs — 7 kg cap means the kids\' tablets + your laptop + snacks need to balance.',
+      ],
+    },
+    leaveHouse: {
+      title: 'Leave the house',
+      items: [
+        'Set up Nest cameras',
+        'Lock all doors',
+        'Park cars in garage / driveway',
+        'Take out trash + compost',
+        'Ping house-sitter (keys, alarm code, dates)',
+      ],
+    },
+    getThere: {
+      title: 'Get to SJC',
+      lines: [
+        '🚗 Uber XL — schedule night of May 27 for 08:30 pickup',
+        '🎯 Target SJC arrival 09:00 (gives 1h 40m before counter close)',
+        '🅿 If driving: Lot 3 (departures); pre-reserve via flysanjose.com',
+        '🏷 Curbside drop at Terminal B departures (NOT Terminal A — counter is in B)',
+      ],
+      mapQuery: 'San Jose Mineta International Airport Terminal B',
+      mapLabel: 'Open SJC Terminal B in Maps',
+    },
+    atGate: {
+      title: 'At the gate / in the air',
+      lines: [
+        'After check-in: walk Terminal B → Terminal A (~10 min) for departure',
+        'ZIPAIR sells nothing free — buy snacks landside if kids need extras',
+        'Westbound: eat the meal on board, then sleep ~7h. Land local afternoon — push through to 21:00 JST',
+        'Flight status (in case of delay): FlightAware TZP29 / FR24 zg29 / zipair.net/en/flight_status',
+      ],
+      tel: { number: '+18888206002', label: 'ZIPAIR US — (888) 820-6002 (Mon–Fri 09:00–18:00 PT)' },
+    },
+    timezoneNote: '11:40 PT depart → land tomorrow 14:50 JST (set watches +16h, then -1 calendar day on return).',
+    nextDayTeaser: 'Tomorrow → Day 1: Land NRT 14:50, NEX to Yotsuya. Welcome Suica + NEX bought at JR East counter on arrival.',
+    plan: [],
+  },
   {
     n: 1,
     date: '2026-05-29',
     shortDate: 'Fri May 29',
     title: 'Arrival → Yotsuya',
     cluster: 'Yotsuya / Shinjuku local',
-    locked: [
-      '14:50 — Land NRT T1 (ZG029, row 51)',
-      '~16:00–17:20 — NEX → Shinjuku (~80 min, ¥16,250 × 5)',
-      '~17:30 — Airbnb self check-in (Yotsuya 4-chome)',
+    crossLinks: [
+      { href: '/lodging/tokyo', label: '🔑 Yotsuya — door, wifi, directions' },
+      { href: '/bookings', label: '✈ Bookings' },
+      { href: '/emergency', label: '🆘 Emergency' },
     ],
-    plan: ['Light dinner near hotel — ramen, konbini, or Yotsuya izakaya', 'Sleep. Jet lag day, do nothing more.'],
+    locked: [
+      '14:50 — Land NRT T1 (ZG029, row 51 — seats 51A/C/D/G/H)',
+      '~17:30–18:30 — Airbnb self check-in window (M/W Hotel 3F, Yotsuya 4-chome)',
+      'Jet lag day. Goal: shower, eat, sleep.',
+    ],
+    prep: {
+      title: 'Before stepping off the plane (check on the jetway)',
+      items: [
+        '🔑 Confirm Airbnb door code arrived in Airbnb messages (host sends evening May 28)',
+        '🛂 Passports out of carry-on into outer pocket — Welcome Suica kid-fare verification needs them',
+        '📱 Phones on — Google Fi auto-connects in Japan; no setup',
+        '💴 Cash plan: either ¥30,000 starter from bank (Day -1) OR use 7-Eleven ATM in NRT arrivals after customs. **Decline DCC** — choose JPY so your bank handles conversion.',
+      ],
+    },
+    momentCards: [
+      {
+        emoji: '🛂',
+        title: 'Immigration + customs',
+        time: '14:50–~15:45',
+        lines: [
+          'All 5 walk together. Allow ~60 min — immigration is the chokepoint.',
+          'After customs: follow signs to JR / NEX (lower level B1).',
+        ],
+        accent: 'warn',
+      },
+      {
+        emoji: '🧳',
+        title: 'Drop grandma\'s bag at JAL ABC (T1 South Wing 1F)',
+        time: '~15:45–16:00',
+        lines: [
+          'One of grandma\'s bags stays at the airport for the 10 days — she picks it up Jun 8 before her Scoot flight (same T1).',
+          'Counter: **JAL ABC, T1 South Wing 1F** (signs from arrivals lobby).',
+          'Provide: name (LEE, SECK JOO), phone, pickup date **Jun 8**.',
+          'Cost: ~¥700/day medium · 10 days = **~¥7,000 total**. **Pay at pickup**, not now.',
+          'Card or cash (JCB/VISA/MC/Amex/Diners/UP). Keep the receipt — it\'s the only way to retrieve.',
+          'Hours: 06:30 → ~1h after last arrival. Grandma\'s 8:20 Scoot Jun 8 → she arrives NRT ~05:50 + brief wait to 06:30 open.',
+        ],
+        mapQuery: 'JAL ABC Counter Narita Airport Terminal 1 South Wing',
+        mapLabel: 'JAL ABC T1 in Maps',
+        accent: 'warn',
+      },
+      {
+        emoji: '🎫',
+        title: 'JR East Travel Service Center — Welcome Suica + NEX',
+        time: '~16:00–16:15',
+        lines: [
+          '**One counter, two purchases.** Welcome Suica × 5 (3 adult, 2 child — bring all 5 passports for kid-fare verification) + NEX tickets × 5 same time.',
+          'Welcome Suica = no deposit, 28-day validity, no end-of-trip refund hassle.',
+          'Top-up at counter: ~¥3,000/adult, ~¥2,000/kid (cash works; credit sometimes too).',
+          'Ask staff about the **N\'EX Tokyo Direct Ticket** tourist discount.',
+          'If NEX is sold out: next train in ~30 min. Wait it out, don\'t panic-taxi.',
+        ],
+        mapQuery: 'JR East Travel Service Center Narita Airport Terminal 1',
+        mapLabel: 'Find JR East counter at NRT T1',
+        accent: 'accent',
+      },
+      {
+        emoji: '🚆',
+        title: 'NEX → Shinjuku',
+        time: '~16:15–17:35',
+        lines: [
+          '~80 min, ~¥13,010 **total** (3 adult × ¥3,250 + 2 child × ¥1,630).',
+          '3 suitcases: end-of-car luggage racks; day-packs overhead.',
+          'Doze. Don\'t fully sleep — Shinjuku is the get-off stop.',
+        ],
+      },
+      {
+        emoji: '🚇',
+        title: 'Shinjuku → Yotsuya-sanchome (1 stop Marunouchi)',
+        time: '~17:40',
+        lines: [
+          'Tap Welcome Suica at gate. 1 stop east on Marunouchi line, ~¥180 pp.',
+          'Easier than the 10-min walk with 3 suitcases.',
+          'Exit at Yotsuya-sanchome → ~3 min walk to M/W Hotel.',
+        ],
+        mapQuery: 'Yotsuya-sanchome Station',
+        mapLabel: 'Yotsuya-sanchome on Maps',
+      },
+      {
+        emoji: '🚪',
+        title: 'M/W Hotel 3F — self check-in',
+        time: '~17:55–18:30',
+        lines: [
+          'Building unlocked. Elevator to 3F. Watch the small step exiting.',
+          'Enter door code on LOCKSTATE smart lock.',
+          'WiFi auto-connects from /lodging/tokyo — copy SSID + password from there.',
+        ],
+        mapQuery: 'M/W Hotel 4-27-3 Yotsuya Shinjuku Tokyo',
+        mapLabel: 'M/W Hotel on Maps',
+        tel: { number: '+815017214123', label: 'Skew Lines host: +81 50-1721-4123' },
+        link: { href: '/lodging/tokyo', label: 'Full Yotsuya guide — door, wifi, walking photos →' },
+        accent: 'accent',
+      },
+      {
+        emoji: '🍜',
+        title: 'Dinner (3 jet-lag-friendly options, all 5 min walk)',
+        time: '~19:00',
+        lines: [
+          '**Ramen Ouka** — 5 min walk from Shinjuku-gyoenmae Exit 2. Halal / no-pork ramen. Halal R set ¥1,500, Vegan R set ¥1,100. Family-friendly, English-friendly.',
+          '**Halal Wagyu Ramen Shinjuku Tei (Yotsuya)** — backup, slightly further. A5 wagyu, no pork or alcohol.',
+          '**Lawson / 7-Eleven** — 3 min walk. The kid-meltdown route: onigiri, oden, sushi rolls. Always open.',
+        ],
+        mapQuery: 'Ramen Ouka Shinjuku-gyoenmae',
+        mapLabel: 'Ramen Ouka in Maps',
+      },
+      {
+        emoji: '🛒',
+        title: 'Groceries on the way back (milk, snacks, breakfast for kids)',
+        time: '~20:00',
+        lines: [
+          '**Lawson Store 100 Shinjuku Ni Chome Ten** ⭐ — on the route from Yotsuya-sanchome back to the Airbnb. **Lawson Store 100** is the hybrid konbini + ¥100 grocery — more grocery selection than a regular Lawson: milk, eggs, fresh fruit, bread, breakfast cereal, household stuff. Best single stop for our "stock the Airbnb" run.',
+          '**Any 7-Eleven / FamilyMart / Lawson** — 3 min walk per host\'s guide. Lighter selection (onigiri, drinks, snacks, fresh sandwiches) but always open.',
+          '**Ito-Yokado Shinjuku Tomihisa** — 5 min walk from Shinjuku-gyoenmae, **full supermarket** (2 floors: kitchen/personal care + fruits/veggies/meat/fish/bakery/bento). Save this for a dedicated trip Day 2+; tonight is too tired.',
+          '**Cash tip:** Lawson Store 100 takes IC cards (Welcome Suica) for most items — no need to break ¥10,000 bills here.',
+        ],
+        mapQuery: 'Lawson Store 100 Shinjuku 2-chome',
+        mapLabel: 'Lawson Store 100 in Maps',
+      },
+    ],
+    plan: [
+      '😴 Sleep. Push to 21:00 JST minimum. Set Day 2 alarm before passing out.',
+    ],
+    nextDayTeaser: 'Tomorrow → Day 2: MiPig Café (Harajuku, ~10:00) + Shibuya Sky sunset. Set 07:30 alarm.',
   },
   {
     n: 2,
@@ -39,13 +310,131 @@ export const DAYS: Day[] = [
     shortDate: 'Sat May 30',
     title: 'Harajuku → Shibuya',
     cluster: 'Harajuku + Omotesando + Shibuya (one walking arc)',
-    locked: ['MiPig Café — 60 min private room (Harajuku)', 'Shibuya Sky sunset (~18:00–18:30; sunset 18:55)'],
-    plan: [
-      'AM (M1): MiPig → Takeshita St (P2) → Meiji Jingu Gaien Ginkgo (P2) → Omotesando → Maisen tonkatsu lunch',
-      'PM: Rest at Yotsuya. Optional Cinnamoroll Café (P1, near Shinjuku Gyoen) on the walk home.',
-      'Sunset (E1): Pokémon Center Shibuya + Nintendo Tokyo + Shibuya Sky + Shibuya Scramble after dark',
-      'Dinner: Kaikaya by the Sea (reserve) or Gyopao Gyoza for kids',
+    crossLinks: [
+      { href: '/lodging/tokyo', label: '🏠 Yotsuya — for the midday rest window' },
+      { href: '/bookings', label: '✈ Bookings' },
+      { href: '/emergency', label: '🆘 Emergency' },
     ],
+    locked: [
+      '10:00 — MiPig Café 60-min private room (Harajuku Takeshita) ✅ booked',
+      'Shibuya Sky sunset slot 18:00–18:20 (sunset 18:55) — ⬜ BOOK NOW — sunset slots sell out',
+    ],
+    momentCards: [
+      {
+        emoji: '🚇',
+        title: 'Yotsuya-sanchome → Harajuku',
+        time: '~09:15–09:45',
+        lines: [
+          'Marunouchi line Yotsuya-sanchome → Shinjuku (1 stop, ¥180), transfer to JR Yamanote → Harajuku (2 stops). ~20 min total.',
+          'Welcome Suica covers both — tap at each gate.',
+          'Take **Takeshita Exit** at Harajuku — drops you onto the street.',
+        ],
+        mapQuery: 'Harajuku Station Takeshita Exit',
+        mapLabel: 'Harajuku Takeshita Exit',
+      },
+      {
+        emoji: '🐷',
+        title: 'MiPig Café — 10:00 (60 min, private room)',
+        time: '10:00–11:00',
+        lines: [
+          '**Bsquare Takeshita Street 1F, Jingumae 1-6-10** — just behind the Alta complex on Takeshita St.',
+          'Enter through the hollowed tree-stump door. Shoes off inside.',
+          'Booking is by online reservation only (not phone). Arrive a few min early; staff seats by reservation time.',
+          'Kid-pace highlight of the day — pace the rest around their fade after this.',
+        ],
+        mapQuery: 'mipig cafe Harajuku Takeshita Street Bsquare',
+        mapLabel: 'MiPig in Maps',
+        tel: { number: '+81368043838', label: '03-6804-3838 (info only, not for reservations)' },
+        accent: 'accent',
+      },
+      {
+        emoji: '🛍️',
+        title: 'Takeshita Street + Omotesando walk',
+        time: '~11:00–12:30',
+        lines: [
+          'Walk Takeshita St south → cross Meiji-dori → Omotesando (the architecture/tree-lined boulevard). ~15 min easy walk.',
+          '*Note:* Meiji Jingu Gaien ginkgo is gorgeous **in autumn** — in May it\'s just a tree-lined avenue. Reframe as "Omotesando architecture walk."',
+          'Kid-pace stops: crepe stand on Takeshita, Kiddy Land on Omotesando.',
+        ],
+        mapQuery: 'Omotesando Tokyo',
+        mapLabel: 'Omotesando',
+      },
+      {
+        emoji: '🍱',
+        title: 'Lunch — Maisen Aoyama Honten (tonkatsu)',
+        time: '~12:30–13:45',
+        lines: [
+          '**4-8-5 Jingumae, Shibuya-ku** — 3 min walk from Omotesando Station. 11:00–21:00, last order 20:30.',
+          '⚠ **Tonkatsu = pork.** For Candice + grandma: order **chicken katsu (鶏かつ)** or **ebi-fry (shrimp)** — both standard menu. Kids and Ajay can do the signature kurobuta tonkatsu.',
+          'Walk-in works; Sat lunch queue can be real — arrive by 12:15 to skip the wait.',
+        ],
+        mapQuery: 'Tonkatsu Maisen Aoyama Honten Jingumae',
+        mapLabel: 'Maisen Aoyama in Maps',
+        tel: { number: '+810120428485', label: '0120-428-485 (toll-free, JP only)' },
+      },
+      {
+        emoji: '🏠',
+        title: 'Rest at Yotsuya',
+        time: '~14:30–16:00',
+        lines: [
+          'Yamanote Harajuku → Shinjuku (2 stops) → Marunouchi → Yotsuya-sanchome (1 stop). ~20 min home.',
+          'Target home by 14:30. Kid nap or chill, adult coffee/recharge.',
+          '**Leave again by 16:00 sharp** to clear the Yamanote ride + Shibuya Sky check-in by 17:45.',
+        ],
+        link: { href: '/lodging/tokyo', label: 'Yotsuya — door code, wifi →' },
+      },
+      {
+        emoji: '🌇',
+        title: 'Shibuya Sky — sunset slot (5 pax)',
+        time: '~17:45 line / 18:00 entry / sunset 18:55',
+        lines: [
+          '**Shibuya Scramble Square, 14F entrance** (Shibuya Station east exit, 1 min walk).',
+          '**Be in line ~15 min before slot.** Tickets on phone (or print backup).',
+          '⚠ **Prohibited on rooftop:** loose hats, earphones, tripods, selfie sticks, umbrellas, large bags, food/drink. Coin lockers on entry floor.',
+          'Closes at 22:30; rooftop closes 30 min before. No time limit once inside.',
+          'Free entry for under-5 (not applicable — both kids 7+).',
+        ],
+        mapQuery: 'Shibuya Sky Shibuya Scramble Square',
+        mapLabel: 'Shibuya Sky in Maps',
+        accent: 'accent',
+      },
+      {
+        emoji: '🎮',
+        title: 'Pokémon Center + Nintendo Tokyo (Shibuya Parco 6F)',
+        time: '~19:30 (after Sky)',
+        lines: [
+          '**Shibuya Parco, 6F** — 15-1 Udagawa-cho, Shibuya-ku. Both stores share the floor. 10:00–21:00.',
+          '~7 min walk from Shibuya Sky. One building, both stops.',
+        ],
+        mapQuery: 'Shibuya Parco Pokemon Center 6F',
+        mapLabel: 'Shibuya Parco in Maps',
+      },
+      {
+        emoji: '🚦',
+        title: 'Shibuya Scramble after dark',
+        time: '~20:30',
+        lines: [
+          'Cross it once on foot. Best photos: Starbucks Tsutaya 2F windows (Q Front building) or Shibuya Scramble Square 2F walkway.',
+        ],
+        mapQuery: 'Shibuya Scramble Crossing',
+      },
+      {
+        emoji: '🍣',
+        title: 'Dinner — pick one tonight',
+        lines: [
+          '**Option A — Kaikaya by the Sea** (Shibuya, ~10 min walk from Sky). 23-7 Maruyamacho. Seafood izakaya, lively/casual. **Reservation required** — book ahead. Open Mon/Tue/Thu–Sun 17:00–22:30; *closed Wed*.',
+          '**Option B — Gyopao Gyoza (Shinjuku)** — *not in Shibuya* despite the original plan. Pandora Building B1, 3-23-12 Shinjuku, 2 min from Shinjuku Station East Exit. Walk-in works, kid-friendly soup dumplings. Sat 12:00–23:30. *On the way home from Shibuya.*',
+          '⚠ **Decide today, not at 20:00 hangry.** Kaikaya needs the reservation; Gyopao is the walk-in fallback.',
+        ],
+        tel: { number: '+81337700878', label: 'Kaikaya: 03-3770-0878' },
+        mapQuery: 'Kaikaya by the Sea Shibuya Maruyamacho',
+        mapLabel: 'Kaikaya in Maps',
+      },
+    ],
+    plan: [
+      '🛏️ Home by ~22:30. Day 3 is Asakusa — earlier start than today.',
+    ],
+    nextDayTeaser: 'Tomorrow → Day 3: Asakusa + Senso-ji + Skytree + Ikebukuro. Earlier start (~07:30) to beat Senso-ji crowds.',
   },
   {
     n: 3,
@@ -199,6 +588,119 @@ export const DAYS: Day[] = [
   },
 ];
 
+// ---------- Packing list ----------
+// Master list — referenced from Day -1 and Day 0 pages.
+// Edit here when items get added/removed; the page auto-renders.
+
+export type PackingSection = {
+  key: string;
+  title: string;
+  items: string[];
+  note?: string;
+};
+
+export const PACKING: PackingSection[] = [
+  {
+    key: 'docs',
+    title: '🛂 Documents (carry-on only — never checked)',
+    items: [
+      'Passports × 5 (all valid 6+ months past Jun 8)',
+      'ZIPAIR confs: GE7DVP (family) + F0F2P9 (grandma) — printed + on phone',
+      'All 4 lodging conf #s printed (Yotsuya, Rakuten STAY, Stitch Kyoto, Richmond Narita)',
+      'teamLab Planets booking screenshot',
+      'GEAR Kyoto reservation #8241',
+      'Scoot TR 885 confirmation R643SL (grandma\'s SIN onward)',
+      'Bilingual medication list for grandma (EN + JP)',
+      'Travel insurance card / policy # if applicable',
+      'Cash + cards in primary wallet; backup card in separate bag',
+    ],
+  },
+  {
+    key: 'electronics',
+    title: '🔌 Electronics',
+    items: [
+      'Travel adapters × 2 (Type A — same as US; voltage 100V, check chargers)',
+      'Portable battery packs × 2 (fully charged)',
+      'Charging cables (USB-C × 2, Lightning × 1 for grandma\'s iPhone)',
+      'Wall chargers (multi-port preferred)',
+      'Phone for each adult; kids share or have own',
+      'Tablets for the kids (downloaded shows + games for the flight)',
+      'Headphones / earbuds per person (incl. kids)',
+      'Camera if bringing (charger + spare battery + SD card)',
+    ],
+  },
+  {
+    key: 'clothes',
+    title: '👕 Clothes per person',
+    note: 'June Tokyo highs ~26°C, lows ~18°C; Hakone evenings cooler; expect rain. Pack for layering.',
+    items: [
+      'Comfortable walking shoes (broken in — 15–20k steps/day)',
+      'Sandals or slip-ons (onsen, lodging, easy on-off at temples)',
+      'Light layers: t-shirts + 1–2 long sleeves per person',
+      '1 light rain jacket per adult',
+      'Underwear + socks for ~5 days (laundry at Stitch Kyoto handles the rest)',
+      '1 nicer outfit per person for kaiseki / Fujiya dining',
+      'PJs / sleepwear',
+      'Swimsuits (Yunessun water park option in Hakone)',
+      'Sun hat for the kids',
+    ],
+  },
+  {
+    key: 'toiletries',
+    title: '🧴 Toiletries (carry-on liquids ≤100ml, the rest checked)',
+    items: [
+      'Toothbrushes + travel toothpaste',
+      'Deodorant',
+      'Sunscreen (SPF 30+, reef-safe if visiting beaches)',
+      'Insect repellent (kid-safe formulation)',
+      'Hand sanitizer + travel tissue (some Japanese bathrooms lack paper)',
+      'Prescription meds — ALL in carry-on, never checked, never takkyubin',
+      'Pain reliever (ibuprofen / Tylenol) + kid-dose equivalent',
+      'Band-aids + small first-aid kit',
+      'Contacts + glasses + saline if applicable',
+    ],
+  },
+  {
+    key: 'daypack',
+    title: '🎒 Day-pack essentials (every transit day)',
+    items: [
+      'Passport + travel docs',
+      'Wallet + cash + IC card (Welcome Suica, bought at NRT Day 1)',
+      'Phone + charger + portable battery',
+      'Medications (especially grandma\'s)',
+      'One full change of clothes per person (in case takkyubin bag is delayed)',
+      'Toothbrush + small toiletries',
+      'Snacks + refillable water bottle',
+      'Rain layer',
+      'Kid amusement (tablet, book, cards)',
+      'Packable foldable tote (Sea-to-Summit Ultra-Sil) — for konbini hauls + souvenirs',
+    ],
+  },
+  {
+    key: 'kids',
+    title: '👧 Kids (Zara 9, Kai 7)',
+    items: [
+      'Tablets + headphones + downloaded content for 11h flight',
+      'Sticker books, small toys, card games',
+      'Snacks they actually like (ZIPAIR sells nothing free)',
+      'Spare clothes in the day-pack (spills happen)',
+      'Wet-wipes',
+      'Comfort item for sleep (small stuffy / blanket)',
+    ],
+  },
+  {
+    key: 'japan',
+    title: '🗾 Japan-specific extras',
+    items: [
+      'Foldable umbrella per adult (or buy ¥500 at konbini on arrival)',
+      'Slip-on shoes (constant temple/onsen shoe removal)',
+      'Cash-friendly mindset — many small places still cash only',
+      'Small bag for trash (Japan has very few public bins)',
+      'Empty space in suitcase for souvenirs (or plan Don Quijote extra bag)',
+    ],
+  },
+];
+
 export type Lodging = {
   key: string;
   city: string;
@@ -212,20 +714,114 @@ export type Lodging = {
   conf: string;
   pin?: string;
   notes?: string;
+
+  // Rich detail (populated as host guides become available)
+  hostName?: string;
+  hostPhone?: string;
+  nearestStation?: { name: string; line: string; exit: string; walkMin: number };
+  wifi?: { ssid: string; password: string };
+  doorCode?: string;        // actual code, when known
+  doorCodeNote?: string;    // e.g. "Sent via Airbnb message 1 day before check-in"
+  checkInFlow?: string[];   // ordered steps to get from street → in the room
+  walkingDirections?: { from: string; steps: { text: string; imageUrl?: string }[] };
+  appliances?: { name: string; note: string; imageUrl?: string }[];
+  heroImageUrl?: string;
+  houseRules?: string[];
+  trash?: string[];
+  luggageStorage?: string;
+  laundromat?: { name: string; addressEn: string; addressJa?: string; walkMin: number; mapsQuery?: string };
+  emergencyAddress?: string;  // what to tell 119/110 (local format)
+  nearby?: { label: string; note: string; mapsQuery?: string }[];
+  guideUrl?: string;          // link back to host's full guest guide
+  imageUrls?: string[];       // hero / gallery
 };
 
 export const LODGING: Lodging[] = [
   {
     key: 'tokyo',
     city: 'Tokyo',
-    name: 'Airbnb — Luxury Condo in Shinjuku (Yotsuya 4-chome)',
+    name: 'M/W HOTEL 3F by skew lines (Yotsuya 4-chome)',
     nights: 4,
     checkIn: 'Fri May 29, 2026 · 3:00 PM',
     checkOut: 'Tue Jun 2, 2026 · 10:00 AM',
-    addressEn: '4-chōme-27-3 Yotsuya, 慶愛ビル 301, Shinjuku-ku, Tōkyō-to 160-0004, Japan',
-    addressJa: '〒160-0004 東京都新宿区四谷4丁目27-3 慶愛ビル 301',
+    addressEn: '4 Chome-27-3 Yotsuya, Shinjuku-ku, Tokyo 160-0004 · M/W Hotel 3F (慶愛ビル / Keiai Building)',
+    addressJa: '〒160-0004 東京都新宿区四谷4丁目27-3 慶愛ビル M/W Hotel 3階',
     conf: 'HMYZXN9NPB',
-    notes: 'Host: Skew Lines (Airbnb). 5–10 min walk to Shinjuku Gyoenmae or Yotsuya-sanchome (Marunouchi line).',
+    hostName: 'Skew Lines',
+    hostPhone: '+81 50-1721-4123',
+    nearestStation: { name: 'Shinjuku-gyoenmae', line: 'Marunouchi', exit: 'Exit 2', walkMin: 6 },
+    wifi: { ssid: 'elecom2g01-0fee9a', password: '6000776026708' },
+    doorCodeNote: 'Sent via Airbnb message ~1 day before check-in (May 28 evening). Add to this entry once received.',
+    heroImageUrl: '/img/lodging/tokyo/hero-building-entrance.jpg',
+    checkInFlow: [
+      'Building entrance is unlocked — walk in. (Photo: see hero shot — "NOT LOCKED" red callout marks the door.)',
+      'Elevator to 3rd floor. Room is directly across when you step off.',
+      'Small step exiting elevator — watch your footing (especially with bags).',
+      'Enter passcode on LOCKSTATE smart lock; door unlocks.',
+      'To lock from outside: press the LOCKSTATE button. From inside: turn the knob.',
+    ],
+    walkingDirections: {
+      from: 'Shinjuku-gyoenmae Station, Exit 2 (Marunouchi line)',
+      steps: [
+        { text: 'Take Exit 2 and turn left.' },
+        { text: 'Turn left at the first intersection.' },
+        { text: 'Walk along the road.' },
+        { text: 'Turn right.' },
+        { text: 'Go straight.' },
+        { text: 'Keep going straight.' },
+        { text: 'Go along the road.' },
+        { text: 'Keep on going along the road.' },
+        { text: 'Go straight and cross the crosswalk.' },
+        { text: 'Turn left at this corner.' },
+        { text: 'Go straight.' },
+        { text: 'Turn right here.' },
+        { text: 'You will find the building on your right.', imageUrl: '/img/lodging/tokyo/walk-13-stairs.jpg' },
+        { text: 'Welcome! 🎉', imageUrl: '/img/lodging/tokyo/walk-14-welcome.jpg' },
+      ],
+    },
+    appliances: [
+      { name: 'WiFi', note: 'Network + password above. 5G band is in the SSID.' },
+      { name: 'Hot water heater', note: 'Keep the boiler ON even when out. DO NOT press お湯はり (auto-fill) — breaks shower hot water.',
+        imageUrl: '/img/lodging/tokyo/appliance-boiler.jpg' },
+      { name: 'Washlet (toilet)', note: 'Standard Japanese washlet remote — buttons for spray, dryer, lid.',
+        imageUrl: '/img/lodging/tokyo/appliance-washlet.jpg' },
+      { name: 'Washer-dryer combo', note: 'Wash→dry cycle takes ~5h and cannot be opened mid-cycle. Don\'t overload. For big loads use Laundry Brisk (1 min walk).',
+        imageUrl: '/img/lodging/tokyo/appliance-washer.jpg' },
+      { name: 'Electric burner', note: 'Hold 電源入/切 (ON/OFF) for 2 sec to power on. Press 加熱入/切 (HEAT) for the desired plate. Use 揚げ物 for frying.',
+        imageUrl: '/img/lodging/tokyo/appliance-burner.jpg' },
+      { name: 'Microwave', note: 'NO metal, foil, paper bags, or plastic bags. They will explode.',
+        imageUrl: '/img/lodging/tokyo/appliance-microwave.jpg' },
+      { name: 'Rice cooker', note: 'Add rice + water. Press メニュー until 白米 (white rice). Press 炊飯 (cook). Press 保温/切 to turn off — does NOT auto-off.',
+        imageUrl: '/img/lodging/tokyo/appliance-ricecooker.jpg' },
+      { name: 'Air conditioner', note: 'Standard remote. Set bedroom + living separately.' },
+      { name: 'Smart TV', note: 'Netflix is pre-logged-in — do NOT log out. Broadcast + BS/CS channels also available.',
+        imageUrl: '/img/lodging/tokyo/appliance-tv-remote.jpg' },
+      { name: 'Intercom', note: '⚠ Do not touch.',
+        imageUrl: '/img/lodging/tokyo/appliance-intercom.jpg' },
+      { name: 'Breaker', note: 'If it trips (too many appliances), call host — breaker is in kitchen inspection port (host needs to access).',
+        imageUrl: '/img/lodging/tokyo/appliance-breaker.jpg' },
+    ],
+    trash: [
+      'Keep trash INSIDE the room — NEVER set it outside the building.',
+      'Separate burnable / non-burnable.',
+      'Vacation-rental trash is industrial waste; contractor collects after checkout.',
+      'For long stays or overflow, message host via reservation site to arrange pickup.',
+    ],
+    luggageStorage: 'Can leave bags inside the room\'s entrance after 12:00 PM on check-in day. NO post-checkout storage — use Bounce (promo code SKEWLINES = 10% off).',
+    laundromat: {
+      name: 'Laundry Brisk',
+      addressEn: '4-27-2 Yotsuya, Shinjuku-ku, Tokyo 160-0004',
+      addressJa: '〒160-0004 東京都新宿区四谷4-27-2',
+      walkMin: 1,
+      mapsQuery: 'Laundry Brisk 4-27-2 Yotsuya Shinjuku Tokyo',
+    },
+    emergencyAddress: 'Address to give 119 / 110: 4-27-3 Yotsuya, Shinjuku-ku, Tokyo 160-0004 · Building: 慶愛ビル (Keiai Building), M/W Hotel 3F.',
+    nearby: [
+      { label: 'Shinjuku-gyoenmae Station Exit 2', note: 'Marunouchi line, 6 min walk', mapsQuery: 'Shinjuku-gyoenmae Station Exit 2' },
+      { label: 'Laundry Brisk', note: 'Coin laundry, 1 min walk', mapsQuery: 'Laundry Brisk 4-27-2 Yotsuya' },
+    ],
+    guideUrl: 'https://docs.google.com/document/d/e/2PACX-1vQ7r8Vj51BJkTiIhf6qZQxZtf9z088kF3Mfeu17U8yNB7ofq02o-iGBZkUf8kFAjmTfIvh0sUhF6jPk/pub',
+    notes: 'Self check-in via smart lock. Building unlocked, elevator to 3F. Marunouchi line is the closest (Shinjuku-gyoenmae 6 min); Shinjuku Station 10 min walk for JR.',
   },
   {
     key: 'hakone',
@@ -281,7 +877,7 @@ export type Transit = {
 };
 
 export const TRANSIT: Transit[] = [
-  { leg: 'NRT → Shinjuku', mode: 'NEX', date: 'Fri May 29', duration: '~80 min', pax: 5, cost: '~¥16,250', status: 'to-book', notes: 'Reserved seats × 5. Buy at NRT counter on arrival or pre-book.' },
+  { leg: 'NRT → Shinjuku', mode: 'NEX', date: 'Fri May 29', duration: '~80 min', pax: 5, cost: '~¥13,010', status: 'on-arrival', notes: 'Buy at JR East counter on arrival (combined with Welcome Suica). 3 adult × ¥3,250 + 2 child × ¥1,630.' },
   { leg: 'Shinjuku → Hakone-Yumoto', mode: 'Romancecar', date: 'Tue Jun 2 ~13:00', duration: '~85 min', pax: 5, cost: '~¥12,350', status: 'to-book', notes: 'Window opened May 2. Book at odakyu.jp/english.' },
   { leg: 'Hakone (2 days)', mode: 'Hakone Free Pass 2-day', date: 'Jun 2–4', duration: '—', pax: 5, cost: '~¥30,500', status: 'to-book', notes: 'Buy on arrival at Yumoto Odakyu Travel Service Center.' },
   { leg: 'Odawara → Kyoto', mode: 'Shinkansen Hikari', date: 'Thu Jun 4 ~10:15', duration: '~2h 20m', pax: 5, cost: '~¥65,000', status: 'to-book', notes: 'Hikari only — Nozomi does not stop at Odawara. Smart-EX app.' },

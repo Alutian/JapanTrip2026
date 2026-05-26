@@ -1,0 +1,39 @@
+---
+export interface Props {
+  flightIso: string;   // wheels-up moment, ISO with TZ, e.g. "2026-05-28T11:40:00-07:00"
+  leaveIso: string;    // leave-home moment, ISO with TZ
+  flightLabel?: string;
+}
+const { flightIso, leaveIso, flightLabel = 'Wheels up' } = Astro.props;
+---
+
+<div class="card" style="border-color: var(--accent); text-align: center;">
+  <p class="hint" style="margin: 0 0 0.25rem; text-transform: uppercase; letter-spacing: 0.05em;">Countdown</p>
+  <p style="margin: 0 0 0.25rem; font-size: 1.5rem; font-weight: 600;" data-countdown={flightIso}>—</p>
+  <p class="hint" style="margin: 0 0 0.75rem;">until {flightLabel}</p>
+  <p style="margin: 0; font-size: 1rem;"><span class="pill warn">Leave home in</span> <span data-countdown={leaveIso} data-short="1">—</span></p>
+</div>
+
+<script is:inline>
+  (function () {
+    function fmt(ms) {
+      if (ms <= 0) return 'now';
+      var s = Math.floor(ms / 1000);
+      var d = Math.floor(s / 86400); s -= d * 86400;
+      var h = Math.floor(s / 3600);  s -= h * 3600;
+      var m = Math.floor(s / 60);
+      if (d > 0) return d + 'd ' + h + 'h ' + m + 'm';
+      if (h > 0) return h + 'h ' + m + 'm';
+      return m + 'm';
+    }
+    function tick() {
+      var now = Date.now();
+      document.querySelectorAll('[data-countdown]').forEach(function (el) {
+        var t = new Date(el.getAttribute('data-countdown')).getTime();
+        el.textContent = fmt(t - now);
+      });
+    }
+    tick();
+    setInterval(tick, 30000);
+  })();
+</script>

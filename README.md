@@ -12,9 +12,9 @@ Planning + day-of companion for our May 29 – Jun 8, 2026 trip (Ajay, Candice, 
 
 Once GitHub Pages is enabled on this repo, the site auto-deploys on every push to `main`.
 
-URL: `https://alutian.github.io/JapanTrip2026/?k=<token>`
+URL: **https://alutian.github.io/JapanTrip2026/?k=7N3X9-RK8M-2QPLDC-7FH4**
 
-The token is shared offline (iMessage / Signal). Without it the site shows an empty page.
+The token gates the site (without it you get an empty page). Token also lives in [site/src/layouts/Layout.astro](site/src/layouts/Layout.astro) — rotate it there and re-share the URL.
 
 **iPhone:** Open in Safari → Share → Add to Home Screen → tap the red 🗾 icon. Launches full-screen, works offline once cached.
 

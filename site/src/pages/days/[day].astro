@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Countdown from '../../components/Countdown.astro';
 import { DAYS } from '../../data/trip.ts';
 
 export async function getStaticPaths() {
@@ -10,12 +11,43 @@ const { day } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const prev = DAYS.find(d => d.n === day.n - 1);
 const next = DAYS.find(d => d.n === day.n + 1);
+
+function mapsUrl(query: string) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
 ---
 
 <Layout title={`Day ${day.n} — ${day.title}`}>
   <p class="hint" style="margin-bottom: 0.25rem;">Day {day.n} · {day.shortDate}</p>
   <h1 style="margin-top: 0;">{day.title}</h1>
   <p class="hint" style="margin-top: -0.25rem;">{day.cluster}</p>
+
+  {day.confirmation && (
+    <p style="margin: 0.5rem 0;">
+      <span class="hint">{day.confirmation.label}:</span>{' '}
+      <code>{day.confirmation.code}</code>
+      <button class="copy-btn" data-copy={day.confirmation.code}>Copy</button>
+    </p>
+  )}
+
+  {day.crossLinks && day.crossLinks.length > 0 && (
+    <p style="margin: 0.5rem 0 1rem;">
+      {day.crossLinks.map((l, i) => (
+        <>
+          {i > 0 && <span style="color: var(--muted);"> · </span>}
+          <a href={`${base}${l.href}`}>{l.label}</a>
+        </>
+      ))}
+    </p>
+  )}
+
+  {day.countdown && (
+    <Countdown
+      flightIso={day.countdown.flightIso}
+      leaveIso={day.countdown.leaveIso}
+      flightLabel={day.countdown.flightLabel}
+    />
+  )}
 
   {day.locked.length > 0 && (
     <div class="card" style="border-color: var(--accent);">
@@ -26,12 +58,107 @@ const next = DAYS.find(d => d.n === day.n + 1);
     </div>
   )}
 
-  <div class="card">
-    <h2 style="margin-top: 0;">🎯 Plan</h2>
-    <ul>
-      {day.plan.map(item => <li>{item}</li>)}
-    </ul>
-  </div>
+  {day.prep && (
+    <details class="card" open style="border-color: var(--warn);">
+      <summary style="cursor: pointer; font-weight: 600; font-size: 1.1rem; color: var(--accent-2);">
+        ✅ {day.prep.title || 'Pre-departure checklist'}
+      </summary>
+      <ul style="margin-top: 0.75rem;">
+        {day.prep.items.map(item => <li>{item}</li>)}
+      </ul>
+    </details>
+  )}
+
+  {day.bags && (
+    <details class="card" open>
+      <summary style="cursor: pointer; font-weight: 600; font-size: 1.1rem; color: var(--accent-2);">
+        🧳 {day.bags.title || 'Bags'}
+      </summary>
+      <ul style="margin-top: 0.75rem;">
+        {day.bags.items.map(item => <li>{item}</li>)}
+      </ul>
+    </details>
+  )}
+
+  {day.leaveHouse && (
+    <details class="card" open>
+      <summary style="cursor: pointer; font-weight: 600; font-size: 1.1rem; color: var(--accent-2);">
+        🏠 {day.leaveHouse.title || 'Leave the house'}
+      </summary>
+      <ul style="margin-top: 0.75rem;">
+        {day.leaveHouse.items.map(item => <li>{item}</li>)}
+      </ul>
+    </details>
+  )}
+
+  {day.getThere && (
+    <div class="card">
+      <h2 style="margin-top: 0;">🚗 {day.getThere.title || 'Get there'}</h2>
+      <ul>
+        {day.getThere.lines.map(line => <li>{line}</li>)}
+      </ul>
+      {day.getThere.mapQuery && (
+        <p style="margin-top: 0.5rem;">
+          <a href={mapsUrl(day.getThere.mapQuery)} target="_blank" rel="noopener">
+            📍 {day.getThere.mapLabel || 'Open in Google Maps'} →
+          </a>
+        </p>
+      )}
+    </div>
+  )}
+
+  {day.atGate && (
+    <div class="card">
+      <h2 style="margin-top: 0;">✈️ {day.atGate.title || 'At the gate'}</h2>
+      <ul>
+        {day.atGate.lines.map(line => <li>{line}</li>)}
+      </ul>
+      {day.atGate.tel && (
+        <p style="margin-top: 0.5rem;">
+          <a href={`tel:${day.atGate.tel.number}`}>📞 {day.atGate.tel.label}</a>
+        </p>
+      )}
+    </div>
+  )}
+
+  {day.momentCards && day.momentCards.map(card => {
+    const borderColor = card.accent === 'warn' ? 'var(--warn)' : card.accent === 'accent' ? 'var(--accent)' : 'var(--border)';
+    return (
+      <div class="card" style={`border-color: ${borderColor};`}>
+        <h2 style="margin-top: 0;">{card.emoji} {card.title}</h2>
+        {card.time && <p class="hint" style="margin-top: -0.25rem;">{card.time}</p>}
+        {card.lines && (
+          <ul>
+            {card.lines.map(line => <li set:html={line.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')} />)}
+          </ul>
+        )}
+        {card.mapQuery && (
+          <p style="margin-top: 0.5rem;">
+            <a href={mapsUrl(card.mapQuery)} target="_blank" rel="noopener">📍 {card.mapLabel || 'Open in Maps'} →</a>
+          </p>
+        )}
+        {card.tel && (
+          <p style="margin-top: 0.5rem;">
+            <a href={`tel:${card.tel.number}`}>📞 {card.tel.label}</a>
+          </p>
+        )}
+        {card.link && (
+          <p style="margin-top: 0.5rem;">
+            <a href={`${base}${card.link.href}`}>{card.link.label}</a>
+          </p>
+        )}
+      </div>
+    );
+  })}
+
+  {day.plan.length > 0 && (
+    <div class="card">
+      <h2 style="margin-top: 0;">🎯 Plan</h2>
+      <ul>
+        {day.plan.map(item => <li>{item}</li>)}
+      </ul>
+    </div>
+  )}
 
   {day.takkyubin && (
     <div class="card" style="border-color: var(--warn);">
@@ -40,9 +167,22 @@ const next = DAYS.find(d => d.n === day.n + 1);
     </div>
   )}
 
+  {day.timezoneNote && (
+    <p class="hint" style="text-align: center; margin: 1rem 0; font-style: italic;">
+      🌏 {day.timezoneNote}
+    </p>
+  )}
+
+  {next && day.nextDayTeaser && (
+    <a class="card" href={`${base}/days/${next.n}`} style="display: block; border-color: var(--accent-2);">
+      <strong>Day {next.n} · {next.shortDate} — {next.title}</strong>
+      <div class="hint" style="margin-top: 0.25rem;">{day.nextDayTeaser}</div>
+    </a>
+  )}
+
   <div style="display: flex; justify-content: space-between; margin-top: 1.5rem;">
     {prev ? <a href={`${base}/days/${prev.n}`}>← Day {prev.n}</a> : <span></span>}
-    {next ? <a href={`${base}/days/${next.n}`}>Day {next.n} →</a> : <span></span>}
+    {next && !day.nextDayTeaser ? <a href={`${base}/days/${next.n}`}>Day {next.n} →</a> : <span></span>}
   </div>
 
   <p style="margin-top: 1rem;">
