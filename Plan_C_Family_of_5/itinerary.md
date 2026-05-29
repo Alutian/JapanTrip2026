@@ -47,14 +47,14 @@
 
 🔒 **LOCKED**
 - **MiPig Café** (Harajuku) — 60-min private room, slot picked at booking · ⬜ *to book*
-- **Shibuya Sky** sunset timed entry · ⬜ *book 1–2 weeks ahead in mid-May*
+- ~~**Shibuya Sky** sunset timed entry~~ — **SOLD OUT** (decided May 30 morning, tickets unavailable). Replaced by Tokyo Metropolitan Building Night Show (Tochomae, free, nightly).
 
 🎯 **PROXIMITY PLAN** (Harajuku → Omotesando → Shibuya, all walkable / 1 stop)
 - **AM (M1 Harajuku Kawaii Morning):** MiPig Café (P1, locked slot) → **Takeshita Street** (P2, crepes + kawaii shops) → **Meiji Jingu Gaien Ginkgo Avenue** walk (P2) → Omotesando architecture stroll → lunch at **Maisen Aoyama** tonkatsu
 - **Afternoon:** Rest at Yotsuya OR low-key Omotesando window shop. Optional **A6 Character Café Stop** — **Cinnamoroll Café** near Shinjuku Gyoen (P1, on the way home) if not too tired.
-- **Sunset → Evening (E1 Shibuya Neon Night):** Pokémon Center Shibuya + Nintendo Tokyo (Parco) → **Shibuya Sky** sunset slot (target 18:00–18:30; sunset ≈ 18:55) → Shibuya Scramble from ground after dark → dinner at **Kaikaya by the Sea** (reserve) or **Gyopao Gyoza** (kid-friendly).
+- **Sunset → Evening (E1 Shibuya Neon Night, revised):** Pokémon Center Shibuya + Nintendo Tokyo (Parco 6F) → **Shibuya Scramble at dusk** (Q-Front Starbucks 2F windows for the iconic shot) → Oedo line to **Tochomae** for the **Tokyo Metropolitan Building Night Show** (free, nightly, ~19:45–20:15, P1 moved from Day 4) → **Omoide Yokocho yakitori** at Uchu (P1 moved from Day 4; chicken skewers — no pork) → walk home Yotsuya.
 
-> Shibuya Sky at sunset is the centerpiece. Walking arc is ~1 mile total over the day; one Yamanote hop from Harajuku to Shibuya.
+> Centerpiece shifted from Sky to Tochomae Night Show (free, walking distance from home). Walking arc is ~1 mile total over the day; one Yamanote hop from Harajuku to Shibuya, one Oedo hop from Shibuya to Tochomae.
 
 ---
 
@@ -261,7 +261,7 @@
 | Fujiya Hotel Main Dining Room (Hakone kaiseki) | ⬜ ~1 month out |
 | Kaiseki Kyoto farewell dinner (Day 9) | ⬜ Book ~1 month or via Stitch concierge |
 | Pontocho dinner Day 7 | ⬜ Ask Stitch concierge on arrival |
-| Shibuya Sky (Day 2 sunset) | ⬜ Mid-May |
+| ~~Shibuya Sky (Day 2 sunset)~~ | ❌ Sold out — replaced by Tochomae Night Show |
 | ~~Nintendo Museum Kyoto~~ | ❌ Cut (decision #19) |
 | ~~PokéPark KANTO~~ | ❌ Cut |
 | ~~DisneySea~~ | ❌ Cut |
