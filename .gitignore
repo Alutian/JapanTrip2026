@@ -22,3 +22,10 @@ doc-*.png
 *-snapshot.md
 day*-iter*-fresh-*.md
 day*-iter*-audit-*.md
+# Loose playwright screenshots (any image at repo root that's clearly a session capture)
+/lodging-*.png
+/lodging-*.jpg
+/sky-*.png
+/sky-*.jpg
+/*-klook.jpg
+/*-klook.png
