@@ -61,6 +61,7 @@ Score each dimension as **OK / Weak / Broken** with one-line evidence. Don't pad
 - Every booking status matches todos.md? (no "Book NEX" on the page if todos.md says "buy on arrival, decided")
 - Every named place matches the source spelling/identity? (e.g. "Yotsuya 4-chome" not "Yotsuya 3-chome")
 - Any contradictions between this page and the bookings/ confirmations? (seat numbers, addresses, control numbers, PINs)
+- **Arithmetic micro-check.** For every cost shown as **total + breakdown** (e.g. `¥X total — 3 adult × ¥Y + 2 child × ¥Z`), *re-compute the sum on the spot*. Day-1 shipped `¥16,250 total` with a breakdown that summed to `¥13,010` — the contradiction sat in the source-of-truth docs for weeks. Same drill for time math (advertised "11h 10m" vs. departure/arrival ISOs), passenger counts (page says "5 pax", breakdown lists 4), and grouped totals on the BOOKINGS / TRANSIT tables. Mismatch = WRONG/BROKEN.
 
 **B. Self-sufficiency at the moment** (would a tired/anxious traveler get through the day from this page alone?)
 - The **first action of the day** is clear and actionable, with everything needed to do it (location, what to ask for, what to show, what to pay with)?
@@ -116,6 +117,14 @@ Score each dimension as **OK / Weak / Broken** with one-line evidence. Don't pad
   - "Email vendor X to confirm" on a day they won't reply before you need the answer.
 - **Counter-test:** for each prep item, name the *day before which* it would have to be done to be useful. If that day is earlier than today, the item is on the wrong page.
 
+**L. Cross-data consistency** (the silent drift — the day page and the shared data structures must agree, or the site lies)
+- Every `✅ booked` / `⬜ TO BOOK` marker on the day page maps to the matching status in the `BOOKINGS` array in `site/src/data/trip.ts` AND the corresponding line in `Plan_C_Family_of_5/todos.md`. Day-2 shipped MiPig as `✅ booked` on the page while BOOKINGS said `to-book` — silent drift, fresh-Candice caught it.
+- Every cross-link of the form `/lodging/<key>`, `/days/<n>`, `/packing`, `/bookings`, `/emergency` corresponds to a real target. For `/lodging/<key>` the `<key>` must exist in the `LODGING` array. For `/days/<n>` the day must exist in `DAYS`. For fragment links like `/bookings#flights`, the target page must contain an element with `id="flights"`.
+- Every named restaurant / activity / venue appears in *at least one* of: `food.md`, `wishlist/<city>.md`, a `bookings/<name>.md`, or the day's own moment cards. If a place is on the page but nowhere else, either the source-of-truth needs the addition or the page is hallucinating it.
+- Anything contradicting `decisions.md` (e.g. page revives a cut activity) is broken.
+- A day page can describe a *downstream* action ("we'll drop X at NRT today, grandma picks it up Jun 8") — verify the downstream day's data eventually includes the corresponding follow-up (Day 11 must surface the JAL ABC pickup if Day 1 has the drop). If not yet, flag as a forward-reference debt, not a broken finding.
+- All findings in this section go into WRONG/BROKEN — drift is broken.
+
 **I. Moment-level UX & geographic affordances** (the reason this is a site, not a markdown doc — if these aren't there, we shipped a worse markdown doc)
 - **Decomposed into moments, not timestamps.** Travelers think *"we just landed, what next"* not *"16:00."* Each transition is its own section with its own tips, decisions, links, fallbacks. Typical Day 1 moments: *Customs & immigration → JR East counter (Suica + NEX) → NEX ride → Marunouchi transfer → Airbnb arrival → Dinner → Sleep.* Flag a flat list of times as broken.
 - **Maps + directions everywhere there's a "go to."** Every named location → "Open in Google Maps" link (`https://www.google.com/maps/search/?api=1&query=<address>` or `place_id` form). Walking/transit segments → directions deeplink (`https://www.google.com/maps/dir/?api=1&origin=…&destination=…&travelmode=transit`), not just text. Lodging pages → embedded mini-map or static thumbnail. Zero map links on a page that includes 3+ locations is a Broken finding.
@@ -132,7 +141,7 @@ Write 300-500 words organized as:
 ```
 TL;DR (one sentence — would I trust this page to carry us through Day N? Why/why not.)
 
-WRONG / BROKEN (factual problems + temporal-feasibility violations from checklist J, ranked by blast radius. Anything that "can't actually be done today" goes here, not Missing.)
+WRONG / BROKEN (factual problems + arithmetic mismatches from A + temporal-feasibility violations from J + cross-data drift from L, ranked by blast radius. Anything that "can't actually be done today," "doesn't add up," or "contradicts the source data" goes here, not Missing.)
 
 STRUCTURE / UX (layout, sectioning, maps, affordances, progressive disclosure — findings from checklist I. Don't bury this under content findings; it's at least as important.)
 
