@@ -490,8 +490,8 @@ export const DAYS: Day[] = [
     prep: {
       title: 'Before leaving the hotel (Day-2 lessons baked in)',
       items: [
-        '🥢 **Pre-lock dinner option.** Mutekiya tonkotsu works for 4/5 (Ajay + kids + Popo eat pork) — Candice picks around it (AFURI Ikebukuro chicken-yuzu nearby, or sushi inside Sunshine City). Day-2 lesson: don\'t walk to Ikebukuro without a pick.',
-        '🐖 **Candice pork pre-check.** She\'s the only one — Nakamise + Hoppy St have pork-heavy stalls. Ask before ordering for her plate.',
+        '🥢 **Pre-lock dinner option.** Mutekiya = pure tonkotsu = Candice has no option there = forces splitting up (anti-pattern). Better all-together picks: Sushi train inside Sunshine City Alpa B1 (Day-2 win), Ippudo Ikebukuro (has tori-paitan for Candice), or AFURI (chicken-yuzu, everyone safe). Day-2 lesson: don\'t walk to Ikebukuro without a pick.',
+        '🐖 **Candice pork pre-check.** She\'s the only one — Nakamise + Hoppy St have pork-heavy stalls. Check her plate before ordering.',
         '🎒 Day-pack restock: snacks for kids (recovery food = onigiri, rice crackers, plain bread), water bottles, Welcome Suica.',
       ],
     },
@@ -591,13 +591,15 @@ export const DAYS: Day[] = [
       },
       {
         emoji: '🍣',
-        title: 'Dinner FIRST — fed by 6 (Day-2 lesson)',
+        title: 'Dinner FIRST, all 5 together — fed by 6 (Day-2 lessons)',
         time: '~17:30–18:30',
         lines: [
-          '**Mutekiya tonkotsu** — kid-favorite tonkotsu, P1 wishlist anchor, works for 4/5 (Ajay + Zara + Kai + Popo eat pork). Iconic, queue can be ~30 min. Candice grabs from AFURI 10 min away OR a sushi spot in Sunshine City Alpa B1 and meets up.',
-          '**Conveyor-belt sushi inside Sunshine City Alpa B1** — replicates Day-2 win, kids ate happily, all 5 eat together in one spot. Candice picks plates around any pork.',
-          '**AFURI Ikebukuro** — chicken-yuzu shio ramen, no pork base, 10 min walk from Sunshine. Light + flavorful — Candice safe spot.',
-          '🐖 Pork pre-check whatever you pick.',
+          '**Rule:** one restaurant, all 5 eat together. Splitting up for meals is an anti-pattern.',
+          '⭐ **Top pick — Conveyor-belt sushi inside Sunshine City Alpa B1** (e.g. Sushiro). Replicates Day-2 win. Everyone picks own plates; Candice avoids any pork sushi naturally. Walk-in. Sunshine City is also where Pokémon Center MEGA TOKYO + Gashapon + Sky Circus live — zero extra transit after dinner.',
+          '⭐ **Alt — Ippudo Ikebukuro.** Has **tori-paitan (chicken creamy)** and shio options for Candice alongside the signature Shiromaru tonkotsu for the rest. Real tonkotsu shop where everyone eats together. ~5 min from Sunshine.',
+          '⭐ **Alt — AFURI Ikebukuro.** Chicken-yuzu shio ramen, light, everyone safe. Different flavor than tonkotsu but kids tend to love it.',
+          '**Mutekiya — skip.** Pure tonkotsu shop, no Candice option = forces a meal split. Pass.',
+          '🐖 Confirm Candice has a clear non-pork pick on the menu *before sitting down*.',
         ],
         mapQuery: 'Sunshine City Alpa B1 sushi Ikebukuro',
         mapLabel: 'Sunshine City Alpa in Maps',
