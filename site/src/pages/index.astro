@@ -3,14 +3,12 @@ import Layout from '../layouts/Layout.astro';
 import { DAYS, LODGING, TRIP } from '../data/trip.ts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const tokyo = LODGING.find(l => l.key === 'tokyo')!;
-const today = new Date().toISOString().slice(0, 10);
-const todayDay = DAYS.find(d => d.date === today);
-const beforeTrip = today < TRIP.start;
-const afterTrip = today > TRIP.end;
 // First "real arrival" day is Day 1 (NRT landing), not Day 0/-1.
 const arrivalDate = DAYS.find(d => d.n === 1)?.date;
 // Pre-trip landing target: the lowest-numbered day (Day -1 if present, else Day 0).
 const entryDay = [...DAYS].sort((a, b) => a.n - b.n)[0];
+// Client-side day-routing data — keep it slim.
+const DAYS_DATA = DAYS.map(d => ({ n: d.n, date: d.date, shortDate: d.shortDate, title: d.title, cluster: d.cluster }));
 ---
 
 <Layout title="Home">
@@ -20,7 +18,7 @@ const entryDay = [...DAYS].sort((a, b) => a.n - b.n)[0];
   <section class="card" id="just-landed-banner" style="display: none; border-color: var(--accent);">
     <h2 style="margin-top: 0;">🛬 We just landed</h2>
     <ul>
-      <li><strong>NEX</strong> → Shinjuku, ~80 min, ~¥16,250 (reserved × 5)</li>
+      <li><strong>NEX</strong> → Shinjuku, ~80 min, ~¥13,010 (3 adult + 2 kid)</li>
       <li><strong>Airbnb:</strong> {tokyo.name}</li>
       <li><strong>EN:</strong> {tokyo.addressEn}</li>
       {tokyo.addressJa && (
@@ -33,26 +31,8 @@ const entryDay = [...DAYS].sort((a, b) => a.n - b.n)[0];
     </ul>
   </section>
 
-  {todayDay && (
-    <a href={`${base}/days/${todayDay.n}`} class="card" style="border-color: var(--accent);">
-      <h2 style="margin-top: 0;">📅 Today · Day {todayDay.n} — {todayDay.title}</h2>
-      <div class="hint">{todayDay.shortDate} · {todayDay.cluster}</div>
-    </a>
-  )}
-
-  {beforeTrip && !todayDay && (
-    <a href={`${base}/days/${entryDay.n}`} class="card" style="border-color: var(--accent);">
-      <h2 style="margin-top: 0;">📅 Trip starts {TRIP.start}</h2>
-      <div class="hint">Open Day {entryDay.n} — {entryDay.title} →</div>
-    </a>
-  )}
-
-  {afterTrip && (
-    <div class="card">
-      <h2 style="margin-top: 0;">Trip complete 👋</h2>
-      <div class="hint">Welcome home.</div>
-    </div>
-  )}
+  {/* Today's trip-status card — populated client-side using Asia/Tokyo time */}
+  <div id="trip-status"></div>
 
   <h3>Quick access</h3>
   <div class="grid-2">
@@ -81,7 +61,7 @@ const entryDay = [...DAYS].sort((a, b) => a.n - b.n)[0];
       <div class="hint">110 · 119 · embassies · hotels</div>
     </a>
     <a href={`${base}/grandma`} class="card">
-      <strong>👵 Grandma view</strong>
+      <strong>👵 Popo view</strong>
       <div class="hint">Her flights · taxi · hotel</div>
     </a>
   </div>
@@ -96,10 +76,47 @@ const entryDay = [...DAYS].sort((a, b) => a.n - b.n)[0];
     <a href={`${base}/docs/wishlist/kyoto`} class="card"><strong>Kyoto wishlist</strong></a>
   </div>
 
-  <script is:inline define:vars={{ arrivalDate, today }}>
-    // Show "We just landed" banner on the actual NRT arrival day (Day 1 = 2026-05-29).
-    if (arrivalDate && today === arrivalDate) {
-      document.getElementById('just-landed-banner').style.display = 'block';
+  <script is:inline define:vars={{ base, DAYS_DATA, tripStart: TRIP.start, tripEnd: TRIP.end, arrivalDate, entryDay }}>
+    // Use Asia/Tokyo time, not UTC or device-local. The trip is in Tokyo;
+    // server-rendered "today" doesn't work for a static site that may be
+    // built hours/days before it's opened. Compute fresh, client-side.
+    function tokyoToday() {
+      // en-CA locale gives 'YYYY-MM-DD'
+      return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Tokyo' }).format(new Date());
     }
+
+    function render() {
+      var today = tokyoToday();
+      var statusEl = document.getElementById('trip-status');
+      var match = DAYS_DATA.find(function (d) { return d.date === today; });
+
+      if (match) {
+        statusEl.innerHTML =
+          '<a href="' + base + '/days/' + match.n + '" class="card" style="border-color: var(--accent);">' +
+            '<h2 style="margin-top: 0;">📅 Today · Day ' + match.n + ' — ' + match.title + '</h2>' +
+            '<div class="hint">' + match.shortDate + ' · ' + match.cluster + '</div>' +
+          '</a>';
+      } else if (today < tripStart) {
+        statusEl.innerHTML =
+          '<a href="' + base + '/days/' + entryDay.n + '" class="card" style="border-color: var(--accent);">' +
+            '<h2 style="margin-top: 0;">📅 Trip starts ' + tripStart + '</h2>' +
+            '<div class="hint">Open Day ' + entryDay.n + ' — ' + entryDay.title + ' →</div>' +
+          '</a>';
+      } else if (today > tripEnd) {
+        statusEl.innerHTML =
+          '<div class="card">' +
+            '<h2 style="margin-top: 0;">Trip complete 👋</h2>' +
+            '<div class="hint">Welcome home.</div>' +
+          '</div>';
+      }
+
+      // "Just landed" banner only on Day 1 (arrival) date
+      if (arrivalDate && today === arrivalDate) {
+        var banner = document.getElementById('just-landed-banner');
+        if (banner) banner.style.display = 'block';
+      }
+    }
+
+    render();
   </script>
 </Layout>

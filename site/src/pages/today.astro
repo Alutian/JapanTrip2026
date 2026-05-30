@@ -21,7 +21,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   <script is:inline define:vars={{ base, DAYS_DATA: DAYS.map(d => ({ n: d.n, date: d.date })), tripStart: TRIP.start, tripEnd: TRIP.end }}>
     (function () {
-      var today = new Date().toISOString().slice(0, 10);
+      // Use Asia/Tokyo time, not UTC. Before this fix the page treated
+      // Tokyo morning (UTC midday yesterday) as the previous calendar day.
+      var today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Tokyo' }).format(new Date());
       var match = DAYS_DATA.find(function (d) { return d.date === today; });
       if (match) {
         window.location.replace(base + '/days/' + match.n);
