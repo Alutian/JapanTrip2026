@@ -5,7 +5,7 @@
 export const TRIP = {
   start: '2026-05-28',
   end: '2026-06-08',
-  travelers: ['Ajay', 'Candice', 'Zara (9)', 'Kai (7)', 'Grandma (Seck Joo Lee, 75)'],
+  travelers: ['Ajay', 'Candice', 'Zara (9)', 'Kai (7)', 'Popo (75)'],
 };
 
 export type Day = {
@@ -68,7 +68,7 @@ export const DAYS: Day[] = [
         '🗺 Google Maps offline downloads: Tokyo, Hakone, Kyoto, Narita (each ~200MB; do on home wifi)',
         '📲 Install + sign in: Yamato Kuroneko (EN), Smart-EX, Klook',
         '📸 Screenshot ALL booking confirmations to phone Photos (flights, lodging, teamLab, trains) — Wi-Fi-independent backup',
-        '💊 Grandma: print bilingual medication list (EN + JP via Google Translate). Paper, in her carry-on.',
+        '💊 Popo: print bilingual medication list (EN + JP via Google Translate). Paper, in her carry-on.',
         '🚖 Schedule Uber XL pickup for 08:30 Thu May 28 → SJC Terminal B departures',
         '💴 Order ¥30,000 cash from bank (pickup today) OR commit to 7-Eleven ATM at NRT on arrival',
         '📞 Confirm house-sitter: keys, alarm code, dates, plant instructions',
@@ -111,7 +111,7 @@ export const DAYS: Day[] = [
       '11:40 — ZIPAIR ZG029 SJC → NRT (11h 10m, nonstop). All 5 in row 51.',
       'Check-in counter: SJC Terminal B. Closes 10:40 sharp (60 min pre-flight).',
       'Depart from gate: Terminal A. Walk B → A after check-in (~10 min).',
-      'Grandma: separate conf F0F2P9, same flight, seat 51H.',
+      'Popo: separate conf F0F2P9, same flight, seat 51H.',
     ],
     prep: {
       title: 'Morning-of checklist (only last-mile items — wifi/install/shopping was Day -1)',
@@ -119,8 +119,8 @@ export const DAYS: Day[] = [
         '✅ Bags pre-paid — 1 checked bag/pax/direction included in Value package. No counter scramble.',
         '✅ Online check-in done last night — if not, do it NOW (need it before counter close)',
         '🛂 Passports × 5 in day-packs (not checked)',
-        '💊 Grandma\'s meds in HER carry-on',
-        '📶 Google Fi covers Japan — just power on after landing. Grandma\'s carrier handles her own roaming.',
+        '💊 Popo\'s meds in HER carry-on',
+        '📶 Google Fi covers Japan — just power on after landing. Popo\'s carrier handles her own roaming.',
         '💴 Cash + cards in wallet (¥ from bank yesterday, or plan NRT 7-Eleven ATM — JPY/decline-conversion)',
         '🎒 Full packing list confirmed (see /packing). Day -1 items should already be ✅.',
       ],
@@ -207,15 +207,15 @@ export const DAYS: Day[] = [
       },
       {
         emoji: '🧳',
-        title: 'Drop grandma\'s bag at JAL ABC (T1 South Wing 1F)',
+        title: 'Drop Popo\'s bag at JAL ABC (T1 South Wing 1F)',
         time: '~15:45–16:00',
         lines: [
-          'One of grandma\'s bags stays at the airport for the 10 days — she picks it up Jun 8 before her Scoot flight (same T1).',
+          'One of Popo\'s bags stays at the airport for the 10 days — she picks it up Jun 8 before her Scoot flight (same T1).',
           'Counter: **JAL ABC, T1 South Wing 1F** (signs from arrivals lobby).',
           'Provide: name (LEE, SECK JOO), phone, pickup date **Jun 8**.',
           'Cost: ~¥700/day medium · 10 days = **~¥7,000 total**. **Pay at pickup**, not now.',
           'Card or cash (JCB/VISA/MC/Amex/Diners/UP). Keep the receipt — it\'s the only way to retrieve.',
-          'Hours: 06:30 → ~1h after last arrival. Grandma\'s 8:20 Scoot Jun 8 → she arrives NRT ~05:50 + brief wait to 06:30 open.',
+          'Hours: 06:30 → ~1h after last arrival. Popo\'s 8:20 Scoot Jun 8 → she arrives NRT ~05:50 + brief wait to 06:30 open.',
         ],
         mapQuery: 'JAL ABC Counter Narita Airport Terminal 1 South Wing',
         mapLabel: 'JAL ABC T1 in Maps',
@@ -365,7 +365,7 @@ export const DAYS: Day[] = [
         time: '~12:30–13:45',
         lines: [
           '**4-8-5 Jingumae, Shibuya-ku** — 3 min walk from Omotesando Station. 11:00–21:00, last order 20:30.',
-          '⚠ **Tonkatsu = pork.** For Candice + grandma: order **chicken katsu (鶏かつ)** or **ebi-fry (shrimp)** — both standard menu. Kids and Ajay can do the signature kurobuta tonkatsu.',
+          '⚠ **Tonkatsu = pork.** For Candice + Popo: order **chicken katsu (鶏かつ)** or **ebi-fry (shrimp)** — both standard menu. Kids and Ajay can do the signature kurobuta tonkatsu.',
           'Walk-in works; Sat lunch queue can be real — arrive by 12:15 to skip the wait.',
         ],
         mapQuery: 'Tonkatsu Maisen Aoyama Honten Jingumae',
@@ -742,7 +742,7 @@ export const DAYS: Day[] = [
       '~16:05–16:25 — Tokyo Station transfer to NEX (allow 20 min)',
       '~16:25–17:30 — NEX Tokyo → Narita',
       '~17:50 — Check in Richmond Hotel Narita',
-      'At check-in: book grandma 5:30am taxi at reception',
+      'At check-in: book Popo 5:30am taxi at reception',
       'Dinner: Kawatoyo Honten unagi farewell — arrive 18:30',
     ],
     plan: [
@@ -758,8 +758,8 @@ export const DAYS: Day[] = [
     title: 'Departure',
     cluster: 'Split day',
     locked: [
-      '05:30 — Grandma pre-booked taxi → NRT (10 min, ~¥2,500)',
-      '08:20 — Grandma NRT → SIN',
+      '05:30 — Popo pre-booked taxi → NRT (10 min, ~¥2,500)',
+      '08:20 — Popo NRT → SIN',
       '16:25 — Family ZG030 NRT → SJC',
       '09:40 — Family lands SJC (gain time crossing dateline)',
     ],
@@ -789,12 +789,12 @@ export const PACKING: PackingSection[] = [
     title: '🛂 Documents (carry-on only — never checked)',
     items: [
       'Passports × 5 (all valid 6+ months past Jun 8)',
-      'ZIPAIR confs: GE7DVP (family) + F0F2P9 (grandma) — printed + on phone',
+      'ZIPAIR confs: GE7DVP (family) + F0F2P9 (Popo) — printed + on phone',
       'All 4 lodging conf #s printed (Yotsuya, Rakuten STAY, Stitch Kyoto, Richmond Narita)',
       'teamLab Planets booking screenshot',
       'GEAR Kyoto reservation #8241',
-      'Scoot TR 885 confirmation R643SL (grandma\'s SIN onward)',
-      'Bilingual medication list for grandma (EN + JP)',
+      'Scoot TR 885 confirmation R643SL (Popo\'s SIN onward)',
+      'Bilingual medication list for Popo (EN + JP)',
       'Travel insurance card / policy # if applicable',
       'Cash + cards in primary wallet; backup card in separate bag',
     ],
@@ -805,7 +805,7 @@ export const PACKING: PackingSection[] = [
     items: [
       'Travel adapters × 2 (Type A — same as US; voltage 100V, check chargers)',
       'Portable battery packs × 2 (fully charged)',
-      'Charging cables (USB-C × 2, Lightning × 1 for grandma\'s iPhone)',
+      'Charging cables (USB-C × 2, Lightning × 1 for Popo\'s iPhone)',
       'Wall chargers (multi-port preferred)',
       'Phone for each adult; kids share or have own',
       'Tablets for the kids (downloaded shows + games for the flight)',
@@ -851,7 +851,7 @@ export const PACKING: PackingSection[] = [
       'Passport + travel docs',
       'Wallet + cash + IC card (Welcome Suica, bought at NRT Day 1)',
       'Phone + charger + portable battery',
-      'Medications (especially grandma\'s)',
+      'Medications (especially Popo\'s)',
       'One full change of clothes per person (in case takkyubin bag is delayed)',
       'Toothbrush + small toiletries',
       'Snacks + refillable water bottle',
@@ -1044,7 +1044,7 @@ export const LODGING: Lodging[] = [
     addressEn: 'Narita City (central, walking distance to Omotesando Street + Naritasan)',
     addressJa: '千葉県成田市 — TODO: capture exact address from Expedia receipt',
     conf: 'Trip 1016631380 (Expedia). Room 1 (Ajay, twin+sofa) #2445218331 · Room 2 (Candice, deluxe double) #2445218289',
-    notes: 'Book grandma\'s 5:30am taxi to NRT at reception on arrival. ~10 min taxi ~¥2,500 to NRT.',
+    notes: 'Book Popo\'s 5:30am taxi to NRT at reception on arrival. ~10 min taxi ~¥2,500 to NRT.',
   },
 ];
 
@@ -1080,8 +1080,8 @@ export type Booking = {
 
 export const BOOKINGS: Booking[] = [
   { what: 'ZIPAIR family RT (SJC↔NRT)', when: 'May 28 / Jun 8', conf: 'GE7DVP', status: 'booked' },
-  { what: 'Grandma SJC → NRT', when: 'May 28', conf: 'F0F2P9', status: 'booked' },
-  { what: 'Grandma NRT → SIN', when: 'Mon Jun 8, 08:20', conf: 'R643SL', status: 'booked', notes: 'Scoot TR 885 (Terminal 1)' },
+  { what: 'Popo SJC → NRT', when: 'May 28', conf: 'F0F2P9', status: 'booked' },
+  { what: 'Popo NRT → SIN', when: 'Mon Jun 8, 08:20', conf: 'R643SL', status: 'booked', notes: 'Scoot TR 885 (Terminal 1)' },
   { what: 'Tokyo lodging (Airbnb Yotsuya)', when: 'May 29 – Jun 2', conf: 'HMYZXN9NPB', status: 'booked' },
   { what: 'Hakone lodging (Rakuten STAY)', when: 'Jun 2 – Jun 4', conf: '2442810403', status: 'booked' },
   { what: 'Kyoto lodging (Stitch Hotel)', when: 'Jun 4 – Jun 7', conf: '6410484352', status: 'booked', notes: 'PIN 3605' },
@@ -1093,7 +1093,7 @@ export const BOOKINGS: Booking[] = [
   { what: 'Fujiya Hotel kaiseki (Hakone)', when: 'Jun 2 or Jun 3', status: 'to-book', notes: '~1 month out; smart casual' },
   { what: 'Pontocho dinner (Day 7 arrival)', when: 'Thu Jun 4 evening', status: 'on-arrival', notes: 'Ask Stitch concierge to book' },
   { what: 'Kaiseki farewell dinner (Kyoto)', when: 'Sat Jun 6 evening', status: 'to-book', notes: 'Kikunoi Roan / Kiyamachi Sakuragawa / Giro Giro Hitoshina' },
-  { what: 'Grandma 5:30am NRT taxi', when: 'Mon Jun 8', status: 'on-arrival', notes: 'Book at Richmond Hotel Narita reception on arrival Jun 7' },
+  { what: 'Popo 5:30am NRT taxi', when: 'Mon Jun 8', status: 'on-arrival', notes: 'Book at Richmond Hotel Narita reception on arrival Jun 7' },
 ];
 
 export const EMERGENCY = {
@@ -1104,7 +1104,7 @@ export const EMERGENCY = {
   ],
   embassies: [
     { what: 'U.S. Embassy Tokyo', number: '+81-3-3224-5000', notes: '1-10-5 Akasaka, Minato-ku, Tokyo' },
-    { what: 'Singapore Embassy Tokyo', number: '+81-3-3586-9111', notes: 'For grandma' },
+    { what: 'Singapore Embassy Tokyo', number: '+81-3-3586-9111', notes: 'For Popo' },
   ],
   lodging: [
     { what: 'Rakuten STAY support (Hakone)', number: '+81 50-1750-9719' },
