@@ -280,7 +280,6 @@ Strategy in order of preference:
 - [ ] **Pocket WiFi or eSIM** — eSIM (Airalo, Saily) is cheapest; ~$15/person for 10 days
 - [ ] **Rain layer × 5** — June = rainy season, ~50% chance any given day. Foldable umbrellas at any konbini for ¥500 if you skip packing them.
 - [ ] **Comfortable walking shoes** — entire trip averages 15-20k steps/day
-- [ ] **Grandma's medications** — written list in English + Japanese (Google Translate works)
 
 ---
 
@@ -293,7 +292,7 @@ These are the hard rules that, if violated, mess up the whole logistics chain:
 3. **Book remaining 3 Shinkansen/NEX tickets ASAP** — Jun 4 Shinkansen, Jun 7 Shinkansen, May 29 NEX. Reserved seats × 5 together gets harder by the day.
 4. **Drop takkyubin bags before noon** for next-day arrival. Sending after ~12:00 may push to a 2-day delivery.
 5. **Pack 2 days of overnight stuff** for Jun 6 morning takkyubin drop (bags arrive Narita Jun 7 evening — you need ~36h of clothes/toiletries in your day-pack).
-6. **Grandma's medications never go in takkyubin or checked luggage.** Always in her carry-on (it stays with her anyway, never gets shipped).
+6. **Any prescription meds the family carries stay in a day-pack, never takkyubin or checked.** Standard travel-meds rule, applies to whoever has them.
 7. **Book grandma's 5:30am taxi** at Richmond Hotel reception at check-in Jun 7 evening — not the morning of.
 8. **Tokyo Station transfer Jun 7** = allow 25 min minimum. Follow JR Sobu Line signs (NOT NEX, NOT Yokosuka — those are different destinations). Use elevators for grandma, not escalators.
 9. **Keep all booking confirmation numbers offline** (screenshots in phone Photos, plus this `bookings/` folder pulled to local).

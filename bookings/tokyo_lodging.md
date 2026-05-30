@@ -70,7 +70,7 @@
 
 ---
 
-## Food within 5 min walk (jet-lag dinner options, Candice + Ajay no-pork)
+## Food within 5 min walk (jet-lag dinner options; Candice-only no-pork)
 
 - **Ramen Ouka** — 5 min walk from Shinjuku-gyoenmae Exit 2. Halal-certified, **no-pork ramen**. Halal R set ¥1,500, Vegan R set ¥1,100. Kid-friendly, English-friendly. The Day-1 default if everyone's hangry.
 - **Halal Wagyu Ramen Shinjuku Tei (Yotsuya store)** — A5 wagyu ramen, halal, no pork or alcohol. Slightly further (Yotsuya station direction). Backup if Ouka is closed/busy.

@@ -63,13 +63,11 @@ These were originally bucketed for early May and slipped. Some routes risk selli
 - [ ] **Portable battery packs × 2** — long transit days
 - [ ] **Foldable umbrellas × family** (or buy ¥500 at konbini on arrival)
 - [ ] **Comfortable walking shoes** — 15–20k steps/day average
-- [ ] **Bilingual medication list** for grandma (English + Japanese via Google Translate)
 - [ ] **Paper backup** of flight info + lodging confirmations in a separate bag from originals
 
 ### Packing
 - [ ] **Bag size check** — confirm everyone's main suitcase is ≤25" / ≤63 cm tall (fits both ZIPAIR and Yamato 160 cm linear)
 - [ ] **Day-pack per person** with: passport, meds, 1 change of clothes, electronics, snacks, rain layer, kid amusement
-- [ ] **Grandma's medications stay in HER carry-on / day-pack at all times** — never in takkyubin, never in checked luggage. Critical: takkyubin bags can be delayed by 24h+, and grandma can't miss doses.
 - [ ] **For Jun 6 takkyubin send:** pack 2 days of essentials in day-pack (Jun 6 + Jun 7) since main bags arrive Narita Jun 7 evening
 
 ### Day-of (May 28 morning, before SJC)
