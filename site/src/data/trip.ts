@@ -653,7 +653,7 @@ export const DAYS: Day[] = [
       title: 'Do these in the morning (before you leave) — they unlock the next 3 days',
       items: [
         '📧 **Reply to the Rakuten STAY email** in `name(AT)mail(DOT)com` format → this is what delivers your Hakone self-check-in link for tomorrow. No reply = no check-in.',
-        '💬 **Stitch hold = ✅ CONFIRMED.** They\'ll hold both suitcases Jun 2→Jun 4. On the takkyubin label you only need to supply: **guest name "Ajay Nainani"** + **check-in date "Jun 4"** (res `6410484352`).',
+        '💬 **Stitch hold = ✅ CONFIRMED.** They\'ll hold both suitcases Jun 2→Jun 4. On the takkyubin label supply the **reservation name = "Candice Kao"** (the booking is under her) + **check-in date "Jun 4"** + res `6410484352`. ⚠️ Use Candice\'s name, not Ajay\'s — that\'s what Stitch matches the bags to.',
         '🧳 **Pack the 2 big suitcases** (Ajay + Kai\'s clothes / Candice + Zara\'s clothes) for shipping. **Deploy the overnight tote** with 2 days of Hakone clothes + toiletries for the four of you. Popo keeps her 20" carry-on.',
         '⚠️ **Day-packs keep:** passports, all meds, 1 full change of clothes each, electronics, kid tablets — never in the shipped bag.',
         '🚫 **No NEX-to-Narita booking needed** — that got replaced by the JR Sobu Rapid. Ignore the old todo.',
@@ -667,7 +667,7 @@ export const DAYS: Day[] = [
         lines: [
           'Walk the 2 suitcases ~5 min to the **Lawson** by the Airbnb; counter staff fills the form (or use the Yamato app QR label).',
           '**Ship to (recipient):** STITCH HOTEL Kyoto · 118 Saito-cho, Shimogyo-ku, Kyoto 600-8012 · +81 75-606-4860.',
-          '**On the label, specify:** guest name **Ajay Nainani** · check-in date **Jun 4** · (reservation `6410484352`). That\'s all Stitch needs — the 2-day hold is ✅ confirmed.',
+          '**On the label, specify:** reservation name **Candice Kao** (the booking is under her — use her name, not Ajay\'s) · check-in date **Jun 4** · res `6410484352`. That\'s all Stitch needs — the 2-day hold is ✅ confirmed.',
           '**Cost** ~¥5,000 for 2 bags. Pay at the counter (cash easiest).',
           '**Timing is relaxed** — bags only need to land by Jun 4 check-in, so even 2-day delivery is fine. But dropping on the way out = **hands-free all day**. Do it first.',
           'Popo\'s carry-on stays with her. You + kids carry day-packs + the overnight tote from here to Hakone tomorrow.',
