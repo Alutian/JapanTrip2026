@@ -663,13 +663,14 @@ export const DAYS: Day[] = [
       {
         emoji: '🧳',
         title: 'Ship the bags to Kyoto — Lawson near Yotsuya',
-        time: 'anytime today (must be before you leave for Hakone tomorrow)',
+        time: 'today, or tomorrow morning before the 13:20 Romancecar',
         lines: [
           'Walk the 2 suitcases ~5 min to the **Lawson** by the Airbnb; counter staff fills the form (or use the Yamato app QR label).',
           '**Ship to (recipient):** STITCH HOTEL Kyoto · 118 Saito-cho, Shimogyo-ku, Kyoto 600-8012 · +81 75-606-4860.',
           '**On the label, specify:** reservation name **Candice Kao** (the booking is under her — use her name, not Ajay\'s) · check-in date **Jun 4** · res `6410484352`. That\'s all Stitch needs — the 2-day hold is ✅ confirmed.',
           '**Cost** ~¥5,000 for 2 bags. Pay at the counter (cash easiest).',
-          '**No rush on timing** — bags just need to land by Jun 4 check-in (they\'re going to Kyoto, not Hakone). Even a 2-day delivery is fine, so an afternoon drop today still works. Doing it on your way out = hands-free all day, but anytime today is fine.',
+          '**Delivery timing is a non-issue:** even 2-day delivery lands Jun 4 = your check-in day, and they\'re going to Kyoto (not Hakone), so the bags are never needed in between. Today or tomorrow morning both arrive in time.',
+          '**The only real constraint is geography:** drop them while you\'re still by the Yotsuya Lawson — i.e. before you board the Romancecar tomorrow. Otherwise you\'re hauling two big suitcases onto the Romancecar + the tiny Tozan switchback (the thing ship-ahead exists to avoid). **Today = lighter morning tomorrow; tomorrow-morning = pack once.** Your call.',
           'Popo\'s carry-on stays with her. You + kids carry day-packs + the overnight tote from here to Hakone tomorrow.',
         ],
         mapQuery: 'Lawson Yotsuya 4-chome Shinjuku',
