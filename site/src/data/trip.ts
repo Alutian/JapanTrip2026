@@ -663,13 +663,13 @@ export const DAYS: Day[] = [
       {
         emoji: '🧳',
         title: 'Ship the bags to Kyoto — Lawson near Yotsuya',
-        time: 'morning, on your way out',
+        time: 'anytime today (must be before you leave for Hakone tomorrow)',
         lines: [
           'Walk the 2 suitcases ~5 min to the **Lawson** by the Airbnb; counter staff fills the form (or use the Yamato app QR label).',
           '**Ship to (recipient):** STITCH HOTEL Kyoto · 118 Saito-cho, Shimogyo-ku, Kyoto 600-8012 · +81 75-606-4860.',
           '**On the label, specify:** reservation name **Candice Kao** (the booking is under her — use her name, not Ajay\'s) · check-in date **Jun 4** · res `6410484352`. That\'s all Stitch needs — the 2-day hold is ✅ confirmed.',
           '**Cost** ~¥5,000 for 2 bags. Pay at the counter (cash easiest).',
-          '**Timing is relaxed** — bags only need to land by Jun 4 check-in, so even 2-day delivery is fine. But dropping on the way out = **hands-free all day**. Do it first.',
+          '**No rush on timing** — bags just need to land by Jun 4 check-in (they\'re going to Kyoto, not Hakone). Even a 2-day delivery is fine, so an afternoon drop today still works. Doing it on your way out = hands-free all day, but anytime today is fine.',
           'Popo\'s carry-on stays with her. You + kids carry day-packs + the overnight tote from here to Hakone tomorrow.',
         ],
         mapQuery: 'Lawson Yotsuya 4-chome Shinjuku',
