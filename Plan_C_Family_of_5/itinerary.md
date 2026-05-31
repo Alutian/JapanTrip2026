@@ -64,13 +64,17 @@
 - Nothing
 
 🎯 **PROXIMITY PLAN** (single east-Tokyo arc, all rail-connected, no backtracks)
-- **AM (M3 Asakusa Old-Tokyo Morning):** Kaminarimon + **Nakamise Street** (P1) + **Senso-ji** (P1) + **Hoppy Street** (P1) → 15-min walk to **Kappabashi Kitchen Town** (P4, chopsticks + sample-food shops) → walk/2-stop hop to **Skytree** (P6) + **Sumida Aquarium** (P6 combo ticket)
-- **Lunch:** **Asakusa Imahan** sukiyaki OR **Daikokuya Tempura** in Asakusa. **Funawa Nakamise** (P6) for imo-yokan dessert on Nakamise.
-- **Late afternoon:** Hop Yamanote/Marunouchi to Ikebukuro (~20 min from Asakusa)
-- **Evening (E3 Ikebukuro Pokémon Night):** **Pokémon Center MEGA TOKYO** + **Gashapon Ikebukuro Main Store** (P4, in Sunshine City) + Sunshine City Sky Circus → dinner **Mutekiya** tonkotsu ramen
-- **Back to Yotsuya:** Marunouchi line, ~15 min from Ikebukuro
+- **AM — Asakusa to Skytree on foot (revised day-of May 31):** Senso-ji/Nakamise done early (temple was a low-engagement stop for the kids — fine per decision #7). From **Sumida Park**, cross the **Sumida River Walk** pedestrian bridge (open 7:00–22:00, ~15 min, lands in Tokyo Mizumachi) straight toward Skytree.
+  - **Brunch en route — MUYA** (Tokyo Mizumachi West Zone, opens **8:00**): bakery café / French toast / Japanese-style sandwiches / espresso. Non-touristy, on the path. *Candice: French toast + non-pork sandwiches.* Backup: **Deus Ex Machina Asakusa** (same complex, burgers/patty melt/veggie sandwich/rice bowls) — but opens **11:00**.
+  - **Tokyo Skytree Town / Tokyo Solamachi:** **🎯 Kai's travel-buddy toy** (near-term objective) at **Pokémon Center Skytown** (4F — small plush to carry + photograph, à la Zara's Labubu); also **Donguri Republic** (Totoro/Ghibli plush) + the **gachapon** floor + character shops if he wants to hunt his own. → **Sumida Aquarium** (P6) + **Skytree** deck (P6) if energy holds. *Optional:* **Kappabashi Kitchen Town** (P4) is a short detour west if there's appetite for it.
+- **Lunch:** food at Solamachi, **or** back across to **Daikokuya Tempura** / **Asakusa Imahan** sukiyaki in Asakusa. **Funawa Nakamise** (P6) imo-yokan for dessert if passing Nakamise.
+- **Evening — pick after lunch on kid energy (toy already solved → Ikebukuro Pokémon now optional):**
+  - **A — Akihabara neon night** (pulled forward from Day 5 M5; better lit at night, gachapon/figure/retro-toy density, geographically clean from Asakusa) → easy non-pork dinner (chicken/shio/curry). Frees the Day 5 pack-and-go morning.
+  - **B — Ikebukuro as originally planned:** **Pokémon Center MEGA TOKYO** + **Gashapon Ikebukuro Main Store** (P4, Sunshine City) + Sunshine City Sky Circus. ⚠️ **Swap the dinner** — original pick **Mutekiya is pure tonkotsu (nothing for Candice)**; choose a shop with a chicken/shio/shoyu option.
+  - **C — Early night at Yotsuya** if the kids are cooked — Day 4 teamLab Planets (14:00) is the real event and wants fresh legs.
+- **Back to Yotsuya:** Marunouchi line.
 
-> Most-open day pre-CSV is now anchored on Candice's P1 Asakusa + Senso-ji + Nakamise + Hoppy Street + Tokyo's biggest Pokémon center + biggest Gashapon dept store. One continuous arc east-then-northwest, all walkable + one rail hop.
+> Day-of revision: morning re-anchored on the Sumida River Walk → Skytree foot route (brunch at MUYA in Mizumachi) and used to knock out Kai's carry-around toy at Pokémon Center Skytown. Because the toy is solved here, the evening Ikebukuro Pokémon run is no longer load-bearing — Akihabara-at-night or an early night are both live alternatives.
 
 ---
 
