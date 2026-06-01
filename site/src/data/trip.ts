@@ -808,18 +808,34 @@ export const DAYS: Day[] = [
       { href: '/emergency', label: '🆘 Emergency' },
     ],
     locked: [
+      '🧳 SHIP THE 2 SUITCASES THIS MORNING — Lawson near Yotsuya → Stitch Kyoto, BEFORE leaving for Hakone (didn\'t happen yesterday)',
       '13:20 — Romancecar Hakone 27 (GSE) Shinjuku → Hakone-Yumoto, Car 5 seats 15C/D + 16B/C/D (control # E655)',
       '⚠️ Buy Hakone Free Pass × 5 at SHINJUKU (Odakyu Sightseeing Service Center) BEFORE boarding — covers the base fare through the gate',
     ],
     prep: {
-      title: 'Before you leave Yotsuya',
+      title: 'Before you leave Yotsuya (checkout morning)',
       items: [
-        '🎒 **Carry only:** day-packs + the shared overnight tote (2 days of Hakone clothes for the four of you) + Popo\'s 20" carry-on. **The 2 big suitcases are already on their way to Kyoto.**',
-        '🔑 **Hakone self-check-in:** have the Rakuten STAY online check-in URL (door code + unit instructions) saved offline before you leave — it arrives Jun 1. If it didn\'t come, reply to their email thread in `name(AT)mail(DOT)com` format to trigger it.',
+        '🧳 **SHIP THE BAGS FIRST (carried over from yesterday).** Walk the 2 suitcases ~5 min to the **Lawson** → send to **STITCH HOTEL Kyoto**, 118 Saito-cho, Shimogyo-ku, Kyoto 600-8012. **Label:** recipient **Candice Kao** · check-in **Jun 4** · res `6410484352`. ~¥5,000. Even 2-day delivery lands Jun 4 = check-in day, so timing\'s fine — but they MUST leave from Yotsuya, not ride the train with you.',
+        '🎒 **Then carry only:** day-packs + the shared overnight tote (2 days of Hakone clothes for the four of you) + Popo\'s 20" carry-on.',
+        '🔑 **Hakone self-check-in:** have the Rakuten STAY online check-in URL (door code + unit instructions) saved offline. If it didn\'t come, reply to their email thread in `name(AT)mail(DOT)com` format to trigger it.',
         '💴 **Cash + Suica:** top up before leaving — Hakone is more cash/IC-friendly than card. The Free Pass itself takes credit card or cash at the Shinjuku counter.',
       ],
     },
     momentCards: [
+      {
+        emoji: '🧳',
+        title: 'Ship the 2 suitcases to Kyoto — Lawson (do this first)',
+        time: 'checkout morning',
+        lines: [
+          'Carried over from yesterday — must happen before you leave Yotsuya, so the bags don\'t ride the Romancecar + Tozan with you.',
+          'Walk the 2 suitcases ~5 min to the **Lawson** by the Airbnb. **Ship to:** STITCH HOTEL Kyoto · 118 Saito-cho, Shimogyo-ku, Kyoto 600-8012 · +81 75-606-4860.',
+          '**Label:** recipient **Candice Kao** (booking\'s under her) · check-in **Jun 4** · res `6410484352`. ~¥5,000, cash easiest.',
+          '**Timing OK:** even 2-day delivery arrives Jun 4 = check-in day; they\'re going to Kyoto, never needed in Hakone.',
+        ],
+        mapQuery: 'Lawson Yotsuya 4-chome Shinjuku',
+        mapLabel: 'Lawson near Airbnb',
+        accent: 'warn',
+      },
       {
         emoji: '🚇',
         title: 'Yotsuya → Shinjuku Station',
@@ -895,6 +911,7 @@ export const DAYS: Day[] = [
       },
     ],
     plan: [
+      '🧳 FIRST: ship the 2 suitcases from the Lawson → Stitch Kyoto (Candice Kao, check-in Jun 4) before leaving Yotsuya.',
       'Leave Yotsuya ~12:30 → Shinjuku.',
       '⚠️ Buy Hakone Free Pass × 5 at the Shinjuku Odakyu Service Center BEFORE boarding (covers base fare through the gate).',
       'Romancecar 13:20 → Hakone-Yumoto 14:56 (Hakone 27 GSE, Car 5, control E655).',
