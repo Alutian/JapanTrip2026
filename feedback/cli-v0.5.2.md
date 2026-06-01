@@ -33,7 +33,7 @@ This is a real end-to-end workload, not a toy query: a day is several hundred ~3
 
 - **`captures --full-transcript --format json` is the right primitive.** Two calls returned the entire day. Crucially, `segments[]` embed the full `transcript_text` inline, so I reconstructed all 274 moments **without** making 274 separate `transcript` calls. This is the single feature that makes day-scale reflection feasible.
 - **The data model is clean and complete:** `captures → moment_ids[] + segments[] + anchors[]`, each segment with `moment_id`, `recorded`, `duration_seconds`, `segment_sequence`, `word_count`, `transcript_quality`, `transcript_source`, `transcript_text`.
-- **`artifact sync-commit` is fast, idempotent, and (in v0.5.2) now prints a confirmation** (`albee: synced 1 file(s)`). On an earlier run it returned silently; the confirmation line is an improvement.
+- **`artifact sync-commit` is fast and idempotent.** (Its success output is inconsistent — see Issue 8.)
 
 ---
 
@@ -69,6 +69,15 @@ To navigate a day I had to `jq` segments out of the captures JSON, filter by UTC
 
 ### 7. Relative time windows are unreliable
 `--since 16h` did not reach back to the morning in testing. I stopped trusting relative windows and use explicit `--date` pulls.
+
+### 8. `artifact sync-commit` success output is inconsistent
+Same command, same exit code (0), different output across runs in one session:
+```
+albee artifact sync-commit journals/day-4-2026-06-01.md   → albee: synced 1 file(s)
+albee artifact sync-commit feedback/cli-v0.5.2.md         → (no output)
+```
+With no stdout, the only success signal is the exit code, so a script can't distinguish "synced" from "no-op" from "silently did nothing." Minor, but it undermines trust in the confirmation.
+**Fix:** always emit a deterministic result line (e.g., `synced 1 file(s)` / `0 files (no changes)`), ideally with `--json` for scripting.
 
 ---
 
