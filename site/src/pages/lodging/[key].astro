@@ -49,6 +49,7 @@ function mapsUrl(query: string) {
       <li><strong>Check-in:</strong> {l.checkIn}</li>
       <li><strong>Check-out:</strong> {l.checkOut}</li>
       <li><strong>Conf:</strong> <code>{l.conf}</code> <button class="copy-btn" data-copy={l.conf}>Copy</button></li>
+      {l.room && <li><strong>Room:</strong> <code>{l.room}</code></li>}
       {l.pin && <li><strong>PIN:</strong> <code>{l.pin}</code> <button class="copy-btn" data-copy={l.pin}>Copy</button></li>}
       {l.hostName && <li><strong>Host:</strong> {l.hostName}</li>}
       {l.hostPhone && <li><strong>Host phone:</strong> <a href={`tel:${l.hostPhone.replace(/\s/g, '')}`}>{l.hostPhone}</a></li>}

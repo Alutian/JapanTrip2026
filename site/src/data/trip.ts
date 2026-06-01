@@ -817,7 +817,7 @@ export const DAYS: Day[] = [
       items: [
         '🧳 **SHIP THE BAGS FIRST (carried over from yesterday).** Walk the 2 suitcases ~5 min to the **Lawson** → send to **STITCH HOTEL Kyoto**, 118 Saito-cho, Shimogyo-ku, Kyoto 600-8012. **Label:** recipient **Candice Kao** · check-in **Jun 4** · res `6410484352`. ~¥5,000. Even 2-day delivery lands Jun 4 = check-in day, so timing\'s fine — but they MUST leave from Yotsuya, not ride the train with you.',
         '🎒 **Then carry only:** day-packs + the shared overnight tote (2 days of Hakone clothes for the four of you) + Popo\'s 20" carry-on.',
-        '🔑 **Hakone self-check-in:** have the Rakuten STAY online check-in URL (door code + unit instructions) saved offline. If it didn\'t come, reply to their email thread in `name(AT)mail(DOT)com` format to trigger it.',
+        '🔑 **Hakone door code is in (Room 301): PIN `2098` for both the building entrance AND the room — press E after.** Entry from 3 PM. Pre-register guest info on the tablet check-in via this link so arrival is fast: https://guestbook.stay.rakuten.com/E3ajKVo?code=6395 — save the resulting QR. Support +81 50-1750-9719.',
         '💴 **Cash + Suica:** top up before leaving — Hakone is more cash/IC-friendly than card. The Free Pass itself takes credit card or cash at the Shinjuku counter.',
       ],
     },
@@ -888,11 +888,13 @@ export const DAYS: Day[] = [
       {
         emoji: '🔑',
         title: 'Self check-in — Rakuten STAY TERRACE Kowakudani',
-        time: '~15:35',
+        time: '~15:35 (entry allowed from 3 PM)',
         lines: [
-          '<10-min walk from Kowakudani Station. **483-2 Kowakudani.** Use the door code from the Rakuten online check-in URL.',
-          'No luggage drop hassle — main bags are already at Stitch Kyoto.',
-          'No on-site onsen at this property — the onsen plan is **Yunessun** tomorrow (Day 6), a 3-min walk.',
+          '<10-min walk from Kowakudani Station. **483-2 Kowakudani · Room 301** (booking `2442810403`).',
+          '🔑 **Building + Room PIN are the SAME: `2098`** — enter it, then **press E**. (Entrance A = parking lot, Entrance B = from Kowakidani Station; same PIN for both doors AND the room.)',
+          '⚠️ **No entry before 3 PM** — you arrive ~15:35, so you\'re fine.',
+          '📱 **Finish online check-in on the in-unit tablet:** Living-room tablet → "Check-in" → pull up the reservation via your **Check-in QR / booking number** → identity verified by facial recognition or video call. Register guest info in advance via the link in prep to make this fast.',
+          'No front desk. Support: **+81 50-1750-9719**. No on-site onsen — Yunessun (3-min walk) is the Day 6 plan.',
         ],
         mapQuery: 'Rakuten STAY TERRACE Hakone Kowakudani',
         mapLabel: 'Rakuten STAY Kowakudani',
@@ -1150,6 +1152,7 @@ export type Lodging = {
   phone?: string;
   conf: string;
   pin?: string;
+  room?: string;
   notes?: string;
 
   // Rich detail (populated as host guides become available)
@@ -1271,7 +1274,18 @@ export const LODGING: Lodging[] = [
     addressJa: '〒250-0406 神奈川県足柄下郡箱根町小涌谷483-2',
     phone: '+81 50-1750-9719',
     conf: '2442810403',
-    notes: 'Self check-in, no front desk. Reply to confirmation email with email in address(AT)mail(DOT)com format to receive check-in URL.',
+    room: '301',
+    pin: '2098',
+    doorCode: '2098',
+    doorCodeNote: 'Same PIN 2098 for the building entrance (Entrance A = parking lot, B = from Kowakidani Station) AND Room 301. Press E after entering it. Entry allowed from 3 PM only.',
+    checkInFlow: [
+      'Reach the building (~10-min walk from Kowakudani Station). Use Entrance A (parking lot) or B (from the station) — either door.',
+      'Enter PIN 2098, then press E to unlock the entrance.',
+      'Go to Room 301. Enter the same PIN 2098, press E to unlock the room.',
+      'Inside: go to the living-room tablet → tap "Check-in" → pull up the reservation with your Check-in QR (or booking # 2442810403).',
+      'Confirm the details; identity is verified by facial recognition or a quick video call. Done.',
+    ],
+    notes: 'Self check-in, no front desk. Pre-register guest info before arrival to speed up the tablet step: https://guestbook.stay.rakuten.com/E3ajKVo?code=6395 — save the resulting Check-in QR. Support +81 50-1750-9719.',
   },
   {
     key: 'kyoto',
