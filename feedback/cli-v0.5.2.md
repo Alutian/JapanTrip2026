@@ -4,33 +4,22 @@
 
 ---
 
-## Status after CLI 0.5.3
+## Product follow-up
 
-This remains the source feedback from the `0.5.2` workflow, but several points
-below are now partly or fully addressed.
+This remains the source field feedback from the `0.5.2` workflow. Actionable
+Albee CLI requirements now live in the Albee product repo, not this trip repo:
+`albee-cli/docs/day-scale-capture-feedback.md`, tracked by Beads epic
+`albee-wuo8s`.
 
-- **Issue 1 is fixed in CLI 0.5.3.** Use:
-  ```
-  albee captures --date 2026-06-01 --timezone Asia/Tokyo --full-transcript --format json
-  ```
-  The released command returns the local calendar day without the two-UTC-date
-  pull and manual filtering. The CLI exposes `--timezone`; it does not yet expose
-  the shorter `--tz` alias suggested below.
-- **MCP session retrieval is also improved.** The MCP now exposes
-  `list_captures`, `get_capture`, and `get_albee_capabilities`, so agents should
-  use capture/session tools for session-level reasoning instead of stitching
-  raw moment lists by hand.
-- **The remaining live gaps are now tracked in Beads under `albee-wuo8s`.**
-  The highest-priority follow-ups are short moment ID resolution
-  (`albee-ewtpl`), pending/unknown-session visibility in capture exports
-  (`albee-e0h7z`), CLI session retrieval by `session_id` (`albee-orjjk`),
-  time-ordered local-day transcript indexes (`albee-zn5hn`), deterministic
-  `sync-commit` output (`albee-fpxnx`), and MCP excerpt/limit consistency
-  (`albee-7ujcw`).
+As of CLI `0.5.3`, local-day capture export is fixed with:
 
-The headline after `0.5.3`: local-day capture export is fixed; the next trust
-frontier is making gaps, IDs, session boundaries, and command results impossible
-for agents to misread.
+```bash
+albee captures --date 2026-06-01 --timezone Asia/Tokyo --full-transcript --format json
+```
+
+The remaining implementation and test requirements should be read from the
+Albee-owned requirements doc and Beads, so this artifact stays evidence rather
+than becoming a product backlog.
 
 ---
 
