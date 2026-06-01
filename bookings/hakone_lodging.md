@@ -1,8 +1,12 @@
 # 🏠 Hakone Lodging — ✅ BOOKED
 
 **Booking Number:** `2442810403`
+**Room Number:** `301`
 **Booked by:** Candice Kao
 **Booked:** 2026-04-23
+
+> 🔑 **Entry PIN: `2098`** — same code for the building entrance (Entrance A = parking lot, B = from Kowakidani Station) **and** Room 301. **Press E after the PIN.** Entry allowed **from 3 PM** only.
+> 📱 **Online check-in registration:** https://guestbook.stay.rakuten.com/E3ajKVo?code=6395 — pre-register guest info, save the Check-in QR. Finish on the in-unit living-room tablet (facial-recognition or video-call verify).
 
 ---
 
@@ -33,9 +37,9 @@
 
 ## 🚨 Pre-Arrival Action Items
 
-- [ ] **Reply to Rakuten STAY confirmation email with our email address** to receive the online check-in URL (the day before check-in). They request format `address(AT)mail(DOT)com` to avoid email-masking by booking sites.
-- [ ] **Online check-in URL** (sent Jun 1) — register guest info in advance for smooth self-check-in
-- [ ] Save the property portal + customer support number offline before travel
+- [x] **Check-in instructions received** (Room 301, PIN 2098 for entrance + room). ✅
+- [ ] **Pre-register guest info** via the online check-in URL: https://guestbook.stay.rakuten.com/E3ajKVo?code=6395 — save the resulting Check-in QR screenshot offline.
+- [ ] Save the property portal + customer support number (+81 50-1750-9719) offline before travel
 - [ ] Download offline directions to 483-2 Kowakudani from Kowakudani Station
 
 ---
