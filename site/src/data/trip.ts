@@ -793,7 +793,7 @@ export const DAYS: Day[] = [
       'Evening: Omoide Yokocho yakitori → Tochomae TOKYO Night & Light show → home Yotsuya.',
     ],
     takkyubin: 'Ship Leg 1 (Tokyo → Kyoto direct, 2 suitcases) from the Lawson near Yotsuya — confirm Stitch holds them Jun 2→Jun 4 first',
-    nextDayTeaser: 'Tomorrow → Day 5: Tokyo → Hakone. Day-packs + overnight tote only (big bags already gone to Kyoto). Leave Yotsuya ~12:30 · Hakone Free Pass at Shinjuku · Romancecar 13:20.',
+    nextDayTeaser: 'Tomorrow → Day 5: Tokyo → Hakone. Day-packs + overnight tote only. ⛈️ Typhoon inbound — SKIP the Free Pass, use Suica. Romancecar 13:20.',
   },
   {
     n: 5,
@@ -808,9 +808,9 @@ export const DAYS: Day[] = [
       { href: '/emergency', label: '🆘 Emergency' },
     ],
     locked: [
-      '🧳 SHIP THE 2 SUITCASES THIS MORNING — Lawson near Yotsuya → Stitch Kyoto, BEFORE leaving for Hakone (didn\'t happen yesterday)',
+      '✅ 2 suitcases shipped to Stitch Kyoto (7-Eleven/Yamato, under Candice Kao) — done.',
       '13:20 — Romancecar Hakone 27 (GSE) Shinjuku → Hakone-Yumoto, Car 5 seats 15C/D + 16B/C/D (control # E655)',
-      '⚠️ Buy Hakone Free Pass × 5 at SHINJUKU (Odakyu Sightseeing Service Center) BEFORE boarding — covers the base fare through the gate',
+      '⛈️ TYPHOON: SKIP the Hakone Free Pass (mountain transport suspended Jun 3). Use Suica for the Shinjuku→Yumoto base fare + keep the reserved Romancecar ticket for the seat.',
     ],
     prep: {
       title: 'Before you leave Yotsuya (checkout morning)',
@@ -818,7 +818,7 @@ export const DAYS: Day[] = [
         '🧳 **SHIP THE BAGS FIRST (carried over from yesterday).** Walk the 2 suitcases ~5 min to the **Lawson** → send to **STITCH HOTEL Kyoto**, 118 Saito-cho, Shimogyo-ku, Kyoto 600-8012. **Label:** recipient **Candice Kao** · check-in **Jun 4** · res `6410484352`. ~¥5,000. Even 2-day delivery lands Jun 4 = check-in day, so timing\'s fine — but they MUST leave from Yotsuya, not ride the train with you.',
         '🎒 **Then carry only:** day-packs + the shared overnight tote (2 days of Hakone clothes for the four of you) + Popo\'s 20" carry-on.',
         '🔑 **Hakone door code is in (Room 301): PIN `2098` for both the building entrance AND the room — press E after.** Entry from 3 PM. Pre-register guest info on the tablet check-in via this link so arrival is fast: https://guestbook.stay.rakuten.com/E3ajKVo?code=6395 — save the resulting QR. Support +81 50-1750-9719.',
-        '💴 **Cash + Suica:** top up before leaving — Hakone is more cash/IC-friendly than card. The Free Pass itself takes credit card or cash at the Shinjuku counter.',
+        '💴 **Top up Suica well** — with no Free Pass, Suica now covers the Romancecar base fare (Shinjuku→Yumoto) AND the Tozan/bus to Kowakudani. Make sure all working cards have ample balance.',
       ],
     },
     momentCards: [
@@ -849,14 +849,13 @@ export const DAYS: Day[] = [
         mapLabel: 'Shinjuku Station (Odakyu)',
       },
       {
-        emoji: '🎟️',
-        title: 'Buy Hakone Free Pass × 5 — Shinjuku (do it when you arrive)',
+        emoji: '⛈️',
+        title: 'TYPHOON UPDATE — SKIP the Free Pass (decided at the counter)',
         time: '~11:00',
         lines: [
-          '**Odakyu Sightseeing Service Center, Shinjuku Station** (west side, near the Romancecar platforms). Knock this out now, not at 12:50 — no reason to wait.',
-          '**2-day pass: ~¥6,100/adult + ~¥1,100/kid ≈ ¥21,500 for 5.** Pay credit card or cash.',
-          '⚠️ **Critical:** the Free Pass covers the **Shinjuku→Yumoto base fare** AND all Hakone Tozan/Ropeway/boats/buses for 2 days. The Romancecar **LE surcharge ticket alone won\'t get you through the gate**. **Do NOT wait to buy it at Yumoto.**',
-          '**Buy the paper cards** (not the EMot app — that\'s per-device, the kids would each need a phone).',
+          '**Typhoon No. 6 hits Hakone tomorrow (Jun 3): ~180mm rain + high wind.** The ropeway, pirate ship, and likely the Tozan loop will be suspended — so the Free Pass\'s main value is gone. **Odakyu staff advised against buying it. Don\'t.** (Saves ~¥21,500.)',
+          '✅ **If Jun 3 clears unexpectedly,** buy a 1-day pass at Hakone-Yumoto that morning instead.',
+          '⚠️ **BUT the pass was also covering your Romancecar base fare** (Shinjuku→Yumoto). Your booked ticket E655 is only the seat surcharge — it won\'t open the gate alone. **Fix: tap Suica in at Shinjuku / out at Yumoto** for the base fare, and keep the reserved Romancecar ticket for the seat. **Ask the counter staff to confirm this right now** while you\'re standing there. Top up Suica if low.',
         ],
         mapQuery: 'Odakyu Sightseeing Service Center Shinjuku',
         mapLabel: 'Odakyu Service Center',
@@ -881,7 +880,7 @@ export const DAYS: Day[] = [
         title: 'Romancecar Shinjuku → Hakone-Yumoto (BOOKED)',
         time: '13:20 → 14:56',
         lines: [
-          '**Hakone 27 (GSE)** · Car 5 · seats **15C/D + 16B/C/D** · control # **E655** · ¥4,610 LE surcharge (base fare via Free Pass).',
+          '**Hakone 27 (GSE)** · Car 5 · seats **15C/D + 16B/C/D** · control # **E655** · ¥4,610 LE surcharge (base fare now via Suica, since no Free Pass).',
           'Board by ~13:10. **Day-packs overhead; grandma\'s 20" + the overnight tote in the Car 5 vestibule luggage rack.**',
           'Try for the front/rear observation seats\' view if you can — GSE is the panoramic one.',
         ],
@@ -891,11 +890,12 @@ export const DAYS: Day[] = [
       },
       {
         emoji: '🚞',
-        title: 'Tozan Railway Yumoto → Kowakudani',
+        title: 'Yumoto → Kowakudani (no pass — pay as you go)',
         time: '~15:00–15:25',
         lines: [
-          'Tap the **Free Pass** at the gate (this starts the 2-day window). ~3 stops, ~25 min — the winding switchback mountain train.',
-          'Tiny, crowded train — but with no big suitcases you fit fine with day-packs on laps, tote at your feet.',
+          '**Tozan Railway** Yumoto → Kowakudani, ~3 stops, ~25 min — **pay by Suica or cash** (no Free Pass now). The winding switchback mountain train.',
+          '⚠️ **Typhoon front may already be arriving** — if the Tozan line is suspended, fall back to the **Hakone Tozan Bus** (Yumoto → Kowakudani area) or a **taxi** (~15 min, ~¥3,000). Check status at Yumoto.',
+          'Carry-ons only, so any of these options is manageable.',
         ],
         mapQuery: 'Kowakudani Station Hakone',
         mapLabel: 'Kowakudani Station',
@@ -930,28 +930,109 @@ export const DAYS: Day[] = [
     plan: [
       '🧳 FIRST: ship the 2 suitcases from the Lawson → Stitch Kyoto (Candice Kao, check-in Jun 4) before leaving Yotsuya.',
       'Checkout 10am → go to Shinjuku early (~10:45), don\'t haul bags around Yotsuya.',
-      '⚠️ Buy Hakone Free Pass × 5 at the Shinjuku Odakyu Service Center on arrival (covers base fare through the gate) — and stash the carry-ons at the same counter\'s staffed luggage storage.',
+      '⛈️ SKIP the Free Pass (typhoon — mountain transport suspended Jun 3). Use Suica for the base fare. Stash the carry-ons at the Odakyu center\'s staffed luggage storage.',
       'Hands-free lunch + stroll near Shinjuku (~11:15–13:00); coin lockers usually full by 10am, so use staffed storage.',
       'Collect bags ~13:00 → Romancecar 13:20 → Hakone-Yumoto 14:56 (Hakone 27 GSE, Car 5, control E655).',
-      'Tozan Yumoto → Kowakudani (~25 min, tap Free Pass) → self check-in Rakuten STAY (Room 301, PIN 2098).',
+      'Yumoto → Kowakudani by Tozan (Suica) — or bus/taxi if the line\'s suspended → self check-in Rakuten STAY (Room 301, PIN 2098).',
       'Settle in: Family Mart, kitchen, low-key dinner.',
     ],
-    nextDayTeaser: 'Tomorrow → Day 6: Hakone full-day loop (Ropeway · Owakudani · Lake Ashi pirate ship · Hakone Shrine) + Open Air Museum. Drop takkyubin Leg 2 to Kyoto in the evening.',
+    nextDayTeaser: 'Tomorrow → Day 6: ⛈️ TYPHOON day in Hakone — mountain loop is off. Indoor plan: Yunessun onsen (3-min walk) or cozy unit day. Departure Jun 4 clears up.',
   },
   {
     n: 6,
     date: '2026-06-03',
     shortDate: 'Wed Jun 3',
-    title: 'Hakone Full Day',
-    cluster: 'Classic Loop + Open Air Museum',
-    locked: ['Drop takkyubin Leg 2 tonight'],
-    plan: [
-      'H1 Classic Loop: Kowakudani → Gora → Cable Car → Ropeway (P1) → Owakudani (P1) → Lake Ashi pirate ship → Moto-Hakone → Hakone Shrine 20-min walk-up (P2) → bus back',
-      'Lunch: Hatsuhana Honten soba or lakeside',
-      'PM: H2 Open Air Museum (P1) — 2 stops from Gora, ~2h, Symphonic Sculpture net for kids',
-      'Evening: Fujiya Hotel kaiseki if booked, else self-catered + Family Mart',
+    title: 'Hakone — TYPHOON DAY (indoor plan)',
+    cluster: '⛈️ Typhoon No. 6 (Jangmi) hits Kanto today — mountain loop is OFF; ride it out with indoor/low-exposure options',
+    crossLinks: [
+      { href: '/lodging/hakone', label: '🏠 Rakuten STAY' },
+      { href: '/bookings', label: '✈ Bookings' },
+      { href: '/emergency', label: '🆘 Emergency' },
     ],
-    takkyubin: 'Drop Leg 2 (Hakone → Kyoto) at Lawson Kowakudani tonight',
+    locked: [
+      '⛈️ TYPHOON: ~180mm rain + high-wind gusts forecast today. Ropeway + pirate ship suspend in wind; Tozan railway washes out first in heavy rain. Assume the Classic Loop is NOT running.',
+      'Drop takkyubin Leg 2 (Hakone → Kyoto) — do it at a lull, or push to early Jun 4 if conditions are bad tonight.',
+    ],
+    prep: {
+      title: 'Typhoon-day mindset',
+      items: [
+        '🌀 **Today is a stay-safe / stay-cozy day, not a sightseeing day.** The unit has a kitchen — stock up so you don\'t need to go out in the worst of it.',
+        '📵 **Check live status before any trip out:** Hakone Tozan Railway/Ropeway/cruise run real-time suspension notices. If wind/rain is peaking, don\'t attempt the loop even if tempted by a gap.',
+        '🛒 **Family Mart run early** (morning, before the worst): breakfast, lunch, snacks, dinner ingredients, kid stuff. 3-min walk.',
+        '👜 **Takkyubin Leg 2:** if you can drop the bags during a morning lull, great; if it\'s dangerous, carry them to Odawara tomorrow and ship from there, or just keep them — they\'re only going to Kyoto where you\'re headed anyway.',
+      ],
+    },
+    momentCards: [
+      {
+        emoji: '⛈️',
+        title: 'The situation today',
+        time: 'all day',
+        lines: [
+          '**Typhoon No. 6 (Jangmi)** tracks across Kanto today — forecast ~**180mm rain** + strong gusts in Hakone. Tomorrow (Jun 4) clears for your Kyoto departure.',
+          '**The Classic Loop (ropeway, Owakudani, pirate ship) is almost certainly suspended** — those close in high wind. The **Tozan railway** is the first thing to wash out in heavy rain. Plan as if outdoor Hakone is closed today.',
+          '**Goal:** keep everyone safe, dry, and entertained; save the energy for Kyoto. Don\'t force the mountain.',
+        ],
+        mapQuery: 'Kowakudani Hakone',
+        mapLabel: 'Kowakudani',
+        accent: 'warn',
+      },
+      {
+        emoji: '♨️',
+        title: 'Plan A — Yunessun onsen water park (3-min walk)',
+        time: 'late morning / afternoon',
+        lines: [
+          '**The best typhoon-day move.** Yunessun is a 3-min walk from the unit — swimsuit onsen water park, **mostly indoor**, kid-heaven (slides, themed baths). You stay close to home and barely go outside.',
+          'Check it\'s open (most indoor facilities stay open through rain; they only close for extreme conditions). Swimsuits required — bring or rent.',
+          'Pair with the connected **Mori no Yu** traditional onsen zone for the adults/Popo if they want a quiet soak.',
+        ],
+        mapQuery: 'Yunessun Hakone Kowakudani',
+        mapLabel: 'Yunessun',
+        accent: 'accent',
+      },
+      {
+        emoji: '🏠',
+        title: 'Plan B — cozy unit day',
+        time: 'flexible',
+        lines: [
+          'If conditions are too rough even for the 3-min Yunessun walk: **hunker down in the unit.** Kitchen + streaming (the unit has it) + the kids\' tablets + card games.',
+          '**Cook a family meal** — make the konbini/grocery haul count. This is the "slow afternoon" the pace plan always wanted, just weather-forced.',
+          'Big rest banks energy for Kyoto (Day 7 has Nijo + Gion in the evening).',
+        ],
+        mapQuery: 'FamilyMart Kowakudani',
+        mapLabel: 'FamilyMart nearby',
+      },
+      {
+        emoji: '🎨',
+        title: 'Plan C — if there\'s a real weather lull (only if safe)',
+        time: 'opportunistic',
+        lines: [
+          '**Only if the Tozan line is confirmed running and rain/wind genuinely ease:** the **Hakone Open-Air Museum** is the lowest-risk "sight" — it has large indoor pavilions (Picasso hall) to duck into, and the kids\' Symphonic Sculpture net. 2 stops from Gora.',
+          '**Do NOT attempt the ropeway/Owakudani/pirate-ship loop** — exposed and the first to suspend.',
+          'When in doubt, default to Yunessun (Plan A) — closer and safer.',
+        ],
+        mapQuery: 'Hakone Open-Air Museum',
+        mapLabel: 'Open-Air Museum',
+      },
+      {
+        emoji: '🍽️',
+        title: 'Dinner',
+        time: 'evening',
+        lines: [
+          'Self-catered in the unit (kitchen) is the safe, cozy call on a typhoon night — make the grocery haul count.',
+          'If it\'s calm enough, a short walk to a local **Kowakudani/Gora izakaya**. Don\'t go far in bad wind.',
+        ],
+        mapQuery: 'Gora restaurants Hakone',
+        mapLabel: 'Gora dining',
+      },
+    ],
+    plan: [
+      '⛈️ TYPHOON DAY — mountain loop is off. Stay safe/cozy.',
+      'Plan A: Yunessun onsen water park (3-min walk, mostly indoor, kid-heaven).',
+      'Plan B: cozy unit day — kitchen, streaming, tablets, rest. Banks energy for Kyoto.',
+      'Plan C (only if a real lull + Tozan running): Open-Air Museum (has indoor pavilions). NOT the ropeway/loop.',
+      'Drop takkyubin Leg 2 at a lull, or defer to Jun 4 from Odawara. Dinner: self-catered.',
+    ],
+    takkyubin: 'Drop Leg 2 (Hakone → Kyoto) at a weather lull today — or carry to Odawara tomorrow if unsafe',
   },
   {
     n: 7,
@@ -1338,7 +1419,7 @@ export type Transit = {
   duration: string;
   pax: number;
   cost: string;
-  status: 'booked' | 'to-book';
+  status: 'booked' | 'to-book' | 'on-arrival' | 'n/a';
   conf?: string;
   notes?: string;
 };
@@ -1346,7 +1427,7 @@ export type Transit = {
 export const TRANSIT: Transit[] = [
   { leg: 'NRT → Shinjuku', mode: 'NEX', date: 'Fri May 29', duration: '~80 min', pax: 5, cost: '~¥13,010', status: 'on-arrival', notes: 'Buy at JR East counter on arrival (combined with Welcome Suica). 3 adult × ¥3,250 + 2 child × ¥1,630.' },
   { leg: 'Shinjuku → Hakone-Yumoto', mode: 'Romancecar', date: 'Tue Jun 2 ~13:00', duration: '~85 min', pax: 5, cost: '~¥12,350', status: 'to-book', notes: 'Window opened May 2. Book at odakyu.jp/english.' },
-  { leg: 'Hakone (2 days)', mode: 'Hakone Free Pass 2-day', date: 'Jun 2–4', duration: '—', pax: 5, cost: '~¥30,500', status: 'to-book', notes: 'Buy on arrival at Yumoto Odakyu Travel Service Center.' },
+  { leg: 'Hakone (2 days)', mode: 'Pay-as-you-go (Suica) — Free Pass SKIPPED', date: 'Jun 2–4', duration: '—', pax: 5, cost: '~¥3,000', status: 'n/a', notes: '⛈️ Typhoon Jun 3 suspends ropeway/boats/loop — Free Pass not worth it. Suica covers Romancecar base fare + Tozan/bus.' },
   { leg: 'Odawara → Kyoto', mode: 'Shinkansen Hikari', date: 'Thu Jun 4 ~10:15', duration: '~2h 20m', pax: 5, cost: '~¥65,000', status: 'to-book', notes: 'Hikari only — Nozomi does not stop at Odawara. Smart-EX app.' },
   { leg: 'Kyoto ↔ Nara', mode: 'JR Miyakoji Rapid', date: 'Sat Jun 6', duration: '45 min', pax: 5, cost: '~¥7,200 RT', status: 'to-book', notes: 'Pay with Suica.' },
   { leg: 'Kyoto → Tokyo Station', mode: 'Shinkansen Nozomi', date: 'Sun Jun 7 ~13:45', duration: '~2h 20m', pax: 5, cost: '~¥67,500', status: 'to-book', notes: 'Smart-EX. Book May 7 onward.' },
