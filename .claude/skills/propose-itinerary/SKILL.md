@@ -80,6 +80,11 @@ For each candidate that requires advance booking:
 - Apply known windows (Shibuya Sky 2 weeks, MiPig 60 days, Klook restaurants varies, most reservations 1 week).
 - Surface urgency: *"book by [date]"* or "*window opened [date]; act now*."
 
+**Reserved seats are not "done" once booked — watch for the better tier.** For any reserved-seat leg where seat *quality* materially changes the experience (Romancecar GSE front/rear **observation seats**; Shinkansen window / Mt-Fuji-side / quiet car; etc.):
+- At booking time, record which **premium tier** exists and whether we got it. If we settled for a lesser seat, say so explicitly — don't let "booked" imply "best."
+- Set an **upgrade-watch**: premium seats routinely free up as other parties cancel closer to the date. Re-check periodically and **proactively prompt** (*"observation seats just opened — grab them?"*).
+- Act fast when one opens: Smart-EX and Odakyu/EMot allow **free, unlimited changes up to departure**, so upgrading has zero downside. Leaving a known-better seat to chance is the failure mode (logged in `feedback/travel-agent-process.md`, 2026-06-02 — missed GSE observation seats).
+
 ### 7. Sketch moment-card sequence
 
 Default rhythm (overridden only by locked anchors):

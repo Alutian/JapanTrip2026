@@ -4,6 +4,8 @@
 **Platform:** EMot Online Tickets (Odakyu)
 **Login:** Sign in with Google
 
+> ⚠️ **SEAT TIER — lesson logged (see `feedback/travel-agent-process.md`).** We have **regular Car 5 seats, NOT the GSE front/rear observation (saloon) seats** — which are the whole point of the GSE. Those are limited and **routinely free up as the date nears** (cancellations). For any future GSE/reserved leg: record the premium tier, set an **upgrade-watch**, and grab observation/window/Fuji-side seats the moment they open (EMot/Smart-EX changes are free up to departure). Don't treat "booked" as final.
+
 ---
 
 ## Ticket
