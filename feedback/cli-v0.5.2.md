@@ -79,6 +79,8 @@ Session `9775380c` came back in **both** files — 22 moments under one date, 14
 On Day 3, a multi-hour midday stretch was **searchable** (via MCP `search_moments`) yet **absent from `albee captures`** — those segments had `session_id_source: null` (not finalized into a capture session). Day 4 had three `src=unknown`, single-moment phantom sessions (`31492902`, `f810eeb5`, `92998ace`). A user reading `captures` output would reasonably conclude there's a recording hole when the audio actually exists and just hasn't synced.
 **Fix:** surface pending/unsynced moments explicitly — an `--include-pending` flag or a sync-status indicator — so "gap vs. sync lag" isn't a guess.
 
+**Likely root cause (Day 5 evidence — see Issue 9):** these `unknown`/single-moment phantom sessions and the multi-minute gaps correlate with the **app crashing / auto-restarting recording all day.** Day 5's pull had `unknown` singletons at exactly 05:50, 07:40-ish, 09:40, 18:40 and gaps at 06:50→07:45, 09:39→10:31, 12:10→13:09 — and the captures show Ajay narrating "Albee crashed again," "it stops recording in the background," "recording restarted on its own at 6:50am." So the capture-data artifacts in Issues 3 & 4 are most likely *downstream of the recording-reliability bug*, not just a sync/finalization quirk. Fixing Issue 9 probably shrinks Issues 3 & 4.
+
 ### 5. No time-ordered moment listing with text
 To navigate a day I had to `jq` segments out of the captures JSON, filter by UTC window, sort, and TZ-convert in `awk`. A first-class `albee moments --date X --tz Y --format tsv` emitting `local_time ⇥ moment_id ⇥ text` would replace all of that hand-rolled glue.
 
@@ -88,6 +90,17 @@ To navigate a day I had to `jq` segments out of the captures JSON, filter by UTC
 
 ### 7. Relative time windows are unreliable
 `--since 16h` did not reach back to the morning in testing. I stopped trusting relative windows and use explicit `--date` pulls.
+
+### 9. Recording reliability — capture engine crashing / dropping audio / auto-restarting (app-side P0, but it's what the CLI ends up serving)
+This is upstream of the CLI, but it's the biggest threat to the whole product, and it shows up *in the data the CLI returns*. Across Day 5 the captures themselves contain the user narrating the failures in real time:
+- *"All this stuff recording again on its own at 6:50am. This is a recurring bug and a major P0."*
+- *"Albee crashed again… it worked for one minute and then crashed. There's a lot of crashes today."*
+- *"Every time we go to the background it stops recording… as soon as I hit the power button it stops. I don't see the light on."*
+- *"You can see the audio cutting out — every few minutes it's dropping off the audio stream… every couple seconds there's a glitch."*
+- *"We need to fast-track the record-priority pipeline. These crashes, these bugs — this is bad."*
+
+**Symptoms to chase:** (a) recording silently stops when the app backgrounds / screen locks (iOS background-audio task being suspended?); (b) auto-restart of a recording session without user action; (c) periodic audio-stream dropouts (buffer/segment boundary?); (d) intermittence ("works all day yesterday, crashes all day today") suggests a race or a resource/permission state that varies by launch.
+**Why it matters for reflection:** every dropped minute is a memory that's gone — and it manifests downstream as the gaps and `unknown` sessions in Issues 3 & 4. A "record-priority pipeline" that guarantees capture-before-everything is the right instinct.
 
 ### 8. `artifact sync-commit` success output is inconsistent
 Same command, same exit code (0), different output across runs in one session:
