@@ -4,15 +4,15 @@ One night only (June 7). Goal: pleasant low-stress last evening, 5:30am taxi for
 
 ---
 
-## 🌅 Afternoon (arriving ~19:00 from Kyoto transit)
+## 🌅 Evening (arriving ~20:00 from Kyoto via Akihabara)
 
-Everyone's tired from travel. Check in, quick freshen up, head out for dinner. Not a sightseeing slot.
+> ⚠️ **Plan changed:** Day 10 dinner is now **shabu-shabu in Akihabara**, eaten *before* the train. You reach Narita ~20:00 already fed — the Narita evening is just check-in, retrieve Popo's airport-stored bag (counters close ~21:00; not 24/7), and an early night for the 05:30 taxi. The blocks below are kept as backups only.
 
 ---
 
-## 🌃 Evening Blocks
+## 🌃 Evening Blocks (backup options only)
 
-### NAR1 · Omotesando + Unagi Farewell Dinner ⭐
+### NAR1 · Omotesando + Unagi Farewell Dinner (SUPERSEDED)
 - **Area:** Narita City, Omotesando Street (10-min walk from JR Narita Station)
 - **Activity:** Walk the 800m old pilgrimage road to Naritasan Shinshoji. Wooden shops, sweet stalls, festival atmosphere. If any energy — **Naritasan temple complex at night** is genuinely pretty (illuminated pagoda, large park).
 - **Food:** **Kawatoyo Honten** ⭐ — the famous unagi spot. They butterfly live eels on the street window out front (kids are fascinated or horrified). 100+ year old shop, always a queue; arrive by 18:30. Una-ju (eel over rice) is the order. Expect ~¥4,500/person.

@@ -426,17 +426,6 @@
     ]
   },
   {
-    "id": "narita-kawatoyo-honten",
-    "name": "Kawatoyo Honten (unagi)",
-    "query": "Kawatoyo Honten unagi Narita Omotesando",
-    "city": "narita",
-    "category": "restaurant",
-    "source": "day-plan",
-    "days": [
-      10
-    ]
-  },
-  {
     "id": "transit-nrt-airport",
     "name": "Narita International Airport (NRT)",
     "query": "Narita International Airport NRT",

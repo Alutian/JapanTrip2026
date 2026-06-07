@@ -178,12 +178,14 @@ Because main bags are gone Jun 6 morning until Jun 7 evening:
 | 11:00–11:30 | Stitch → **Kyoto Station** | Walk 10 min OR Hankyu+subway 5 min |
 | 11:30–12:01 | At Kyoto Station: scan QR ticket, grab ekiben | Buy **ekiben** for Shinkansen lunch |
 | 12:01–14:15 | **Nozomi 16 Kyoto → Tokyo** ✅ | Car 15, seats 13C/D/E + 14D/E · Smart-EX res `2003` · ¥55,870 |
-| 14:15–16:15 | **Tokyo Station shopping window** | Drop day-packs at coin lockers (~¥700 each, Yaesu side). Priority: Character Street (45m) + Tokyo Gift Palette (30m) + Daimaru depachika (30m). Skip KITTE/Ginza/Don Quijote unless ahead of schedule. |
-| 16:15–16:30 | Walk to JR Sobu/Narita Line platforms | Underground B4/B5 on Marunouchi side. Allow full 15 min. Follow signs for **JR Sobu Line** (NOT NEX, NOT Yokosuka). |
-| 16:30–17:55 | **JR Sobu/Narita Line Rapid → Narita Station** | ~80 min · no reservation · ¥1,340/adult · tap Welcome Suica · grab 2 facing pairs of seats |
-| 17:55–18:10 | Walk Narita Station → Richmond Hotel Narita | ~10-min walk |
-| 18:10 | Richmond Hotel check-in | Bell desk should have your takkyubin bags (arrived Jun 7 afternoon) |
-| 18:30 | Walk to **Kawatoyo Honten** for unagi dinner | Beat the queue — arrive by 18:30 |
+| 14:15–14:30 | Stash day-packs + Yamanote to **Akihabara** | Coin lockers Yaesu side (~¥700 each). Akihabara = 4 min / 2 stops on the Yamanote. |
+| 14:30–16:45 | **Akihabara** — souvenirs, arcades | See Day 10 Akihabara walking route. Reserve shabu for 5 (~16:45). |
+| 16:45–18:15 | Early **shabu-shabu** dinner in Akihabara | Mo-Mo-Paradise / Nikuya Yokocho / Onyasai / Tajima-ya — pick one. AYCE ~100 min. |
+| 18:15–18:30 | Yamanote back to Tokyo Station, grab bags | Return to the same lockers; walk to JR Sobu Line platforms (B4/B5, Marunouchi side; NOT NEX/Yokosuka). |
+| 18:30–19:50 | **JR Sobu/Narita Line Rapid → Narita Station** | ~80 min · no reservation · ¥1,340/adult · tap Welcome Suica · grab 2 facing pairs of seats |
+| 19:50–20:05 | Walk Narita Station → Richmond Hotel Narita | ~10-min walk |
+| 20:05 | Richmond Hotel check-in | Bell desk should have your takkyubin bags (arrived Jun 7 afternoon) |
+| Evening | 🧳 Retrieve Popo's stored bag from **NRT T1** tonight | Counters not 24/7 (close ~21:00); 10 min by Keisei/taxi. Morning too tight before her 07:20 Scoot check-in. |
 
 **Bag logistics:** Light. The **Tokyo Station transfer** is the one moment where 5 people moving together can get strung out — group up before walking, point at the JR Sobu Line (NOT Yokosuka, NOT NEX) signs, take the elevators.
 

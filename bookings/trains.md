@@ -78,10 +78,12 @@ Single source of truth for all inter-city train bookings. See [`../Plan_C_Family
 - Then again on exit at Tokyo Station
 
 **Jun 7 onward connections:**
-- Arrive Tokyo 14:15 → 2-hour Tokyo Station shopping window (Character Street + Tokyo Gift Palette + Daimaru depachika)
-- 16:30 JR Sobu/Narita Rapid → Narita Station (~80 min, pay-as-you-go Suica, ¥1,340/adult)
-- 18:10 Richmond Hotel Narita check-in
-- 18:30 Kawatoyo Honten unagi dinner
+- Arrive Tokyo 14:15 → stash day-packs in Tokyo Station coin lockers (Yaesu side, ~¥700)
+- ~14:30–16:45 Akihabara (Yamanote, 4 min): souvenirs + arcades; early shabu-shabu dinner ~16:45 (see Day 10 plan)
+- ~18:15 back to Tokyo Station, grab bags
+- ~18:30 JR Sobu/Narita Line Rapid → Narita Station (~80 min, Suica, ¥1,340/adult) — NOT NEX (overshoots to airport)
+- ~19:50 → ~20:05 Richmond Hotel Narita check-in
+- 🧳 Retrieve Popo's stored bag from NRT T1 this evening (counters not 24/7, close ~21:00; morning too tight before her 07:20 Scoot check-in)
 
 ---
 

@@ -322,15 +322,6 @@
     "days": [9]
   },
   {
-    "id": "narita-kawatoyo-honten",
-    "name": "Kawatoyo Honten (unagi)",
-    "query": "Kawatoyo Honten unagi Narita Omotesando",
-    "city": "narita",
-    "category": "restaurant",
-    "source": "day-plan",
-    "days": [10]
-  },
-  {
     "id": "narita-omotesando",
     "name": "Naritasan Omotesando",
     "query": "Naritasan Omotesando Narita",

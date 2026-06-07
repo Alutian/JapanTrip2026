@@ -71,7 +71,7 @@ Total sleep capacity across 2 rooms = 5 (matches group size ✓)
 ## Location Notes
 
 - **Walking distance to Omotesando Street** — the 800m pilgrimage road to Naritasan with wooden shops, festival vibe
-- **Kawatoyo Honten** (unagi dinner, Day 10) — ~10-min walk from hotel. Arrive by 18:30 to beat the queue.
+- **Omotesando unagi shops** (Kawatoyo, Kikuya) — ~10-min walk; lunch-leaning, close ~17:00. NOTE: Day 10 dinner moved to shabu-shabu in Akihabara, so these are a backup/lunch option only.
 - **JR Narita Station / Keisei Narita Station** — both ~10 min walk
 - **NRT airport** — 10 min by taxi (~¥2,500) or 10 min by Keisei line (¥260)
 

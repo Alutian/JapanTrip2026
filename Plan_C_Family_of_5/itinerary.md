@@ -186,20 +186,21 @@
 
 ---
 
-## Day 10 — Sun Jun 7 · Chill Kyoto Morning + Travel to Narita
+## Day 10 — Sun Jun 7 · Kyoto Morning → Akihabara → Narita
 
 🔒 **LOCKED**
-- **~13:45** **Shinkansen Nozomi Kyoto → Tokyo Station** — reserved seats × 5, ~2h 20min (~¥67,500) · ⬜ *book May 7 when window opens*
-- **~16:05–16:25** Tokyo Station transfer to NEX (allow 20 min minimum — large station, follow Yokosuka/NEX signs to underground platforms; use elevators for grandma)
-- **~16:25–17:30** **NEX Tokyo → Narita Station** (~60 min, ~¥15,000)
-- **~17:50** Check in at **Richmond Hotel Narita** — bell desk should already have your takkyubin Leg 3 bags
+- **12:01** **Shinkansen Nozomi 16 Kyoto → Tokyo** — reserved seats × 5 (Car 15: 13C/D/E + 14D/E), arrive Tokyo **14:15** · Smart-EX res `2003` · ¥55,870 ✅
+- **~14:30–16:45** **Akihabara** (Yamanote, 4 min from Tokyo Stn) — souvenirs, arcades, and an early shabu-shabu dinner
+- **~18:30** **JR Sobu/Narita Line Rapid → Narita Station** (~80 min, Suica ¥1,340/adult) — NOT NEX (overshoots to the airport)
+- **~20:05** Check in at **Richmond Hotel Narita** — bell desk should already have your takkyubin Leg 3 bags
 - **At check-in:** book grandma's **05:30 taxi** at reception — do not wait until morning
-- Dinner: **NAR1 Omotesando + Unagi farewell at Kawatoyo Honten** — arrive by 18:30 to beat the queue
+- 🧳 **Retrieve Popo's stored bag from NRT T1 this evening** — counters not 24/7 (1F ~06:30–late, 4F 07:00–21:00); morning too tight before her 07:20 Scoot check-in
 
 🎯 **FLEXIBLE / CHILL**
-- Morning in Kyoto: coffee somewhere nice, Candice haircut, souvenir/last-minute shopping. **No Osaka push** (decision #13).
-- Light lunch then check out of Stitch by ~13:00
-- Eat **ekiben** on the Shinkansen — buy at Kyoto Station before boarding
+- Morning in Kyoto: coffee somewhere nice, souvenir/last-minute shopping. **No Osaka push** (decision #13).
+- Check out of Stitch by **11:00** (window closes 11:00); store day-bags at front desk
+- Buy **ekiben** at Kyoto Station for the Shinkansen lunch
+- Dinner: **shabu-shabu in Akihabara** — pick one of Mo-Mo-Paradise / Nikuya Yokocho / Onyasai / Tajima-ya (reserve a table for 5)
 
 > The Tokyo Station Shinkansen→NEX transfer is the friction point. Group everyone up before walking, point at NEX/Yokosuka signs, take elevators not escalators.
 
