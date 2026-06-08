@@ -84,13 +84,17 @@ Total sleep capacity across 2 rooms = 5 (matches group size ✓)
 - At terminal by ~5:40 AM for 08:20 Scoot TR 885 → 2h40 pre-flight ✓
 - Scoot check-in opens 05:20 (3h prior), closes 07:20 (60 min prior)
 
-### Family — Relaxed morning
-- **Breakfast** at hotel (verify if breakfast plan was included; otherwise in lobby or nearby)
-- **Optional Naritasan Park walk** ~09:00 (30 min)
-- **Check out by 11:00 AM**
-- **Lunch** — konbini bento or quick eat on Omotesando
-- **12:30–13:00:** taxi or Keisei line to NRT
-- **13:30:** at NRT for 16:25 ZG030 departure
+### Family — Airport-day plan (decided in-trip, Jun 8)
+Ajay wants airport time to work on the laptop, so the family camps at NRT T1 rather than lingering in town.
+- **Breakfast** at hotel (~08:45), repack to ZIPAIR bag rules (carry-on 7kg weighed; liquids/sake/heavy souvenirs → checked)
+- **Check out** — settle bill / drop keys before 10:30
+- **10:40 — LAST hotel shuttle to NRT Terminal 1** (confirm at front desk that it serves T1). Backup: Keisei ~¥260 or taxi ~¥2,500, both ~10 min
+- **~11:00–13:15 — landside camp, T1 5F:** Ajay works from the **IASS Executive Lounge 1** (Central Bldg, 5F, 07:00–21:00, landside; free on Chase Sapphire Reserve Priority Pass), kids use the **5F play space next to the lounge** + tablets, Candice shops the 4F/5F atrium + SHIKISAI Garden. Lunch ~12:30 on the 5F food court.
+- **~13:20 — check in + drop 4 bags** at the **ZIPAIR counter, T1 North Wing 4F**. Bag drop opens ~13:25 (3h prior), **closes 15:25** (1h prior, hard — LCC).
+- **~13:50 — airside:** wind down in the nicer **IASS Superior Lounge NOA** (3F airside, by Gate 26, 07:30–21:00; also free on CSR Priority Pass), Candice does duty-free, kids at gate. Board ~15:50.
+- **16:25 — ZG030 NRT→SJC.**
+
+> **NRT T1 facts (verified Jun 2026):** ZIPAIR departs Terminal 1; check-in **North Wing 4F**; counter open 3h→1h before departure. Two IASS Priority-Pass lounges — **Executive Lounge 1** (5F, *landside*) and **Superior Lounge NOA** (3F, *airside*, Gate 26). CSR Priority Pass = cardholder + 2 free guests; kids may count as guests (lounge admits under-12 / under-6 free but it's at the desk's discretion on a Priority Pass entry) → worst case one $27 guest. ZIPAIR NRT→SJC is **once daily at 16:25** — no earlier same-day flight.
 
 ---
 
