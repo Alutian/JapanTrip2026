@@ -94,7 +94,7 @@ Ajay wants airport time to work on the laptop, so the family camps at NRT T1 rat
 - **~13:50 — airside:** wind down in the nicer **IASS Superior Lounge NOA** (3F airside, by Gate 26, 07:30–21:00; also free on CSR Priority Pass), Candice does duty-free, kids at gate. Board ~15:50.
 - **16:25 — ZG030 NRT→SJC.**
 
-> **NRT T1 facts (verified Jun 2026):** ZIPAIR departs Terminal 1; check-in **North Wing 4F**; counter open 3h→1h before departure. Two IASS Priority-Pass lounges — **Executive Lounge 1** (5F, *landside*) and **Superior Lounge NOA** (3F, *airside*, Gate 26). CSR Priority Pass = cardholder + 2 free guests; kids may count as guests (lounge admits under-12 / under-6 free but it's at the desk's discretion on a Priority Pass entry) → worst case one $27 guest. ZIPAIR NRT→SJC is **once daily at 16:25** — no earlier same-day flight.
+> **NRT T1 facts (verified Jun 2026):** ZIPAIR departs Terminal 1; check-in **North Wing 4F**; counter open 3h→1h before departure. Two IASS Priority-Pass lounges — **Executive Lounge 1** (5F, *landside*) and **Superior Lounge NOA** (3F, *airside*, Gate 26). **Only Ajay holds a Priority Pass (via CSR)** = he's the member + 2 free guests, then $27/guest. Candice + Zara + Kai = 3 guests → at most one $27 across the day. Per-lounge: **Exec Lounge 1 admits under-12 free** (kids likely don't count → Candice the only guest → ~$0), **Superior Lounge NOA admits only under-6 free** (kids 7 & 9 likely count → budget one ~$27). ZIPAIR NRT→SJC is **once daily at 16:25** — no earlier same-day flight.
 
 ---
 

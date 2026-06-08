@@ -1345,7 +1345,7 @@ export const DAYS: Day[] = [
         title: 'Landside camp on T1 · 5F (work / play / shop)',
         time: '~11:00–13:15',
         lines: [
-          'Ajay → **IASS Executive Lounge 1** (T1 Central, 5F, 07:00–21:00) — the only IASS lounge reachable now (the nicer NOA is airside, post-security). Free on **CSR Priority Pass** (you + 2 guests; kids may count → worst case one $27 guest). Power + USB + wifi; bags have room here.',
+          'Ajay → **IASS Executive Lounge 1** (T1 Central, 5F, 07:00–21:00) — the only IASS lounge reachable now (the nicer NOA is airside, post-security). On **your CSR Priority Pass** (you + 2 free guests): this lounge admits **under-12 free**, so the kids likely don\'t count → Candice is your only guest → probably **$0 extra**. Power + USB + wifi; bags have room here.',
           'Kids → **play space right by the lounge** (tunnels/slides/foam) + tablet quiet-time in the lounge.',
           'Candice → 4F/5F shops + SHIKISAI GARDEN relaxation area.',
           'Lunch ~12:30 on the 5F food court (no-pork options plenty; Jad Thai has GF).',
@@ -1371,7 +1371,7 @@ export const DAYS: Day[] = [
         title: 'Airside: Superior Lounge NOA + duty-free + gate',
         time: '~13:50–15:50',
         lines: [
-          'Wind down in the **nicer** IASS lounge: **Superior Lounge NOA**, 3F airside, by **Gate 26** (07:30–21:00). Free on CSR Priority Pass (kids under 6 free; same worst-case one $27 guest).',
+          'Wind down in the **nicer** IASS lounge: **Superior Lounge NOA**, 3F airside, by **Gate 26** (07:30–21:00). Same CSR Priority Pass — but NOA only admits **under-6 free**, so the kids (7 & 9) likely count as guests → Candice + 2 kids = 3, your 2 free slots cover 2 → **budget one ~$27 guest** at the desk.',
           'Candice → airside duty-free (tax-free; better for last-minute alcohol/cosmetics/souvenirs than landside retail).',
           'Kids settle near the gate. Board ~15:50.',
         ],
