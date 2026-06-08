@@ -6,7 +6,7 @@
 
 ## The convergence (why this day is easy)
 NRT T1, 5th floor, *landside* (before passport control) has all three things Ajay asked for, within ~50m of each other:
-- **IASS Executive Lounge 1** (T1 Central, 5F, 07:00–21:00) → Ajay's work spot. Power + USB at seats, wifi, quiet. ~¥3,226/adult pay-per-use; **kids under 12 free** with an adult.
+- **IASS Executive Lounge 1** (T1 Central, 5F, 07:00–21:00) → Ajay's morning work spot (landside; the nicer NOA lounge is airside-only, used post-check-in). Free on **CSR Priority Pass**. Power + USB at seats, wifi, quiet.
 - **Kids' play space** right by the lounge (tunnels, slides, foam blocks) → Zara + Kai burn energy; tablets for quiet time in the lounge.
 - **Renovated 4F/5F atrium + food court + shops + SHIKISAI GARDEN** → Candice's browse/shop loop.
 
@@ -79,7 +79,7 @@ Babes — easy one. Popo's off, kids are still out, so: lazy hotel breakfast, re
       title: 'Landside camp on T1 · 5F (the work/play/shop window)',
       time: '~11:00–13:15',
       lines: [
-        'Ajay → **IASS Executive Lounge 1** (T1 Central, 5F, 07:00–21:00). ~¥3,226/adult, **kids under 12 free**. Power + USB + wifi. Bags have room here.',
+        'Ajay → **IASS Executive Lounge 1** (T1 Central, 5F, 07:00–21:00) — the ONLY IASS lounge reachable now (the nicer NOA is airside, post-security). Free on **CSR Priority Pass** (you + 2 guests; kids may count → worst case one $27 guest). Power + USB + wifi. Bags have room here.',
         'Kids → **play space right by the lounge** (tunnels/slides/foam — skews young but good for a stint) + tablet quiet-time in the lounge.',
         'Candice → 4F/5F shops + SHIKISAI GARDEN relaxation area.',
         'Lunch ~12:30 on the renovated 5F food court (Jad Thai has GF; plenty of no-pork options).',
@@ -101,14 +101,17 @@ Babes — easy one. Popo's off, kids are still out, so: lazy hotel breakfast, re
       accent: 'warn',
     },
     {
-      emoji: '🛍',
-      title: 'Airside: last duty-free + gate',
+      emoji: '🛋',
+      title: 'Airside: IASS Superior Lounge NOA + duty-free + gate',
       time: '~13:50–15:50',
       lines: [
+        'Wind down in the **nicer** IASS lounge: **Superior Lounge NOA**, 3F airside, by **Gate 26** (07:30–21:00). Free on CSR Priority Pass (kids under 6 free; same worst-case one $27 guest).',
         'Candice → airside duty-free (tax-free; better for last-minute alcohol/cosmetics/souvenirs than landside retail).',
-        'Ajay finishes work (airside seating has power; IASS satellite lounge also airside if you want quiet).',
         'Kids settle near the gate. Board ~15:50.',
       ],
+      mapQuery: 'IASS Superior Lounge NOA Narita Airport Terminal 1 Gate 26',
+      mapLabel: 'Superior Lounge NOA (airside) in Maps',
+      accent: 'accent',
     },
   ],
   plan: [
@@ -122,10 +125,13 @@ Babes — easy one. Popo's off, kids are still out, so: lazy hotel breakfast, re
 }
 ```
 
-## Open questions / decisions
-1. **Lounge vs food-court table** for the 11:00–13:15 camp? (Recommend: IASS lounge for Ajay + adjacent play space for kids.)
-2. **Verify the 10:40 shuttle serves Terminal 1** (some hotel shuttles hit T2/T3 first) — quick ask at the front desk.
-3. Confirm whether anyone has **Priority Pass / Amex Platinum** that gets the IASS lounge free (skip the ¥3,226).
+## Settled (this thread)
+- **Path chosen:** work-at-the-airport day — already on the 10:40 shuttle.
+- **Two-lounge arc:** Exec Lounge 1 (5F landside) AM → Superior Lounge NOA (3F airside, Gate 26) PM. Both free on **CSR Priority Pass** (worst case one $27 guest if the kids get counted).
+- **No earlier flight:** ZIPAIR NRT→SJC is once daily at 16:25 (ZG030). Confirmed.
+
+## Open questions
+1. Does **Candice also carry a Priority Pass** (own CSR / authorized user)? If yes, split the kids across both memberships → everyone free, no $27.
 
 ## Handoff
 Paste the structured block over the existing `n: 11` entry in `site/src/data/trip.ts`, then run `/fix-itinerary 11` to refine + deploy.
